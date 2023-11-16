@@ -1,0 +1,4122 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "MainMap",
+  "name": "MainMap",
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.4913877545329398,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "Sections_EN",
+      "type": "array",
+      "children": [
+        {
+          "type": "string",
+          "value": "Human Resources"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Financial Management "
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Production and Quality Management "
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Marketing, Distribution and Sales "
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Innovation and Design"
+        },
+        {
+          "type": "string",
+          "value": "Cutting room"
+        },
+        {
+          "type": "string",
+          "value": "Stitching room"
+        },
+        {
+          "type": "string",
+          "value": "Lasting room"
+        },
+        {
+          "type": "string",
+          "value": "Assembling, Solling and Finishing"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Packaging, Shipping and Expedition"
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "Hitbox",
+      "persistentUuid": "0443e64b-1142-40cd-923e-f20f973fa4d4",
+      "width": 0,
+      "x": 1590,
+      "y": 37,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 109,
+      "layer": "UI",
+      "name": "Hud",
+      "persistentUuid": "6e28dc19-4652-44ba-8d90-4efe20c89a9b",
+      "width": 322,
+      "x": 1566,
+      "y": 16,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 45,
+      "layer": "UI",
+      "name": "BlueBar",
+      "persistentUuid": "f27cda80-73ad-4b7d-aeff-0944042c4d54",
+      "width": 269,
+      "x": 1616,
+      "y": 301,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 45,
+      "layer": "UI",
+      "name": "GreenBar",
+      "persistentUuid": "59622554-c650-4e93-9372-6664fa71ad46",
+      "width": 269,
+      "x": 1616,
+      "y": 230,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 45,
+      "layer": "UI",
+      "name": "YellowBar",
+      "persistentUuid": "8404b3cc-de86-46d2-8854-8adb47928c67",
+      "width": 269,
+      "x": 1616,
+      "y": 164,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 44,
+      "customSize": true,
+      "height": 46,
+      "layer": "UI",
+      "name": "GoldThings",
+      "persistentUuid": "5b7b0fe0-a1de-4cae-b8d2-f8812a492dd3",
+      "width": 46,
+      "x": 1565,
+      "y": 165,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 43,
+      "layer": "UI",
+      "name": "BoltBluePowerup",
+      "persistentUuid": "f752661e-589f-40f7-92c5-e08befd9969f",
+      "width": 44,
+      "x": 1566,
+      "y": 301,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 42,
+      "layer": "UI",
+      "name": "ShieldGreenPowerup",
+      "persistentUuid": "e0afd709-0bc5-4eb5-9e42-589d72a74a7b",
+      "width": 43,
+      "x": 1566,
+      "y": 230,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 43,
+      "layer": "UI",
+      "name": "RedBar",
+      "persistentUuid": "7c28cb52-71f4-4fff-9146-a35e22f31b97",
+      "width": 231,
+      "x": 1617,
+      "y": 302,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 26,
+      "layer": "UI",
+      "name": "PlayerName",
+      "persistentUuid": "a33d5b77-039a-4b1c-a50e-b1a44899021c",
+      "width": 194,
+      "x": 1682,
+      "y": 54,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "61a2a6b7-bfc5-4560-80f7-a78e9d196de7",
+      "width": 250,
+      "x": 116,
+      "y": 420,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "7e52df2b-876c-44fe-9782-c0beb348fc38",
+      "width": 250,
+      "x": 1227,
+      "y": 92,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "fd1da7f7-cfe4-4b30-b1a2-9f28ec2eeb73",
+      "width": 250,
+      "x": 859,
+      "y": 92,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "8292075b-97cd-4b31-9593-8dc429788a8e",
+      "width": 250,
+      "x": 488,
+      "y": 92,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "5947cc77-bcc6-4823-9996-1b56f0e9b5e7",
+      "width": 250,
+      "x": 1042,
+      "y": 9,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "b50c937a-4a67-4487-b8d6-ffaa910da0e5",
+      "width": 250,
+      "x": 673,
+      "y": 10,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "1eba0ffd-afca-4216-82d2-d245efb228bc",
+      "width": 250,
+      "x": 305,
+      "y": 9,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "ae9665d7-f17e-4cdb-8df4-18fa0bdac670",
+      "width": 250,
+      "x": 116,
+      "y": 256,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "85060187-b599-4159-8f55-f15d3bb3e3c9",
+      "width": 250,
+      "x": 117,
+      "y": 586,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Walls",
+      "name": "Walls",
+      "persistentUuid": "b597c09c-98cc-46be-9077-a3e65cda3eb0",
+      "width": 250,
+      "x": 304,
+      "y": 9,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Walls",
+      "name": "Walls",
+      "persistentUuid": "32970c81-68ab-4f97-a98a-43e89c3a86a8",
+      "width": 250,
+      "x": 302,
+      "y": 9,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Walls",
+      "name": "Walls",
+      "persistentUuid": "a1f32199-8e2e-4e1a-b663-44b2dc06d05b",
+      "width": 250,
+      "x": 304,
+      "y": 9,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 4
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Walls",
+      "name": "Walls",
+      "persistentUuid": "941e2221-523f-4d18-80c2-420cfdd3562a",
+      "width": 250,
+      "x": 119,
+      "y": 91,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Walls",
+      "name": "Walls",
+      "persistentUuid": "3ee36d2e-4e17-4826-aa29-540b4e1a9660",
+      "width": 250,
+      "x": 118,
+      "y": 93,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Walls",
+      "name": "Walls",
+      "persistentUuid": "d4db7f0b-f0b0-4dbe-b103-35d61595428a",
+      "width": 250,
+      "x": 119,
+      "y": 259,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 4
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Walls",
+      "name": "Walls",
+      "persistentUuid": "07aa8dcb-a0c3-4d28-9490-2d723513dbb0",
+      "width": 250,
+      "x": 119,
+      "y": 268,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Walls",
+      "name": "Walls",
+      "persistentUuid": "22f9dd96-bb20-486e-a3cc-f193c9899c6c",
+      "width": 250,
+      "x": 118,
+      "y": 424,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 4
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Walls",
+      "name": "Walls",
+      "persistentUuid": "0adaa49a-99df-47ad-ab2d-6bf8847c95c0",
+      "width": 250,
+      "x": 117,
+      "y": 429,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Walls",
+      "name": "Walls",
+      "persistentUuid": "51b19534-ed43-4b01-a061-70008e9ae6c9",
+      "width": 250,
+      "x": 118,
+      "y": 592,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 4
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Walls",
+      "name": "Walls",
+      "persistentUuid": "45b92a84-eefc-4f23-8536-9fd62479b522",
+      "width": 250,
+      "x": 118,
+      "y": 592,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Walls",
+      "name": "Walls",
+      "persistentUuid": "819ad30e-7769-421c-b900-a5ca0d8cda90",
+      "width": 250,
+      "x": 673,
+      "y": 10,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Walls",
+      "name": "Walls",
+      "persistentUuid": "34de847b-cc73-4f0c-ae71-07de1a61f849",
+      "width": 250,
+      "x": 671,
+      "y": 10,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Walls",
+      "name": "Walls",
+      "persistentUuid": "144a86ad-a48c-4409-a298-be1765f8341d",
+      "width": 250,
+      "x": 673,
+      "y": 10,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 4
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Walls",
+      "name": "Walls",
+      "persistentUuid": "1d455f71-6c11-4e6c-8eeb-50b2dedd3c08",
+      "width": 250,
+      "x": 488,
+      "y": 92,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Walls",
+      "name": "Walls",
+      "persistentUuid": "66ec1c5e-c5d7-4718-96a7-03ee99b978c1",
+      "width": 250,
+      "x": 1043,
+      "y": 9,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Walls",
+      "name": "Walls",
+      "persistentUuid": "15c5204f-990e-47b8-a33a-e37a1fcd4270",
+      "width": 250,
+      "x": 1041,
+      "y": 9,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Walls",
+      "name": "Walls",
+      "persistentUuid": "ef266fc5-e3b6-4894-b436-090e4f259c10",
+      "width": 250,
+      "x": 1043,
+      "y": 9,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 4
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "WallsUnder",
+      "name": "Walls",
+      "persistentUuid": "5b61154e-262b-4bb8-86ce-92ff472fe7a3",
+      "width": 250,
+      "x": 855,
+      "y": 90,
+      "zOrder": 29,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Walls",
+      "locked": true,
+      "name": "Walls",
+      "persistentUuid": "db5fcd58-fd9f-4371-ac2e-55229344ccbb",
+      "sealed": true,
+      "width": 250,
+      "x": 1227,
+      "y": 94,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "a9aca417-d008-4a8d-86f3-6e3ca1db7991",
+      "width": 250,
+      "x": 1225,
+      "y": 256,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "ba098f18-9eb8-461c-bbbc-de8d3b8332b6",
+      "width": 250,
+      "x": 1040,
+      "y": 173,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "52527969-3949-4106-80d7-09e29723a504",
+      "width": 250,
+      "x": 857,
+      "y": 256,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "3e37888c-70ca-4e33-a8ae-353029b33f9d",
+      "width": 250,
+      "x": 671,
+      "y": 174,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "77a143f9-a11a-4e39-839e-b27d75f052ea",
+      "width": 250,
+      "x": 486,
+      "y": 256,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "193ded67-c464-45a3-abe3-7cff74b0fbe8",
+      "width": 250,
+      "x": 303,
+      "y": 173,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "92ab4479-9e56-4a65-9a7a-07422b4bcfb7",
+      "width": 250,
+      "x": 305,
+      "y": 338,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "e74389fa-e4cc-464a-85ed-babf26533e5d",
+      "width": 250,
+      "x": 303,
+      "y": 502,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "4d69fd48-59ac-428b-bc6d-ca47ff60e057",
+      "width": 250,
+      "x": 488,
+      "y": 421,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "57a62a27-2670-46b9-8779-c7ef1e840af0",
+      "width": 250,
+      "x": 486,
+      "y": 585,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "1f1e56d7-a96e-426c-bd79-b4602e7160a6",
+      "width": 250,
+      "x": 671,
+      "y": 503,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "c19ad8d1-0b3e-449b-ac61-a6face436358",
+      "width": 250,
+      "x": 673,
+      "y": 339,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "2205bd97-5e0e-44dc-860e-5963053a3f1c",
+      "width": 250,
+      "x": 859,
+      "y": 421,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "73faba7c-b7e8-48d8-b638-6f2887fe3bcc",
+      "width": 250,
+      "x": 857,
+      "y": 585,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "15baa96f-023a-4d4c-a6ea-a7d4d5482162",
+      "width": 250,
+      "x": 1042,
+      "y": 338,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "db636e69-c116-453e-8021-be8270d0c99e",
+      "width": 250,
+      "x": 1040,
+      "y": 502,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "462fcda5-2854-4bf0-bc38-42c87774a177",
+      "width": 250,
+      "x": 1227,
+      "y": 421,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "b5d2da53-e757-42e3-9a15-ab85fa031a04",
+      "width": 250,
+      "x": 1225,
+      "y": 585,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "961ba66b-beaa-4627-8ca7-4f283d420cd7",
+      "width": 250,
+      "x": 1226,
+      "y": 750,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "cd3d1f09-91cb-4c82-971c-d917f6e65cf4",
+      "width": 250,
+      "x": 1041,
+      "y": 667,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "a52b93d5-7347-4a42-b07c-5e15afa8cd23",
+      "width": 250,
+      "x": 1412,
+      "y": 667,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "FloorTile",
+      "persistentUuid": "0cdd897a-bd84-4f35-95d8-ffcda0a9d14a",
+      "width": 250,
+      "x": 1413,
+      "y": 504,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Walls",
+      "name": "Walls",
+      "persistentUuid": "baf8b105-69a7-431e-ae29-5a4ad3cdb7a8",
+      "width": 250,
+      "x": 1231,
+      "y": 94,
+      "zOrder": 26,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "WallsTop",
+      "name": "Walls",
+      "persistentUuid": "d78f95ff-9afd-420b-96f3-4afecee55449",
+      "width": 250,
+      "x": 1227,
+      "y": 92,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "WallsTop",
+      "name": "Walls",
+      "persistentUuid": "e14341fb-c432-40d4-a906-5696b432324a",
+      "width": 250,
+      "x": 1225,
+      "y": 258,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "WallsTop",
+      "name": "Walls",
+      "persistentUuid": "15e0bfe5-7325-41ec-ad04-1540d4abe0e7",
+      "width": 250,
+      "x": 1224,
+      "y": 259,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "WallsTop",
+      "name": "Walls",
+      "persistentUuid": "b5f57bbd-84e5-4169-a236-2f8eba3ac519",
+      "width": 250,
+      "x": 1226,
+      "y": 427,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Walls",
+      "name": "Walls",
+      "persistentUuid": "ae9c8c00-adc4-473b-8099-38572e3a9567",
+      "width": 250,
+      "x": 1412,
+      "y": 507,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Walls",
+      "name": "Walls",
+      "persistentUuid": "19e777b8-828c-4ee9-8410-09ce3f6a2949",
+      "width": 250,
+      "x": 1411,
+      "y": 508,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "WallsTop",
+      "name": "Walls",
+      "persistentUuid": "0fa5ef8d-e99c-4c19-8345-b8f6b9748488",
+      "width": 250,
+      "x": 1413,
+      "y": 670,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "WallsTop",
+      "name": "Walls",
+      "persistentUuid": "1b195266-d2a8-4df7-b990-922c24ba56a8",
+      "width": 250,
+      "x": 1224,
+      "y": 749,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "WallsTop",
+      "name": "Walls",
+      "persistentUuid": "28c94181-361b-4cd0-8672-b7377962a541",
+      "width": 250,
+      "x": 1410,
+      "y": 831,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "MachinesTop",
+      "name": "ActiveTiles",
+      "persistentUuid": "8211b458-3471-4898-92e0-579fe3a917c4",
+      "width": 250,
+      "x": 1968,
+      "y": 50,
+      "zOrder": 0,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 8
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "MachinesTop",
+      "name": "ActiveTiles",
+      "persistentUuid": "de031417-2a94-4ecf-90b7-83813bf300b5",
+      "width": 250,
+      "x": 116,
+      "y": 584,
+      "zOrder": 1,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 5
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "MachinesTop",
+      "name": "ActiveTiles",
+      "persistentUuid": "d02b287e-603c-4a1c-953f-56ea50104915",
+      "width": 250,
+      "x": 1964,
+      "y": 468,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 9
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 13
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "MachinesMiddle",
+      "name": "ActiveTiles",
+      "persistentUuid": "6a93ea4e-93a0-4ba6-aec2-b5d2049b1593",
+      "width": 250,
+      "x": 305,
+      "y": 6,
+      "zOrder": 24,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "MachinesTop",
+      "name": "ActiveTiles",
+      "persistentUuid": "3257ab6c-e6a8-4a94-a240-a266e493a3b5",
+      "width": 250,
+      "x": 1411,
+      "y": 503,
+      "zOrder": 1,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "MachinesTop",
+      "name": "ActiveTiles",
+      "persistentUuid": "d7b3f294-f496-49c5-b671-2bab4733835b",
+      "width": 250,
+      "x": 1046,
+      "y": 9,
+      "zOrder": 0,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 4
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Floor",
+      "name": "ExtraTiles",
+      "persistentUuid": "01c19359-400e-4f7b-a968-ad94ada17dd6",
+      "width": 250,
+      "x": 117,
+      "y": 89,
+      "zOrder": 30,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "MachinesMiddle",
+      "name": "ActiveTiles",
+      "persistentUuid": "6671dcff-8152-4139-8424-d3bed918f84b",
+      "width": 250,
+      "x": 122,
+      "y": 253,
+      "zOrder": 23,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 8
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "MachinesMiddle",
+      "name": "ActiveTiles",
+      "persistentUuid": "946d03fd-5214-41bb-8d56-b12efe22f7c8",
+      "width": 250,
+      "x": 854,
+      "y": 416,
+      "zOrder": 21,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 11
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "MachinesMiddle",
+      "name": "ActiveTiles",
+      "persistentUuid": "6d7a01f9-4e9a-4290-84bf-869aa8734c97",
+      "width": 250,
+      "x": 1043,
+      "y": 667,
+      "zOrder": 21,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 12
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "MachinesMiddle",
+      "name": "ActiveTiles",
+      "persistentUuid": "81214737-a529-421c-9d3d-b16d483c1dfd",
+      "width": 250,
+      "x": 486,
+      "y": 585,
+      "zOrder": 21,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 15
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "WallsTop",
+      "name": "ExtraTiles",
+      "persistentUuid": "e4c1f447-acb1-429a-964f-4d68aed6762b",
+      "width": 250,
+      "x": 1596,
+      "y": 745,
+      "zOrder": 30,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "WallsTop",
+      "name": "ExtraTiles",
+      "persistentUuid": "623b4bbf-d5f0-49e5-a474-302ffd843fab",
+      "width": 250,
+      "x": 1596,
+      "y": 747,
+      "zOrder": 29,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "MachinesTop",
+      "name": "ActiveTiles",
+      "persistentUuid": "d61a7a09-56ff-48ad-8bea-dc3379f513fc",
+      "width": 250,
+      "x": 675,
+      "y": 172,
+      "zOrder": 0,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 10
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "MachinesTop",
+      "name": "ActiveTiles",
+      "persistentUuid": "5627a9f1-a64e-4df4-8cfa-7e77ac4c4dad",
+      "width": 250,
+      "x": 1967,
+      "y": 276,
+      "zOrder": 1,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 13
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "MachinesTop",
+      "name": "ActiveTiles",
+      "persistentUuid": "695f1e3a-cb1c-4c6f-9483-83f2638dbf4f",
+      "width": 250,
+      "x": 489,
+      "y": 253,
+      "zOrder": 2,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 6
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "MachinesTop",
+      "name": "ActiveTiles",
+      "persistentUuid": "1e71bdbe-3af8-449d-95b2-971891d2ed22",
+      "width": 250,
+      "x": 1962,
+      "y": -160,
+      "zOrder": 1,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 17
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 4
+        },
+        {
+          "folded": true,
+          "name": "IsSelected",
+          "type": "boolean",
+          "value": false
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "WallsTop",
+      "name": "Walls",
+      "persistentUuid": "1f2f2e10-bd6f-4aea-818f-af075b31cf48",
+      "width": 250,
+      "x": 1224,
+      "y": 913,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Walls",
+      "name": "Walls",
+      "persistentUuid": "cbecc7d8-b208-40ef-8dd3-626f92726175",
+      "width": 250,
+      "x": 1041,
+      "y": 673,
+      "zOrder": 25,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "WallsTop",
+      "name": "Walls",
+      "persistentUuid": "608f2c2c-ad71-4ad9-b058-d2619f57f138",
+      "width": 250,
+      "x": 1412,
+      "y": 506,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "WallsTop",
+      "name": "Walls",
+      "persistentUuid": "7182df3c-0457-4e78-a34c-6df577a16e4f",
+      "width": 250,
+      "x": 1229,
+      "y": 747,
+      "zOrder": 28,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "WallsTop",
+      "name": "Walls",
+      "persistentUuid": "d2effef3-734a-489c-a1c6-2f42832e84c2",
+      "width": 250,
+      "x": 1038,
+      "y": 835,
+      "zOrder": 9,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "WallsTop",
+      "name": "Walls",
+      "persistentUuid": "086b243d-0424-45c9-b956-32eeb161e9c6",
+      "width": 250,
+      "x": 853,
+      "y": 754,
+      "zOrder": 9,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "Walls",
+      "name": "Walls",
+      "persistentUuid": "a02d1278-e6cb-42b0-9e8c-6ad7b0e6e2a6",
+      "width": 250,
+      "x": 856,
+      "y": 592,
+      "zOrder": 25,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 250,
+      "layer": "WallsTop",
+      "name": "Walls",
+      "persistentUuid": "7e5651ff-022b-4406-ac21-421f5876224f",
+      "width": 250,
+      "x": 669,
+      "y": 673,
+      "zOrder": 9,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "layer": "UI",
+      "name": "SectionNameText",
+      "persistentUuid": "e7d01e15-9f70-4fa4-85de-ffbd9e4d33f4",
+      "width": 229,
+      "x": 253,
+      "y": 975,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "653519df871cb169057a6348a2ee25ced783ccbf0e9925de08cb28460c37d2b5",
+      "height": 128,
+      "name": "PurpleBackground",
+      "texture": "tiled_Purple background.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "7cd73b60b8f9a67bc5405a8dd03008c0fb7931dbcf2bc28312089161e77a3b74",
+      "name": "BlueBar",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Blue bar.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "e247bba3f4ba13dc4bd922b81a4a8f252158ca454a303c1efdbb0595d37a2069",
+      "name": "GreenBar",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Green bar.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "6328cd7b58898580812604004decbfa6be61705ad249b505a0741df9ec07b1a8",
+      "name": "YellowBar",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Yellow bar.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "41018ca736744e40d8ed9c9123bac1e290b940ead4749bb9ba819ad8ec5b3bd7",
+      "name": "RedBar",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Red bar.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "8ffb3eb8751fe42fe56259f9b6bc27facf052ce4c1cad2b88c60b1d726ef3de6",
+      "name": "BoltBluePowerup",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Bolt Blue Powerup.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "61f110e2d3658bd34d16786af41e7f48e3b86b372860173d2f5c4e1eb1358240",
+      "name": "ShieldGreenPowerup",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Shield Green Powerup.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "5f75f3cd2a247753040203c1b49e40d8ed5d53a2a1c0d757318c851290f12b05",
+      "name": "GoldThings",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Gold things.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "FloorTile",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\MachineTiles\\Tile.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\MachineTiles\\runningtile.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\MachineTiles\\GreenTile.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Walls",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\WallTiles\\TopWall.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\WallTiles\\TopRightWall.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\WallTiles\\BottomRightWall.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\WallTiles\\BottomLeftWall.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\WallTiles\\TopLeftWall.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "ActiveTiles",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Selection",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;196;0"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "HeaterTile",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\MachineTiles\\HeaterTile.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HeaterTile",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\MachineTiles\\OfficeTile.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OvenTile",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\MachineTiles\\OvenTile.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PackageTile",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\MachineTiles\\PackageTile.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PressTile",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\MachineTiles\\PressTile.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\MachineTiles\\Cutting.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\MachineTiles\\DevPatternMaker.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\MachineTiles\\Engraxadeira.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\MachineTiles\\Marketing.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\MachineTiles\\Nailer.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\MachineTiles\\Pre-Stiching.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\MachineTiles\\ProductionMan.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\MachineTiles\\QC.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\MachineTiles\\Skiving.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\MachineTiles\\stitching.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\MachineTiles\\InnovationTile.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "ExtraTiles",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "ExtraSelection",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "1;255;96"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\MachineTiles\\Truck.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\MachineTiles\\gate.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "SectionNameText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "assets\\JotiOne-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 32,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "PurpleBackground"
+      },
+      {
+        "objectName": "BlueBar"
+      },
+      {
+        "objectName": "GreenBar"
+      },
+      {
+        "objectName": "YellowBar"
+      },
+      {
+        "objectName": "RedBar"
+      },
+      {
+        "objectName": "BoltBluePowerup"
+      },
+      {
+        "objectName": "ShieldGreenPowerup"
+      },
+      {
+        "objectName": "GoldThings"
+      },
+      {
+        "objectName": "FloorTile"
+      },
+      {
+        "objectName": "Walls"
+      },
+      {
+        "objectName": "ActiveTiles"
+      },
+      {
+        "objectName": "ExtraTiles"
+      },
+      {
+        "objectName": "SectionNameText"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetFullScreen"
+          },
+          "parameters": [
+            "",
+            "no",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Hitbox"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "PlayerName",
+            "=",
+            "GlobalVariableString(PlayerName)"
+          ]
+        },
+        {
+          "type": {
+            "value": "EnableEffect"
+          },
+          "parameters": [
+            "ActiveTiles",
+            "\"Selection\"",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "CreateByName"
+          },
+          "parameters": [
+            "",
+            "CharacterSkins",
+            "\"Character_0\"+ToString(GlobalVariable(selectedChar))",
+            "Hitbox.X()",
+            "Hitbox.Y()",
+            "\"UI\""
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "CharacterSkins",
+            "=",
+            "Hitbox.X()",
+            "=",
+            "Hitbox.Y()"
+          ]
+        },
+        {
+          "type": {
+            "value": "CreateByName"
+          },
+          "parameters": [
+            "",
+            "CharacterSkins",
+            "\"Character_0\"+ToString(GlobalVariable(selectedChar))",
+            "Hitbox.X()",
+            "Hitbox.Y()",
+            "\"Player\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetSize"
+          },
+          "parameters": [
+            "CharacterSkins",
+            "Resizable",
+            "64",
+            "64"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Layer"
+              },
+              "parameters": [
+                "CharacterSkins",
+                "\"Player\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "CharacterSkins",
+                "=",
+                "240",
+                "=",
+                "200"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Escape"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"CharacterSelection\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "ActiveTiles",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "EnableEffect"
+          },
+          "parameters": [
+            "ActiveTiles",
+            "\"Selection\"",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "ObjectVariablePushBool"
+          },
+          "parameters": [
+            "ActiveTiles",
+            "IsSelected",
+            "False"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "ActiveTiles",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "EnableEffect"
+          },
+          "parameters": [
+            "ActiveTiles",
+            "\"Selection\"",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "ObjectVariablePushBool"
+          },
+          "parameters": [
+            "ActiveTiles",
+            "IsSelected",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "SectionNameText",
+            "=",
+            "ActiveTiles.X() + 64",
+            "=",
+            "ActiveTiles.Y() + 128"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "SectionNameText",
+            "=",
+            "VariableString(Sections_EN[ActiveTiles.id])"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Layer"
+                  },
+                  "parameters": [
+                    "CharacterSkins",
+                    "\"Player\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::AddObjectPositionTween"
+                  },
+                  "parameters": [
+                    "CharacterSkins",
+                    "Tween",
+                    "\"\"",
+                    "ActiveTiles.X() + 125",
+                    "ActiveTiles.Y() + 125",
+                    "\"linear\"",
+                    "1500",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "ActiveTiles",
+                    "id",
+                    "=",
+                    "9"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"FullSokobanGame\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "ActiveTiles",
+                    "id",
+                    "=",
+                    "8"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Platformer\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "ActiveTiles",
+                    "id",
+                    "=",
+                    "7"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Cards\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "ActiveTiles",
+                    "id",
+                    "=",
+                    "6"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Monster\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "ActiveTiles",
+                    "id",
+                    "=",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dino\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "ActiveTiles",
+                    "id",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Balls\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "ActiveTiles",
+                    "id",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"LightSwitch\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "ActiveTiles",
+                    "id",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ShoeBoxAttack\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "ActiveTiles",
+                    "id",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"FlappyShoe\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "ActiveTiles",
+                    "id",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ParkTheCar\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "ExtraTiles",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "EnableEffect"
+          },
+          "parameters": [
+            "ExtraTiles",
+            "\"ExtraSelection\"",
+            "no"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "ExtraTiles",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "EnableEffect"
+          },
+          "parameters": [
+            "ExtraTiles",
+            "\"ExtraSelection\"",
+            "yes"
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 7707480,
+      "ambientLightColorG": -2147483632,
+      "ambientLightColorR": 13,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 9358808,
+      "ambientLightColorG": 6068864,
+      "ambientLightColorR": 7719464,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": true,
+      "name": "Floor",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "WallsUnder",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 7795928,
+      "ambientLightColorG": 6068864,
+      "ambientLightColorR": 7821016,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Walls",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "WallsTop",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "MachinesMiddle",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "MachinesTop",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 83886080,
+      "ambientLightColorG": 6068864,
+      "ambientLightColorR": 9189120,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Player",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
+}

@@ -1,0 +1,3427 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "ParkTheCar",
+  "name": "ParkTheCar",
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.3088741216342663,
+    "windowMask": false
+  },
+  "objectsGroups": [
+    {
+      "name": "Obstacles",
+      "objects": [
+        {
+          "name": "MyCar"
+        },
+        {
+          "name": "OilCan"
+        },
+        {
+          "name": "ParkedCar6"
+        },
+        {
+          "name": "Wall"
+        },
+        {
+          "name": "ParkedCar5"
+        },
+        {
+          "name": "ParkedCar1"
+        },
+        {
+          "name": "ParkedCar2"
+        },
+        {
+          "name": "ParkedCar3"
+        },
+        {
+          "name": "ParkedCar4"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1080,
+      "layer": "",
+      "locked": true,
+      "name": "Background",
+      "persistentUuid": "97a68149-3c49-49c4-9393-2d4b194857d0",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "MyCar",
+      "persistentUuid": "95db0f9e-6e90-4ebf-acb1-a1359308d004",
+      "width": 70,
+      "x": 62,
+      "y": 136,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar1",
+      "persistentUuid": "4782c90a-3393-4652-a8a8-bf8ef6a93425",
+      "width": 70,
+      "x": 56,
+      "y": 296,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "164b0db8-8d23-465b-a0c8-fd0679ba4d36",
+      "width": 30,
+      "x": 400,
+      "y": 33,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "90ccd3ed-58c8-4a1f-9790-8511956f6d5b",
+      "width": 22,
+      "x": 29,
+      "y": -1,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "ebf90996-b753-4758-8b02-d3b44be74259",
+      "width": 30,
+      "x": 400,
+      "y": 77,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "b06384c3-4896-4f81-b2e3-60ea6494506d",
+      "width": 30,
+      "x": 400,
+      "y": 136,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "250786cf-4043-42dd-95bc-152fd1750542",
+      "width": 30,
+      "x": 400,
+      "y": 231,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "44c3ebd6-f493-413b-a6d5-3bb27add68c6",
+      "width": 30,
+      "x": 400,
+      "y": 279,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "f5154836-b70e-4dd1-9c4d-22705f194be5",
+      "width": 30,
+      "x": 400,
+      "y": 338,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "89674251-7f6a-4c80-a0e9-ab11f75bb98f",
+      "width": 30,
+      "x": 400,
+      "y": 442,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "48cc1629-1e9c-46c2-b105-dc9db891a2d4",
+      "width": 30,
+      "x": 400,
+      "y": 501,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "ea967967-c7bf-42c5-9b48-be5da4eb5746",
+      "width": 30,
+      "x": 400,
+      "y": 581,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "bec67017-05ec-4b20-94e7-8cce31d4f5e7",
+      "width": 30,
+      "x": 400,
+      "y": 644,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "ef9b30a2-9cc7-4928-a638-1d1b0e23a326",
+      "width": 30,
+      "x": 400,
+      "y": 178,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "c93c83e2-e9c7-46ba-b8c3-a236dbe3474f",
+      "width": 30,
+      "x": 400,
+      "y": 390,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "GameDescription",
+      "persistentUuid": "3af962dc-c8e8-4993-9a69-d97665a16b73",
+      "width": 0,
+      "x": 62,
+      "y": 1020,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar2",
+      "persistentUuid": "b713bb96-b342-4c0e-88cd-c46ae06f53a3",
+      "width": 70,
+      "x": 56,
+      "y": 347,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar3",
+      "persistentUuid": "fcea88e2-e75a-4ccc-9682-556dd4aa8751",
+      "width": 70,
+      "x": 56,
+      "y": 403,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar4",
+      "persistentUuid": "ac25d742-8f83-4380-99b0-26800d46f8c3",
+      "width": 70,
+      "x": 56,
+      "y": 462,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar5",
+      "persistentUuid": "0b193c7f-10b9-4cb2-8379-b77822b13362",
+      "width": 70,
+      "x": 56,
+      "y": 516,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar6",
+      "persistentUuid": "861c3009-89ff-412f-8fc7-14ab42dd9f76",
+      "width": 70,
+      "x": 56,
+      "y": 572,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar1",
+      "persistentUuid": "dad87d00-ac5b-4dd9-8c19-1a665c72f0c3",
+      "width": 70,
+      "x": 71,
+      "y": 935,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar2",
+      "persistentUuid": "45523b97-e2c3-4a2b-b0a0-1d28e47bf789",
+      "width": 70,
+      "x": 122,
+      "y": 935,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar3",
+      "persistentUuid": "14b4b771-8d11-4e8e-b41a-0bc307412c7c",
+      "width": 70,
+      "x": 178,
+      "y": 935,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar4",
+      "persistentUuid": "350b9c23-ad02-4fc3-ab07-9c8fac646008",
+      "width": 70,
+      "x": 237,
+      "y": 935,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar5",
+      "persistentUuid": "2b2abfe9-0357-417a-8fbf-40a931dc28dd",
+      "width": 70,
+      "x": 291,
+      "y": 935,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar6",
+      "persistentUuid": "0abe0e6c-460f-4b15-bb35-db245f56d65e",
+      "width": 70,
+      "x": 347,
+      "y": 935,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar1",
+      "persistentUuid": "5925f7be-4258-4196-8e24-e5155388df61",
+      "width": 70,
+      "x": 413,
+      "y": 935,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar2",
+      "persistentUuid": "969f648c-a3ed-42b8-8613-ec2e6bcc2b24",
+      "width": 70,
+      "x": 464,
+      "y": 935,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar3",
+      "persistentUuid": "b52bbaef-3092-4448-a4b9-afcdf1eb02bd",
+      "width": 70,
+      "x": 520,
+      "y": 935,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 93,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "786a1f0f-6bf9-49ac-8f21-b894cfce18f3",
+      "width": 30,
+      "x": 839,
+      "y": 935,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 93,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "5460653b-d475-4f22-8e03-577935410900",
+      "width": 30,
+      "x": 782,
+      "y": 935,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 93,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "49eb1b6d-9282-45ce-a2c1-06142c1cafda",
+      "width": 30,
+      "x": 701,
+      "y": 935,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 93,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "b7604ca6-a09b-49ba-b590-d88d9cf69b65",
+      "width": 30,
+      "x": 639,
+      "y": 935,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar3",
+      "persistentUuid": "70710abd-d0af-40e1-9213-a33e02d7ea37",
+      "width": 70,
+      "x": 677,
+      "y": 627,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar4",
+      "persistentUuid": "ce812673-6f96-47f2-989e-9004bbe50ed2",
+      "width": 70,
+      "x": 618,
+      "y": 627,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar5",
+      "persistentUuid": "1772dc87-0210-4a4a-81f2-adb754fc9d80",
+      "width": 70,
+      "x": 564,
+      "y": 627,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar6",
+      "persistentUuid": "7376b86e-9879-4b44-8387-a3716b2f26b3",
+      "width": 70,
+      "x": 508,
+      "y": 627,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar1",
+      "persistentUuid": "fe191073-c0b4-4968-8946-ad143944a313",
+      "width": 70,
+      "x": 442,
+      "y": 627,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 93,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "cd5d2098-4a79-465e-89d6-dfa970dd0a21",
+      "width": 30,
+      "x": 973,
+      "y": 935,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar5",
+      "persistentUuid": "343faf9c-7d48-440d-9396-bcc07711e8ca",
+      "width": 70,
+      "x": 1030,
+      "y": 935,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar6",
+      "persistentUuid": "ec521bc6-8442-4f01-81c3-b98a986d3da7",
+      "width": 70,
+      "x": 1086,
+      "y": 935,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar1",
+      "persistentUuid": "aaae3aa1-538c-424e-ade6-14518ca4f06b",
+      "width": 70,
+      "x": 1152,
+      "y": 935,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar5",
+      "persistentUuid": "5a710f68-7a55-4ea6-a2f9-27d09e8f6b75",
+      "width": 70,
+      "x": 1216,
+      "y": 935,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar6",
+      "persistentUuid": "06a05081-0c6b-4cbd-9aa9-b1a428daa339",
+      "width": 70,
+      "x": 1272,
+      "y": 935,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar1",
+      "persistentUuid": "33289ad3-5b9b-46f3-a283-565ad5eea07f",
+      "width": 70,
+      "x": 1338,
+      "y": 935,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar3",
+      "persistentUuid": "f4e36ed5-7418-4af5-8be1-9b61ff641b8a",
+      "width": 70,
+      "x": 891,
+      "y": 935,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "30dc5322-7b05-4a39-b52e-94e3d10efdac",
+      "width": 30,
+      "x": 911,
+      "y": 446,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "cd53145e-636d-41ad-b9e5-1ba8fb90e2bc",
+      "width": 30,
+      "x": 911,
+      "y": 505,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "d6361d4d-8ae6-4ed0-becc-9a1ca35d4983",
+      "width": 30,
+      "x": 911,
+      "y": 609,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "739aa573-e57e-4828-8f91-d0181dea9ef8",
+      "width": 30,
+      "x": 911,
+      "y": 668,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "6eaef3bb-c6e2-4c1d-9f70-2ee93ebf828c",
+      "width": 30,
+      "x": 911,
+      "y": 725,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "d8f7f786-73c5-4c7f-8a43-5b59a02fb89c",
+      "width": 30,
+      "x": 911,
+      "y": 820,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "8103187c-8d2f-4269-ab1a-7ee89fcdacde",
+      "width": 30,
+      "x": 911,
+      "y": 557,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar1",
+      "persistentUuid": "749c1bf1-ba5a-44d0-80b8-81470b70aec4",
+      "width": 70,
+      "x": 892,
+      "y": 368,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar1",
+      "persistentUuid": "bd666679-d8b8-4f29-99bb-797221bd6887",
+      "width": 70,
+      "x": 818,
+      "y": 368,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar4",
+      "persistentUuid": "88f395f6-310a-4ac3-8f49-925e5fae1e0e",
+      "width": 70,
+      "x": 741,
+      "y": 368,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 91,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar5",
+      "persistentUuid": "44d8b79f-64a7-4d50-b98f-a19f814b247b",
+      "width": 70,
+      "x": 669,
+      "y": 368,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 91,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar6",
+      "persistentUuid": "d3fbc44c-32a9-4eb9-aa67-75e02a5d08ce",
+      "width": 70,
+      "x": 604,
+      "y": 368,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar1",
+      "persistentUuid": "9952178c-a40f-4bee-aed9-07ea3d65df39",
+      "width": 70,
+      "x": 465,
+      "y": 42,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar2",
+      "persistentUuid": "463af037-bf84-4f38-a069-69e175944334",
+      "width": 70,
+      "x": 518,
+      "y": 42,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar3",
+      "persistentUuid": "0c601981-ad79-4ce5-b73c-abd11c84af18",
+      "width": 70,
+      "x": 572,
+      "y": 42,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar4",
+      "persistentUuid": "976cfc1b-b048-4cf2-937b-2884dd7efb70",
+      "width": 70,
+      "x": 631,
+      "y": 42,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar5",
+      "persistentUuid": "0ebd4fd2-2ed7-4709-8925-892525de5df5",
+      "width": 70,
+      "x": 685,
+      "y": 42,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar6",
+      "persistentUuid": "98258864-5e20-4379-9d3d-168947b114ec",
+      "width": 70,
+      "x": 741,
+      "y": 42,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar1",
+      "persistentUuid": "61bcac42-a4d1-4106-8e98-eede24977881",
+      "width": 70,
+      "x": 807,
+      "y": 42,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar2",
+      "persistentUuid": "66c42a62-e007-4780-8396-e06b4df33f1a",
+      "width": 70,
+      "x": 858,
+      "y": 42,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar3",
+      "persistentUuid": "ffd7dad9-8cec-4a9f-ac36-ca952d960e52",
+      "width": 70,
+      "x": 914,
+      "y": 42,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "a11e1440-32ec-45b4-94ad-c4555c8c99cf",
+      "width": 22,
+      "x": 1896,
+      "y": 0,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 1842,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "5426de62-44fa-4158-bb90-be88f54fb6eb",
+      "width": 22,
+      "x": 961,
+      "y": -909,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 1842,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "5fdcc760-bcd8-42e2-b3c8-878aa7fad8c2",
+      "width": 22,
+      "x": 956,
+      "y": 148,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "daab269d-70f0-4294-8a83-2fcea16b17a2",
+      "width": 30,
+      "x": 1178,
+      "y": 48,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "e0c34f6c-7edd-44d2-89af-ccfc2a69db48",
+      "width": 30,
+      "x": 1178,
+      "y": 92,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "fdbd4811-3825-4ee7-a879-ae5e7ebe96ac",
+      "width": 30,
+      "x": 1178,
+      "y": 151,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "700da6c6-a8e3-42ae-a22b-8a2ac8965c95",
+      "width": 30,
+      "x": 1178,
+      "y": 246,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "ff7b970f-0dce-442d-a29c-fe768d953aa4",
+      "width": 30,
+      "x": 1178,
+      "y": 294,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "087be199-998a-4f15-8a35-0e08b658c4ed",
+      "width": 30,
+      "x": 1178,
+      "y": 353,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "5b07246f-e273-47af-b2df-779c2f28e912",
+      "width": 30,
+      "x": 1178,
+      "y": 457,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "3954698a-0447-4d51-bf6c-52e4a19e8ab4",
+      "width": 30,
+      "x": 1178,
+      "y": 516,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "9c2ae364-529d-44f9-b6bf-578e9e5a7133",
+      "width": 30,
+      "x": 1178,
+      "y": 193,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "18c014b6-c296-4df5-99ec-52ff90182469",
+      "width": 30,
+      "x": 1178,
+      "y": 405,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar6",
+      "persistentUuid": "9c80a22e-48e2-4d7c-9af6-9e8417bff523",
+      "width": 70,
+      "x": 1656,
+      "y": 690,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar4",
+      "persistentUuid": "f9377204-930c-4113-ad46-034aee7632c3",
+      "width": 70,
+      "x": 1726,
+      "y": 690,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar3",
+      "persistentUuid": "99dd46a8-371c-4b83-9e60-b2555f98e0e2",
+      "width": 70,
+      "x": 1841,
+      "y": 690,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar4",
+      "persistentUuid": "86900ae5-653f-45be-9679-13ed67bbfcb4",
+      "width": 70,
+      "x": 1783,
+      "y": 690,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "aa2c3d0c-1d30-425c-9dc7-595e2474e1c4",
+      "width": 30,
+      "x": 1855,
+      "y": 150,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "d6573998-6e2e-4043-bffb-9b97445bf22e",
+      "width": 30,
+      "x": 1855,
+      "y": 245,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "9d2da7df-ac3f-4541-a316-a4842f01a9d7",
+      "width": 30,
+      "x": 1855,
+      "y": 456,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "f679574d-41c2-4921-94af-a3dc02fd18ec",
+      "width": 30,
+      "x": 1855,
+      "y": 515,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "0ab9d980-bc1b-4e30-8828-44da343d10a7",
+      "width": 30,
+      "x": 1855,
+      "y": 192,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "8b043712-6701-43a7-83b2-2a3066de664e",
+      "width": 30,
+      "x": 1855,
+      "y": 404,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar5",
+      "persistentUuid": "c89c109c-1984-4147-bac7-06b503fcfd9f",
+      "width": 70,
+      "x": 1823,
+      "y": 288,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar6",
+      "persistentUuid": "2be951f6-ec6e-4cd7-b612-6d2d46c8bd16",
+      "width": 70,
+      "x": 1823,
+      "y": 344,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar1",
+      "persistentUuid": "c34616dd-6f86-4ed3-97b9-f15a32924899",
+      "width": 70,
+      "x": 1226,
+      "y": 286,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar2",
+      "persistentUuid": "e6f84049-fbe8-466f-b41b-a88e3ae4b8d4",
+      "width": 70,
+      "x": 1225,
+      "y": 336,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar3",
+      "persistentUuid": "1980052d-58f6-4f93-80af-f946c147bc21",
+      "width": 70,
+      "x": 1225,
+      "y": 392,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar4",
+      "persistentUuid": "5bb806d1-f2fd-462d-a5b7-ae136a612655",
+      "width": 70,
+      "x": 1225,
+      "y": 451,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar5",
+      "persistentUuid": "61bf7d6c-a465-4671-88a3-b5f300ceac1f",
+      "width": 70,
+      "x": 1225,
+      "y": 505,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "1e19235b-0118-4194-a1a6-c98ab132cc04",
+      "width": 30,
+      "x": 1182,
+      "y": 625,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "8ea7ca5b-bd02-40cc-bd7e-6434ee51d00d",
+      "width": 30,
+      "x": 1182,
+      "y": 684,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "66ba00ce-fd6a-4c5f-ab09-3ac744f69b5f",
+      "width": 30,
+      "x": 1182,
+      "y": 573,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar3",
+      "persistentUuid": "b05ea6ae-1877-412d-8c66-f78a9bc6e167",
+      "width": 70,
+      "x": 1229,
+      "y": 560,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar4",
+      "persistentUuid": "e6069387-47ce-4eb0-b278-0928c505f050",
+      "width": 70,
+      "x": 1229,
+      "y": 619,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar5",
+      "persistentUuid": "e324466b-e5cc-49d3-8879-925f54929c49",
+      "width": 70,
+      "x": 1229,
+      "y": 673,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 50,
+      "layer": "",
+      "name": "ParkedIdentifyer",
+      "persistentUuid": "910cdcec-5ea5-4b10-b16b-4ceb3383c329",
+      "width": 6,
+      "x": 1241,
+      "y": 151,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 1,
+      "height": 60,
+      "layer": "",
+      "name": "ParkingSpot",
+      "persistentUuid": "f4cc7ce4-09d4-4e9d-a283-fe71b92c663b",
+      "width": 75,
+      "x": 1233,
+      "y": 147,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar2",
+      "persistentUuid": "aec4c01a-e4b1-4388-a58d-e150b6145f53",
+      "width": 70,
+      "x": 1307,
+      "y": 49,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar3",
+      "persistentUuid": "74fe6ea8-2f06-42d7-a587-385b98e9f6f8",
+      "width": 70,
+      "x": 1361,
+      "y": 49,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar4",
+      "persistentUuid": "1f8b4e9d-8770-47a8-a07c-7e0e4883ab31",
+      "width": 70,
+      "x": 1420,
+      "y": 49,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "",
+      "name": "ParkedCar5",
+      "persistentUuid": "b9bfebc2-bb63-4c7b-a5e8-781be28c0356",
+      "width": 70,
+      "x": 1474,
+      "y": 49,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "State",
+      "persistentUuid": "270f03e1-d16b-4d38-9cdb-e22c0e9c7435",
+      "width": 0,
+      "x": 50,
+      "y": 23,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 46,
+      "customSize": true,
+      "depth": 1,
+      "height": 33,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "fa109c85-a34a-43fc-be70-23e334122a22",
+      "width": 33,
+      "x": 1601,
+      "y": 746,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 46,
+      "customSize": true,
+      "depth": 1,
+      "height": 33,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "675f42c6-73fc-49c7-a6e0-f97d53719708",
+      "width": 33,
+      "x": 1566,
+      "y": 779,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 46,
+      "customSize": true,
+      "depth": 1,
+      "height": 33,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "9936fb52-5d3b-49b0-a175-6f08790a0f19",
+      "width": 33,
+      "x": 1519,
+      "y": 824,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 46,
+      "customSize": true,
+      "depth": 1,
+      "height": 33,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "db577b1d-e9bf-4f65-b360-e093ddd7d327",
+      "width": 33,
+      "x": 1445,
+      "y": 896,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 46,
+      "customSize": true,
+      "depth": 1,
+      "height": 33,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "4137caa3-9873-4513-9573-736ba715ed3e",
+      "width": 33,
+      "x": 1407,
+      "y": 933,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 46,
+      "customSize": true,
+      "depth": 1,
+      "height": 33,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "fe89834d-8e5d-487e-ad7f-cf6561fbc86c",
+      "width": 33,
+      "x": 1488,
+      "y": 856,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "82e85196-0a73-4af5-ae32-d772a81ed529",
+      "width": 30,
+      "x": 911,
+      "y": 771,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "774519df-ff8f-4a7e-8375-3d98515fd9fc",
+      "width": 30,
+      "x": 911,
+      "y": 872,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 109,
+      "layer": "",
+      "name": "Hud",
+      "persistentUuid": "883e8987-35e0-4d02-9583-0560560b7578",
+      "width": 322,
+      "x": 1566,
+      "y": 16,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Hitbox",
+      "persistentUuid": "15341b97-ab20-44a9-b5e9-c22daad458d4",
+      "width": 0,
+      "x": 1596,
+      "y": 37,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "PlayerName",
+      "persistentUuid": "38465b2e-2755-403e-89d4-0709d9a6f1b7",
+      "width": 0,
+      "x": 1680,
+      "y": 55,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Background",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\ParkTheCar\\assets\\Background",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ParkTheCar\\assets\\Background.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 960,
+                        "y": 0
+                      },
+                      {
+                        "x": 960,
+                        "y": 720
+                      },
+                      {
+                        "x": 0,
+                        "y": 720
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "MyCar",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ParkTheCar\\assets\\Yellow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 25,
+                        "y": 0
+                      },
+                      {
+                        "x": 25,
+                        "y": 19
+                      },
+                      {
+                        "x": 0,
+                        "y": 19
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ParkedCar1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ParkTheCar\\assets\\White.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 25,
+                        "y": 0
+                      },
+                      {
+                        "x": 25,
+                        "y": 19
+                      },
+                      {
+                        "x": 0,
+                        "y": 19
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ParkedCar2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ParkTheCar\\assets\\Red.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 25,
+                        "y": 0
+                      },
+                      {
+                        "x": 25,
+                        "y": 19
+                      },
+                      {
+                        "x": 0,
+                        "y": 19
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ParkedCar3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ParkTheCar\\assets\\Pink.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 25,
+                        "y": 0
+                      },
+                      {
+                        "x": 25,
+                        "y": 19
+                      },
+                      {
+                        "x": 0,
+                        "y": 19
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ParkedCar4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ParkTheCar\\assets\\Green.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 25,
+                        "y": 0
+                      },
+                      {
+                        "x": 25,
+                        "y": 19
+                      },
+                      {
+                        "x": 0,
+                        "y": 19
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ParkedCar5",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ParkTheCar\\assets\\Blue.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 25,
+                        "y": 0
+                      },
+                      {
+                        "x": 25,
+                        "y": 19
+                      },
+                      {
+                        "x": 0,
+                        "y": 19
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ParkedCar6",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ParkTheCar\\assets\\Black_Grey.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 25,
+                        "y": 0
+                      },
+                      {
+                        "x": 25,
+                        "y": 19
+                      },
+                      {
+                        "x": 0,
+                        "y": 19
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "OilCan",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ParkTheCar\\assets\\Oil can.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 17,
+                        "y": 0
+                      },
+                      {
+                        "x": 17,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Wall",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ParkTheCar\\assets\\Wall.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 6,
+                        "y": 159
+                      },
+                      {
+                        "x": 0,
+                        "y": 159
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ParkedIdentifyer",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ParkTheCar\\assets\\ParkedIdentifyer.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ParkingSpot",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ParkTheCar\\assets\\Outline.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 31,
+                        "y": 0
+                      },
+                      {
+                        "x": 31,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "State",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "GameDescription",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Park the car in the marked spot. If you crash, just press the screen anywhere with your left-click.",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 28,
+        "g": 231,
+        "r": 248
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Background"
+      },
+      {
+        "objectName": "MyCar"
+      },
+      {
+        "objectName": "ParkedCar1"
+      },
+      {
+        "objectName": "ParkedCar2"
+      },
+      {
+        "objectName": "ParkedCar3"
+      },
+      {
+        "objectName": "ParkedCar4"
+      },
+      {
+        "objectName": "ParkedCar5"
+      },
+      {
+        "objectName": "ParkedCar6"
+      },
+      {
+        "objectName": "OilCan"
+      },
+      {
+        "objectName": "Wall"
+      },
+      {
+        "objectName": "ParkedIdentifyer"
+      },
+      {
+        "objectName": "ParkingSpot"
+      },
+      {
+        "objectName": "State"
+      },
+      {
+        "objectName": "GameDescription"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetFullScreen"
+          },
+          "parameters": [
+            "",
+            "no",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "CreateByName"
+          },
+          "parameters": [
+            "",
+            "CharacterSkins",
+            "\"Character_0\"+ToString(GlobalVariable(selectedChar))",
+            "Hitbox.X()",
+            "Hitbox.Y()",
+            "\"UI\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetSize"
+          },
+          "parameters": [
+            "CharacterSkins",
+            "Resizable",
+            "64",
+            "64"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "CharacterSkins",
+            "=",
+            "Hitbox.X()",
+            "=",
+            "Hitbox.Y()"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "PlayerName",
+            "=",
+            "GlobalVariableString(PlayerName)"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Hitbox"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "State",
+            "=",
+            "\"Playing\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "ParkedIdentifyer"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Up"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "State",
+            "=",
+            "\"Playing\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceAL"
+          },
+          "parameters": [
+            "MyCar",
+            "MyCar.Direction()",
+            "200",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Down"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "State",
+            "=",
+            "\"Playing\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceAL"
+          },
+          "parameters": [
+            "MyCar",
+            "MyCar.Direction()",
+            "-100",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Right"
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Up"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "State",
+            "=",
+            "\"Playing\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAngle"
+          },
+          "parameters": [
+            "MyCar",
+            "+",
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Right"
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Down"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "State",
+            "=",
+            "\"Playing\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAngle"
+          },
+          "parameters": [
+            "MyCar",
+            "-",
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Down"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "State",
+            "=",
+            "\"Playing\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAngle"
+          },
+          "parameters": [
+            "MyCar",
+            "+",
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Up"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "State",
+            "=",
+            "\"Playing\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAngle"
+          },
+          "parameters": [
+            "MyCar",
+            "-",
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "MyCar",
+            "Obstacles",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "State",
+            "=",
+            "\"Crash!\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::ChangeColor"
+          },
+          "parameters": [
+            "State",
+            "\"255;0;0\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::SetBold"
+          },
+          "parameters": [
+            "State",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "State",
+            "=",
+            "\"Crash!\""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"ParkTheCar\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "MyCar",
+            "ParkedIdentifyer",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "State",
+            "=",
+            "\"Parked!\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::ChangeColor"
+          },
+          "parameters": [
+            "State",
+            "\"126;211;33\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::SetBold"
+          },
+          "parameters": [
+            "State",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"MainMap\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
+}

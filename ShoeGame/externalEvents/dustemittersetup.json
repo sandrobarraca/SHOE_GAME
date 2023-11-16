@@ -1,0 +1,62 @@
+{
+  "associatedLayout": "Dino",
+  "lastChangeTimeStamp": 0,
+  "name": "DustEmitterSetup",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "DustParticles",
+            "Dino.PointX(\"DustProjection\")",
+            "Dino.PointY(\"DustProjection\")",
+            "\"\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ParticleSystem::EmitterAngle"
+          },
+          "parameters": [
+            "DustParticles",
+            "=",
+            "180"
+          ]
+        },
+        {
+          "type": {
+            "value": "ParticleSystem::EmitterAngleA"
+          },
+          "parameters": [
+            "DustParticles",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "DustParticles",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    }
+  ]
+}

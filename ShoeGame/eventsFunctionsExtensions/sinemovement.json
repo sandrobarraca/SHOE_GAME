@@ -1,0 +1,989 @@
+{
+  "author": "@4ian, Tristan Rhodes (https://victrisgames.itch.io/)",
+  "category": "Movement",
+  "extensionNamespace": "",
+  "fullName": "Sine (or ellipsis) Movement (deprecated)",
+  "helpPath": "https://victrisgames.itch.io/extension-sinemovement-and-deptheffect",
+  "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXNpbmUtd2F2ZSIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xNi41LDIxQzEzLjUsMjEgMTIuMzEsMTYuNzYgMTEuMDUsMTIuMjhDMTAuMTQsOS4wNCA5LDUgNy41LDVDNC4xMSw1IDQsMTEuOTMgNCwxMkgyQzIsMTEuNjMgMi4wNiwzIDcuNSwzQzEwLjUsMyAxMS43MSw3LjI1IDEyLjk3LDExLjc0QzEzLjgzLDE0LjggMTUsMTkgMTYuNSwxOUMxOS45NCwxOSAyMC4wMywxMi4wNyAyMC4wMywxMkgyMi4wM0MyMi4wMywxMi4zNyAyMS45NywyMSAxNi41LDIxWiIgLz48L3N2Zz4=",
+  "name": "SineMovement",
+  "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/sine-wave.svg",
+  "shortDescription": "Allow an object to move smoothly on the X and/or Y axis following a sine wave, or an ellipsis.",
+  "version": "0.0.5",
+  "description": [
+    "Allow an object to move smoothly on the X and/or Y axis following a sine wave, or an ellipsis.",
+    "",
+    "",
+    "Example uses:",
+    "- Floating objects, such as powerups or coins",
+    "- Moveable platforms",
+    "- Enemy movement patterns",
+    "",
+    "Properties:",
+    "- Horizontal distance",
+    "- Vertical distance",
+    "- Horizontal speed",
+    "- Vertical speed",
+    "- Center of movement, X position",
+    "- Center of movement, Y position",
+    "",
+    "Tips:",
+    "- For circular or elliptical movement, the horizontal and vertical speed need to be the same",
+    "- For horizontal movement only, set vertical distance to 0",
+    "- For vertical movement only, set horizontal distance to 0",
+    "- For figure-8 movement, set horizontal speed to 1/2 of the vertical speed"
+  ],
+  "origin": {
+    "identifier": "SineMovement",
+    "name": "gdevelop-extension-store"
+  },
+  "tags": [
+    "sine",
+    "ellipsis",
+    "movement",
+    "circular",
+    "circle",
+    "floating",
+    "platform",
+    "enemy"
+  ],
+  "authorIds": [
+    "wWP8BSlAW0UP4NeaHa2LcmmDzmH2",
+    "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
+  ],
+  "dependencies": [],
+  "eventsFunctions": [],
+  "eventsBasedBehaviors": [
+    {
+      "description": "Allow an object to move smoothly on the X and/or Y axis following a sine wave.\n\nExample uses:\n- Floating pickups\n- Moveable platforms\n- Enemy movement\n\nProperties:\n- Center of movement, X position\n- Center of movement, Y position\n- Horizontal distance\n- Vertical distance\n- Horizontal speed\n- Horizontal distance\n\nTips:\n- For circular or elliptical movement, the horizontal and vertical speed need to be the same\n- For horizontal movement, set vertical distance to 0\n- For vertical movement, set horizontal distance to 0\n- For figure-8 movement, set horizontal speed to 1/2 of the vertical speed.",
+      "fullName": "Sine Movement (deprecated)",
+      "name": "SineMovement",
+      "objectType": "",
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "doStepPreEvents",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Set the center of movement to the initial location of the object"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SineMovement::SineMovement::PropertyCenterPointX"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SineMovement::SineMovement::PropertyCenterPointY"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SineMovement::SineMovement::SetPropertyCenterPointX"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "Object.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SineMovement::SineMovement::SetPropertyCenterPointY"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "Object.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Move the object"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SineMovement::SineMovement::PropertyHorizontalDistance"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "!=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "Object",
+                    "=",
+                    "Object.Behavior::PropertyCenterPointX() + cos(ToRad(Object.Behavior::PropertySineProgressX())) * Object.Behavior::PropertyHorizontalDistance()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SineMovement::SineMovement::PropertyVerticalDistance"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "!=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Object",
+                    "=",
+                    "Object.Behavior::PropertyCenterPointY() + sin(ToRad(Object.Behavior::PropertySineProgressY())) * Object.Behavior::PropertyVerticalDistance()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Increment counters that are used to calculate movement"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SineMovement::SineMovement::SetPropertySineProgressX"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "+",
+                    "Object.Behavior::PropertyHorizontalSpeed() * TimeDelta()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SineMovement::SineMovement::SetPropertySineProgressY"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "+",
+                    "Object.Behavior::PropertyVerticalSpeed() * TimeDelta()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SineMovement::SineMovement",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Counter used to change the Y position of the object.",
+          "fullName": "Sine progress Y",
+          "functionType": "Expression",
+          "name": "SineProgressY",
+          "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "Object.Behavior::PropertySineProgressY()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SineMovement::SineMovement",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Counter used to change the X position of the object.",
+          "fullName": "Sine progress X",
+          "functionType": "Expression",
+          "name": "SineProgressX",
+          "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "Object.Behavior::PropertySineProgressX()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SineMovement::SineMovement",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Horizontal speed.",
+          "fullName": "Horizontal speed ",
+          "functionType": "Expression",
+          "name": "HorizontalSpeed",
+          "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "Object.Behavior::PropertyHorizontalSpeed()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SineMovement::SineMovement",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Vertical speed.",
+          "fullName": "Vertical speed",
+          "functionType": "Expression",
+          "name": "VerticalSpeed",
+          "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "Object.Behavior::PropertyVerticalSpeed()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SineMovement::SineMovement",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Horizontal distance.",
+          "fullName": "Horizontal distance",
+          "functionType": "Expression",
+          "name": "HorizontalDistance",
+          "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "Object.Behavior::PropertyHorizontalDistance()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SineMovement::SineMovement",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Vertical distance.",
+          "fullName": "Vertical distance",
+          "functionType": "Expression",
+          "name": "VerticalDistance",
+          "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "Object.Behavior::PropertyVerticalDistance()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SineMovement::SineMovement",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Center of movement, X position.",
+          "fullName": "Center of movement, X position",
+          "functionType": "Expression",
+          "name": "CenterX",
+          "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "Object.Behavior::PropertyCenterPointX()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SineMovement::SineMovement",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Center of movement, Y position.",
+          "fullName": "Center of movement, Y position",
+          "functionType": "Expression",
+          "name": "CenterY",
+          "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "Object.Behavior::PropertyCenterPointY()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SineMovement::SineMovement",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Set center Y position.",
+          "fullName": "Set center Y position",
+          "functionType": "Action",
+          "name": "SetCenterY",
+          "sentence": "Set center Y position of _PARAM0_ to _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SineMovement::SineMovement::SetPropertyCenterPointY"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "GetArgumentAsNumber(\"Value\")"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SineMovement::SineMovement",
+              "type": "behavior"
+            },
+            {
+              "description": "Y position",
+              "name": "Value",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Set center X position.",
+          "fullName": "Set center X position",
+          "functionType": "Action",
+          "name": "SetCenterX",
+          "sentence": "Set center X position of _PARAM0_ to _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SineMovement::SineMovement::SetPropertyCenterPointX"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "GetArgumentAsNumber(\"Value\")"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SineMovement::SineMovement",
+              "type": "behavior"
+            },
+            {
+              "description": "X position",
+              "name": "Value",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Set horizontal distance.",
+          "fullName": "Set horizontal distance",
+          "functionType": "Action",
+          "name": "SetHorizontalDistance",
+          "sentence": "Set horizontal distance of _PARAM0_ to _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SineMovement::SineMovement::SetPropertyHorizontalDistance"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "GetArgumentAsNumber(\"Value\")"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SineMovement::SineMovement",
+              "type": "behavior"
+            },
+            {
+              "description": "Distance",
+              "name": "Value",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Set vertical distance.",
+          "fullName": "Set vertical distance",
+          "functionType": "Action",
+          "name": "SetVerticalDistance",
+          "sentence": "Set vertical distance of _PARAM0_ to _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SineMovement::SineMovement::SetPropertyVerticalDistance"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "GetArgumentAsNumber(\"Value\")"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SineMovement::SineMovement",
+              "type": "behavior"
+            },
+            {
+              "description": "Distance",
+              "name": "Value",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Set horizontal speed.",
+          "fullName": "Set horizontal speed",
+          "functionType": "Action",
+          "name": "SetHorizontalSpeed",
+          "sentence": "Set horizontal speed of _PARAM0_ to _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SineMovement::SineMovement::SetPropertyHorizontalSpeed"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "GetArgumentAsNumber(\"Value\")"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SineMovement::SineMovement",
+              "type": "behavior"
+            },
+            {
+              "description": "Speed (in degrees per second)",
+              "name": "Value",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Set vertical speed.",
+          "fullName": "Set vertical speed",
+          "functionType": "Action",
+          "name": "SetVerticalSpeed",
+          "sentence": "Set vertical speed of _PARAM0_ to _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SineMovement::SineMovement::SetPropertyVerticalSpeed"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "GetArgumentAsNumber(\"Value\")"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SineMovement::SineMovement",
+              "type": "behavior"
+            },
+            {
+              "description": "Speed (in degrees per second)",
+              "name": "Value",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Reset sine progress counters. The object will return to the initial state.",
+          "fullName": "Reset sine progress counters",
+          "functionType": "Action",
+          "name": "ResetSineCounters",
+          "sentence": "Reset sine progress counters on _PARAM0_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SineMovement::SineMovement::SetPropertySineProgressX"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SineMovement::SineMovement::SetPropertySineProgressY"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SineMovement::SineMovement",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "propertyDescriptors": [
+        {
+          "value": "60",
+          "type": "Number",
+          "label": "Horizontal speed, in degrees per second",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "HorizontalSpeed"
+        },
+        {
+          "value": "60",
+          "type": "Number",
+          "label": "Vertical speed, in degrees per second",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "VerticalSpeed"
+        },
+        {
+          "value": "100",
+          "type": "Number",
+          "label": "Horizontal distance: amplitude of the movement on X axis (0 to deactivate)",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "HorizontalDistance"
+        },
+        {
+          "value": "0",
+          "type": "Number",
+          "label": "Vertical distance: amplitude of the movement on Y axis (0 to deactivate)",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "VerticalDistance"
+        },
+        {
+          "value": "0",
+          "type": "Number",
+          "label": "Center of movement, X position",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "CenterPointX"
+        },
+        {
+          "value": "0",
+          "type": "Number",
+          "label": "Center of movement, Y position",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "CenterPointY"
+        },
+        {
+          "value": "0",
+          "type": "Number",
+          "label": "Counter used to change X position",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "SineProgressX"
+        },
+        {
+          "value": "0",
+          "type": "Number",
+          "label": "Counter used to change Y position",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "SineProgressY"
+        }
+      ],
+      "sharedPropertyDescriptors": []
+    }
+  ],
+  "eventsBasedObjects": []
+}

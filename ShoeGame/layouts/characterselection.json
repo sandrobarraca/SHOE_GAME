@@ -1,0 +1,2046 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "CharacterSelection",
+  "name": "CharacterSelection",
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.6197916666666679,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "localSelectedChar",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "txt_CharSel",
+      "persistentUuid": "81248bd0-9537-4877-9cc9-f169cf5e606a",
+      "width": 0,
+      "x": 1261,
+      "y": 82,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1079,
+      "layer": "",
+      "locked": true,
+      "name": "NewSprite",
+      "persistentUuid": "b8771e96-3331-4f5f-be57-952b64f1b6f2",
+      "sealed": true,
+      "width": 1918,
+      "x": 2,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "CharSelect",
+      "persistentUuid": "2de104ca-3dcd-4563-888c-445c140863cb",
+      "width": 0,
+      "x": 1170,
+      "y": 31,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "txt_CharSel2",
+      "persistentUuid": "3d637362-42d5-461b-89ec-cf69fbbfc98f",
+      "width": 0,
+      "x": 1248,
+      "y": 160,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 30,
+      "layer": "",
+      "name": "PlayerNameInput",
+      "persistentUuid": "0525002c-6ac1-441e-be4f-6f871dbb54cd",
+      "width": 343,
+      "x": 1271,
+      "y": 220,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BrownBox",
+      "persistentUuid": "9f2ed0e3-d657-4e2d-9f3b-0f036bfbe4bd",
+      "width": 0,
+      "x": 1247,
+      "y": 447,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BrownBox",
+      "persistentUuid": "8149dacd-423c-4d8c-b2a0-5b758d4b19d7",
+      "width": 0,
+      "x": 1377,
+      "y": 447,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BrownBox",
+      "persistentUuid": "21def417-0dab-4382-9f4d-d6f379249c6c",
+      "width": 0,
+      "x": 1507,
+      "y": 447,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BrownBox",
+      "persistentUuid": "fe566e4c-7459-4b61-89cd-8228b642db24",
+      "width": 0,
+      "x": 1247,
+      "y": 577,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BrownBox",
+      "persistentUuid": "438d9258-aaa8-4baa-85ea-e1b14419f25b",
+      "width": 0,
+      "x": 1377,
+      "y": 577,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 247,
+      "layer": "",
+      "name": "IsometricPlatformerLava",
+      "persistentUuid": "1ec7e7b8-f1af-49c4-a0f9-90eeb991a2be",
+      "width": 422,
+      "x": 384,
+      "y": 511,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "tab03",
+      "persistentUuid": "a466e661-2868-4ce5-afeb-22ba7497a379",
+      "width": 0,
+      "x": 1532,
+      "y": 356,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "tab02",
+      "persistentUuid": "afe79a06-f600-4763-b416-8a9c856f06d7",
+      "width": 0,
+      "x": 1385,
+      "y": 358,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "tab01",
+      "persistentUuid": "250e386f-b7b0-4e69-881b-120c5ffeb387",
+      "width": 0,
+      "x": 1259,
+      "y": 358,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 97,
+      "layer": "",
+      "name": "Btn_SELChar",
+      "persistentUuid": "cd472c18-f699-4491-94bc-c11c8a800aca",
+      "width": 97,
+      "x": 1247,
+      "y": 447,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 83,
+      "layer": "",
+      "name": "GreenButton",
+      "persistentUuid": "6d31905b-efd8-4a19-be4b-c6f20b9764b1",
+      "width": 201,
+      "x": 604,
+      "y": 880,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 275,
+      "layer": "",
+      "name": "Hitbox",
+      "persistentUuid": "49d7b4df-7d5d-412f-a072-1669e19e2533",
+      "width": 275,
+      "x": 452,
+      "y": 304,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 83,
+      "layer": "",
+      "name": "YellowButton",
+      "persistentUuid": "5015cea5-fa3b-4529-a347-19e6f7871199",
+      "width": 201,
+      "x": 382,
+      "y": 878,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 52,
+      "layer": "",
+      "name": "Btn_Dummy",
+      "persistentUuid": "0f71b547-db6c-406e-81f1-533d2486a16b",
+      "width": 111,
+      "x": 1510,
+      "y": 350,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 52,
+      "layer": "",
+      "name": "Btn_Dummy",
+      "persistentUuid": "ee227c95-bf18-4afa-8b59-1d9b8ffe89e2",
+      "width": 111,
+      "x": 1367,
+      "y": 350,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BrownBox",
+      "persistentUuid": "c6dd1ad3-5b10-42ce-9ba5-26b63d2dc2c2",
+      "width": 0,
+      "x": 1247,
+      "y": 707,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BrownBox",
+      "persistentUuid": "6a35eb44-b450-456f-950b-9bc81f53d967",
+      "width": 0,
+      "x": 1377,
+      "y": 707,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BrownBox",
+      "persistentUuid": "c4bdfd86-13e6-42c2-9e06-5eb7f5703a12",
+      "width": 0,
+      "x": 1507,
+      "y": 707,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BrownBox",
+      "persistentUuid": "d355a858-2385-4fc9-acaa-25f36f67c938",
+      "width": 0,
+      "x": 1507,
+      "y": 577,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 97,
+      "layer": "",
+      "name": "Btn_SELChar",
+      "persistentUuid": "5a9a7cbf-bee9-40cd-8965-40ec19b48f56",
+      "width": 97,
+      "x": 1377,
+      "y": 447,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "selectId",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 97,
+      "layer": "",
+      "name": "Btn_SELChar",
+      "persistentUuid": "70a9e06a-788e-4fb0-b3eb-a2d01df17306",
+      "width": 97,
+      "x": 1507,
+      "y": 447,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "selectId",
+          "type": "number",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 97,
+      "layer": "",
+      "name": "Btn_SELChar",
+      "persistentUuid": "c36e61f6-0fc5-43a8-b930-7af67ecdb7f0",
+      "width": 97,
+      "x": 1247,
+      "y": 577,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "selectId",
+          "type": "number",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 97,
+      "layer": "",
+      "name": "Btn_SELChar",
+      "persistentUuid": "10b911fc-9dc1-44da-8d5d-7ac217fec760",
+      "width": 97,
+      "x": 1377,
+      "y": 577,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "selectId",
+          "type": "number",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 97,
+      "layer": "",
+      "name": "Btn_SELChar",
+      "persistentUuid": "999c7924-2b92-4a62-87ec-fca07f22ea05",
+      "width": 97,
+      "x": 1507,
+      "y": 577,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "selectId",
+          "type": "number",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 97,
+      "layer": "",
+      "name": "Btn_SELChar",
+      "persistentUuid": "37f20bed-0ab0-4c04-a1b0-1125f6cd79e9",
+      "width": 97,
+      "x": 1247,
+      "y": 707,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "selectId",
+          "type": "number",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 97,
+      "layer": "",
+      "name": "Btn_SELChar",
+      "persistentUuid": "74e62c92-8c7d-4fa6-b391-7503619bffb4",
+      "width": 97,
+      "x": 1377,
+      "y": 707,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "selectId",
+          "type": "number",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 97,
+      "layer": "",
+      "name": "Btn_SELChar",
+      "persistentUuid": "20d504b7-394c-435c-b5f3-baaecd568042",
+      "width": 97,
+      "x": 1507,
+      "y": 707,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "selectId",
+          "type": "number",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 85,
+      "layer": "",
+      "name": "Character_01",
+      "persistentUuid": "070c9a82-46fc-4869-894c-d8c0324a16d6",
+      "width": 80,
+      "x": 1257,
+      "y": 451,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 85,
+      "layer": "",
+      "name": "Character_02",
+      "persistentUuid": "1bcd7774-9a5e-4028-971b-0bd6b0ef8a43",
+      "width": 80,
+      "x": 1387,
+      "y": 451,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 85,
+      "layer": "",
+      "name": "Character_03",
+      "persistentUuid": "c4e44af6-4914-406d-a51f-ac1e802bb39f",
+      "width": 80,
+      "x": 1517,
+      "y": 451,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 85,
+      "layer": "",
+      "name": "Character_04",
+      "persistentUuid": "b0b1f5a4-37d1-4357-a46a-39b6e4c9561e",
+      "width": 80,
+      "x": 1257,
+      "y": 581,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 85,
+      "layer": "",
+      "name": "Character_05",
+      "persistentUuid": "e9132e5a-028f-4a79-8e63-be50449b56ff",
+      "width": 80,
+      "x": 1387,
+      "y": 581,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 85,
+      "layer": "",
+      "name": "Character_06",
+      "persistentUuid": "29c4b62c-e75c-48e1-8278-12b9a8311f70",
+      "width": 80,
+      "x": 1517,
+      "y": 581,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 85,
+      "layer": "",
+      "name": "Character_07",
+      "persistentUuid": "e4d3cbd4-e2e2-4ca9-a568-16171a6ab071",
+      "width": 80,
+      "x": 1257,
+      "y": 711,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 85,
+      "layer": "",
+      "name": "Character_09",
+      "persistentUuid": "099e099d-8683-4458-80cb-b74a81f9214c",
+      "width": 80,
+      "x": 1517,
+      "y": 711,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 85,
+      "layer": "",
+      "name": "Character_08",
+      "persistentUuid": "33f582c8-29a2-4790-aaec-bfad9982d3ee",
+      "width": 80,
+      "x": 1387,
+      "y": 711,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "txt_CharSel",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Character Selection",
+      "font": "9ca22fed9cf84473596ac04fe893580c8c6cd2ed4d9d69f9b4c77efed979cd6a_MPLUS1p-Light.ttf",
+      "textAlignment": "left",
+      "characterSize": 36,
+      "color": {
+        "b": 74,
+        "g": 74,
+        "r": 74
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "tab01",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Body",
+      "font": "9ca22fed9cf84473596ac04fe893580c8c6cd2ed4d9d69f9b4c77efed979cd6a_MPLUS1p-Light.ttf",
+      "textAlignment": "left",
+      "characterSize": 26,
+      "color": {
+        "b": 74,
+        "g": 74,
+        "r": 74
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "tab03",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Style",
+      "font": "9ca22fed9cf84473596ac04fe893580c8c6cd2ed4d9d69f9b4c77efed979cd6a_MPLUS1p-Light.ttf",
+      "textAlignment": "left",
+      "characterSize": 26,
+      "color": {
+        "b": 74,
+        "g": 74,
+        "r": 74
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "tab02",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Colors",
+      "font": "9ca22fed9cf84473596ac04fe893580c8c6cd2ed4d9d69f9b4c77efed979cd6a_MPLUS1p-Light.ttf",
+      "textAlignment": "left",
+      "characterSize": 26,
+      "color": {
+        "b": 74,
+        "g": 74,
+        "r": 74
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "txt_CharSel2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Character Name",
+      "font": "9ca22fed9cf84473596ac04fe893580c8c6cd2ed4d9d69f9b4c77efed979cd6a_MPLUS1p-Light.ttf",
+      "textAlignment": "left",
+      "characterSize": 24,
+      "color": {
+        "b": 61,
+        "g": 61,
+        "r": 61
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Backgrounds\\charselbg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "CharSelect",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Characters\\CharSelection01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Characters\\CharSelection02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Characters\\CharSelection03.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "PlayerNameInput",
+      "type": "TextInput::TextInputObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "initialValue": "John Doe",
+        "placeholder": "Type your character name",
+        "fontResourceName": "9ca22fed9cf84473596ac04fe893580c8c6cd2ed4d9d69f9b4c77efed979cd6a_MPLUS1p-Light.ttf",
+        "fontSize": 25,
+        "inputType": "text",
+        "textColor": "90;90;90",
+        "fillColor": "255;255;255",
+        "fillOpacity": 0,
+        "borderColor": "0;0;0",
+        "borderOpacity": 0,
+        "borderWidth": 0,
+        "readOnly": false,
+        "disabled": false
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "3cc86eb13fb1f91b2af51d2e3701a40acdda079a9679bf6d94ab6cb066a63710",
+      "name": "BrownBox",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Brown Box_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Brown Box_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "3d28686b5868feecd9bbc527fa1dc6aed2743273242b6c0ec77415c476561a1e",
+      "name": "IsometricPlatformerLava",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Isometric Platformer Lava.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Btn_SELChar",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [
+        {
+          "name": "selectId",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Adjustment",
+          "name": "Effect",
+          "doubleParameters": {
+            "alpha": 0.5,
+            "blue": 0.6,
+            "brightness": 1,
+            "contrast": 1,
+            "gamma": 1,
+            "green": 1,
+            "red": 1,
+            "saturation": 2
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "content": {},
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 0,
+          "height": 500,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "New image2",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 500
+        },
+        "Idle": {
+          "bottomMargin": 0,
+          "height": 500,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "New image2",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 500
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "",
+          "font": "",
+          "textAlignment": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 0,
+          "height": 500,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "New image3",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 500
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Btn_Dummy",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Adjustment",
+          "name": "Effect",
+          "doubleParameters": {
+            "alpha": 0.5,
+            "blue": 0.6,
+            "brightness": 1,
+            "contrast": 1,
+            "gamma": 1,
+            "green": 1,
+            "red": 1,
+            "saturation": 2
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "content": {},
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 0,
+          "height": 500,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "New image2",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 500
+        },
+        "Idle": {
+          "bottomMargin": 0,
+          "height": 500,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "New image32",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 500
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "",
+          "font": "",
+          "textAlignment": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 0,
+          "height": 500,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "New image3",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 500
+        }
+      }
+    },
+    {
+      "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
+      "name": "GreenButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Green Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Green Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "OK",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 36,
+          "color": {
+            "b": 29,
+            "g": 99,
+            "r": 62
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Green Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "txt_debug",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Variable",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "string": "test",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "615de0316452630b9f4f6a39decc82e2449b82c1afd1ff24d6470dad2922177b",
+      "name": "YellowButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Yellow Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Yellow Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Back",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 36,
+          "color": {
+            "b": 42,
+            "g": 87,
+            "r": 139
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Yellow Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Coming2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Coming Soon",
+      "font": "9ca22fed9cf84473596ac04fe893580c8c6cd2ed4d9d69f9b4c77efed979cd6a_MPLUS1p-Light.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "603d81772c22a6401f0bb19588cb7bb6f384ae840c9e03391874c15a049ade25",
+      "bottomMargin": 12,
+      "height": 26,
+      "leftMargin": 10,
+      "name": "EnergyBar2",
+      "rightMargin": 10,
+      "texture": "Energy Bar.png",
+      "tiled": true,
+      "topMargin": 13,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 78,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "txt_CharSel"
+      },
+      {
+        "objectName": "tab01"
+      },
+      {
+        "objectName": "tab03"
+      },
+      {
+        "objectName": "tab02"
+      },
+      {
+        "objectName": "txt_CharSel2"
+      },
+      {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "CharSelect"
+      },
+      {
+        "objectName": "PlayerNameInput"
+      },
+      {
+        "objectName": "BrownBox"
+      },
+      {
+        "objectName": "IsometricPlatformerLava"
+      },
+      {
+        "objectName": "Btn_SELChar"
+      },
+      {
+        "objectName": "Btn_Dummy"
+      },
+      {
+        "objectName": "GreenButton"
+      },
+      {
+        "objectName": "txt_debug"
+      },
+      {
+        "objectName": "YellowButton"
+      },
+      {
+        "objectName": "Coming2"
+      },
+      {
+        "objectName": "EnergyBar2"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+          },
+          "parameters": [
+            "CharacterSkins",
+            "Animation"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetFullScreen"
+          },
+          "parameters": [
+            "",
+            "no",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Btn_SELChar"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Hitbox"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "EnergyBar2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Coming2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Btn_Dummy"
+          ]
+        },
+        {
+          "type": {
+            "value": "EffectCapability::EffectBehavior::EnableEffect"
+          },
+          "parameters": [
+            "Btn_SELChar",
+            "Effect",
+            "\"Effect\"",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "localSelectedChar",
+            "=",
+            "GlobalVariable(selectedChar)"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "txt_debug",
+                "=",
+                "ToString(GlobalVariable(selectedChar))"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "CreateByName"
+                  },
+                  "parameters": [
+                    "",
+                    "CharacterSkins",
+                    "\"Character_0\"+ToString(Variable(localSelectedChar))",
+                    "Hitbox.X()",
+                    "Hitbox.Y()",
+                    "\"Podium\""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Layer"
+          },
+          "parameters": [
+            "CharacterSkins",
+            "\"Podium\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetHeight"
+          },
+          "parameters": [
+            "CharacterSkins",
+            "Resizable",
+            "=",
+            "275"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetWidth"
+          },
+          "parameters": [
+            "CharacterSkins",
+            "Resizable",
+            "=",
+            "275"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "PanelSpriteButton::PanelSpriteButton::IsHovered"
+          },
+          "parameters": [
+            "Btn_Dummy",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Coming2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "EnergyBar2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsHovered"
+          },
+          "parameters": [
+            "Btn_Dummy",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Coming2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "EnergyBar2",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsHovered"
+          },
+          "parameters": [
+            "Btn_SELChar",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Btn_SELChar",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "PanelSpriteButton::PanelSpriteButton::IsHovered"
+          },
+          "parameters": [
+            "Btn_SELChar",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Btn_SELChar"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Btn_SELChar",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "localSelectedChar",
+            "=",
+            "Btn_SELChar.Variable(selectId)+1"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Layer"
+              },
+              "parameters": [
+                "CharacterSkins",
+                "\"Podium\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CharacterSkins",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "CreateByName"
+              },
+              "parameters": [
+                "",
+                "CharacterSkins",
+                "\"Character_0\"+ToString(Variable(localSelectedChar))",
+                "Hitbox.X()",
+                "Hitbox.Y()",
+                "\"Podium\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "YellowButton",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"StartScreen\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "GreenButton",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "PlayerName",
+            "=",
+            "PlayerNameInput.Text()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "selectedChar",
+            "=",
+            "Variable(localSelectedChar)"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"MainMap\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "txt_debug",
+            "=",
+            "ToString(GlobalVariable(selectedChar))"
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 8697296,
+      "ambientLightColorG": 150995054,
+      "ambientLightColorR": 1869182049,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Podium",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
+}
