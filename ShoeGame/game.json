@@ -3671,201 +3671,324 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Cards/assets/carta_1.png",
+        "file": "assets/Red Button With Shadow_Hovered2.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Cards\\assets\\carta_1.png",
+        "name": "Red Button With Shadow_Hovered.png",
         "smoothed": true,
-        "userAdded": true
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/71ee2c8d8b72808c7f084252cd36c80c44bc07655a3729e5fe7459c634007e8a_Red Button With Shadow_Hovered.png",
+          "name": "Red Button With Shadow_Hovered.png"
+        }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Cards/assets/verso_carta_2.png",
+        "file": "assets/Red Button With Shadow_Idle2.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Cards\\assets\\verso_carta_2.png",
+        "name": "Red Button With Shadow_Idle.png",
         "smoothed": true,
-        "userAdded": true
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/6c6bf020fb86d99a9ecc993f8b90064d73d757bc2408050cf353c84bc36f6be2_Red Button With Shadow_Idle.png",
+          "name": "Red Button With Shadow_Idle.png"
+        }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Cards/assets/carta_2.png",
+        "file": "assets/Red Button With Shadow_Pressed2.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Cards\\assets\\carta_2.png",
+        "name": "Red Button With Shadow_Pressed.png",
         "smoothed": true,
-        "userAdded": true
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b9ce526450d48adedb6875043465ae168fff1f6b01dd1ff7f43b7e7c1568cc21_Red Button With Shadow_Pressed.png",
+          "name": "Red Button With Shadow_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CantoraOne-Regular2.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CantoraOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/05b0c1364a92b436b86ca819e66b63480d1bc2fb399f6c0cf8bffbf8199ccc2a_CantoraOne-Regular.ttf",
+          "name": "CantoraOne-Regular.ttf"
+        }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Cards/assets/carta_3.png",
+        "file": "assets/Purple Button With Shadow_Hovered.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Cards\\assets\\carta_3.png",
+        "name": "Purple Button With Shadow_Hovered.png",
         "smoothed": true,
-        "userAdded": true
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/4a64488d212c7a69721b3ac48319e64bc830f5663535fdafb18e2fc907e8d10a_Purple Button With Shadow_Hovered.png",
+          "name": "Purple Button With Shadow_Hovered.png"
+        }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Cards/assets/carta_4.png",
+        "file": "assets/Purple Button With Shadow_Idle.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Cards\\assets\\carta_4.png",
+        "name": "Purple Button With Shadow_Idle.png",
         "smoothed": true,
-        "userAdded": true
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e44a40d67427b4e53751fc82b5ad4d87b2daf311558dcf0151cd1b173b7e5dcf_Purple Button With Shadow_Idle.png",
+          "name": "Purple Button With Shadow_Idle.png"
+        }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Cards/assets/carta_5.png",
+        "file": "assets/Purple Button With Shadow_Pressed.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Cards\\assets\\carta_5.png",
+        "name": "Purple Button With Shadow_Pressed.png",
         "smoothed": true,
-        "userAdded": true
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/04a69986487fb427759132f3807a28db0f3b845623d5ba34d063f46a9ee22f63_Purple Button With Shadow_Pressed.png",
+          "name": "Purple Button With Shadow_Pressed.png"
+        }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Cards/assets/carta_6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Cards\\assets\\carta_6.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Cards/assets/carta_7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Cards\\assets\\carta_7.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Cards/assets/carta_8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Cards\\assets\\carta_8.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Cards/assets/fundo_simples_cartas_1920x1080.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Cards\\assets\\fundo_simples_cartas_1920x1080.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Dino/assets/Female_Character_10_Crouched_Right.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Dino\\assets\\Female_Character_10_Crouched_Right.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Dino/assets/Female_Character_11_Crouched_Right.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Dino\\assets\\Female_Character_11_Crouched_Right.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Dino/assets/Male_Character_12_Crouched_Right.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Dino\\assets\\Male_Character_12_Crouched_Right.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Dino/assets/Male_Character_11_Crouched_Right.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Dino\\assets\\Male_Character_11_Crouched_Right.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Dino/assets/Female_Character_6_Crouched_Right.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Dino\\assets\\Female_Character_6_Crouched_Right.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Dino/assets/Male_Character_2_Crouched_Right.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Dino\\assets\\Male_Character_2_Crouched_Right.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Dino/assets/Female_Character_9_Crouched_Right.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Dino\\assets\\Female_Character_9_Crouched_Right.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Dino/assets/Male_Character_3_Crouched_Right.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Dino\\assets\\Male_Character_3_Crouched_Right.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Dino/assets/Female_Character_5_Crouched_Right.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Dino\\assets\\Female_Character_5_Crouched_Right.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Dino/assets/Female_Character_11_Crouched_Right_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Dino\\assets\\Female_Character_11_Crouched_Right_2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Dino/assets/Female_Character_11_Crouched_Right_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Dino\\assets\\Female_Character_11_Crouched_Right_3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Duck.png",
+        "file": "assets/NewSprite.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "Duck",
+        "name": "NewSprite",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon Background_Green.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3df6ed53ffcc6c8366cfaf47de5b8b902690ecc38c43c952ddc864654f6a5224_Icon Background_Green.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/3df6ed53ffcc6c8366cfaf47de5b8b902690ecc38c43c952ddc864654f6a5224_Icon Background_Green.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon Background_White With Blue Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6554ad52c2adb7c7cbf5683e6dcfd2647b89e6749c48689f79748a4200005fc6_Icon Background_White With Blue Border.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/6554ad52c2adb7c7cbf5683e6dcfd2647b89e6749c48689f79748a4200005fc6_Icon Background_White With Blue Border.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon Background_White With Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "37ba67f6b8f684fe33685a38374640cc43984d8b41fa8c0cd407df543c023464_Icon Background_White With Border.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/37ba67f6b8f684fe33685a38374640cc43984d8b41fa8c0cd407df543c023464_Icon Background_White With Border.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon Background_White Angled Corner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "c0f4d32632e30451af5cb7a00843e02f1d6118e54e1d97319a811f5cee29d5cb_Icon Background_White Angled Corner.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/c0f4d32632e30451af5cb7a00843e02f1d6118e54e1d97319a811f5cee29d5cb_Icon Background_White Angled Corner.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CorrectSpot.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "CorrectSpot",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Sky Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1532fe7a8e6c84b7b2547f1b3e9c3430546bd0adc86262971d99897b8ebef730_tiled_Sky Background.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Background Element/Background/1532fe7a8e6c84b7b2547f1b3e9c3430546bd0adc86262971d99897b8ebef730_tiled_Sky Background.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CorrectSpot2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/CorrectSpot2.png\"}",
+        "name": "CorrectSpot2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Grey Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Grey Button_Idle.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Grey Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button_Hovered2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "b43e0035dca80ea2fad5c5d65de926dae0185038e5f9cb21d5f20234f30d1c76_Grey Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b43e0035dca80ea2fad5c5d65de926dae0185038e5f9cb21d5f20234f30d1c76_Grey Button_Hovered.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Emote_Style 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Emote_Style 1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Pixel art/576af41b003ca900d9c77db3216bd3747e79555f2acfe9d2b28e13c2b857da3e_Blank Emote_Style 1.png",
+          "name": "Blank Emote_Style 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Emote_Style 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Emote_Style 2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Pixel art/5e7ca3abb5205760847fde4a4c2e7d35000679e2e557527b400f35a7564663cd_Blank Emote_Style 2.png",
+          "name": "Blank Emote_Style 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Emote_Style 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Emote_Style 3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Pixel art/8cd3b5d1a4ef68cd09088226a697145a54a5635165f653401cfdd59498fc31f5_Blank Emote_Style 3.png",
+          "name": "Blank Emote_Style 3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Emote_Style 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Emote_Style 4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Pixel art/ca52f3b21e89fe6441f07c2cf1e989188494f3ab46506ca565ec67fe48eda6d3_Blank Emote_Style 4.png",
+          "name": "Blank Emote_Style 4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Emote_Style 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Emote_Style 5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Pixel art/bd976dc9bf75fd7118ff50dade6df4cf86740ab76e500f94e49114c98ca32e00_Blank Emote_Style 5.png",
+          "name": "Blank Emote_Style 5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Emote_Style 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Emote_Style 6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Pixel art/d3babc90d611faf21221b9538e6efd26c846234f0040b1c99197d0bd570299db_Blank Emote_Style 6.png",
+          "name": "Blank Emote_Style 6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Emote_Style 7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Emote_Style 7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Pixel art/1c00a73a8d1b2e4116624a2b62584b6c6eb7934eab1038f93834f1efac612b9e_Blank Emote_Style 7.png",
+          "name": "Blank Emote_Style 7.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -3930,7 +4053,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": false,
+      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "9af6773a55ddc01430409f858506afe9e08b86f62eacc5dd574ac399bdb14b16",
       "name": "Character_01",
       "type": "Sprite",
@@ -3977,24 +4100,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 78
+                        "x": 1,
+                        "y": 2
                       },
                       {
-                        "x": 98,
-                        "y": 78
+                        "x": 15,
+                        "y": 2
                       },
                       {
-                        "x": 160,
-                        "y": 78
+                        "x": 15,
+                        "y": 17
                       },
                       {
-                        "x": 159,
-                        "y": 170
-                      },
-                      {
-                        "x": 0,
-                        "y": 170
+                        "x": 1,
+                        "y": 17
                       }
                     ]
                   ]
@@ -4017,24 +4136,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 78
+                        "x": 1,
+                        "y": 2
                       },
                       {
-                        "x": 98,
-                        "y": 78
+                        "x": 15,
+                        "y": 2
                       },
                       {
-                        "x": 160,
-                        "y": 78
+                        "x": 15,
+                        "y": 17
                       },
                       {
-                        "x": 159,
-                        "y": 170
-                      },
-                      {
-                        "x": 0,
-                        "y": 170
+                        "x": 1,
+                        "y": 17
                       }
                     ]
                   ]
@@ -4057,24 +4172,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 78
+                        "x": 1,
+                        "y": 2
                       },
                       {
-                        "x": 98,
-                        "y": 78
+                        "x": 15,
+                        "y": 2
                       },
                       {
-                        "x": 160,
-                        "y": 78
+                        "x": 15,
+                        "y": 17
                       },
                       {
-                        "x": 159,
-                        "y": 170
-                      },
-                      {
-                        "x": 0,
-                        "y": 170
+                        "x": 1,
+                        "y": 17
                       }
                     ]
                   ]
@@ -4109,24 +4220,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 78
+                        "x": 1,
+                        "y": 2
                       },
                       {
-                        "x": 98,
-                        "y": 78
+                        "x": 15,
+                        "y": 2
                       },
                       {
-                        "x": 160,
-                        "y": 78
+                        "x": 15,
+                        "y": 17
                       },
                       {
-                        "x": 159,
-                        "y": 170
-                      },
-                      {
-                        "x": 0,
-                        "y": 170
+                        "x": 1,
+                        "y": 17
                       }
                     ]
                   ]
@@ -4149,24 +4256,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 78
+                        "x": 1,
+                        "y": 2
                       },
                       {
-                        "x": 98,
-                        "y": 78
+                        "x": 15,
+                        "y": 2
                       },
                       {
-                        "x": 160,
-                        "y": 78
+                        "x": 15,
+                        "y": 17
                       },
                       {
-                        "x": 159,
-                        "y": 170
-                      },
-                      {
-                        "x": 0,
-                        "y": 170
+                        "x": 1,
+                        "y": 17
                       }
                     ]
                   ]
@@ -4189,24 +4292,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 78
+                        "x": 1,
+                        "y": 2
                       },
                       {
-                        "x": 98,
-                        "y": 78
+                        "x": 15,
+                        "y": 2
                       },
                       {
-                        "x": 160,
-                        "y": 78
+                        "x": 15,
+                        "y": 17
                       },
                       {
-                        "x": 159,
-                        "y": 170
-                      },
-                      {
-                        "x": 0,
-                        "y": 170
+                        "x": 1,
+                        "y": 17
                       }
                     ]
                   ]
@@ -4241,24 +4340,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 78
+                        "x": 1,
+                        "y": 2
                       },
                       {
-                        "x": 98,
-                        "y": 78
+                        "x": 15,
+                        "y": 2
                       },
                       {
-                        "x": 160,
-                        "y": 78
+                        "x": 15,
+                        "y": 17
                       },
                       {
-                        "x": 159,
-                        "y": 170
-                      },
-                      {
-                        "x": 0,
-                        "y": 170
+                        "x": 1,
+                        "y": 17
                       }
                     ]
                   ]
@@ -4281,24 +4376,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 78
+                        "x": 1,
+                        "y": 2
                       },
                       {
-                        "x": 98,
-                        "y": 78
+                        "x": 15,
+                        "y": 2
                       },
                       {
-                        "x": 160,
-                        "y": 78
+                        "x": 15,
+                        "y": 17
                       },
                       {
-                        "x": 159,
-                        "y": 170
-                      },
-                      {
-                        "x": 0,
-                        "y": 170
+                        "x": 1,
+                        "y": 17
                       }
                     ]
                   ]
@@ -4321,24 +4412,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 78
+                        "x": 1,
+                        "y": 2
                       },
                       {
-                        "x": 98,
-                        "y": 78
+                        "x": 15,
+                        "y": 2
                       },
                       {
-                        "x": 160,
-                        "y": 78
+                        "x": 15,
+                        "y": 17
                       },
                       {
-                        "x": 159,
-                        "y": 170
-                      },
-                      {
-                        "x": 0,
-                        "y": 170
+                        "x": 1,
+                        "y": 17
                       }
                     ]
                   ]
@@ -4373,24 +4460,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 78
+                        "x": 1,
+                        "y": 2
                       },
                       {
-                        "x": 98,
-                        "y": 78
+                        "x": 15,
+                        "y": 2
                       },
                       {
-                        "x": 160,
-                        "y": 78
+                        "x": 15,
+                        "y": 17
                       },
                       {
-                        "x": 159,
-                        "y": 170
-                      },
-                      {
-                        "x": 0,
-                        "y": 170
+                        "x": 1,
+                        "y": 17
                       }
                     ]
                   ]
@@ -4413,24 +4496,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 78
+                        "x": 1,
+                        "y": 2
                       },
                       {
-                        "x": 98,
-                        "y": 78
+                        "x": 15,
+                        "y": 2
                       },
                       {
-                        "x": 160,
-                        "y": 78
+                        "x": 15,
+                        "y": 17
                       },
                       {
-                        "x": 159,
-                        "y": 170
-                      },
-                      {
-                        "x": 0,
-                        "y": 170
+                        "x": 1,
+                        "y": 17
                       }
                     ]
                   ]
@@ -4453,24 +4532,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 78
+                        "x": 1,
+                        "y": 2
                       },
                       {
-                        "x": 98,
-                        "y": 78
+                        "x": 15,
+                        "y": 2
                       },
                       {
-                        "x": 160,
-                        "y": 78
+                        "x": 15,
+                        "y": 17
                       },
                       {
-                        "x": 159,
-                        "y": 170
-                      },
-                      {
-                        "x": 0,
-                        "y": 170
+                        "x": 1,
+                        "y": 17
                       }
                     ]
                   ]
@@ -4485,50 +4560,8 @@
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Duck",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 79
-                      },
-                      {
-                        "x": 98,
-                        "y": 78
-                      },
-                      {
-                        "x": 160,
-                        "y": 78
-                      },
-                      {
-                        "x": 159,
-                        "y": 170
-                      },
-                      {
-                        "x": 0,
-                        "y": 170
-                      }
-                    ]
-                  ]
-                }
-              ]
+              "sprites": []
             }
           ]
         }
@@ -4999,54 +5032,6 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Male Character 12_Walking Up_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 17
-                      },
-                      {
-                        "x": 2,
-                        "y": 17
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Duck",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Dino\\assets\\Male_Character_12_Crouched_Right.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5580,54 +5565,6 @@
               ]
             }
           ]
-        },
-        {
-          "name": "Duck",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Dino\\assets\\Female_Character_10_Crouched_Right.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 17
-                      },
-                      {
-                        "x": 2,
-                        "y": 17
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -6089,54 +6026,6 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Male Character 11_Walking Up_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 2
-                      },
-                      {
-                        "x": 14,
-                        "y": 2
-                      },
-                      {
-                        "x": 14,
-                        "y": 17
-                      },
-                      {
-                        "x": 2,
-                        "y": 17
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Duck",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Dino\\assets\\Male_Character_11_Crouched_Right.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6670,54 +6559,6 @@
               ]
             }
           ]
-        },
-        {
-          "name": "Duck",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Dino\\assets\\Female_Character_6_Crouched_Right.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 17
-                      },
-                      {
-                        "x": 2,
-                        "y": 17
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -7179,54 +7020,6 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Male Character 2_Walking Up_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 2
-                      },
-                      {
-                        "x": 14,
-                        "y": 2
-                      },
-                      {
-                        "x": 14,
-                        "y": 17
-                      },
-                      {
-                        "x": 2,
-                        "y": 17
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Duck",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Dino\\assets\\Male_Character_2_Crouched_Right.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7760,54 +7553,6 @@
               ]
             }
           ]
-        },
-        {
-          "name": "Duck",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Dino\\assets\\Female_Character_9_Crouched_Right.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 2
-                      },
-                      {
-                        "x": 14,
-                        "y": 2
-                      },
-                      {
-                        "x": 14,
-                        "y": 17
-                      },
-                      {
-                        "x": 2,
-                        "y": 17
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -8269,54 +8014,6 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Male Character 3_Walking Up_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 2
-                      },
-                      {
-                        "x": 14,
-                        "y": 2
-                      },
-                      {
-                        "x": 14,
-                        "y": 17
-                      },
-                      {
-                        "x": 2,
-                        "y": 17
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Duck",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Dino\\assets\\Male_Character_3_Crouched_Right.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8850,54 +8547,6 @@
               ]
             }
           ]
-        },
-        {
-          "name": "Duck",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Dino\\assets\\Female_Character_5_Crouched_Right.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 1
-                      },
-                      {
-                        "x": 14,
-                        "y": 17
-                      },
-                      {
-                        "x": 2,
-                        "y": 17
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -9171,6 +8820,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/matchthepiece"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/completethesentence"
     }
   ],
   "externalEvents": [
@@ -9180,6 +8833,10 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/regex"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/draggablephysics"
@@ -9215,6 +8872,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/untitledextension"
     }
   ],
   "externalLayouts": [
