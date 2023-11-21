@@ -777,12 +777,12 @@
       "customSize": true,
       "depth": 0,
       "height": 868,
-      "layer": "",
+      "layer": "UI",
       "name": "AboutBackground",
       "persistentUuid": "9aa203c2-0f4d-40ac-bad9-7e917acfdb77",
       "width": 1976,
       "x": 3,
-      "y": 9,
+      "y": 10,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -793,7 +793,7 @@
       "customSize": true,
       "depth": 1,
       "height": 342,
-      "layer": "",
+      "layer": "UI",
       "name": "AboutText",
       "persistentUuid": "ee0b3493-b712-4b32-85a1-0f3aa06b7973",
       "width": 1130,
@@ -809,7 +809,7 @@
       "customSize": true,
       "depth": 1,
       "height": 394,
-      "layer": "",
+      "layer": "UI",
       "name": "Logo",
       "persistentUuid": "f997733c-d804-4cec-91f9-d14e4f5825f6",
       "width": 454,
@@ -825,7 +825,7 @@
       "customSize": true,
       "depth": 32,
       "height": 72,
-      "layer": "",
+      "layer": "UI",
       "name": "InsideAboutButton",
       "persistentUuid": "9ef99130-6fee-4799-bd01-f73a7fd0abbe",
       "width": 171,
@@ -2696,6 +2696,15 @@
           "parameters": [
             "CharacterSkins"
           ]
+        },
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"UI\""
+          ]
         }
       ]
     },
@@ -2797,7 +2806,7 @@
       "isLocked": false,
       "name": "UI",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
     },

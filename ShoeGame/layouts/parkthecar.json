@@ -131,8 +131,8 @@
       "name": "Wall",
       "persistentUuid": "90ccd3ed-58c8-4a1f-9790-8511956f6d5b",
       "width": 22,
-      "x": 29,
-      "y": -1,
+      "x": -5,
+      "y": 1,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -310,21 +310,6 @@
       "x": 400,
       "y": 390,
       "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "GameDescription",
-      "persistentUuid": "3af962dc-c8e8-4993-9a69-d97665a16b73",
-      "width": 0,
-      "x": 62,
-      "y": 1020,
-      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1378,8 +1363,8 @@
       "name": "ParkedCar6",
       "persistentUuid": "9c80a22e-48e2-4d7c-9af6-9e8417bff523",
       "width": 70,
-      "x": 1656,
-      "y": 690,
+      "x": 1602,
+      "y": 627,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -1394,8 +1379,8 @@
       "name": "ParkedCar4",
       "persistentUuid": "f9377204-930c-4113-ad46-034aee7632c3",
       "width": 70,
-      "x": 1726,
-      "y": 690,
+      "x": 1667,
+      "y": 624,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -1410,8 +1395,8 @@
       "name": "ParkedCar3",
       "persistentUuid": "99dd46a8-371c-4b83-9e60-b2555f98e0e2",
       "width": 70,
-      "x": 1841,
-      "y": 690,
+      "x": 1789,
+      "y": 622,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -1426,8 +1411,8 @@
       "name": "ParkedCar4",
       "persistentUuid": "86900ae5-653f-45be-9679-13ed67bbfcb4",
       "width": 70,
-      "x": 1783,
-      "y": 690,
+      "x": 1728,
+      "y": 626,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -1852,13 +1837,13 @@
       "angle": 46,
       "customSize": true,
       "depth": 1,
-      "height": 33,
+      "height": 35,
       "layer": "",
       "name": "OilCan",
       "persistentUuid": "fa109c85-a34a-43fc-be70-23e334122a22",
-      "width": 33,
-      "x": 1601,
-      "y": 746,
+      "width": 35,
+      "x": 1585,
+      "y": 718,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -1873,8 +1858,8 @@
       "name": "OilCan",
       "persistentUuid": "675f42c6-73fc-49c7-a6e0-f97d53719708",
       "width": 33,
-      "x": 1566,
-      "y": 779,
+      "x": 1549,
+      "y": 768,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -1889,8 +1874,8 @@
       "name": "OilCan",
       "persistentUuid": "9936fb52-5d3b-49b0-a175-6f08790a0f19",
       "width": 33,
-      "x": 1519,
-      "y": 824,
+      "x": 1517,
+      "y": 810,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -1906,7 +1891,7 @@
       "persistentUuid": "db577b1d-e9bf-4f65-b360-e093ddd7d327",
       "width": 33,
       "x": 1445,
-      "y": 896,
+      "y": 894,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -1937,8 +1922,8 @@
       "name": "OilCan",
       "persistentUuid": "fe89834d-8e5d-487e-ad7f-cf6561fbc86c",
       "width": 33,
-      "x": 1488,
-      "y": 856,
+      "x": 1482,
+      "y": 852,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -2031,8 +2016,8 @@
       "name": "AboutButton",
       "persistentUuid": "368d9a2e-c0de-4af8-91a7-45e8e65baf7e",
       "width": 216,
-      "x": 1661,
-      "y": 849,
+      "x": 1648,
+      "y": 725,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -2043,7 +2028,7 @@
       "customSize": true,
       "depth": 0,
       "height": 868,
-      "layer": "",
+      "layer": "UI",
       "name": "AboutBackground",
       "persistentUuid": "5b392a69-f9aa-4619-bf73-8dc7145695e0",
       "width": 1976,
@@ -2059,7 +2044,7 @@
       "customSize": true,
       "depth": 1,
       "height": 493,
-      "layer": "",
+      "layer": "UI",
       "name": "AboutText",
       "persistentUuid": "287b6b6a-b25c-45f9-bb87-64fa730708b1",
       "width": 1210,
@@ -2075,7 +2060,7 @@
       "customSize": true,
       "depth": 1,
       "height": 383,
-      "layer": "",
+      "layer": "UI",
       "name": "Logo",
       "persistentUuid": "e3b1769a-2620-413e-ba3c-0170d5c9a73e",
       "width": 439,
@@ -2091,7 +2076,7 @@
       "customSize": true,
       "depth": 32,
       "height": 72,
-      "layer": "",
+      "layer": "UI",
       "name": "InsideAboutButton",
       "persistentUuid": "b515cdb2-ee2e-40d1-a86c-6535e0476af2",
       "width": 188,
@@ -2111,8 +2096,8 @@
       "name": "BackButton",
       "persistentUuid": "4803d4c1-a628-44ef-83fb-ac670d40241a",
       "width": 216,
-      "x": 1661,
-      "y": 953,
+      "x": 1648,
+      "y": 947,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -2121,15 +2106,31 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 239,
+      "depth": 32,
+      "height": 86,
       "layer": "",
-      "name": "ParkedCar2",
-      "persistentUuid": "4c318d32-26aa-4720-a763-f2f2fefdaa90",
-      "width": 352,
-      "x": 1286,
-      "y": 799,
+      "name": "RestartButton",
+      "persistentUuid": "1dc2444e-7cfc-470f-9600-62a45ed98ba6",
+      "width": 219,
+      "x": 1648,
+      "y": 834,
       "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "OilCan",
+      "persistentUuid": "9cc623f2-9670-436b-b273-561bb7c14bf0",
+      "width": 30,
+      "x": 1854,
+      "y": 577,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3228,6 +3229,69 @@
           "width": 256
         }
       }
+    },
+    {
+      "assetStoreId": "615de0316452630b9f4f6a39decc82e2449b82c1afd1ff24d6470dad2922177b",
+      "name": "RestartButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Yellow Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Yellow Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Restart",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 58,
+          "color": {
+            "b": 42,
+            "g": 87,
+            "r": 139
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Yellow Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -3292,6 +3356,9 @@
       },
       {
         "objectName": "BackButton"
+      },
+      {
+        "objectName": "RestartButton"
       }
     ]
   },
@@ -3888,6 +3955,15 @@
             "AboutText",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"UI\""
+          ]
         }
       ]
     },
@@ -3976,6 +4052,44 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Reset"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "RestartButton",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "CurrentSceneName()",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -4004,6 +4118,38 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",
