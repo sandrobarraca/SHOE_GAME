@@ -229,8 +229,8 @@
       "name": "BackButton",
       "persistentUuid": "22714b4c-c9ab-40d7-9bc3-fe23c701491c",
       "width": 256,
-      "x": 1604,
-      "y": 149,
+      "x": 1636,
+      "y": 949,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -245,9 +245,25 @@
       "name": "AboutButton",
       "persistentUuid": "6497a015-c0b8-453a-9887-716f7ac7a11a",
       "width": 256,
-      "x": 1602,
-      "y": 251,
+      "x": 1636,
+      "y": 719,
       "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 86,
+      "layer": "",
+      "name": "RestartButton",
+      "persistentUuid": "610140af-fe09-4d6d-bfd8-063a9989139b",
+      "width": 256,
+      "x": 1635,
+      "y": 832,
+      "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -515,7 +531,7 @@
           "string": "Back",
           "font": "",
           "textAlignment": "center",
-          "characterSize": 40,
+          "characterSize": 60,
           "color": {
             "b": 99,
             "g": 69,
@@ -578,7 +594,7 @@
           "string": "About",
           "font": "",
           "textAlignment": "center",
-          "characterSize": 40,
+          "characterSize": 60,
           "color": {
             "b": 79,
             "g": 72,
@@ -591,6 +607,69 @@
           "leftMargin": 16,
           "rightMargin": 16,
           "texture": "Grey Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
+    },
+    {
+      "assetStoreId": "615de0316452630b9f4f6a39decc82e2449b82c1afd1ff24d6470dad2922177b",
+      "name": "RestartButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Yellow Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Yellow Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Restart",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 60,
+          "color": {
+            "b": 42,
+            "g": 87,
+            "r": 139
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Yellow Button_Pressed.png",
           "tiled": true,
           "topMargin": 32,
           "width": 256
@@ -618,6 +697,9 @@
       },
       {
         "objectName": "AboutButton"
+      },
+      {
+        "objectName": "RestartButton"
       }
     ]
   },
@@ -970,6 +1052,44 @@
           "parameters": [
             "",
             "\"MainMap\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Restart Button"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "RestartButton",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "CurrentSceneName()",
             ""
           ]
         }
