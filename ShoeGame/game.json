@@ -3989,6 +3989,33 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Pixel art/1c00a73a8d1b2e4116624a2b62584b6c6eb7934eab1038f93834f1efac612b9e_Blank Emote_Style 7.png",
           "name": "Blank Emote_Style 7.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ParedeNivel1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ParedeNivel1",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -8758,6 +8785,12 @@
       "name": "selectedChar",
       "type": "number",
       "value": 1
+    },
+    {
+      "folded": true,
+      "name": "SokobanCurrentLevel",
+      "type": "number",
+      "value": 1
     }
   ],
   "layouts": [
@@ -8833,6 +8866,10 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/rectangularfloodfill"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/regex"
