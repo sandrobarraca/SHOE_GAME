@@ -674,13 +674,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 109,
+      "height": 96,
       "layer": "",
       "name": "Hud",
       "persistentUuid": "ebd6ee4f-f635-481a-8bae-11787bd7a0e4",
       "width": 322,
-      "x": 1566,
-      "y": 16,
+      "x": 1534,
+      "y": 32,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -694,7 +694,7 @@
       "name": "PlayerName",
       "persistentUuid": "a8f2c29f-b2df-4c90-9cf5-a8f987b89b8e",
       "width": 0,
-      "x": 1664,
+      "x": 1646,
       "y": 64,
       "zOrder": 24,
       "numberProperties": [],
@@ -709,9 +709,25 @@
       "name": "Hitbox",
       "persistentUuid": "2a0dda4a-4c8c-400b-8133-a09f116c0d03",
       "width": 0,
-      "x": 1590,
-      "y": 37,
+      "x": 1566,
+      "y": 48,
       "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 82,
+      "layer": "",
+      "name": "AboutButton",
+      "persistentUuid": "d3b8dd01-3134-4259-b878-e87e8f038e72",
+      "width": 219,
+      "x": 1582,
+      "y": 747,
+      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -779,8 +795,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-<<<<<<< HEAD
-=======
     },
     {
       "angle": 0,
@@ -844,7 +858,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
->>>>>>> f310f7e5b2c226ac4b2d9bf91112586a0fe8ae12
     }
   ],
   "objects": [
@@ -2430,18 +2443,6 @@
               },
               "parameters": [
                 "InsideAboutButton"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-              },
-              "parameters": [
-                "",
-                "\"ControlButtons\"",
-                "",
-                "",
-                ""
               ]
             }
           ],

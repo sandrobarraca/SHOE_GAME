@@ -17,13 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-<<<<<<< HEAD
-    "snap": false,
-    "zoomFactor": 0.4861387746620134,
-=======
     "snap": true,
     "zoomFactor": 0.48613877466201333,
->>>>>>> f310f7e5b2c226ac4b2d9bf91112586a0fe8ae12
     "windowMask": false
   },
   "objectsGroups": [
@@ -148,6 +143,36 @@
     },
     {
       "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ResetButton",
+      "persistentUuid": "83be3446-3911-4ff0-8825-fa86b08110f9",
+      "width": 0,
+      "x": 1600,
+      "y": 726,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BackButton",
+      "persistentUuid": "12b2eed8-041d-4e9e-8343-730e96eba1c9",
+      "width": 0,
+      "x": 1600,
+      "y": 854,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 64,
@@ -158,6 +183,21 @@
       "x": 128,
       "y": 1088,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "AboutButton",
+      "persistentUuid": "39e41282-09db-4ae8-8529-8b7196265e6e",
+      "width": 0,
+      "x": 1600,
+      "y": 598,
+      "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2082,11 +2122,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-<<<<<<< HEAD
-      "name": "NewInfoText",
-=======
       "name": "ParedeNivel1",
->>>>>>> f310f7e5b2c226ac4b2d9bf91112586a0fe8ae12
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2094,28 +2130,17 @@
       "behaviors": [],
       "animations": [
         {
-<<<<<<< HEAD
-          "name": "",
-=======
           "name": "ParedeNivel1",
->>>>>>> f310f7e5b2c226ac4b2d9bf91112586a0fe8ae12
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-<<<<<<< HEAD
-=======
               "metadata": "{\"pskl\":{}}",
->>>>>>> f310f7e5b2c226ac4b2d9bf91112586a0fe8ae12
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-<<<<<<< HEAD
-                  "image": "window_small_text48pt.png",
-=======
                   "image": "ParedeNivel1",
->>>>>>> f310f7e5b2c226ac4b2d9bf91112586a0fe8ae12
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2131,22 +2156,6 @@
                   "customCollisionMask": [
                     [
                       {
-<<<<<<< HEAD
-                        "x": 11,
-                        "y": 12
-                      },
-                      {
-                        "x": 358,
-                        "y": 12
-                      },
-                      {
-                        "x": 358,
-                        "y": 125
-                      },
-                      {
-                        "x": 11,
-                        "y": 125
-=======
                         "x": 0,
                         "y": 0
                       },
@@ -2161,7 +2170,6 @@
                       {
                         "x": 0,
                         "y": 64
->>>>>>> f310f7e5b2c226ac4b2d9bf91112586a0fe8ae12
                       }
                     ]
                   ]
@@ -2173,48 +2181,6 @@
       ]
     },
     {
-<<<<<<< HEAD
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "InfoText",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Sokoban is a classic puzzle game where players navigate a maze, pushing boxes onto designated target locations. \n\nNavigate the maze using arrow keys to reach designated target locations.\nPush boxes strategically without getting stuck or blocking pathways.",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 45,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "NewText",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Text",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-=======
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "BoxNivel1",
@@ -2335,7 +2301,6 @@
           ]
         }
       ]
->>>>>>> f310f7e5b2c226ac4b2d9bf91112586a0fe8ae12
     }
   ],
   "objectsFolderStructure": {
@@ -2384,15 +2349,6 @@
         "objectName": "InsideAboutButton"
       },
       {
-<<<<<<< HEAD
-        "objectName": "NewInfoText"
-      },
-      {
-        "objectName": "InfoText"
-      },
-      {
-        "objectName": "NewText"
-=======
         "objectName": "ParedeNivel1"
       },
       {
@@ -2400,7 +2356,6 @@
       },
       {
         "objectName": "GoalNivel1"
->>>>>>> f310f7e5b2c226ac4b2d9bf91112586a0fe8ae12
       }
     ]
   },
@@ -2505,14 +2460,10 @@
         },
         {
           "type": {
-            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+            "value": "Cache"
           },
           "parameters": [
-            "",
-            "\"ControlButtons\"",
-            "",
-            "",
-            ""
+            "AboutBackground"
           ]
         },
         {
@@ -2520,7 +2471,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "NewInfoText"
+            "AboutText"
           ]
         },
         {
@@ -2528,7 +2479,15 @@
             "value": "Cache"
           },
           "parameters": [
-            "InfoText"
+            "Logo"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "InsideAboutButton"
           ]
         }
       ],
@@ -3362,7 +3321,7 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
-                "NewBackButton",
+                "BackButton",
                 ""
               ]
             }
@@ -3412,7 +3371,7 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
-                "NewRestartButton",
+                "ResetButton",
                 ""
               ]
             }
@@ -3522,7 +3481,7 @@
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "NewInfoButton",
+            "AboutButton",
             ""
           ]
         }
@@ -3533,7 +3492,7 @@
             "value": "Montre"
           },
           "parameters": [
-            "InfoText",
+            "AboutBackground",
             ""
           ]
         },
@@ -3542,7 +3501,99 @@
             "value": "Montre"
           },
           "parameters": [
-            "NewInfoText",
+            "AboutText",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Logo",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "InsideAboutButton",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "CharacterSkins"
+          ]
+        },
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"UI\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "InsideAboutButton",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "AboutBackground"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Logo"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "AboutText"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "InsideAboutButton"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "CharacterSkins",
             ""
           ]
         }

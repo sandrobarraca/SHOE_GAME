@@ -246,8 +246,8 @@
       "name": "Hud",
       "persistentUuid": "3f0a5150-0475-4225-8792-9ff7733a7963",
       "width": 322,
-      "x": 1566,
-      "y": 16,
+      "x": 1534,
+      "y": 83,
       "zOrder": 1006,
       "numberProperties": [],
       "stringProperties": [],
@@ -261,8 +261,8 @@
       "name": "Hitbox",
       "persistentUuid": "da304cc7-ad44-4bba-9377-f627952757ff",
       "width": 0,
-      "x": 1590,
-      "y": 37,
+      "x": 1559,
+      "y": 104,
       "zOrder": 1007,
       "numberProperties": [],
       "stringProperties": [],
@@ -276,8 +276,8 @@
       "name": "PlayerName",
       "persistentUuid": "56186e91-68ca-43f5-b9b3-18372c3f4003",
       "width": 0,
-      "x": 1664,
-      "y": 64,
+      "x": 1632,
+      "y": 131,
       "zOrder": 1008,
       "numberProperties": [],
       "stringProperties": [],
@@ -1868,18 +1868,6 @@
             "value": "HideLayer"
           },
           "parameters": [
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-          },
-          "parameters": [
-            "",
-            "\"ControlButtons\"",
-            "",
             "",
             ""
           ]

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3430810505289428,
+    "zoomFactor": 0.2811760889174019,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -189,7 +189,7 @@
       "name": "Hitbox",
       "persistentUuid": "34382036-e615-43d5-94e2-824535c75f03",
       "width": 0,
-      "x": 1590,
+      "x": 1591,
       "y": 37,
       "zOrder": 21,
       "numberProperties": [],
@@ -934,18 +934,6 @@
                   },
                   "parameters": [
                     "Hitbox"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "\"ControlButtons\"",
-                    "",
-                    "",
-                    ""
                   ]
                 }
               ]
