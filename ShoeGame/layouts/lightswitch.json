@@ -198,7 +198,7 @@
       "name": "Hitbox",
       "persistentUuid": "108775e3-2436-4882-a9e5-f89745d4cb43",
       "width": 0,
-      "x": 1596,
+      "x": 1590,
       "y": 37,
       "zOrder": 11,
       "numberProperties": [],
@@ -213,57 +213,9 @@
       "name": "PlayerName",
       "persistentUuid": "c0b70e60-28bc-4f9e-b207-de4917f669db",
       "width": 0,
-      "x": 1680,
-      "y": 55,
+      "x": 1664,
+      "y": 64,
       "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 32,
-      "height": 86,
-      "layer": "",
-      "name": "BackButton",
-      "persistentUuid": "22714b4c-c9ab-40d7-9bc3-fe23c701491c",
-      "width": 256,
-      "x": 1636,
-      "y": 949,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 32,
-      "height": 86,
-      "layer": "",
-      "name": "AboutButton",
-      "persistentUuid": "6497a015-c0b8-453a-9887-716f7ac7a11a",
-      "width": 256,
-      "x": 1636,
-      "y": 719,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 32,
-      "height": 86,
-      "layer": "",
-      "name": "RestartButton",
-      "persistentUuid": "610140af-fe09-4d6d-bfd8-063a9989139b",
-      "width": 256,
-      "x": 1635,
-      "y": 832,
-      "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -790,6 +742,18 @@
           "parameters": [
             "Hitbox"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"ControlButtons\"",
+            "",
+            "",
+            ""
+          ]
         }
       ],
       "events": [
@@ -1039,7 +1003,7 @@
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "BackButton",
+            "NewBackButton",
             ""
           ]
         }
@@ -1077,7 +1041,7 @@
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "RestartButton",
+            "NewRestartButton",
             ""
           ]
         }

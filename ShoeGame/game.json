@@ -3989,6 +3989,240 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Pixel art/1c00a73a8d1b2e4116624a2b62584b6c6eb7934eab1038f93834f1efac612b9e_Blank Emote_Style 7.png",
           "name": "Blank Emote_Style 7.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeBoxAttack/assets/lightswitch_bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeBoxAttack\\assets\\lightswitch_bg.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeBoxAttack/assets/shoe_box_3_400px.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeBoxAttack\\assets\\shoe_box_3_400px.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeBoxAttack/assets/shoe_box_4_400px.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeBoxAttack\\assets\\shoe_box_4_400px.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeBoxAttack/assets/shoe_box_5_400px.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeBoxAttack\\assets\\shoe_box_5_400px.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeBoxAttack/assets/shoe_box_2_400px.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeBoxAttack\\assets\\shoe_box_2_400px.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "restart_button_pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "restart_button_pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "restart_button_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "restart_button_idle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "restart_button_hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "restart_button_hovered.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "restart_button_idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "restart_button_idle2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "restart_button_hovered2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "restart_button_hovered2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "info_button_pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "info_button_pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "info_button_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "info_button_idle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "info_button_hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "info_button_hovered.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "back_small_pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "back_small_pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "back_small_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "back_small_idle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "back_small_hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "back_small_hovered.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "restart_button_idle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "restart_button_idle3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "restart_button_hovered3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "restart_button_hovered3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "restart_button_pressed2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "restart_button_pressed2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "back_small_idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "back_small_idle2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "back_small_hovered2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "back_small_hovered2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "back_small_pressed2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "back_small_pressed2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "info_button_idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "info_button_idle2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "info_button_hovered2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "info_button_hovered2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "info_button_pressed2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "info_button_pressed2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "window_small_text48pt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "window_small_text48pt.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -8669,6 +8903,195 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "assetStoreId": "bfab3a269992cf43081e2cb8053c28aaef11f2f9e0d0cbdc00207ea271f69c2c",
+      "name": "NewRestartButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "restart_button_hovered3.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "restart_button_idle3.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 0,
+          "color": {
+            "b": 79,
+            "g": 72,
+            "r": 72
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "restart_button_pressed2.png",
+          "tiled": true,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
+    },
+    {
+      "assetStoreId": "bfab3a269992cf43081e2cb8053c28aaef11f2f9e0d0cbdc00207ea271f69c2c",
+      "name": "NewBackButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "back_small_hovered2.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "back_small_idle2.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 0,
+          "color": {
+            "b": 79,
+            "g": 72,
+            "r": 72
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "back_small_pressed2.png",
+          "tiled": true,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
+    },
+    {
+      "assetStoreId": "bfab3a269992cf43081e2cb8053c28aaef11f2f9e0d0cbdc00207ea271f69c2c",
+      "name": "NewInfoButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "info_button_hovered2.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "info_button_idle2.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 0,
+          "color": {
+            "b": 79,
+            "g": 72,
+            "r": 72
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "info_button_pressed2.png",
+          "tiled": true,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -8709,6 +9132,15 @@
       },
       {
         "objectName": "PlayerName"
+      },
+      {
+        "objectName": "NewRestartButton"
+      },
+      {
+        "objectName": "NewBackButton"
+      },
+      {
+        "objectName": "NewInfoButton"
       }
     ]
   },
@@ -8882,6 +9314,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/ballslevel2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/controlbuttons"
     }
   ],
   "externalSourceFiles": []
