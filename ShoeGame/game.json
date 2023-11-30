@@ -3992,6 +3992,7 @@
       },
       {
         "alwaysLoaded": false,
+<<<<<<< HEAD
         "file": "assets/ShoeBoxAttack/assets/lightswitch_bg.png",
         "kind": "image",
         "metadata": "",
@@ -4005,20 +4006,34 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\ShoeBoxAttack\\assets\\shoe_box_3_400px.png",
+=======
+        "file": "assets/ParedeNivel1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ParedeNivel1",
+>>>>>>> f310f7e5b2c226ac4b2d9bf91112586a0fe8ae12
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
+<<<<<<< HEAD
         "file": "assets/ShoeBoxAttack/assets/shoe_box_4_400px.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\ShoeBoxAttack\\assets\\shoe_box_4_400px.png",
+=======
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+>>>>>>> f310f7e5b2c226ac4b2d9bf91112586a0fe8ae12
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
+<<<<<<< HEAD
         "file": "assets/ShoeBoxAttack/assets/shoe_box_5_400px.png",
         "kind": "image",
         "metadata": "",
@@ -4221,6 +4236,12 @@
         "kind": "image",
         "metadata": "",
         "name": "window_small_text48pt.png",
+=======
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+>>>>>>> f310f7e5b2c226ac4b2d9bf91112586a0fe8ae12
         "smoothed": true,
         "userAdded": true
       }
@@ -9190,6 +9211,12 @@
       "name": "selectedChar",
       "type": "number",
       "value": 1
+    },
+    {
+      "folded": true,
+      "name": "SokobanCurrentLevel",
+      "type": "number",
+      "value": 1
     }
   ],
   "layouts": [
@@ -9265,6 +9292,10 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/rectangularfloodfill"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/regex"
