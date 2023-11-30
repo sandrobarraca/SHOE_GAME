@@ -1,0 +1,67 @@
+{
+  "associatedLayout": "Cards",
+  "name": "ControlButtons",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 120,
+      "layer": "",
+      "name": "NewRestartButton",
+      "persistentUuid": "554ce8e6-aa22-4687-bd22-8984c691a196",
+      "width": 120,
+      "x": 1550,
+      "y": 130,
+      "zOrder": 10000,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 120,
+      "layer": "",
+      "name": "NewBackButton",
+      "persistentUuid": "9799f408-813e-4b51-be87-737b8b38565a",
+      "width": 120,
+      "x": 1665,
+      "y": 130,
+      "zOrder": 10000,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 120,
+      "layer": "",
+      "name": "NewInfoButton",
+      "persistentUuid": "a439fc71-c7cb-4438-9a23-fc1bbb527ade",
+      "width": 120,
+      "x": 1780,
+      "y": 130,
+      "zOrder": 10000,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.37687720367508715,
+    "windowMask": false
+  }
+}

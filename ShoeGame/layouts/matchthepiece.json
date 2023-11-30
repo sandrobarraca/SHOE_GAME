@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.40272258333259264,
+    "zoomFactor": 0.44485159988866657,
     "windowMask": false
   },
   "objectsGroups": [
@@ -102,7 +102,7 @@
       "name": "BotaoA",
       "persistentUuid": "d4a37bbb-7753-44ea-960a-64d40d46ab25",
       "width": 400,
-      "x": 789,
+      "x": 748,
       "y": 106,
       "zOrder": 2,
       "numberProperties": [],
@@ -118,7 +118,7 @@
       "name": "BotaoB",
       "persistentUuid": "87745c90-9b47-4f95-93c4-786610f0fd2f",
       "width": 400,
-      "x": 1207,
+      "x": 1166,
       "y": 106,
       "zOrder": 3,
       "numberProperties": [],
@@ -134,7 +134,7 @@
       "name": "BotaoC",
       "persistentUuid": "a5b56db9-62e9-45f2-8ba4-52cb9f57ef14",
       "width": 400,
-      "x": 789,
+      "x": 748,
       "y": 496,
       "zOrder": 4,
       "numberProperties": [],
@@ -150,7 +150,7 @@
       "name": "BotaoD",
       "persistentUuid": "f6df127b-a6b0-4d93-a5cf-25c66a2159f1",
       "width": 400,
-      "x": 1209,
+      "x": 1168,
       "y": 496,
       "zOrder": 5,
       "numberProperties": [],
@@ -198,7 +198,7 @@
       "name": "Position_Placeholder2",
       "persistentUuid": "32647c51-aa52-4325-9d1d-d2c06a89b33b",
       "width": 216,
-      "x": 1228,
+      "x": 1187,
       "y": 235,
       "zOrder": 8,
       "numberProperties": [],
@@ -214,7 +214,7 @@
       "name": "Position_Placeholder3",
       "persistentUuid": "6bbe5797-9cfd-4bcb-951a-6fc6047752cf",
       "width": 216,
-      "x": 811,
+      "x": 770,
       "y": 620,
       "zOrder": 9,
       "numberProperties": [],
@@ -230,7 +230,7 @@
       "name": "Position_Placeholder4",
       "persistentUuid": "a216d99d-9998-4fd3-95e4-eeab0b6b0d82",
       "width": 237,
-      "x": 1233,
+      "x": 1192,
       "y": 618,
       "zOrder": 10,
       "numberProperties": [],
@@ -246,7 +246,7 @@
       "name": "Position_Placeholder1",
       "persistentUuid": "0ce14467-121c-4277-be40-0aa9f98d4fe0",
       "width": 227,
-      "x": 825,
+      "x": 784,
       "y": 224,
       "zOrder": 11,
       "numberProperties": [],
@@ -405,7 +405,7 @@
       "name": "Hitbox",
       "persistentUuid": "9bf03b0d-7b3d-47e8-8aa5-bf0f7854e987",
       "width": 0,
-      "x": 1596,
+      "x": 1590,
       "y": 37,
       "zOrder": 21,
       "numberProperties": [],
@@ -420,8 +420,8 @@
       "name": "PlayerName",
       "persistentUuid": "dc669f54-1d9a-4c8a-a45a-a658f7048e93",
       "width": 0,
-      "x": 1680,
-      "y": 55,
+      "x": 1664,
+      "y": 64,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -486,54 +486,6 @@
       "x": 586,
       "y": 391,
       "zOrder": 27,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 32,
-      "height": 82,
-      "layer": "",
-      "name": "BackButton",
-      "persistentUuid": "58c4e388-4290-427c-bbb5-3c25366fc2bb",
-      "width": 219,
-      "x": 1671,
-      "y": 913,
-      "zOrder": 28,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 32,
-      "height": 82,
-      "layer": "",
-      "name": "AboutButton",
-      "persistentUuid": "65620b01-f110-4c14-b610-67cb02fce286",
-      "width": 219,
-      "x": 1671,
-      "y": 690,
-      "zOrder": 29,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 32,
-      "height": 82,
-      "layer": "",
-      "name": "RestartButton",
-      "persistentUuid": "6853f084-60f5-48e3-bd5d-799806790f1b",
-      "width": 219,
-      "x": 1671,
-      "y": 801,
-      "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2653,6 +2605,18 @@
           "parameters": [
             "Hitbox"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"ControlButtons\"",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -3534,7 +3498,7 @@
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "BackButton",
+            "NewBackButton",
             ""
           ]
         }
@@ -3572,7 +3536,7 @@
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "RestartButton",
+            "NewRestartButton",
             ""
           ]
         }

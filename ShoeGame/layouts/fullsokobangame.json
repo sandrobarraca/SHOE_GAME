@@ -143,36 +143,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "ResetButton",
-      "persistentUuid": "83be3446-3911-4ff0-8825-fa86b08110f9",
-      "width": 0,
-      "x": 1600,
-      "y": 726,
-      "zOrder": 28,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "BackButton",
-      "persistentUuid": "12b2eed8-041d-4e9e-8343-730e96eba1c9",
-      "width": 0,
-      "x": 1600,
-      "y": 854,
-      "zOrder": 29,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 64,
@@ -183,21 +153,6 @@
       "x": 128,
       "y": 1088,
       "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "AboutButton",
-      "persistentUuid": "39e41282-09db-4ae8-8529-8b7196265e6e",
-      "width": 0,
-      "x": 1600,
-      "y": 598,
-      "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2489,6 +2444,18 @@
           "parameters": [
             "InsideAboutButton"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"ControlButtons\"",
+            "",
+            "",
+            ""
+          ]
         }
       ],
       "events": [
@@ -3321,7 +3288,7 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
-                "BackButton",
+                "NewBackButton",
                 ""
               ]
             }
@@ -3371,7 +3338,7 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
-                "ResetButton",
+                "NewRestartButton",
                 ""
               ]
             }

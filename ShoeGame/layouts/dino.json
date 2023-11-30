@@ -158,13 +158,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 96,
+      "height": 109,
       "layer": "",
       "name": "Hud",
       "persistentUuid": "7f916d9f-fff1-4940-a1e6-5b95d94aa48b",
       "width": 322,
-      "x": 1568,
-      "y": 128,
+      "x": 1566,
+      "y": 16,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -178,8 +178,8 @@
       "name": "PlayerName",
       "persistentUuid": "abe7027a-56cc-4e66-b9f7-5c15466fa236",
       "width": 0,
-      "x": 1696,
-      "y": 162,
+      "x": 1664,
+      "y": 64,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -193,8 +193,8 @@
       "name": "Hitbox",
       "persistentUuid": "a8367cee-db2f-40f5-ac05-7c017f360798",
       "width": 0,
-      "x": 1600,
-      "y": 160,
+      "x": 1590,
+      "y": 37,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -1469,6 +1469,18 @@
           },
           "parameters": [
             "Dino"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"ControlButtons\"",
+            "",
+            "",
+            ""
           ]
         }
       ]
@@ -2947,6 +2959,99 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "About Button"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Restart Button"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "NewRestartButton",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "CurrentSceneName()",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Back Button"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "NewBackButton",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"MainMap\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

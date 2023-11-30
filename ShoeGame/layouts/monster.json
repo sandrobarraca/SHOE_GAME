@@ -123,8 +123,8 @@
       "name": "PlayerName",
       "persistentUuid": "c8d6e29f-47aa-4ff6-9026-fb1d83370f32",
       "width": 0,
-      "x": 1680,
-      "y": 55,
+      "x": 1664,
+      "y": 64,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -138,7 +138,7 @@
       "name": "Hitbox",
       "persistentUuid": "543a2b88-f7bf-4d55-981d-5177a7efb696",
       "width": 0,
-      "x": 1596,
+      "x": 1590,
       "y": 37,
       "zOrder": 7,
       "numberProperties": [],
@@ -172,102 +172,6 @@
       "x": 0,
       "y": 0,
       "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 32,
-      "height": 82,
-      "layer": "",
-      "name": "BackButton",
-      "persistentUuid": "010d9f21-2f66-43e5-8de8-362d5b1973ae",
-      "width": 256,
-      "x": 1636,
-      "y": 155,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 868,
-      "layer": "",
-      "name": "AboutBackground",
-      "persistentUuid": "85cd5d23-4c96-40fc-93bc-87852d95c594",
-      "width": 1976,
-      "x": 0,
-      "y": 0,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 392,
-      "layer": "",
-      "name": "Logo",
-      "persistentUuid": "55609b77-30b0-4f42-9f57-38c30a41780c",
-      "width": 507,
-      "x": 116,
-      "y": 222,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 523,
-      "layer": "",
-      "name": "AboutText",
-      "persistentUuid": "593949b2-bc3a-45c1-9cdf-06e3fe25b20d",
-      "width": 1151,
-      "x": 643,
-      "y": 120,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 32,
-      "height": 72,
-      "layer": "",
-      "name": "InsideAboutButton",
-      "persistentUuid": "bda1840c-5626-45cd-b600-4d7eaf0706d0",
-      "width": 193,
-      "x": 1460,
-      "y": 650,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 32,
-      "height": 82,
-      "layer": "",
-      "name": "AboutButton",
-      "persistentUuid": "bc40d12b-77fb-4411-8eaa-bd661cf05f55",
-      "width": 256,
-      "x": 1635,
-      "y": 256,
-      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1404,34 +1308,14 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
           },
           "parameters": [
-            "AboutBackground"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Logo"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "InsideAboutButton"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "AboutText"
+            "",
+            "\"ControlButtons\"",
+            "",
+            "",
+            ""
           ]
         }
       ],
@@ -2472,7 +2356,7 @@
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "BackButton",
+            "NewBackButton",
             ""
           ]
         }
@@ -2504,55 +2388,25 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-          },
-          "parameters": [
-            "AboutButton",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "AboutBackground",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "AboutText",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "Logo",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "InsideAboutButton",
-            ""
-          ]
-        }
-      ]
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Restart Button"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2562,7 +2416,7 @@
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "InsideAboutButton",
+            "NewRestartButton",
             ""
           ]
         }
@@ -2570,34 +2424,12 @@
       "actions": [
         {
           "type": {
-            "value": "Cache"
+            "value": "Scene"
           },
           "parameters": [
-            "AboutBackground"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Logo"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "AboutText"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "InsideAboutButton"
+            "",
+            "CurrentSceneName()",
+            ""
           ]
         }
       ]
