@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.45663261101724273,
+    "zoomFactor": 0.3170540393084147,
     "windowMask": false
   },
   "objectsGroups": [
@@ -26,28 +26,28 @@
       "name": "cards",
       "objects": [
         {
-          "name": "card_blowfish"
+          "name": "card_8"
         },
         {
-          "name": "card_crab"
+          "name": "card_1"
         },
         {
-          "name": "card_seahorse"
+          "name": "card_2"
         },
         {
-          "name": "card_snail"
+          "name": "card_3"
         },
         {
-          "name": "card_seagrass"
+          "name": "card_4"
         },
         {
-          "name": "card_coral"
+          "name": "card_5"
         },
         {
-          "name": "card_anemone"
+          "name": "card_6"
         },
         {
-          "name": "card_plasticbag"
+          "name": "card_7"
         }
       ]
     }
@@ -106,262 +106,6 @@
       "x": 648,
       "y": 464,
       "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "layer": "",
-      "name": "card_blowfish",
-      "persistentUuid": "025b3b2f-32ba-46c0-8bd9-66c8def7e01f",
-      "width": 128,
-      "x": -144,
-      "y": 96,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "layer": "",
-      "name": "card_blowfish",
-      "persistentUuid": "8aac080f-a162-4f59-94c4-8c2e4476f18c",
-      "width": 128,
-      "x": -272,
-      "y": 96,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "layer": "",
-      "name": "card_crab",
-      "persistentUuid": "7d0b8f51-9ae8-4206-acf5-286e00c5d06b",
-      "width": 128,
-      "x": -144,
-      "y": 224,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "layer": "",
-      "name": "card_crab",
-      "persistentUuid": "52dee945-77b2-4157-8dad-92cd2743138b",
-      "width": 128,
-      "x": -272,
-      "y": 224,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "layer": "",
-      "name": "card_seahorse",
-      "persistentUuid": "fbebb30b-2842-47ca-b9f5-1d0a27d82035",
-      "width": 128,
-      "x": -144,
-      "y": 352,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "layer": "",
-      "name": "card_seahorse",
-      "persistentUuid": "37bb09d8-808b-4156-a22f-49a3d409875b",
-      "width": 128,
-      "x": -272,
-      "y": 352,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "layer": "",
-      "name": "card_snail",
-      "persistentUuid": "d8104d4e-eff5-487a-9354-694a69d601bd",
-      "width": 128,
-      "x": -144,
-      "y": 992,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "layer": "",
-      "name": "card_snail",
-      "persistentUuid": "39dfbd14-94a4-4a0a-838c-7363415d9a75",
-      "width": 128,
-      "x": -272,
-      "y": 992,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "layer": "",
-      "name": "card_seagrass",
-      "persistentUuid": "1d0a7956-9f61-4c13-acb9-afe0adf3eb6b",
-      "width": 128,
-      "x": -144,
-      "y": 480,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "layer": "",
-      "name": "card_seagrass",
-      "persistentUuid": "783ad9f6-4830-4118-92e0-d9f42d3ae078",
-      "width": 128,
-      "x": -272,
-      "y": 480,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "layer": "",
-      "name": "card_coral",
-      "persistentUuid": "42ff69ec-5b46-4786-a843-9ccee3642c2b",
-      "width": 128,
-      "x": -144,
-      "y": 864,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "layer": "",
-      "name": "card_coral",
-      "persistentUuid": "71e365e8-bbea-4c10-b9fe-72bec05c0772",
-      "width": 128,
-      "x": -272,
-      "y": 864,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "layer": "",
-      "name": "card_anemone",
-      "persistentUuid": "b196fbe5-ebf8-46a3-850e-068b6f8d8d2e",
-      "width": 128,
-      "x": -144,
-      "y": 608,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "layer": "",
-      "name": "card_anemone",
-      "persistentUuid": "b5a6949d-8e80-469d-a905-61dfb32861ad",
-      "width": 128,
-      "x": -272,
-      "y": 608,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "layer": "",
-      "name": "card_plasticbag",
-      "persistentUuid": "4e5ea1db-8b88-4357-b030-bb4dcecd445d",
-      "width": 128,
-      "x": -144,
-      "y": 736,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "layer": "",
-      "name": "card_plasticbag",
-      "persistentUuid": "aa2ffb6f-1fc2-4e9e-80c6-72b316b09263",
-      "width": 128,
-      "x": -272,
-      "y": 736,
-      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -631,8 +375,8 @@
       "name": "board",
       "persistentUuid": "b2f7e60e-7601-4707-b7af-1eae09f6bfcc",
       "width": 640,
-      "x": 640,
-      "y": 240,
+      "x": 676,
+      "y": 286,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -784,14 +528,254 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 1080,
-      "layer": "Background",
-      "name": "background",
-      "persistentUuid": "d6932a92-c243-4e3c-a348-89eb9e34087d",
-      "width": 1920,
-      "x": 21,
-      "y": -21,
-      "zOrder": -10,
+      "height": 128,
+      "layer": "",
+      "name": "card_1",
+      "persistentUuid": "0806c1d0-b7f0-4fc1-87fd-67a78199a808",
+      "width": 128,
+      "x": -300,
+      "y": 34,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "",
+      "name": "card_1",
+      "persistentUuid": "086a9d26-cdb7-4e92-b93d-aa9b1317e3cc",
+      "width": 128,
+      "x": -150,
+      "y": 27,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "",
+      "name": "card_2",
+      "persistentUuid": "a892c304-df79-4f3a-9b14-66b9bda9ef66",
+      "width": 128,
+      "x": -300,
+      "y": 173,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "",
+      "name": "card_2",
+      "persistentUuid": "2a7b0bf1-f5ed-469a-abd9-7611a70bccaa",
+      "width": 128,
+      "x": -150,
+      "y": 158,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "",
+      "name": "card_3",
+      "persistentUuid": "8d54ac60-054d-490e-9a11-25938294f948",
+      "width": 128,
+      "x": -300,
+      "y": 321,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "",
+      "name": "card_3",
+      "persistentUuid": "77155d10-4825-4ee5-97ec-3f66fae7e84d",
+      "width": 128,
+      "x": -150,
+      "y": 300,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "",
+      "name": "card_4",
+      "persistentUuid": "1b48f9fe-743d-4719-83db-11d26ef267d7",
+      "width": 128,
+      "x": -300,
+      "y": 450,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "",
+      "name": "card_4",
+      "persistentUuid": "f32f3cbc-97ce-4f11-952b-07b58aa0d4bf",
+      "width": 128,
+      "x": -150,
+      "y": 435,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "",
+      "name": "card_5",
+      "persistentUuid": "e468c9dd-a692-45df-bffb-efbe81af6695",
+      "width": 128,
+      "x": -300,
+      "y": 591,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "",
+      "name": "card_5",
+      "persistentUuid": "8d3bfca2-1ddb-483d-b5dd-6d847ab8eda9",
+      "width": 128,
+      "x": -150,
+      "y": 581,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "",
+      "name": "card_6",
+      "persistentUuid": "f07fdceb-be77-4721-af0e-42148e7d2314",
+      "width": 128,
+      "x": -300,
+      "y": 740,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "",
+      "name": "card_6",
+      "persistentUuid": "04d0cf25-ff1b-4f90-88c7-5eea19bf322e",
+      "width": 128,
+      "x": -150,
+      "y": 726,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "",
+      "name": "card_7",
+      "persistentUuid": "98316e01-728e-4f0f-baa8-89b30bcbe296",
+      "width": 128,
+      "x": -298,
+      "y": 866,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "",
+      "name": "card_7",
+      "persistentUuid": "764c1294-7049-4aad-bd07-aa616644d330",
+      "width": 128,
+      "x": -150,
+      "y": 863,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "",
+      "name": "card_8",
+      "persistentUuid": "0f7eabf2-5b60-4b76-8e0e-0faf124a37e4",
+      "width": 128,
+      "x": -297,
+      "y": 989,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "",
+      "name": "card_8",
+      "persistentUuid": "c1a475e6-406e-46af-aae1-30ac2022e097",
+      "width": 128,
+      "x": -159,
+      "y": 987,
+      "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -801,12 +785,27 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "background",
-      "persistentUuid": "ae3b615b-3505-47b2-810c-33ce6b14c9b7",
+      "name": "Fundo1",
+      "persistentUuid": "e8e977be-615e-4daf-b586-99b02271680e",
       "width": 0,
       "x": 0,
       "y": 0,
-      "zOrder": -10,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Fundo2",
+      "persistentUuid": "a6591348-86e4-46bd-bd1a-c4ca7b8e8a8c",
+      "width": 0,
+      "x": 799,
+      "y": 0,
+      "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -816,7 +815,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "card_crab",
+      "name": "card_1",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -844,7 +843,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Cards\\assets\\card_crab.png",
+                  "image": "assets\\Cards\\assets\\carta_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -873,7 +872,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Cards\\assets\\card_back.png",
+                  "image": "assets\\Cards\\assets\\verso_carta_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -897,7 +896,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "card_seahorse",
+      "name": "card_2",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -925,7 +924,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Cards\\assets\\card_seahorse.png",
+                  "image": "assets\\Cards\\assets\\carta_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -954,7 +953,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Cards\\assets\\card_back.png",
+                  "image": "assets\\Cards\\assets\\verso_carta_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -978,7 +977,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "card_snail",
+      "name": "card_3",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -1006,7 +1005,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Cards\\assets\\card_snail.png",
+                  "image": "assets\\Cards\\assets\\carta_3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1035,7 +1034,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Cards\\assets\\card_back.png",
+                  "image": "assets\\Cards\\assets\\verso_carta_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1059,7 +1058,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "card_seagrass",
+      "name": "card_4",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -1087,7 +1086,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Cards\\assets\\card_seagrass.png",
+                  "image": "assets\\Cards\\assets\\carta_4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1116,7 +1115,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Cards\\assets\\card_back.png",
+                  "image": "assets\\Cards\\assets\\verso_carta_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1140,7 +1139,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "card_coral",
+      "name": "card_5",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -1168,7 +1167,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Cards\\assets\\card_coral.png",
+                  "image": "assets\\Cards\\assets\\carta_5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1197,7 +1196,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Cards\\assets\\card_back.png",
+                  "image": "assets\\Cards\\assets\\verso_carta_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1221,7 +1220,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "card_anemone",
+      "name": "card_6",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -1249,7 +1248,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Cards\\assets\\card_anemone.png",
+                  "image": "assets\\Cards\\assets\\carta_6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1278,7 +1277,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Cards\\assets\\card_back.png",
+                  "image": "assets\\Cards\\assets\\verso_carta_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1302,7 +1301,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "card_plasticbag",
+      "name": "card_7",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -1330,7 +1329,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Cards\\assets\\card_plasticbag.png",
+                  "image": "assets\\Cards\\assets\\carta_7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1359,7 +1358,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Cards\\assets\\card_back.png",
+                  "image": "assets\\Cards\\assets\\verso_carta_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1383,7 +1382,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "card_blowfish",
+      "name": "card_8",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -1411,7 +1410,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Cards\\assets\\card_blowfish.png",
+                  "image": "assets\\Cards\\assets\\carta_8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1440,7 +1439,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Cards\\assets\\card_back.png",
+                  "image": "assets\\Cards\\assets\\verso_carta_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1564,9 +1563,9 @@
       "textAlignment": "",
       "characterSize": 80,
       "color": {
-        "b": 48,
-        "g": 211,
-        "r": 179
+        "b": 0,
+        "g": 0,
+        "r": 0
       }
     },
     {
@@ -2123,20 +2122,9 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "Fundo1",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": []
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "background",
-      "type": "Sprite",
-      "updateIfNotVisible": true,
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -2151,7 +2139,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Cards\\assets\\background.png",
+                  "image": "assets\\Cards\\assets\\background1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2171,11 +2159,71 @@
                         "y": 0
                       },
                       {
-                        "x": 1920,
+                        "x": 799,
                         "y": 0
                       },
                       {
-                        "x": 1920,
+                        "x": 799,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Fundo2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Cards\\assets\\background2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1120,
+                        "y": 0
+                      },
+                      {
+                        "x": 1120,
                         "y": 1080
                       },
                       {
@@ -2196,28 +2244,28 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "card_crab"
+        "objectName": "card_1"
       },
       {
-        "objectName": "card_seahorse"
+        "objectName": "card_2"
       },
       {
-        "objectName": "card_snail"
+        "objectName": "card_3"
       },
       {
-        "objectName": "card_seagrass"
+        "objectName": "card_4"
       },
       {
-        "objectName": "card_coral"
+        "objectName": "card_5"
       },
       {
-        "objectName": "card_anemone"
+        "objectName": "card_6"
       },
       {
-        "objectName": "card_plasticbag"
+        "objectName": "card_7"
       },
       {
-        "objectName": "card_blowfish"
+        "objectName": "card_8"
       },
       {
         "objectName": "position_placeholder"
@@ -2262,10 +2310,10 @@
         "objectName": "RestartButton"
       },
       {
-        "objectName": "NewSprite"
+        "objectName": "Fundo1"
       },
       {
-        "objectName": "background"
+        "objectName": "Fundo2"
       }
     ]
   },
@@ -2861,7 +2909,7 @@
                     "cards",
                     "Tween",
                     "\"uncover_1\"",
-                    "2",
+                    "0.67",
                     "\"linear\"",
                     "125",
                     "no",
@@ -2954,10 +3002,11 @@
                         "pairs",
                         "Tween",
                         "\"flash\"",
-                        "\"179;211;48\"",
+                        "\"0;0;0\"",
                         "\"easeInOutQuad\"",
                         "250",
-                        "no"
+                        "no",
+                        ""
                       ]
                     }
                   ],
@@ -3288,7 +3337,7 @@
                     "cards",
                     "Tween",
                     "\"cover_1\"",
-                    "2",
+                    "0.67",
                     "\"linear\"",
                     "125",
                     "no",
@@ -3609,38 +3658,6 @@
       "ambientLightColorR": 200,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 0.1,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "UI",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
-    },
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 0.1,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "Fade",
-      "renderingType": "",
-      "visibility": false,
-      "cameras": [],
-      "effects": []
-    },
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
@@ -3649,7 +3666,23 @@
       "renderingType": "",
       "visibility": false,
       "cameras": [],
-      "effects": []
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     },
     {
       "ambientLightColorB": 200,
@@ -3676,6 +3709,38 @@
           "width": 0
         }
       ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Fade",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
       "effects": []
     }
   ],
