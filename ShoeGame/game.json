@@ -9142,6 +9142,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/dustemittersetup"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/controlbuttons"
     }
   ],
   "eventsFunctionsExtensions": [
