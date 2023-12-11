@@ -4196,6 +4196,14 @@
         "name": "assets\\Cards\\assets\\background2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/Sokoban/assets/sokobanLevels.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "assets\\Sokoban\\assets\\sokobanLevels.json",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -9166,7 +9174,7 @@
     },
     {
       "folded": true,
-      "name": "SokobanCurrentLevel",
+      "name": "sokobanLevel",
       "type": "number",
       "value": 1
     }
@@ -9250,6 +9258,10 @@
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/jsonresourceloader"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/rectangularfloodfill"
     },
     {
@@ -9300,11 +9312,11 @@
   "externalLayouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/ballslevel2"
+      "referenceTo": "/externalLayouts/controlbuttons"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/controlbuttons"
+      "referenceTo": "/externalLayouts/ballslevel2"
     }
   ],
   "externalSourceFiles": []
