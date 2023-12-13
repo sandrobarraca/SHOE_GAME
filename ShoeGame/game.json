@@ -3394,7 +3394,7 @@
         "alwaysLoaded": false,
         "file": "assets/ParkTheCar/assets/Oil can.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/ParkTheCar/assets/Oil can.png\",\"extension\":\".png\"}",
         "name": "assets\\ParkTheCar\\assets\\Oil can.png",
         "smoothed": true,
         "userAdded": true
@@ -4203,6 +4203,32 @@
         "kind": "json",
         "metadata": "",
         "name": "assets\\Sokoban\\assets\\sokobanLevels.json",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_ParkTheCar_assets_ParkedIdentifyer.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\ParkTheCar\\assets\\ParkedIdentifyer",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_ParkTheCar_assets_ParkedIdentifyer2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\ParkTheCar\\assets\\ParkedIdentifyer2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/ParkTheCar/assets/parkTheCarLevels.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "assets\\ParkTheCar\\assets\\parkTheCarLevels.json",
         "userAdded": true
       }
     ],
@@ -9175,6 +9201,12 @@
     {
       "folded": true,
       "name": "sokobanLevel",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "folded": true,
+      "name": "parkthecarLevel",
       "type": "number",
       "value": 1
     }
