@@ -4230,6 +4230,104 @@
         "metadata": "",
         "name": "assets\\ParkTheCar\\assets\\parkTheCarLevels.json",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeBoxAttack/assets/shoe_box_3_flat_400px.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeBoxAttack\\assets\\shoe_box_3_flat_400px.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeBoxAttack/assets/shoe_box_4__flat400px.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeBoxAttack\\assets\\shoe_box_4__flat400px.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeBoxAttack/assets/shoe_box_5_flat_400px.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeBoxAttack\\assets\\shoe_box_5_flat_400px.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeBoxAttack/assets/shoe_box_7_400px.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeBoxAttack\\assets\\shoe_box_7_400px.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeBoxAttack/assets/shoe_box_8_400px.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeBoxAttack\\assets\\shoe_box_8_400px.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeBoxAttack/assets/shoeboxattack_bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeBoxAttack\\assets\\shoeboxattack_bg.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cannon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cannon.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Weapon/597fc486a9ca22c93dd05c0980a21a42178b98c02f15bd74be7702ee6af5bb46_Cannon.png",
+          "name": "Cannon.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Directional Arrow Full Circle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Directional Arrow Full Circle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Arrows/27e5023311b2a61cb8cbe2de5fa42fdeb8477f79a67ca3e0aeaaf92f5dd032f9_Directional Arrow Full Circle.png",
+          "name": "Directional Arrow Full Circle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Directional Arrow Full Circle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Directional Arrow Full Circle",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeBoxAttack/assets/shoe_box_2_400px (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeBoxAttack\\assets\\shoe_box_2_400px (1).png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

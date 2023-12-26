@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4448515998886655,
+    "zoomFactor": 0.4913877545329358,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -28,44 +28,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1080,
-      "layer": "",
-      "name": "CastlesBackground",
-      "persistentUuid": "9a73876d-5771-4c30-ba16-b298e5215c3e",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": -4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 374,
-      "layer": "",
-      "name": "DesertBackground",
-      "persistentUuid": "3a4a1261-7df7-419f-87a2-6ff68790b9ee",
-      "width": 596,
-      "x": 1,
-      "y": 503,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "height": 35,
       "layer": "",
       "name": "CannonBall",
       "persistentUuid": "3ab299bf-6175-47bb-a704-fc383059614f",
-      "width": 0,
-      "x": 234,
-      "y": 516,
+      "width": 34,
+      "x": 228,
+      "y": 510,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -91,26 +60,11 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 181,
-      "layer": "",
-      "name": "GreenFloor",
-      "persistentUuid": "49f57f2d-f27c-47e3-bdce-8da621b63ab0",
-      "width": 1920,
-      "x": 0,
-      "y": 723,
-      "zOrder": -2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "height": 35,
       "layer": "",
       "name": "CannonBall",
       "persistentUuid": "0ae5fce6-bcd3-49c2-9c70-48930ea2288a",
-      "width": 0,
+      "width": 34,
       "x": 278,
       "y": 528,
       "zOrder": 6,
@@ -120,14 +74,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 35,
       "layer": "",
       "name": "CannonBall",
       "persistentUuid": "d9201cda-4f80-4c87-9b70-2929f4d6cef0",
-      "width": 0,
-      "x": 196,
-      "y": 549,
+      "width": 36,
+      "x": 174,
+      "y": 576,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -199,11 +154,26 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "AlternativeTower",
-      "persistentUuid": "8adc92f5-2227-4514-a83d-4392a2ab3457",
+      "name": "BackGroundFabril",
+      "persistentUuid": "d0894d82-d749-4dcd-ba6f-da6d29bcc5e0",
       "width": 0,
-      "x": 1149,
-      "y": 771,
+      "x": 0,
+      "y": 0,
+      "zOrder": -4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Box2",
+      "persistentUuid": "bcdb68c2-2d4d-40ac-8bae-dff9dd6ee0c0",
+      "width": 0,
+      "x": 1122,
+      "y": 563,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -214,11 +184,11 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "SmallCastle",
-      "persistentUuid": "f3fdb807-a21e-4fa9-b27a-c1b60df960b6",
+      "name": "Box1",
+      "persistentUuid": "6b158c20-2ff3-45c5-a18e-764d8a6d0483",
       "width": 0,
-      "x": 1364,
-      "y": 652,
+      "x": 1566,
+      "y": 565,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -229,12 +199,28 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "AlternativeTower",
-      "persistentUuid": "eb8f6ac6-c136-4549-8cb0-85289886dfc0",
+      "name": "Box3",
+      "persistentUuid": "e812e515-e356-4f27-9222-68f02f3d1c19",
       "width": 0,
-      "x": 1148,
-      "y": 651,
-      "zOrder": 12,
+      "x": 1527,
+      "y": 714,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 208,
+      "layer": "",
+      "name": "Box4",
+      "persistentUuid": "ce41dfd0-c4d8-4fd2-8d51-0671d26b3a94",
+      "width": 400,
+      "x": 917,
+      "y": 714,
+      "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -244,12 +230,44 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "AlternativeTower",
-      "persistentUuid": "b5745c38-fbca-4ed1-989e-d9967dcd2f6a",
+      "name": "Box5",
+      "persistentUuid": "ec8c2eef-179d-4a71-83f8-d498ffb001f8",
       "width": 0,
-      "x": 1670,
-      "y": 763,
-      "zOrder": 12,
+      "x": 1222,
+      "y": 713,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 338,
+      "customSize": true,
+      "depth": 2,
+      "height": 76,
+      "layer": "",
+      "name": "Cannon",
+      "persistentUuid": "972c7f5e-a148-43ab-a650-b61664e47d44",
+      "width": 220,
+      "x": -9,
+      "y": 785,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 171,
+      "customSize": true,
+      "depth": 1,
+      "height": 577,
+      "layer": "",
+      "name": "DirectionalArrowFullCircle",
+      "persistentUuid": "319589c2-b610-489d-b74e-1fffb77b3a70",
+      "width": 663,
+      "x": -83,
+      "y": 381,
+      "zOrder": -3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -259,12 +277,12 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "AlternativeTower",
-      "persistentUuid": "6eda9963-9a70-48c3-867d-1bd4fb1a9121",
+      "name": "BoxHit",
+      "persistentUuid": "2d7ece61-0133-48b1-90f1-3645a443fa01",
       "width": 0,
-      "x": 1670,
-      "y": 645,
-      "zOrder": 12,
+      "x": 1519,
+      "y": 388,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -274,42 +292,12 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "AlternativeTower",
-      "persistentUuid": "e128f010-181d-4567-a86e-895bd06b3f07",
+      "name": "Box3",
+      "persistentUuid": "16eabc74-14f3-401e-9091-6eb721c9b388",
       "width": 0,
-      "x": 1667,
-      "y": 528,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "AlternativeTower",
-      "persistentUuid": "6094bcfd-b4d3-4b78-ac15-061fc106fe3b",
-      "width": 0,
-      "x": 1149,
-      "y": 497,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 321,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "AlternativeTower",
-      "persistentUuid": "08891126-bf7a-4dd2-a93c-be9ff7dd8f6a",
-      "width": 0,
-      "x": 907,
-      "y": 697,
-      "zOrder": 12,
+      "x": 1004,
+      "y": 417,
+      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -883,6 +871,691 @@
         "g": 0,
         "r": 255
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Box1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_3_flat_400px.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 47,
+                        "y": 17
+                      },
+                      {
+                        "x": 353,
+                        "y": 17
+                      },
+                      {
+                        "x": 353,
+                        "y": 161
+                      },
+                      {
+                        "x": 47,
+                        "y": 161
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Box2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_4__flat400px.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45,
+                        "y": 10
+                      },
+                      {
+                        "x": 353,
+                        "y": 10
+                      },
+                      {
+                        "x": 353,
+                        "y": 160
+                      },
+                      {
+                        "x": 45,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Box3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_5_flat_400px.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45,
+                        "y": 10
+                      },
+                      {
+                        "x": 353,
+                        "y": 10
+                      },
+                      {
+                        "x": 353,
+                        "y": 160
+                      },
+                      {
+                        "x": 45,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Box4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 33,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_7_400px.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 46,
+                        "y": 17
+                      },
+                      {
+                        "x": 351,
+                        "y": 17
+                      },
+                      {
+                        "x": 351,
+                        "y": 160
+                      },
+                      {
+                        "x": 46,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Box5",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_8_400px.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45,
+                        "y": 16
+                      },
+                      {
+                        "x": 353,
+                        "y": 16
+                      },
+                      {
+                        "x": 353,
+                        "y": 160
+                      },
+                      {
+                        "x": 45,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BackGroundFabril",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ShoeBoxAttack\\assets\\shoeboxattack_bg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "cdb4864de080078af030e71307ed05fc4a098c1b8acd8bb6b954c30ada80d307",
+      "name": "Cannon",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cannon.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 142,
+                        "y": 0
+                      },
+                      {
+                        "x": 142,
+                        "y": 49
+                      },
+                      {
+                        "x": 0,
+                        "y": 49
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "dc2b572bfb46ac3fcfa51bc02be47e1ae87cec7609117bee941318f7a5eea547",
+      "name": "DirectionalArrowFullCircle",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Directional Arrow Full Circle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Directional Arrow Full Circle",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 9
+                      },
+                      {
+                        "x": 139,
+                        "y": 9
+                      },
+                      {
+                        "x": 139,
+                        "y": 139
+                      },
+                      {
+                        "x": 9,
+                        "y": 139
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BoxHit",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_2_400px (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 46,
+                        "y": 47
+                      },
+                      {
+                        "x": 351,
+                        "y": 47
+                      },
+                      {
+                        "x": 351,
+                        "y": 209
+                      },
+                      {
+                        "x": 46,
+                        "y": 209
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -911,6 +1584,33 @@
       },
       {
         "objectName": "YouWin"
+      },
+      {
+        "objectName": "Box1"
+      },
+      {
+        "objectName": "Box2"
+      },
+      {
+        "objectName": "Box3"
+      },
+      {
+        "objectName": "Box4"
+      },
+      {
+        "objectName": "Box5"
+      },
+      {
+        "objectName": "BackGroundFabril"
+      },
+      {
+        "objectName": "Cannon"
+      },
+      {
+        "objectName": "DirectionalArrowFullCircle"
+      },
+      {
+        "objectName": "BoxHit"
       }
     ]
   },
@@ -1077,7 +1777,7 @@
           },
           "parameters": [
             "CannonBall",
-            "DesertBackground",
+            "DirectionalArrowFullCircle",
             "",
             "",
             ""
