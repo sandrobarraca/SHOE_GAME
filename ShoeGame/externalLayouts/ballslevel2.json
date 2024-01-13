@@ -99,13 +99,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1364,
+      "height": 1329,
       "layer": "",
       "name": "Finish",
       "persistentUuid": "1adbd830-656a-4de7-a6cc-250b1800f63b",
       "width": 30,
       "x": 2089,
-      "y": -241,
+      "y": -221,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -120,7 +120,7 @@
       "name": "EmptyCloudBackground",
       "persistentUuid": "cfd4617f-d6af-42ca-a80e-1d858921f1ee",
       "width": 4509,
-      "x": -1108,
+      "x": -1113,
       "y": -222,
       "zOrder": -10,
       "numberProperties": [],
@@ -138,7 +138,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4447721560197157,
+    "zoomFactor": 0.1941159187240225,
     "windowMask": false
   }
 }

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3430810505289428,
+    "zoomFactor": 0.24259493732561996,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -42,6 +42,24 @@
       "name": "successMessage",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "objectStructure",
+      "type": "structure",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "i",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "levelNumber",
+      "type": "string",
+      "value": ""
     }
   ],
   "instances": [
@@ -192,6 +210,22 @@
       "x": 1591,
       "y": 37,
       "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1332,
+      "layer": "",
+      "name": "EmptyCloudBackground",
+      "persistentUuid": "0ba27849-90ba-4a33-9e13-c7261d4d573e",
+      "width": 4509,
+      "x": -1108,
+      "y": -222,
+      "zOrder": -10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -864,17 +898,6 @@
                 },
                 {
                   "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "\"BallsLevel2\"",
-                    "0",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "HideLayer"
                   },
                   "parameters": [
@@ -946,6 +969,240 @@
                     "",
                     "",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "JSONResourceLoader::LoadJSONToScene"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\ball\\assets\\ballLevels.json",
+                    "objectStructure",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "levelNumber",
+                    "=",
+                    "\"level\" + ToString(GlobalVariable(ballsLevel))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "i",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "objectStructure[levelNumber].nBalls",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "SmallRedBall",
+                        "objectStructure[levelNumber].Ball[i]",
+                        "objectStructure[levelNumber].Ball[i+1]",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "i",
+                        "+",
+                        "2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "i",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "objectStructure[levelNumber].nStars",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Star",
+                        "objectStructure[levelNumber].Star[i]",
+                        "objectStructure[levelNumber].Star[i+1]",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "i",
+                        "+",
+                        "2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "i",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "objectStructure[levelNumber].nClouds",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Cloud",
+                        "objectStructure[levelNumber].Cloud[i]",
+                        "objectStructure[levelNumber].Cloud[i+1]",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetSize"
+                      },
+                      "parameters": [
+                        "Cloud",
+                        "Resizable",
+                        "200",
+                        "200"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "i",
+                        "+",
+                        "2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "i",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "objectStructure[levelNumber].nFinish",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Finish",
+                        "objectStructure[levelNumber].Finish[i]",
+                        "objectStructure[levelNumber].Finish[i+1]",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetSize"
+                      },
+                      "parameters": [
+                        "Finish",
+                        "Resizable",
+                        "30",
+                        "1329"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "i",
+                        "+",
+                        "2"
+                      ]
+                    }
                   ]
                 }
               ]
