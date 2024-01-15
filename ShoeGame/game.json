@@ -4344,6 +4344,60 @@
         "metadata": "",
         "name": "assets\\shoe-game-duck\\assets\\platformerLevels.json",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/shoe-game-duck/assets/Level_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\shoe-game-duck\\assets\\Level_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/shoe-game-duck/assets/Level_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\shoe-game-duck\\assets\\Level_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/shoe-game-duck/assets/Level_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\shoe-game-duck\\assets\\Level_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/shoe-game-duck/assets/Level_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\shoe-game-duck\\assets\\Level_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/shoe-game-duck/assets/Level_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\shoe-game-duck\\assets\\Level_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/shoe-game-duck/assets/Level_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\shoe-game-duck\\assets\\Level_7.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -9334,7 +9388,7 @@
       "folded": true,
       "name": "platformerLevel",
       "type": "number",
-      "value": 1
+      "value": 7
     }
   ],
   "layouts": [
