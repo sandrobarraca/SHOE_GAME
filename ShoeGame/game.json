@@ -4336,6 +4336,14 @@
         "metadata": "",
         "name": "assets\\ball\\assets\\ballLevels.json",
         "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/shoe-game-duck/assets/platformerLevels.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "assets\\shoe-game-duck\\assets\\platformerLevels.json",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -9320,7 +9328,13 @@
       "folded": true,
       "name": "ballsLevel",
       "type": "number",
-      "value": 5
+      "value": 1
+    },
+    {
+      "folded": true,
+      "name": "platformerLevel",
+      "type": "number",
+      "value": 1
     }
   ],
   "layouts": [
