@@ -1,43 +1,43 @@
 {
 "level1":{
+"nBalls":1,"nStars":2,"nClouds":1, "nFinish":1,
+"Ball":[123,97],
+"Star":[381,47,1179,47],
+"Cloud":[95,444],
+"Finish":[1634,-221]}
+,
+"level2":{
 "nBalls":1,"nStars":2,"nClouds":3, "nFinish":1,
 "Ball":[123,185],
 "Star":[319,51,1190,47],
 "Cloud":[76,608,801,664,1560,640],
 "Finish":[2089,-221]}
 ,
-"level2":{
-"nBalls":1,"nBoxes":1,"nGoals":71,
-"Ball":[64,448],
-"Star":[1344,448],
-"Cloud":[8321344,768,1408,768],
-"Finish":[2089,-221]}
-,
 "level3":{
-"nBalls":1,"nBoxes":1,"nGoals":87,
-"Ball":[0,320],
-"Star":[1280,576],
-"Cloud":[8321344,768,1408,768],
-"Finish":[2089,-221]}
+"nBalls":1,"nStars":3,"nClouds":2, "nFinish":1,
+"Ball":[64,90],
+"Star":[401,47,2247,38,3030,43],
+"Cloud":[32,442,1264,443],
+"Finish":[3403,-159]}
 ,
 "level4":{
-"nBalls":1,"nBoxes":1,"nGoals":150,
-"Ball":[64,128],
-"Star":[1408,640],
-"Cloud":[8321344,768,1408,768],
-"Finish":[2089,-221]}
+"nBalls":1,"nStars":4,"nClouds":3, "nFinish":1,
+"Ball": [-1176,87],
+"Star": [-839,44,401,47,2247,38,3030,43],
+"Cloud": [-1208,439,32,442,1264,443],
+"Finish": [3403,-159]}
 ,
 "level5":{
-"nBalls":1,"nBoxes":1,"nGoals":115,
-"Ball":[768,448],
-"Star":[1024,896],
-"Cloud":[8321344,768,1408,768],
-"Finish":[2089,-221]}
+"nBalls":1,"nStars":3,"nClouds":2, "nFinish":1,
+"Ball":[53,113],
+"Star":[319,71,1126,72,2014,-61],
+"Cloud":[0,426,2791,426],
+"Finish":[4061,-160]}
 ,
 "level6":{
-"nBalls":1,"nBoxes":1,"nGoals":205,
-"Ball":[0,64],
-"Star":[1600,896],
-"Cloud":[8321344,768,1408,768],
-"Finish":[2089,-221]}
+"nBalls":1,"nStars":4,"nClouds":2, "nFinish":1,
+"Ball":[53,113],
+"Star":[319,71,1126,72,1904,70,3703,106],
+"Cloud":[0,426,2936,429],
+"Finish":[4061,-160]}
 }

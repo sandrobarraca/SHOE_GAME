@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.24259493732561996,
+    "zoomFactor": 0.3059871133192104,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -80,59 +80,14 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "height": 62,
-      "layer": "UI",
-      "name": "SpeedText",
-      "persistentUuid": "0b35df79-70b4-4e42-a101-fcadcea989af",
-      "width": 92,
-      "x": 850,
-      "y": 19,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "UI",
-      "name": "DistanceLeft",
-      "persistentUuid": "cb22726a-da73-4b6a-9028-78728ee361ee",
-      "width": 0,
-      "x": 819,
-      "y": 228,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "UI",
-      "name": "ArrowDistanceLeft",
-      "persistentUuid": "d97b5dfa-6975-4a66-a7e8-ed3716158278",
-      "width": 0,
-      "x": 897,
-      "y": 227,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "Ending",
       "name": "ContinueText",
       "persistentUuid": "08a9ef0c-94e5-4dfe-a6a5-a6edda6616f7",
       "width": 0,
-      "x": 605,
-      "y": 479,
+      "x": 748,
+      "y": 519,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -146,8 +101,8 @@
       "name": "SuccessText",
       "persistentUuid": "7d7d2a76-b7e2-4ad3-94ae-445501112159",
       "width": 0,
-      "x": 336,
-      "y": 113,
+      "x": 766,
+      "y": 153,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -222,9 +177,9 @@
       "layer": "",
       "name": "EmptyCloudBackground",
       "persistentUuid": "0ba27849-90ba-4a33-9e13-c7261d4d573e",
-      "width": 4509,
-      "x": -1108,
-      "y": -222,
+      "width": 7763,
+      "x": -2215,
+      "y": -168,
       "zOrder": -10,
       "numberProperties": [],
       "stringProperties": [],
@@ -1353,52 +1308,12 @@
           "actions": [
             {
               "type": {
-                "value": "SetCenterY"
-              },
-              "parameters": [
-                "ArrowDistanceLeft",
-                "=",
-                "SmallRedBall.CenterY()"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "DistanceLeft",
-                "=",
-                "ArrowDistanceLeft.X() - DistanceLeft.Width() - 20"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCenterY"
-              },
-              "parameters": [
-                "DistanceLeft",
-                "=",
-                "ArrowDistanceLeft.CenterY()"
-              ]
-            },
-            {
-              "type": {
                 "value": "TiledSpriteObject::XOffset"
               },
               "parameters": [
                 "EmptyCloudBackground",
                 "+",
                 "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "SpeedText",
-                "=",
-                "\"Speed \" + NewLine()+ ToString(round(abs(SmallRedBall.Physics2::LinearVelocityX())))"
               ]
             }
           ]
