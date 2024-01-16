@@ -4398,6 +4398,96 @@
         "name": "assets\\shoe-game-duck\\assets\\Level_7.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino/assets/Female_Character_11_Crouched_Right_3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Dino/assets/Female_Character_11_Crouched_Right_3.png\",\"extension\":\".png\"}",
+        "name": "assets\\Dino\\assets\\Female_Character_11_Crouched_Right_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Duck.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Duck",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino/assets/Male_Character_12_Crouched_Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dino\\assets\\Male_Character_12_Crouched_Right_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino/assets/Female_Character_10_Crouched_Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dino\\assets\\Female_Character_10_Crouched_Right.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino/assets/Male_Character_11_Crouched_Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dino\\assets\\Male_Character_11_Crouched_Right_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino/assets/Female_Character_6_Crouched_Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dino\\assets\\Female_Character_6_Crouched_Right_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino/assets/Male_Character_2_Crouched_Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dino\\assets\\Male_Character_2_Crouched_Right_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino/assets/Female_Character_9_Crouched_Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dino\\assets\\Female_Character_9_Crouched_Right_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino/assets/Female_Character_5_Crouched_Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dino\\assets\\Female_Character_5_Crouched_Right_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino/assets/Male_Character_3_Crouched_Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dino\\assets\\Male_Character_3_Crouched_Right_2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4462,7 +4552,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "9af6773a55ddc01430409f858506afe9e08b86f62eacc5dd574ac399bdb14b16",
       "name": "Character_01",
       "type": "Sprite",
@@ -4484,11 +4574,11 @@
       ],
       "animations": [
         {
-          "name": "Walking Down",
+          "name": "Jump",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
+              "looping": false,
               "timeBetweenFrames": 0.25,
               "sprites": [
                 {
@@ -4501,28 +4591,28 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 77.5,
+                    "y": 138
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 2
+                        "x": 3.5,
+                        "y": 5
                       },
                       {
-                        "x": 15,
-                        "y": 2
+                        "x": 11.5,
+                        "y": 5
                       },
                       {
-                        "x": 15,
+                        "x": 12,
                         "y": 17
                       },
                       {
-                        "x": 1,
-                        "y": 17
+                        "x": 3.5,
+                        "y": 16
                       }
                     ]
                   ]
@@ -4537,28 +4627,28 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 77.5,
+                    "y": 138
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 2
+                        "x": 3.5,
+                        "y": 5
                       },
                       {
-                        "x": 15,
-                        "y": 2
+                        "x": 11.5,
+                        "y": 5
                       },
                       {
-                        "x": 15,
+                        "x": 12,
                         "y": 17
                       },
                       {
-                        "x": 1,
-                        "y": 17
+                        "x": 3.5,
+                        "y": 16
                       }
                     ]
                   ]
@@ -4573,28 +4663,28 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 77.5,
+                    "y": 138
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 2
+                        "x": 3.5,
+                        "y": 5
                       },
                       {
-                        "x": 15,
-                        "y": 2
+                        "x": 11.5,
+                        "y": 5
                       },
                       {
-                        "x": 15,
+                        "x": 12,
                         "y": 17
                       },
                       {
-                        "x": 1,
-                        "y": 17
+                        "x": 3.5,
+                        "y": 16
                       }
                     ]
                   ]
@@ -4608,7 +4698,7 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
+              "looping": false,
               "timeBetweenFrames": 0.25,
               "sprites": [
                 {
@@ -4621,28 +4711,28 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 77.5,
+                    "y": 138
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 2
+                        "x": 4,
+                        "y": 4.5
                       },
                       {
-                        "x": 15,
-                        "y": 2
+                        "x": 11,
+                        "y": 4.5
                       },
                       {
-                        "x": 15,
-                        "y": 17
+                        "x": 12.5,
+                        "y": 16.5
                       },
                       {
-                        "x": 1,
-                        "y": 17
+                        "x": 3.5,
+                        "y": 16.5
                       }
                     ]
                   ]
@@ -4657,28 +4747,28 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 77.5,
+                    "y": 138
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 2
+                        "x": 4,
+                        "y": 4.5
                       },
                       {
-                        "x": 15,
-                        "y": 2
+                        "x": 11,
+                        "y": 4.5
                       },
                       {
-                        "x": 15,
-                        "y": 17
+                        "x": 12.5,
+                        "y": 16.5
                       },
                       {
-                        "x": 1,
-                        "y": 17
+                        "x": 3.5,
+                        "y": 16.5
                       }
                     ]
                   ]
@@ -4693,28 +4783,148 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 77.5,
+                    "y": 138
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 2
+                        "x": 4,
+                        "y": 4.5
                       },
                       {
-                        "x": 15,
-                        "y": 2
+                        "x": 11,
+                        "y": 4.5
                       },
                       {
-                        "x": 15,
-                        "y": 17
+                        "x": 12.5,
+                        "y": 16.5
                       },
                       {
-                        "x": 1,
-                        "y": 17
+                        "x": 3.5,
+                        "y": 16.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walking Up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 11_Walking Up_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 77.5,
+                    "y": 138
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 143
+                      },
+                      {
+                        "x": 125.5,
+                        "y": 144
+                      },
+                      {
+                        "x": 126,
+                        "y": 150.5
+                      },
+                      {
+                        "x": 19.5,
+                        "y": 150.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 11_Walking Up_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 77.5,
+                    "y": 138
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 143
+                      },
+                      {
+                        "x": 125.5,
+                        "y": 144
+                      },
+                      {
+                        "x": 126,
+                        "y": 150.5
+                      },
+                      {
+                        "x": 19.5,
+                        "y": 150.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 11_Walking Up_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 77.5,
+                    "y": 138
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 143
+                      },
+                      {
+                        "x": 125.5,
+                        "y": 144
+                      },
+                      {
+                        "x": 126,
+                        "y": 150.5
+                      },
+                      {
+                        "x": 19.5,
+                        "y": 150.5
                       }
                     ]
                   ]
@@ -4741,27 +4951,27 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 77.5,
+                    "y": 138
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 2
+                        "x": 4.5,
+                        "y": 4
                       },
                       {
-                        "x": 15,
-                        "y": 2
+                        "x": 12.5,
+                        "y": 4.5
                       },
                       {
-                        "x": 15,
+                        "x": 12,
                         "y": 17
                       },
                       {
-                        "x": 1,
+                        "x": 4,
                         "y": 17
                       }
                     ]
@@ -4777,27 +4987,27 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 77.5,
+                    "y": 138
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 2
+                        "x": 4.5,
+                        "y": 4
                       },
                       {
-                        "x": 15,
-                        "y": 2
+                        "x": 12.5,
+                        "y": 4.5
                       },
                       {
-                        "x": 15,
+                        "x": 12,
                         "y": 17
                       },
                       {
-                        "x": 1,
+                        "x": 4,
                         "y": 17
                       }
                     ]
@@ -4805,7 +5015,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Female Character 11_Walking Right_3.png",
+                  "image": "Female Character 11_Walking Right_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4813,147 +5023,27 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 77.5,
+                    "y": 138
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 2
+                        "x": 4.5,
+                        "y": 4
                       },
                       {
-                        "x": 15,
-                        "y": 2
+                        "x": 12.5,
+                        "y": 4.5
                       },
                       {
-                        "x": 15,
+                        "x": 12,
                         "y": 17
                       },
                       {
-                        "x": 1,
-                        "y": 17
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Walking Up",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.25,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Female Character 11_Walking Up_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 17
-                      },
-                      {
-                        "x": 1,
-                        "y": 17
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Female Character 11_Walking Up_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 17
-                      },
-                      {
-                        "x": 1,
-                        "y": 17
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Female Character 11_Walking Up_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 2
-                      },
-                      {
-                        "x": 15,
-                        "y": 17
-                      },
-                      {
-                        "x": 1,
+                        "x": 4,
                         "y": 17
                       }
                     ]
@@ -4969,15 +5059,341 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": []
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_11_Crouched_Right_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 77.5,
+                    "y": 138
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 18,
+                        "y": 136
+                      },
+                      {
+                        "x": 124.5,
+                        "y": 136
+                      },
+                      {
+                        "x": 126,
+                        "y": 150.5
+                      },
+                      {
+                        "x": 19.5,
+                        "y": 150.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_11_Crouched_Right_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 77.5,
+                    "y": 138
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 18,
+                        "y": 136
+                      },
+                      {
+                        "x": 124.5,
+                        "y": 136
+                      },
+                      {
+                        "x": 126,
+                        "y": 150.5
+                      },
+                      {
+                        "x": 19.5,
+                        "y": 150.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_11_Crouched_Right_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 77.5,
+                    "y": 138
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 18,
+                        "y": 136
+                      },
+                      {
+                        "x": 124.5,
+                        "y": 136
+                      },
+                      {
+                        "x": 126,
+                        "y": 150.5
+                      },
+                      {
+                        "x": 19.5,
+                        "y": 150.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_11_Crouched_Right_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 77.5,
+                    "y": 138
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 18,
+                        "y": 136
+                      },
+                      {
+                        "x": 124.5,
+                        "y": 136
+                      },
+                      {
+                        "x": 126,
+                        "y": 150.5
+                      },
+                      {
+                        "x": 19.5,
+                        "y": 150.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_11_Crouched_Right_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 77.5,
+                    "y": 138
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 18,
+                        "y": 136
+                      },
+                      {
+                        "x": 124.5,
+                        "y": 136
+                      },
+                      {
+                        "x": 126,
+                        "y": 150.5
+                      },
+                      {
+                        "x": 19.5,
+                        "y": 150.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_11_Crouched_Right_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 77.5,
+                    "y": 138
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 18,
+                        "y": 136
+                      },
+                      {
+                        "x": 124.5,
+                        "y": 136
+                      },
+                      {
+                        "x": 126,
+                        "y": 150.5
+                      },
+                      {
+                        "x": 19.5,
+                        "y": 150.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_11_Crouched_Right_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 77.5,
+                    "y": 138
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 18,
+                        "y": 136
+                      },
+                      {
+                        "x": 124.5,
+                        "y": 136
+                      },
+                      {
+                        "x": 126,
+                        "y": 150.5
+                      },
+                      {
+                        "x": 19.5,
+                        "y": 150.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_11_Crouched_Right_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 77.5,
+                    "y": 138
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 18,
+                        "y": 136
+                      },
+                      {
+                        "x": 124.5,
+                        "y": 136
+                      },
+                      {
+                        "x": 126,
+                        "y": 150.5
+                      },
+                      {
+                        "x": 19.5,
+                        "y": 150.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_11_Crouched_Right_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 77.5,
+                    "y": 138
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 18,
+                        "y": 136
+                      },
+                      {
+                        "x": 124.5,
+                        "y": 136
+                      },
+                      {
+                        "x": 126,
+                        "y": 150.5
+                      },
+                      {
+                        "x": 19.5,
+                        "y": 150.5
+                      }
+                    ]
+                  ]
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "ff79c0bbb0f74a5fb5a5e15b8adb257d6d58ef987e809119a6bb2fafe4001099",
       "name": "Character_02",
       "type": "Sprite",
@@ -5025,18 +5441,18 @@
                     [
                       {
                         "x": 2,
-                        "y": 1
+                        "y": 2.5
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 13.5,
+                        "y": 2.5
                       },
                       {
-                        "x": 14,
+                        "x": 13,
                         "y": 17
                       },
                       {
-                        "x": 2,
+                        "x": 3.5,
                         "y": 17
                       }
                     ]
@@ -5061,18 +5477,18 @@
                     [
                       {
                         "x": 2,
-                        "y": 1
+                        "y": 2.5
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 13.5,
+                        "y": 2.5
                       },
                       {
-                        "x": 14,
+                        "x": 13,
                         "y": 17
                       },
                       {
-                        "x": 2,
+                        "x": 3.5,
                         "y": 17
                       }
                     ]
@@ -5097,18 +5513,18 @@
                     [
                       {
                         "x": 2,
-                        "y": 1
+                        "y": 2.5
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 13.5,
+                        "y": 2.5
                       },
                       {
-                        "x": 14,
+                        "x": 13,
                         "y": 17
                       },
                       {
-                        "x": 2,
+                        "x": 3.5,
                         "y": 17
                       }
                     ]
@@ -5145,18 +5561,18 @@
                     [
                       {
                         "x": 2,
-                        "y": 1
+                        "y": 2.5
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 13.5,
+                        "y": 2.5
                       },
                       {
-                        "x": 14,
+                        "x": 13,
                         "y": 17
                       },
                       {
-                        "x": 2,
+                        "x": 3.5,
                         "y": 17
                       }
                     ]
@@ -5181,18 +5597,18 @@
                     [
                       {
                         "x": 2,
-                        "y": 1
+                        "y": 2.5
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 13.5,
+                        "y": 2.5
                       },
                       {
-                        "x": 14,
+                        "x": 13,
                         "y": 17
                       },
                       {
-                        "x": 2,
+                        "x": 3.5,
                         "y": 17
                       }
                     ]
@@ -5217,18 +5633,18 @@
                     [
                       {
                         "x": 2,
-                        "y": 1
+                        "y": 2.5
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 13.5,
+                        "y": 2.5
                       },
                       {
-                        "x": 14,
+                        "x": 13,
                         "y": 17
                       },
                       {
-                        "x": 2,
+                        "x": 3.5,
                         "y": 17
                       }
                     ]
@@ -5265,18 +5681,18 @@
                     [
                       {
                         "x": 2,
-                        "y": 1
+                        "y": 2.5
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 13.5,
+                        "y": 2.5
                       },
                       {
-                        "x": 14,
+                        "x": 13,
                         "y": 17
                       },
                       {
-                        "x": 2,
+                        "x": 3.5,
                         "y": 17
                       }
                     ]
@@ -5301,18 +5717,18 @@
                     [
                       {
                         "x": 2,
-                        "y": 1
+                        "y": 2.5
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 13.5,
+                        "y": 2.5
                       },
                       {
-                        "x": 14,
+                        "x": 13,
                         "y": 17
                       },
                       {
-                        "x": 2,
+                        "x": 3.5,
                         "y": 17
                       }
                     ]
@@ -5337,18 +5753,18 @@
                     [
                       {
                         "x": 2,
-                        "y": 1
+                        "y": 2.5
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 13.5,
+                        "y": 2.5
                       },
                       {
-                        "x": 14,
+                        "x": 13,
                         "y": 17
                       },
                       {
-                        "x": 2,
+                        "x": 3.5,
                         "y": 17
                       }
                     ]
@@ -5385,18 +5801,18 @@
                     [
                       {
                         "x": 2,
-                        "y": 1
+                        "y": 2.5
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 13.5,
+                        "y": 2.5
                       },
                       {
-                        "x": 14,
+                        "x": 13,
                         "y": 17
                       },
                       {
-                        "x": 2,
+                        "x": 3.5,
                         "y": 17
                       }
                     ]
@@ -5421,18 +5837,18 @@
                     [
                       {
                         "x": 2,
-                        "y": 1
+                        "y": 2.5
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 13.5,
+                        "y": 2.5
                       },
                       {
-                        "x": 14,
+                        "x": 13,
                         "y": 17
                       },
                       {
-                        "x": 2,
+                        "x": 3.5,
                         "y": 17
                       }
                     ]
@@ -5457,19 +5873,355 @@
                     [
                       {
                         "x": 2,
-                        "y": 1
+                        "y": 2.5
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 13.5,
+                        "y": 2.5
                       },
                       {
-                        "x": 14,
+                        "x": 13,
                         "y": 17
                       },
                       {
-                        "x": 2,
+                        "x": 3.5,
                         "y": 17
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Duck",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_12_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 126.5
+                      },
+                      {
+                        "x": 139,
+                        "y": 126
+                      },
+                      {
+                        "x": 140.5,
+                        "y": 158.5
+                      },
+                      {
+                        "x": 13,
+                        "y": 159
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_12_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 126.5
+                      },
+                      {
+                        "x": 139,
+                        "y": 126
+                      },
+                      {
+                        "x": 140.5,
+                        "y": 158.5
+                      },
+                      {
+                        "x": 13,
+                        "y": 159
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_12_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 126.5
+                      },
+                      {
+                        "x": 139,
+                        "y": 126
+                      },
+                      {
+                        "x": 140.5,
+                        "y": 158.5
+                      },
+                      {
+                        "x": 13,
+                        "y": 159
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_12_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 126.5
+                      },
+                      {
+                        "x": 139,
+                        "y": 126
+                      },
+                      {
+                        "x": 140.5,
+                        "y": 158.5
+                      },
+                      {
+                        "x": 13,
+                        "y": 159
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_12_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 126.5
+                      },
+                      {
+                        "x": 139,
+                        "y": 126
+                      },
+                      {
+                        "x": 140.5,
+                        "y": 158.5
+                      },
+                      {
+                        "x": 13,
+                        "y": 159
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_12_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 126.5
+                      },
+                      {
+                        "x": 139,
+                        "y": 126
+                      },
+                      {
+                        "x": 140.5,
+                        "y": 158.5
+                      },
+                      {
+                        "x": 13,
+                        "y": 159
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_12_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 126.5
+                      },
+                      {
+                        "x": 139,
+                        "y": 126
+                      },
+                      {
+                        "x": 140.5,
+                        "y": 158.5
+                      },
+                      {
+                        "x": 13,
+                        "y": 159
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_12_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 126.5
+                      },
+                      {
+                        "x": 139,
+                        "y": 126
+                      },
+                      {
+                        "x": 140.5,
+                        "y": 158.5
+                      },
+                      {
+                        "x": 13,
+                        "y": 159
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_12_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 126.5
+                      },
+                      {
+                        "x": 139,
+                        "y": 126
+                      },
+                      {
+                        "x": 140.5,
+                        "y": 158.5
+                      },
+                      {
+                        "x": 13,
+                        "y": 159
                       }
                     ]
                   ]
@@ -5481,7 +6233,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "12a8e4905f464ec5584a3a87419bbc275e9397f8d083277cae97aa1130fa97e5",
       "name": "Character_03",
       "type": "Sprite",
@@ -5529,8 +6281,8 @@
                         "y": 1
                       },
                       {
-                        "x": 14,
-                        "y": 17
+                        "x": 152,
+                        "y": 152.5
                       },
                       {
                         "x": 2,
@@ -5565,8 +6317,8 @@
                         "y": 1
                       },
                       {
-                        "x": 14,
-                        "y": 17
+                        "x": 152,
+                        "y": 152.5
                       },
                       {
                         "x": 2,
@@ -5601,8 +6353,8 @@
                         "y": 1
                       },
                       {
-                        "x": 14,
-                        "y": 17
+                        "x": 152,
+                        "y": 152.5
                       },
                       {
                         "x": 2,
@@ -5649,8 +6401,8 @@
                         "y": 1
                       },
                       {
-                        "x": 14,
-                        "y": 17
+                        "x": 152,
+                        "y": 152.5
                       },
                       {
                         "x": 2,
@@ -5685,8 +6437,8 @@
                         "y": 1
                       },
                       {
-                        "x": 14,
-                        "y": 17
+                        "x": 152,
+                        "y": 152.5
                       },
                       {
                         "x": 2,
@@ -5721,8 +6473,8 @@
                         "y": 1
                       },
                       {
-                        "x": 14,
-                        "y": 17
+                        "x": 152,
+                        "y": 152.5
                       },
                       {
                         "x": 2,
@@ -5769,8 +6521,8 @@
                         "y": 1
                       },
                       {
-                        "x": 14,
-                        "y": 17
+                        "x": 152,
+                        "y": 152.5
                       },
                       {
                         "x": 2,
@@ -5805,8 +6557,8 @@
                         "y": 1
                       },
                       {
-                        "x": 14,
-                        "y": 17
+                        "x": 152,
+                        "y": 152.5
                       },
                       {
                         "x": 2,
@@ -5841,8 +6593,8 @@
                         "y": 1
                       },
                       {
-                        "x": 14,
-                        "y": 17
+                        "x": 152,
+                        "y": 152.5
                       },
                       {
                         "x": 2,
@@ -5889,8 +6641,8 @@
                         "y": 1
                       },
                       {
-                        "x": 14,
-                        "y": 17
+                        "x": 152,
+                        "y": 152.5
                       },
                       {
                         "x": 2,
@@ -5925,8 +6677,8 @@
                         "y": 1
                       },
                       {
-                        "x": 14,
-                        "y": 17
+                        "x": 152,
+                        "y": 152.5
                       },
                       {
                         "x": 2,
@@ -5961,8 +6713,8 @@
                         "y": 1
                       },
                       {
-                        "x": 14,
-                        "y": 17
+                        "x": 152,
+                        "y": 152.5
                       },
                       {
                         "x": 2,
@@ -5974,11 +6726,347 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Duck",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_10_Crouched_Right.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15.5,
+                        "y": 119
+                      },
+                      {
+                        "x": 144,
+                        "y": 121
+                      },
+                      {
+                        "x": 144,
+                        "y": 157
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 157.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_10_Crouched_Right.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15.5,
+                        "y": 119
+                      },
+                      {
+                        "x": 144,
+                        "y": 121
+                      },
+                      {
+                        "x": 144,
+                        "y": 157
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 157.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_10_Crouched_Right.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15.5,
+                        "y": 119
+                      },
+                      {
+                        "x": 144,
+                        "y": 121
+                      },
+                      {
+                        "x": 144,
+                        "y": 157
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 157.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_10_Crouched_Right.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15.5,
+                        "y": 119
+                      },
+                      {
+                        "x": 144,
+                        "y": 121
+                      },
+                      {
+                        "x": 144,
+                        "y": 157
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 157.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_10_Crouched_Right.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15.5,
+                        "y": 119
+                      },
+                      {
+                        "x": 144,
+                        "y": 121
+                      },
+                      {
+                        "x": 144,
+                        "y": 157
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 157.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_10_Crouched_Right.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15.5,
+                        "y": 119
+                      },
+                      {
+                        "x": 144,
+                        "y": 121
+                      },
+                      {
+                        "x": 144,
+                        "y": 157
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 157.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_10_Crouched_Right.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15.5,
+                        "y": 119
+                      },
+                      {
+                        "x": 144,
+                        "y": 121
+                      },
+                      {
+                        "x": 144,
+                        "y": 157
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 157.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_10_Crouched_Right.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15.5,
+                        "y": 119
+                      },
+                      {
+                        "x": 144,
+                        "y": 121
+                      },
+                      {
+                        "x": 144,
+                        "y": 157
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 157.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_10_Crouched_Right.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15.5,
+                        "y": 119
+                      },
+                      {
+                        "x": 144,
+                        "y": 121
+                      },
+                      {
+                        "x": 144,
+                        "y": 157
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 157.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "9bf0b748b51536d0777d937f9890bead0b12d33e1a9b9eee12ccc9b233802308",
       "name": "Character_04",
       "type": "Sprite",
@@ -6471,11 +7559,347 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Duck",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_11_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12.5,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 135.5,
+                        "y": 123.5
+                      },
+                      {
+                        "x": 139.5,
+                        "y": 154.5
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 153
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_11_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12.5,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 135.5,
+                        "y": 123.5
+                      },
+                      {
+                        "x": 139.5,
+                        "y": 154.5
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 153
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_11_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12.5,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 135.5,
+                        "y": 123.5
+                      },
+                      {
+                        "x": 139.5,
+                        "y": 154.5
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 153
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_11_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12.5,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 135.5,
+                        "y": 123.5
+                      },
+                      {
+                        "x": 139.5,
+                        "y": 154.5
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 153
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_11_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12.5,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 135.5,
+                        "y": 123.5
+                      },
+                      {
+                        "x": 139.5,
+                        "y": 154.5
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 153
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_11_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12.5,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 135.5,
+                        "y": 123.5
+                      },
+                      {
+                        "x": 139.5,
+                        "y": 154.5
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 153
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_11_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12.5,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 135.5,
+                        "y": 123.5
+                      },
+                      {
+                        "x": 139.5,
+                        "y": 154.5
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 153
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_11_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12.5,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 135.5,
+                        "y": 123.5
+                      },
+                      {
+                        "x": 139.5,
+                        "y": 154.5
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 153
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_11_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12.5,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 135.5,
+                        "y": 123.5
+                      },
+                      {
+                        "x": 139.5,
+                        "y": 154.5
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 153
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "483c8d305055b43dd98964858b231c019680b47f3bc7aaf000e362bc5d72066d",
       "name": "Character_05",
       "type": "Sprite",
@@ -6968,11 +8392,347 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Duck",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_6_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 135
+                      },
+                      {
+                        "x": 143.5,
+                        "y": 133
+                      },
+                      {
+                        "x": 145,
+                        "y": 156
+                      },
+                      {
+                        "x": 9,
+                        "y": 156
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_6_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 135
+                      },
+                      {
+                        "x": 143.5,
+                        "y": 133
+                      },
+                      {
+                        "x": 145,
+                        "y": 156
+                      },
+                      {
+                        "x": 9,
+                        "y": 156
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_6_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 135
+                      },
+                      {
+                        "x": 143.5,
+                        "y": 133
+                      },
+                      {
+                        "x": 145,
+                        "y": 156
+                      },
+                      {
+                        "x": 9,
+                        "y": 156
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_6_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 135
+                      },
+                      {
+                        "x": 143.5,
+                        "y": 133
+                      },
+                      {
+                        "x": 145,
+                        "y": 156
+                      },
+                      {
+                        "x": 9,
+                        "y": 156
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_6_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 135
+                      },
+                      {
+                        "x": 143.5,
+                        "y": 133
+                      },
+                      {
+                        "x": 145,
+                        "y": 156
+                      },
+                      {
+                        "x": 9,
+                        "y": 156
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_6_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 135
+                      },
+                      {
+                        "x": 143.5,
+                        "y": 133
+                      },
+                      {
+                        "x": 145,
+                        "y": 156
+                      },
+                      {
+                        "x": 9,
+                        "y": 156
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_6_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 135
+                      },
+                      {
+                        "x": 143.5,
+                        "y": 133
+                      },
+                      {
+                        "x": 145,
+                        "y": 156
+                      },
+                      {
+                        "x": 9,
+                        "y": 156
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_6_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 135
+                      },
+                      {
+                        "x": 143.5,
+                        "y": 133
+                      },
+                      {
+                        "x": 145,
+                        "y": 156
+                      },
+                      {
+                        "x": 9,
+                        "y": 156
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_6_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 135
+                      },
+                      {
+                        "x": 143.5,
+                        "y": 133
+                      },
+                      {
+                        "x": 145,
+                        "y": 156
+                      },
+                      {
+                        "x": 9,
+                        "y": 156
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "2740851cde7e6a9ab2d873c2040220c38ce68f67b171bc1c858a4cd9335422a1",
       "name": "Character_06",
       "type": "Sprite",
@@ -7024,8 +8784,8 @@
                         "y": 17
                       },
                       {
-                        "x": 2,
-                        "y": 17
+                        "x": 7,
+                        "y": 158
                       }
                     ]
                   ]
@@ -7060,8 +8820,8 @@
                         "y": 17
                       },
                       {
-                        "x": 2,
-                        "y": 17
+                        "x": 7,
+                        "y": 158
                       }
                     ]
                   ]
@@ -7096,8 +8856,8 @@
                         "y": 17
                       },
                       {
-                        "x": 2,
-                        "y": 17
+                        "x": 7,
+                        "y": 158
                       }
                     ]
                   ]
@@ -7144,8 +8904,8 @@
                         "y": 17
                       },
                       {
-                        "x": 2,
-                        "y": 17
+                        "x": 7,
+                        "y": 158
                       }
                     ]
                   ]
@@ -7180,8 +8940,8 @@
                         "y": 17
                       },
                       {
-                        "x": 2,
-                        "y": 17
+                        "x": 7,
+                        "y": 158
                       }
                     ]
                   ]
@@ -7216,8 +8976,8 @@
                         "y": 17
                       },
                       {
-                        "x": 2,
-                        "y": 17
+                        "x": 7,
+                        "y": 158
                       }
                     ]
                   ]
@@ -7264,8 +9024,8 @@
                         "y": 17
                       },
                       {
-                        "x": 2,
-                        "y": 17
+                        "x": 7,
+                        "y": 158
                       }
                     ]
                   ]
@@ -7300,8 +9060,8 @@
                         "y": 17
                       },
                       {
-                        "x": 2,
-                        "y": 17
+                        "x": 7,
+                        "y": 158
                       }
                     ]
                   ]
@@ -7336,8 +9096,8 @@
                         "y": 17
                       },
                       {
-                        "x": 2,
-                        "y": 17
+                        "x": 7,
+                        "y": 158
                       }
                     ]
                   ]
@@ -7384,8 +9144,8 @@
                         "y": 17
                       },
                       {
-                        "x": 2,
-                        "y": 17
+                        "x": 7,
+                        "y": 158
                       }
                     ]
                   ]
@@ -7420,8 +9180,8 @@
                         "y": 17
                       },
                       {
-                        "x": 2,
-                        "y": 17
+                        "x": 7,
+                        "y": 158
                       }
                     ]
                   ]
@@ -7456,8 +9216,344 @@
                         "y": 17
                       },
                       {
-                        "x": 2,
-                        "y": 17
+                        "x": 7,
+                        "y": 158
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Duck",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_2_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 126
+                      },
+                      {
+                        "x": 146.5,
+                        "y": 126
+                      },
+                      {
+                        "x": 147.5,
+                        "y": 158
+                      },
+                      {
+                        "x": 7,
+                        "y": 158
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_2_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 126
+                      },
+                      {
+                        "x": 146.5,
+                        "y": 126
+                      },
+                      {
+                        "x": 147.5,
+                        "y": 158
+                      },
+                      {
+                        "x": 7,
+                        "y": 158
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_2_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 126
+                      },
+                      {
+                        "x": 146.5,
+                        "y": 126
+                      },
+                      {
+                        "x": 147.5,
+                        "y": 158
+                      },
+                      {
+                        "x": 7,
+                        "y": 158
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_2_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 126
+                      },
+                      {
+                        "x": 146.5,
+                        "y": 126
+                      },
+                      {
+                        "x": 147.5,
+                        "y": 158
+                      },
+                      {
+                        "x": 7,
+                        "y": 158
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_2_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 126
+                      },
+                      {
+                        "x": 146.5,
+                        "y": 126
+                      },
+                      {
+                        "x": 147.5,
+                        "y": 158
+                      },
+                      {
+                        "x": 7,
+                        "y": 158
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_2_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 126
+                      },
+                      {
+                        "x": 146.5,
+                        "y": 126
+                      },
+                      {
+                        "x": 147.5,
+                        "y": 158
+                      },
+                      {
+                        "x": 7,
+                        "y": 158
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_2_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 126
+                      },
+                      {
+                        "x": 146.5,
+                        "y": 126
+                      },
+                      {
+                        "x": 147.5,
+                        "y": 158
+                      },
+                      {
+                        "x": 7,
+                        "y": 158
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_2_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 126
+                      },
+                      {
+                        "x": 146.5,
+                        "y": 126
+                      },
+                      {
+                        "x": 147.5,
+                        "y": 158
+                      },
+                      {
+                        "x": 7,
+                        "y": 158
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_2_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 126
+                      },
+                      {
+                        "x": 146.5,
+                        "y": 126
+                      },
+                      {
+                        "x": 147.5,
+                        "y": 158
+                      },
+                      {
+                        "x": 7,
+                        "y": 158
                       }
                     ]
                   ]
@@ -7469,7 +9565,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "97b1ae9be719abeb28625a269fa93a22e796b81254db75814d3320dda0c53ebb",
       "name": "Character_07",
       "type": "Sprite",
@@ -7962,11 +10058,347 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Duck",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_9_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 135
+                      },
+                      {
+                        "x": 147.5,
+                        "y": 135
+                      },
+                      {
+                        "x": 148.5,
+                        "y": 160
+                      },
+                      {
+                        "x": 7.5,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_9_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 135
+                      },
+                      {
+                        "x": 147.5,
+                        "y": 135
+                      },
+                      {
+                        "x": 148.5,
+                        "y": 160
+                      },
+                      {
+                        "x": 7.5,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_9_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 135
+                      },
+                      {
+                        "x": 147.5,
+                        "y": 135
+                      },
+                      {
+                        "x": 148.5,
+                        "y": 160
+                      },
+                      {
+                        "x": 7.5,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_9_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 135
+                      },
+                      {
+                        "x": 147.5,
+                        "y": 135
+                      },
+                      {
+                        "x": 148.5,
+                        "y": 160
+                      },
+                      {
+                        "x": 7.5,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_9_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 135
+                      },
+                      {
+                        "x": 147.5,
+                        "y": 135
+                      },
+                      {
+                        "x": 148.5,
+                        "y": 160
+                      },
+                      {
+                        "x": 7.5,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_9_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 135
+                      },
+                      {
+                        "x": 147.5,
+                        "y": 135
+                      },
+                      {
+                        "x": 148.5,
+                        "y": 160
+                      },
+                      {
+                        "x": 7.5,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_9_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 135
+                      },
+                      {
+                        "x": 147.5,
+                        "y": 135
+                      },
+                      {
+                        "x": 148.5,
+                        "y": 160
+                      },
+                      {
+                        "x": 7.5,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_9_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 135
+                      },
+                      {
+                        "x": 147.5,
+                        "y": 135
+                      },
+                      {
+                        "x": 148.5,
+                        "y": 160
+                      },
+                      {
+                        "x": 7.5,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_9_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 135
+                      },
+                      {
+                        "x": 147.5,
+                        "y": 135
+                      },
+                      {
+                        "x": 148.5,
+                        "y": 160
+                      },
+                      {
+                        "x": 7.5,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "5b9ede9f70f633779805eb0d3a314e287ddd48c3660bb88e407f48c2ba255d5a",
       "name": "Character_08",
       "type": "Sprite",
@@ -8459,11 +10891,347 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Duck",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_3_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12.5,
+                        "y": 130
+                      },
+                      {
+                        "x": 145,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 146.5,
+                        "y": 159.5
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 156
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_3_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12.5,
+                        "y": 130
+                      },
+                      {
+                        "x": 145,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 146.5,
+                        "y": 159.5
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 156
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_3_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12.5,
+                        "y": 130
+                      },
+                      {
+                        "x": 145,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 146.5,
+                        "y": 159.5
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 156
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_3_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12.5,
+                        "y": 130
+                      },
+                      {
+                        "x": 145,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 146.5,
+                        "y": 159.5
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 156
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_3_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12.5,
+                        "y": 130
+                      },
+                      {
+                        "x": 145,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 146.5,
+                        "y": 159.5
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 156
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_3_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12.5,
+                        "y": 130
+                      },
+                      {
+                        "x": 145,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 146.5,
+                        "y": 159.5
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 156
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_3_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12.5,
+                        "y": 130
+                      },
+                      {
+                        "x": 145,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 146.5,
+                        "y": 159.5
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 156
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_3_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12.5,
+                        "y": 130
+                      },
+                      {
+                        "x": 145,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 146.5,
+                        "y": 159.5
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 156
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Male_Character_3_Crouched_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12.5,
+                        "y": 130
+                      },
+                      {
+                        "x": 145,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 146.5,
+                        "y": 159.5
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 156
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "08d16c3fa84225437660bd5eafd3ba41ba822266b3ee0de8924a19ae0d2cb400",
       "name": "Character_09",
       "type": "Sprite",
@@ -8503,20 +11271,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 1
+                        "x": 8.5,
+                        "y": 137.5
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 150,
+                        "y": 142
                       },
                       {
-                        "x": 14,
-                        "y": 17
+                        "x": 151.5,
+                        "y": 164.5
                       },
                       {
-                        "x": 2,
-                        "y": 17
+                        "x": 7.5,
+                        "y": 162
                       }
                     ]
                   ]
@@ -8539,20 +11307,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 1
+                        "x": 8.5,
+                        "y": 137.5
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 150,
+                        "y": 142
                       },
                       {
-                        "x": 14,
-                        "y": 17
+                        "x": 151.5,
+                        "y": 164.5
                       },
                       {
-                        "x": 2,
-                        "y": 17
+                        "x": 7.5,
+                        "y": 162
                       }
                     ]
                   ]
@@ -8575,20 +11343,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 1
+                        "x": 8.5,
+                        "y": 137.5
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 150,
+                        "y": 142
                       },
                       {
-                        "x": 14,
-                        "y": 17
+                        "x": 151.5,
+                        "y": 164.5
                       },
                       {
-                        "x": 2,
-                        "y": 17
+                        "x": 7.5,
+                        "y": 162
                       }
                     ]
                   ]
@@ -8623,19 +11391,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 1
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 16,
+                        "y": 0
                       },
                       {
-                        "x": 14,
+                        "x": 16,
                         "y": 17
                       },
                       {
-                        "x": 2,
+                        "x": 0,
                         "y": 17
                       }
                     ]
@@ -8659,19 +11427,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 1
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 16,
+                        "y": 0
                       },
                       {
-                        "x": 14,
+                        "x": 16,
                         "y": 17
                       },
                       {
-                        "x": 2,
+                        "x": 0,
                         "y": 17
                       }
                     ]
@@ -8695,19 +11463,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 1
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 16,
+                        "y": 0
                       },
                       {
-                        "x": 14,
+                        "x": 16,
                         "y": 17
                       },
                       {
-                        "x": 2,
+                        "x": 0,
                         "y": 17
                       }
                     ]
@@ -8743,19 +11511,37 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 1
+                        "x": 8.5,
+                        "y": 137.5
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 150,
+                        "y": 142
                       },
                       {
-                        "x": 14,
+                        "x": 151.5,
+                        "y": 164.5
+                      },
+                      {
+                        "x": 7.5,
+                        "y": 162
+                      }
+                    ],
+                    [
+                      {
+                        "x": 3,
+                        "y": 6
+                      },
+                      {
+                        "x": 13.5,
+                        "y": 7
+                      },
+                      {
+                        "x": 13,
                         "y": 17
                       },
                       {
-                        "x": 2,
+                        "x": 3.5,
                         "y": 17
                       }
                     ]
@@ -8779,19 +11565,37 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 1
+                        "x": 8.5,
+                        "y": 137.5
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 150,
+                        "y": 142
                       },
                       {
-                        "x": 14,
+                        "x": 151.5,
+                        "y": 164.5
+                      },
+                      {
+                        "x": 7.5,
+                        "y": 162
+                      }
+                    ],
+                    [
+                      {
+                        "x": 3,
+                        "y": 6
+                      },
+                      {
+                        "x": 13.5,
+                        "y": 7
+                      },
+                      {
+                        "x": 13,
                         "y": 17
                       },
                       {
-                        "x": 2,
+                        "x": 3.5,
                         "y": 17
                       }
                     ]
@@ -8815,19 +11619,37 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 1
+                        "x": 8.5,
+                        "y": 137.5
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 150,
+                        "y": 142
                       },
                       {
-                        "x": 14,
+                        "x": 151.5,
+                        "y": 164.5
+                      },
+                      {
+                        "x": 7.5,
+                        "y": 162
+                      }
+                    ],
+                    [
+                      {
+                        "x": 3,
+                        "y": 6
+                      },
+                      {
+                        "x": 13.5,
+                        "y": 7
+                      },
+                      {
+                        "x": 13,
                         "y": 17
                       },
                       {
-                        "x": 2,
+                        "x": 3.5,
                         "y": 17
                       }
                     ]
@@ -8863,20 +11685,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 1
+                        "x": 8.5,
+                        "y": 137.5
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 150,
+                        "y": 142
                       },
                       {
-                        "x": 14,
-                        "y": 17
+                        "x": 151.5,
+                        "y": 164.5
                       },
                       {
-                        "x": 2,
-                        "y": 17
+                        "x": 7.5,
+                        "y": 162
                       }
                     ]
                   ]
@@ -8899,20 +11721,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 1
+                        "x": 8.5,
+                        "y": 137.5
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 150,
+                        "y": 142
                       },
                       {
-                        "x": 14,
-                        "y": 17
+                        "x": 151.5,
+                        "y": 164.5
                       },
                       {
-                        "x": 2,
-                        "y": 17
+                        "x": 7.5,
+                        "y": 162
                       }
                     ]
                   ]
@@ -8935,20 +11757,356 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 1
+                        "x": 8.5,
+                        "y": 137.5
                       },
                       {
-                        "x": 14,
-                        "y": 1
+                        "x": 150,
+                        "y": 142
                       },
                       {
-                        "x": 14,
-                        "y": 17
+                        "x": 151.5,
+                        "y": 164.5
                       },
                       {
-                        "x": 2,
-                        "y": 17
+                        "x": 7.5,
+                        "y": 162
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Duck",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_5_Crouched_Right_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 137.5
+                      },
+                      {
+                        "x": 150,
+                        "y": 142
+                      },
+                      {
+                        "x": 151.5,
+                        "y": 164.5
+                      },
+                      {
+                        "x": 7.5,
+                        "y": 162
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_5_Crouched_Right_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 137.5
+                      },
+                      {
+                        "x": 150,
+                        "y": 142
+                      },
+                      {
+                        "x": 151.5,
+                        "y": 164.5
+                      },
+                      {
+                        "x": 7.5,
+                        "y": 162
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_5_Crouched_Right_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 137.5
+                      },
+                      {
+                        "x": 150,
+                        "y": 142
+                      },
+                      {
+                        "x": 151.5,
+                        "y": 164.5
+                      },
+                      {
+                        "x": 7.5,
+                        "y": 162
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_5_Crouched_Right_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 137.5
+                      },
+                      {
+                        "x": 150,
+                        "y": 142
+                      },
+                      {
+                        "x": 151.5,
+                        "y": 164.5
+                      },
+                      {
+                        "x": 7.5,
+                        "y": 162
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_5_Crouched_Right_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 137.5
+                      },
+                      {
+                        "x": 150,
+                        "y": 142
+                      },
+                      {
+                        "x": 151.5,
+                        "y": 164.5
+                      },
+                      {
+                        "x": 7.5,
+                        "y": 162
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_5_Crouched_Right_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 137.5
+                      },
+                      {
+                        "x": 150,
+                        "y": 142
+                      },
+                      {
+                        "x": 151.5,
+                        "y": 164.5
+                      },
+                      {
+                        "x": 7.5,
+                        "y": 162
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_5_Crouched_Right_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 137.5
+                      },
+                      {
+                        "x": 150,
+                        "y": 142
+                      },
+                      {
+                        "x": 151.5,
+                        "y": 164.5
+                      },
+                      {
+                        "x": 7.5,
+                        "y": 162
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_5_Crouched_Right_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 137.5
+                      },
+                      {
+                        "x": 150,
+                        "y": 142
+                      },
+                      {
+                        "x": 151.5,
+                        "y": 164.5
+                      },
+                      {
+                        "x": 7.5,
+                        "y": 162
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dino\\assets\\Female_Character_5_Crouched_Right_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 137.5
+                      },
+                      {
+                        "x": 150,
+                        "y": 142
+                      },
+                      {
+                        "x": 151.5,
+                        "y": 164.5
+                      },
+                      {
+                        "x": 7.5,
+                        "y": 162
                       }
                     ]
                   ]
@@ -9267,6 +12425,605 @@
           "width": 256
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "9af6773a55ddc01430409f858506afe9e08b86f62eacc5dd574ac399bdb14b16",
+      "name": "Character_001",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 11_Walking Down_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 77.5,
+                    "y": 138
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3.5,
+                        "y": 5
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 5
+                      },
+                      {
+                        "x": 12,
+                        "y": 17
+                      },
+                      {
+                        "x": 3.5,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "ff79c0bbb0f74a5fb5a5e15b8adb257d6d58ef987e809119a6bb2fafe4001099",
+      "name": "Character_002",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Male Character 12_Walking Down_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 2,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "12a8e4905f464ec5584a3a87419bbc275e9397f8d083277cae97aa1130fa97e5",
+      "name": "Character_003",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 10_Walking Down_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 2,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "9bf0b748b51536d0777d937f9890bead0b12d33e1a9b9eee12ccc9b233802308",
+      "name": "Character_004",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Male Character 11_Walking Down_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 14,
+                        "y": 2
+                      },
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 2,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "483c8d305055b43dd98964858b231c019680b47f3bc7aaf000e362bc5d72066d",
+      "name": "Character_005",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 6_Walking Down_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 2,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "2740851cde7e6a9ab2d873c2040220c38ce68f67b171bc1c858a4cd9335422a1",
+      "name": "Character_006",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Male Character 2_Walking Down_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 14,
+                        "y": 2
+                      },
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 2,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "97b1ae9be719abeb28625a269fa93a22e796b81254db75814d3320dda0c53ebb",
+      "name": "Character_007",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 9_Walking Down_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 14,
+                        "y": 2
+                      },
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 2,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "5b9ede9f70f633779805eb0d3a314e287ddd48c3660bb88e407f48c2ba255d5a",
+      "name": "Character_008",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Male Character 3_Walking Down_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 14,
+                        "y": 2
+                      },
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 2,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "08d16c3fa84225437660bd5eafd3ba41ba822266b3ee0de8924a19ae0d2cb400",
+      "name": "Character_009",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 5_Walking Down_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 2,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -9301,6 +13058,33 @@
       },
       {
         "objectName": "Character_09"
+      },
+      {
+        "objectName": "Character_001"
+      },
+      {
+        "objectName": "Character_002"
+      },
+      {
+        "objectName": "Character_003"
+      },
+      {
+        "objectName": "Character_004"
+      },
+      {
+        "objectName": "Character_005"
+      },
+      {
+        "objectName": "Character_006"
+      },
+      {
+        "objectName": "Character_007"
+      },
+      {
+        "objectName": "Character_008"
+      },
+      {
+        "objectName": "Character_009"
       },
       {
         "objectName": "Hud"
@@ -9349,6 +13133,38 @@
         },
         {
           "name": "Character_09"
+        }
+      ]
+    },
+    {
+      "name": "CharacterSkins2",
+      "objects": [
+        {
+          "name": "Character_001"
+        },
+        {
+          "name": "Character_002"
+        },
+        {
+          "name": "Character_003"
+        },
+        {
+          "name": "Character_004"
+        },
+        {
+          "name": "Character_005"
+        },
+        {
+          "name": "Character_006"
+        },
+        {
+          "name": "Character_007"
+        },
+        {
+          "name": "Character_008"
+        },
+        {
+          "name": "Character_009"
         }
       ]
     }
