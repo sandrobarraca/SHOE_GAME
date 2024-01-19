@@ -905,16 +905,17 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\ShoeBoxAttack\\assets\\shoe_box_4__flat400px",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_4__flat400px.png",
+                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_4__flat400px2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -930,20 +931,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 45,
-                        "y": 10
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 353,
-                        "y": 10
+                        "x": 308,
+                        "y": 0
                       },
                       {
-                        "x": 353,
-                        "y": 160
+                        "x": 308,
+                        "y": 144
                       },
                       {
-                        "x": 45,
-                        "y": 160
+                        "x": 0,
+                        "y": 144
                       }
                     ]
                   ]
@@ -989,16 +990,17 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\ShoeBoxAttack\\assets\\shoe_box_5_flat_400px",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_5_flat_400px.png",
+                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_5_flat_400px2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1014,20 +1016,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 45,
-                        "y": 10
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 353,
-                        "y": 10
+                        "x": 308,
+                        "y": 0
                       },
                       {
-                        "x": 353,
-                        "y": 160
+                        "x": 308,
+                        "y": 144
                       },
                       {
-                        "x": 45,
-                        "y": 160
+                        "x": 0,
+                        "y": 144
                       }
                     ]
                   ]
@@ -1073,16 +1075,17 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\ShoeBoxAttack\\assets\\shoe_box_7_400px",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_7_400px.png",
+                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_7_400px2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1098,20 +1101,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 46,
-                        "y": 17
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 351,
-                        "y": 17
+                        "x": 305,
+                        "y": 0
                       },
                       {
-                        "x": 351,
-                        "y": 160
+                        "x": 305,
+                        "y": 143
                       },
                       {
-                        "x": 46,
-                        "y": 160
+                        "x": 0,
+                        "y": 143
                       }
                     ]
                   ]
@@ -1157,16 +1160,17 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\ShoeBoxAttack\\assets\\shoe_box_8_400px",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_8_400px.png",
+                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_8_400px2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1182,20 +1186,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 45,
-                        "y": 16
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 353,
-                        "y": 16
+                        "x": 308,
+                        "y": 0
                       },
                       {
-                        "x": 353,
-                        "y": 160
+                        "x": 308,
+                        "y": 144
                       },
                       {
-                        "x": 45,
-                        "y": 160
+                        "x": 0,
+                        "y": 144
                       }
                     ]
                   ]
