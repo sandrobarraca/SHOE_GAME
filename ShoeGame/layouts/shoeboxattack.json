@@ -18,11 +18,30 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4913877545329358,
+    "zoomFactor": 0.4163025217733332,
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "objectStructure",
+      "type": "structure",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "i",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "levelNumber",
+      "type": "string",
+      "value": ""
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -165,82 +184,6 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Box2",
-      "persistentUuid": "bcdb68c2-2d4d-40ac-8bae-dff9dd6ee0c0",
-      "width": 0,
-      "x": 1122,
-      "y": 563,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Box1",
-      "persistentUuid": "6b158c20-2ff3-45c5-a18e-764d8a6d0483",
-      "width": 0,
-      "x": 1566,
-      "y": 565,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Box3",
-      "persistentUuid": "e812e515-e356-4f27-9222-68f02f3d1c19",
-      "width": 0,
-      "x": 1527,
-      "y": 714,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 208,
-      "layer": "",
-      "name": "Box4",
-      "persistentUuid": "ce41dfd0-c4d8-4fd2-8d51-0671d26b3a94",
-      "width": 400,
-      "x": 917,
-      "y": 714,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Box5",
-      "persistentUuid": "ec8c2eef-179d-4a71-83f8-d498ffb001f8",
-      "width": 0,
-      "x": 1222,
-      "y": 713,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 338,
       "customSize": true,
       "depth": 2,
@@ -268,36 +211,6 @@
       "x": -83,
       "y": 381,
       "zOrder": -3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "BoxHit",
-      "persistentUuid": "2d7ece61-0133-48b1-90f1-3645a443fa01",
-      "width": 0,
-      "x": 1519,
-      "y": 388,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Box3",
-      "persistentUuid": "16eabc74-14f3-401e-9091-6eb721c9b388",
-      "width": 0,
-      "x": 1004,
-      "y": 417,
-      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -887,7 +800,7 @@
           "bodyType": "Dynamic",
           "bullet": false,
           "fixedRotation": false,
-          "canSleep": true,
+          "canSleep": false,
           "shape": "Box",
           "shapeDimensionA": 0,
           "shapeDimensionB": 0,
@@ -907,16 +820,17 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\ShoeBoxAttack\\assets\\shoe_box_3_flat_400px",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_3_flat_400px.png",
+                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_3_flat_400px",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -932,20 +846,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 47,
-                        "y": 17
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 353,
-                        "y": 17
+                        "x": 306,
+                        "y": 0
                       },
                       {
-                        "x": 353,
-                        "y": 161
+                        "x": 306,
+                        "y": 144
                       },
                       {
-                        "x": 47,
-                        "y": 161
+                        "x": 0,
+                        "y": 144
                       }
                     ]
                   ]
@@ -1508,16 +1422,17 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\ShoeBoxAttack\\assets\\shoe_box_2_400px (1)",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_2_400px (1).png",
+                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_2_400px (1)",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1533,20 +1448,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 46,
-                        "y": 47
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 351,
-                        "y": 47
+                        "x": 305,
+                        "y": 0
                       },
                       {
-                        "x": 351,
-                        "y": 209
+                        "x": 305,
+                        "y": 143
                       },
                       {
-                        "x": 46,
-                        "y": 209
+                        "x": 0,
+                        "y": 143
                       }
                     ]
                   ]
@@ -1707,6 +1622,368 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "JSONResourceLoader::LoadJSONToScene"
+          },
+          "parameters": [
+            "",
+            "assets\\ShoeBoxAttack\\assets\\shoeboxAttackLevels.json",
+            "objectStructure",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarSceneTxt"
+          },
+          "parameters": [
+            "levelNumber",
+            "=",
+            "\"level\" + ToString(GlobalVariable(shoeboxattackLevel))"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "i",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Repeat",
+          "repeatExpression": "objectStructure[levelNumber].nBox1",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Box1",
+                "objectStructure[levelNumber].Box1[i]",
+                "objectStructure[levelNumber].Ball[i+1]",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "i",
+                "+",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Box1",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "i",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Repeat",
+          "repeatExpression": "objectStructure[levelNumber].nBox2",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Box2",
+                "objectStructure[levelNumber].Box2[i]",
+                "objectStructure[levelNumber].Box2[i+1]",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "i",
+                "+",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Box2",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "i",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Repeat",
+          "repeatExpression": "objectStructure[levelNumber].nBox3",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Box3",
+                "objectStructure[levelNumber].Box3[i]",
+                "objectStructure[levelNumber].Box3[i+1]",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "i",
+                "+",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Box3",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "i",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Repeat",
+          "repeatExpression": "objectStructure[levelNumber].nBox4",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Box4",
+                "objectStructure[levelNumber].Box4[i]",
+                "objectStructure[levelNumber].Box4[i+1]",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "i",
+                "+",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Box4",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "i",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Repeat",
+          "repeatExpression": "objectStructure[levelNumber].nBox5",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Box5",
+                "objectStructure[levelNumber].Box5[i]",
+                "objectStructure[levelNumber].Box5[i+1]",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "i",
+                "+",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Box5",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "i",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Repeat",
+          "repeatExpression": "objectStructure[levelNumber].nBoxHit",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BoxHit",
+                "objectStructure[levelNumber].BoxHit[i]",
+                "objectStructure[levelNumber].BoxHit[i+1]",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "i",
+                "+",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "BoxHit",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Link",
       "include": {
         "includeConfig": 0
@@ -1723,7 +2000,7 @@
           "parameters": [
             "CannonBall",
             "Physics2",
-            "SmallCastle",
+            "BoxHit",
             ""
           ]
         }
@@ -1734,7 +2011,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "SmallCastle",
+            "BoxHit",
             ""
           ]
         },
