@@ -4586,6 +4586,14 @@
         "name": "assets\\ShoeBoxAttack\\assets\\shoe_box_8_400px2",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/LightSwitch/assets/LightSwitchLevels.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "assets\\LightSwitch\\assets\\LightSwitchLevels.json",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -13309,6 +13317,12 @@
       "name": "shoeboxattackLevel",
       "type": "number",
       "value": 7
+    },
+    {
+      "folded": true,
+      "name": "lightsLevel",
+      "type": "number",
+      "value": 2
     }
   ],
   "layouts": [

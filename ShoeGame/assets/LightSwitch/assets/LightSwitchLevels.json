@@ -1,0 +1,28 @@
+{
+"level1":{
+"nLights":6,
+"FinalOrder":[1,1,1,1,1,1]}
+,
+"level2":{
+    "nLights":6,
+    "FinalOrder":[0,1,0,1,0,1]}
+,
+"level3":{
+    "nLights":6,
+    "FinalOrder":[1,1,1,1,1,1]}
+,
+"level4":{
+    "nLights":6,
+    "FinalOrder":[1,1,1,1,1,1]}
+,
+"level5":{
+    "nLights":6,
+    "FinalOrder":[1,1,1,1,1,1]}
+,
+"level6":{
+"nBalls":1,"nStars":4,"nClouds":2, "nFinish":1,
+"Ball":[53,113],
+"Star":[319,71,1126,72,1904,70,3703,106],
+"Cloud":[0,426,2936,429],
+"Finish":[4061,-160]}
+}

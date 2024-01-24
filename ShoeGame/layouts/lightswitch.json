@@ -34,6 +34,138 @@
       "name": "LightActuallyTurnOn",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "objectStructure",
+      "type": "structure",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "i",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "j",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "levelNumber",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "folded": true,
+      "name": "ActualOrder",
+      "type": "array",
+      "children": [
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "name": "FinalOrder",
+      "type": "array",
+      "children": [
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "name": "isSame",
+      "type": "array",
+      "children": [
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 0
+        }
+      ]
     }
   ],
   "instances": [
@@ -58,87 +190,12 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "light",
+      "name": "light0",
       "persistentUuid": "7e3b2f72-8e37-44d5-8faa-bcd2a6311dca",
       "width": 0,
       "x": 180,
       "y": 460,
       "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "light",
-      "persistentUuid": "243aafd1-c8f2-4ec0-aec5-533c33ca852a",
-      "width": 0,
-      "x": 720,
-      "y": 460,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "light",
-      "persistentUuid": "cfa7f896-cbbf-4c2a-bdee-176940f8057a",
-      "width": 0,
-      "x": 450,
-      "y": 460,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "light",
-      "persistentUuid": "dfa8dbc5-29b8-4548-921b-184ed6d1ba88",
-      "width": 0,
-      "x": 990,
-      "y": 460,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "light",
-      "persistentUuid": "18b81cfc-fbc9-474c-879f-d275ae059ab3",
-      "width": 0,
-      "x": 1260,
-      "y": 460,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "light",
-      "persistentUuid": "281d541a-8a4a-4e91-966f-aa61f2a09eb6",
-      "width": 0,
-      "x": 1530,
-      "y": 460,
-      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -219,6 +276,81 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "light1",
+      "persistentUuid": "206b1474-60b1-499d-8e9a-8b35d023e085",
+      "width": 0,
+      "x": 450,
+      "y": 460,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "light2",
+      "persistentUuid": "c434e00b-60ea-4c18-a6f0-6127e2f9d2c0",
+      "width": 0,
+      "x": 720,
+      "y": 460,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "light3",
+      "persistentUuid": "f1e3d002-f097-4766-a5cf-9da03abf5ead",
+      "width": 0,
+      "x": 990,
+      "y": 460,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "light4",
+      "persistentUuid": "103e3be8-635e-4753-a1e8-36e58d9747e8",
+      "width": 0,
+      "x": 1260,
+      "y": 460,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "light5",
+      "persistentUuid": "9be76802-6bc0-4505-9eea-35d980817f05",
+      "width": 0,
+      "x": 1530,
+      "y": 460,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -285,7 +417,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "light",
+      "name": "light0",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -294,6 +426,12 @@
           "name": "Light_State",
           "type": "boolean",
           "value": false
+        },
+        {
+          "folded": true,
+          "name": "ID",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -627,6 +765,611 @@
           "width": 256
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "light2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Light_State",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "ID",
+          "type": "number",
+          "value": 2
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "LightOff",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\LightSwitch\\assets\\Large Blue Hole_Unlocked.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 160
+                      },
+                      {
+                        "x": 0,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LightOn",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\LightSwitch\\assets\\Large Hole.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 160
+                      },
+                      {
+                        "x": 0,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "light1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Light_State",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "ID",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "LightOff",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\LightSwitch\\assets\\Large Blue Hole_Unlocked.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 160
+                      },
+                      {
+                        "x": 0,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LightOn",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\LightSwitch\\assets\\Large Hole.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 160
+                      },
+                      {
+                        "x": 0,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "light3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Light_State",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "ID",
+          "type": "number",
+          "value": 3
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "LightOff",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\LightSwitch\\assets\\Large Blue Hole_Unlocked.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 160
+                      },
+                      {
+                        "x": 0,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LightOn",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\LightSwitch\\assets\\Large Hole.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 160
+                      },
+                      {
+                        "x": 0,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "light4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Light_State",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "ID",
+          "type": "number",
+          "value": 4
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "LightOff",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\LightSwitch\\assets\\Large Blue Hole_Unlocked.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 160
+                      },
+                      {
+                        "x": 0,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LightOn",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\LightSwitch\\assets\\Large Hole.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 160
+                      },
+                      {
+                        "x": 0,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "light5",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Light_State",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "ID",
+          "type": "number",
+          "value": 5
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "LightOff",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\LightSwitch\\assets\\Large Blue Hole_Unlocked.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 160
+                      },
+                      {
+                        "x": 0,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LightOn",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\LightSwitch\\assets\\Large Hole.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 160
+                      },
+                      {
+                        "x": 0,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -636,7 +1379,22 @@
         "objectName": "WoodBackground"
       },
       {
-        "objectName": "light"
+        "objectName": "light0"
+      },
+      {
+        "objectName": "light1"
+      },
+      {
+        "objectName": "light2"
+      },
+      {
+        "objectName": "light3"
+      },
+      {
+        "objectName": "light4"
+      },
+      {
+        "objectName": "light5"
       },
       {
         "objectName": "GameDescription"
@@ -676,7 +1434,7 @@
           "parameters": [
             "LightNeedToTurnOn",
             "=",
-            "SceneInstancesCount(light)"
+            "SceneInstancesCount(light0)"
           ]
         },
         {
@@ -755,26 +1513,6 @@
             ""
           ]
         }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "light",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "light",
-                "Light_State",
-                "=",
-                "Random(1)"
-              ]
-            }
-          ]
-        }
       ]
     },
     {
@@ -789,10 +1527,85 @@
       "conditions": [
         {
           "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "JSONResourceLoader::LoadJSONToScene"
+          },
+          "parameters": [
+            "",
+            "assets\\LightSwitch\\assets\\LightSwitchLevels.json",
+            "objectStructure",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarSceneTxt"
+          },
+          "parameters": [
+            "levelNumber",
+            "=",
+            "\"level\" + ToString(GlobalVariable(lightsLevel))"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "i",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Repeat",
+          "repeatExpression": "objectStructure[levelNumber].nLights",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "FinalOrder[i]",
+                "=",
+                "objectStructure[levelNumber].FinalOrder[i]"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "i",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "light",
+            "light0",
             "",
             "",
             ""
@@ -814,86 +1627,314 @@
             "value": "ToggleObjectVariableAsBoolean"
           },
           "parameters": [
-            "light",
+            "light0",
             "Light_State"
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
+        },
         {
           "type": {
             "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
-            "light",
+            "light0",
             "Animation",
             "=",
-            "light.Variable(Light_State)"
+            "light0.Variable(Light_State)"
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
+        },
         {
           "type": {
             "value": "ModVarScene"
           },
           "parameters": [
-            "LightActuallyTurnOn",
+            "ActualOrder[0]",
             "=",
-            "0"
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "light",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "LightActuallyTurnOn",
-                "+",
-                "light.Variable(Light_State)"
-              ]
-            }
+            "light0.Light_State"
           ]
         }
       ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
+      "conditions": [
         {
           "type": {
-            "value": "TextObject::String"
+            "value": "SourisSurObjet"
           },
           "parameters": [
-            "LightsCounter",
-            "=",
-            "ToString(Variable(LightActuallyTurnOn))+\"/\"+ToString(SceneInstancesCount(light))+\"Done\""
+            "light1",
+            "",
+            "",
+            ""
           ]
         },
         {
           "type": {
-            "value": "MettreX"
+            "value": "MouseButtonReleased"
           },
           "parameters": [
-            "LightsCounter",
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ToggleObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "light1",
+            "Light_State"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "ActualOrder[1]",
             "=",
-            "ScreenWidth()/2"
+            "light1.Light_State"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "light1",
+            "Animation",
+            "=",
+            "light1.Variable(Light_State)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "light2",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ToggleObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "light2",
+            "Light_State"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "ActualOrder[2]",
+            "=",
+            "light2.Light_State"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "light2",
+            "Animation",
+            "=",
+            "light2.Variable(Light_State)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "light3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ToggleObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "light3",
+            "Light_State"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "ActualOrder[3]",
+            "=",
+            "light3.Light_State"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "light3",
+            "Animation",
+            "=",
+            "light3.Variable(Light_State)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "light4",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ToggleObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "light4",
+            "Light_State"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "ActualOrder[4]",
+            "=",
+            "light4.Light_State"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "light4",
+            "Animation",
+            "=",
+            "light4.Variable(Light_State)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "light5",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ToggleObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "light5",
+            "Light_State"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "ActualOrder[5]",
+            "=",
+            "light5.Light_State"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "light5",
+            "Animation",
+            "=",
+            "light5.Variable(Light_State)"
           ]
         }
       ]
@@ -906,20 +1947,20 @@
             "value": "VarScene"
           },
           "parameters": [
-            "LightNeedToTurnOn",
-            "!=",
-            "Variable(LightActuallyTurnOn)"
+            "ActualOrder[0]",
+            "=",
+            "FinalOrder[0]"
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "TextObject::ChangeColor"
+            "value": "SetSceneVariableAsBoolean"
           },
           "parameters": [
-            "LightsCounter",
-            "\"255;0;4\""
+            "isSame[0]",
+            "True"
           ]
         }
       ]
@@ -932,22 +1973,187 @@
             "value": "VarScene"
           },
           "parameters": [
-            "LightNeedToTurnOn",
+            "ActualOrder[1]",
             "=",
-            "Variable(LightActuallyTurnOn)"
+            "FinalOrder[1]"
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "TextObject::ChangeColor"
+            "value": "SetSceneVariableAsBoolean"
           },
           "parameters": [
-            "LightsCounter",
-            "\"30;255;0\""
+            "isSame[1]",
+            "True"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "ActualOrder[2]",
+            "=",
+            "FinalOrder[2]"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "isSame[2]",
+            "True"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "ActualOrder[3]",
+            "=",
+            "FinalOrder[3]"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "isSame[3]",
+            "True"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "ActualOrder[4]",
+            "=",
+            "FinalOrder[4]"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "isSame[4]",
+            "True"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "ActualOrder[5]",
+            "=",
+            "FinalOrder[5]"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "isSame[5]",
+            "True"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "isSame[0]",
+            "True"
           ]
         },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "isSame[1]",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "isSame[2]",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "isSame[3]",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "isSame[4]",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "isSame[5]",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
         {
           "type": {
             "value": "Wait"
@@ -967,11 +2173,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
