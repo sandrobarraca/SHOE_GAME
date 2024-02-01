@@ -3544,7 +3544,7 @@
       "isLocked": false,
       "name": "WinLayer",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
