@@ -4594,6 +4594,86 @@
         "metadata": "",
         "name": "assets\\LightSwitch\\assets\\LightSwitchLevels.json",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Base.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Base",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/OrderOperations/Base.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\OrderOperations\\Base.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/OrderOperations/Splitting - 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\OrderOperations\\Splitting - 1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/OrderOperations/Skiving - 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\OrderOperations\\Skiving - 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/OrderOperations/Punching - 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\OrderOperations\\Punching - 3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/OrderOperations/Marking  - 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\OrderOperations\\Marking  - 4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/OrderOperations/Reinforcing the upper - 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\OrderOperations\\Reinforcing the upper - 5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/OrderOperations/Folding the edges - 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\OrderOperations\\Folding the edges - 6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/OrderOperations/OrderOperations.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "assets\\OrderOperations\\OrderOperations.json",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -13323,6 +13403,12 @@
       "name": "lightsLevel",
       "type": "number",
       "value": 2
+    },
+    {
+      "folded": true,
+      "name": "orderOperationsLevel",
+      "type": "number",
+      "value": 4
     }
   ],
   "layouts": [
@@ -13389,6 +13475,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/completethesentence"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/orderofoperations"
     }
   ],
   "externalEvents": [

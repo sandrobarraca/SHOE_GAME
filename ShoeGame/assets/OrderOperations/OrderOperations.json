@@ -1,0 +1,17 @@
+{
+"level1":{
+"nOperations":3,
+"NumberAndID":[1,3,5]}
+,
+"level2":{
+    "nOperations":3,
+    "NumberAndID":[2,4,6]}
+,
+"level3":{
+    "nOperations":5,
+    "FinalOrder":[1,2,4,5,6]}
+,
+"level4":{
+    "nOperations":6,
+    "FinalOrder":[1,2,3,4,5,6]}
+}
