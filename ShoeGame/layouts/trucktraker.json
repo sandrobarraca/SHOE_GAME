@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "ParkTheCar",
-  "name": "ParkTheCar",
+  "mangledName": "TruckTraker",
+  "name": "TruckTraker",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.43034038022076765,
+    "zoomFactor": 0.4303403802207677,
     "windowMask": false
   },
   "objectsGroups": [
@@ -309,7 +309,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\ParkTheCar\\assets\\Background.png",
+                  "image": "2820f54b90f3e1ffc044e2347c9ce98f4e35f7ca9bf70c73604314b2ff8ffc27_tiled_Blue background.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -329,16 +329,16 @@
                         "y": 0
                       },
                       {
-                        "x": 960,
+                        "x": 140,
                         "y": 0
                       },
                       {
-                        "x": 960,
-                        "y": 720
+                        "x": 140,
+                        "y": 140
                       },
                       {
                         "x": 0,
-                        "y": 720
+                        "y": 140
                       }
                     ]
                   ]
@@ -1445,6 +1445,234 @@
           "width": 256
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "a1c75f9580825015bc7fa3230e0624ac620d3af5dc9e90df21d6b17ae4f8eddb",
+      "name": "SemiTruck",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Moving",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.125,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Semi Truck_Moving_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 24
+                      },
+                      {
+                        "x": 0,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Semi Truck_Moving_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 24
+                      },
+                      {
+                        "x": 0,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Semi Truck_Moving_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 24
+                      },
+                      {
+                        "x": 0,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Semi Truck_Moving_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 24
+                      },
+                      {
+                        "x": 0,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "56420db721f5047f6fba95fc7abc9da956c08b4ff6f9b68510948ebc8c76dfe9",
+      "name": "Barrier",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Wall Red Flat.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1512,6 +1740,12 @@
       },
       {
         "objectName": "RestartButton"
+      },
+      {
+        "objectName": "SemiTruck"
+      },
+      {
+        "objectName": "Barrier"
       }
     ]
   },
@@ -1626,7 +1860,6 @@
       ]
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1645,7 +1878,7 @@
           },
           "parameters": [
             "",
-            "assets\\ParkTheCar\\assets\\parkTheCarLevels.json",
+            "assets\\TruckTraker\\assets\\TruckTrakerLevels.json",
             "objectStructure",
             ""
           ]
@@ -1683,9 +1916,9 @@
               },
               "parameters": [
                 "",
-                "MyCar",
-                "objectStructure[levelNumber].myCar[i]",
-                "objectStructure[levelNumber].myCar[i+1]",
+                "SemiTruck",
+                "objectStructure[levelNumber].SemiTruck[i]",
+                "objectStructure[levelNumber].SemiTruck[i+1]",
                 ""
               ]
             },
@@ -1694,7 +1927,7 @@
                 "value": "ScalableCapability::ScalableBehavior::SetValue"
               },
               "parameters": [
-                "MyCar",
+                "SemiTruck",
                 "Scale",
                 "=",
                 "2"
@@ -1874,8 +2107,8 @@
             "value": "AddForceAL"
           },
           "parameters": [
-            "MyCar",
-            "MyCar.Direction()",
+            "SemiTruck",
+            "SemiTruck.Direction()",
             "200",
             ""
           ]
@@ -1911,8 +2144,8 @@
             "value": "AddForceAL"
           },
           "parameters": [
-            "MyCar",
-            "MyCar.Direction()",
+            "SemiTruck",
+            "SemiTruck.Direction()",
             "-100",
             ""
           ]
@@ -1957,7 +2190,7 @@
             "value": "SetAngle"
           },
           "parameters": [
-            "MyCar",
+            "SemiTruck",
             "+",
             "3"
           ]
@@ -2002,7 +2235,7 @@
             "value": "SetAngle"
           },
           "parameters": [
-            "MyCar",
+            "SemiTruck",
             "-",
             "3"
           ]
@@ -2047,7 +2280,7 @@
             "value": "SetAngle"
           },
           "parameters": [
-            "MyCar",
+            "SemiTruck",
             "+",
             "3"
           ]
@@ -2092,7 +2325,7 @@
             "value": "SetAngle"
           },
           "parameters": [
-            "MyCar",
+            "SemiTruck",
             "-",
             "3"
           ]
@@ -2107,7 +2340,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "MyCar",
+            "SemiTruck",
             "Obstacles",
             "",
             "",
@@ -2190,7 +2423,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "MyCar",
+            "SemiTruck",
             "ParkedIdentifyer",
             "",
             "",
