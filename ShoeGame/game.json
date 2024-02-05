@@ -4692,6 +4692,221 @@
         "name": "assets\\OrderOperations\\window_small_text48pt",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ConnectStitching/Frase 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ConnectStitching\\Frase 1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ConnectStitching/Frase 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ConnectStitching\\Frase 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ConnectStitching/Frase 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ConnectStitching\\Frase 3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ConnectStitching/Frase 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ConnectStitching\\Frase 4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ConnectStitching/Frase 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ConnectStitching\\Frase 5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ConnectStitching/Frase 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ConnectStitching\\Frase 6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ConnectStitching/Frase 7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ConnectStitching\\Frase 7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ConnectStitching/Frase 8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ConnectStitching\\Frase 8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ConnectStitching/Frase 9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ConnectStitching\\Frase 9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ConnectStitching/Frase 10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ConnectStitching\\Frase 10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ConnectStitching/Frase 11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ConnectStitching\\Frase 11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ConnectStitching/Front View 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ConnectStitching\\Front View 1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ConnectStitching/Front View 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ConnectStitching\\Front View 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ConnectStitching/Front View 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ConnectStitching\\Front View 3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ConnectStitching/Front View 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ConnectStitching\\Front View 4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ConnectStitching/Front View 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ConnectStitching\\Front View 5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ConnectStitching/Front View 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ConnectStitching\\Front View 6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ConnectStitching/Front View 7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ConnectStitching\\Front View 7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ConnectStitching/Front View 8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ConnectStitching\\Front View 8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ConnectStitching/Front View 9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ConnectStitching\\Front View 9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ConnectStitching/Front View 10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ConnectStitching\\Front View 10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ConnectStitching/Front View 11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ConnectStitching\\Front View 11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/ConnectStitching/ConnectStitching.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "assets\\ConnectStitching\\ConnectStitching.json",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -13427,6 +13642,12 @@
       "name": "orderOperationsLevel",
       "type": "number",
       "value": 4
+    },
+    {
+      "folded": true,
+      "name": "connectStitching",
+      "type": "number",
+      "value": 1
     }
   ],
   "layouts": [
@@ -13501,6 +13722,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/correct-machine"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/connectstitching"
     }
   ],
   "externalEvents": [
