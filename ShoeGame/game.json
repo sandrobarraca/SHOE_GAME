@@ -4993,6 +4993,84 @@
         "metadata": "",
         "name": "assets\\TruckTraker\\assets\\TruckTrakerLevels.json",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Block.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Block.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Industrial Platformer Pack (110 assets)/PNG/Retina/496d885f9f22fbafb52a4e778504b0cf991a7c30df0c62dce3c593ac568b43cd_Block.png",
+          "name": "Block.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fuel Semi Truck_Moving_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fuel Semi Truck_Moving_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Pixel Cars/eebc81b7966d06b4e4fd12d5d5b19724e4e7954cd705c1d4fc9688171d7e16d6_Fuel Semi Truck_Moving_1.png",
+          "name": "Fuel Semi Truck_Moving_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fuel Semi Truck_Moving_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fuel Semi Truck_Moving_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Pixel Cars/9fd17675db8a466320bfd61e519565aed0d4c987462c803e85182cf46f6b90fe_Fuel Semi Truck_Moving_2.png",
+          "name": "Fuel Semi Truck_Moving_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fuel Semi Truck_Moving_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fuel Semi Truck_Moving_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Pixel Cars/6c5fc70a40d7cb846305d767440ce317e98bd19cf79324684f1e93a46769d433_Fuel Semi Truck_Moving_3.png",
+          "name": "Fuel Semi Truck_Moving_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fuel Semi Truck_Moving_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fuel Semi Truck_Moving_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Pixel Cars/9bbd87e4da9e10b869eb2f0aaa4484ab4be1b20244fef9e002cbf13001a3acc9_Fuel Semi Truck_Moving_4.png",
+          "name": "Fuel Semi Truck_Moving_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Leather Boots.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Leather Boots.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Item Pack/Armors/24d5edb37bf640d3f065426fe351490c5e4d1b77dfca2452685c4d58f1173210_Leather Boots.png",
+          "name": "Leather Boots.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -13791,10 +13869,6 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/trucktraker"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/parkthecar"
     },
     {
@@ -13816,6 +13890,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/connectstitching"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/mazegame"
     }
   ],
   "externalEvents": [
