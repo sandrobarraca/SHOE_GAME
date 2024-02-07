@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3411856023473458,
+    "zoomFactor": 0.3895856273827297,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -39,6 +39,24 @@
       "name": "levelNumber",
       "type": "string",
       "value": ""
+    },
+    {
+      "folded": true,
+      "name": "_mouseX",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "_mouseY",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "LinePoints",
+      "type": "array",
+      "children": []
     }
   ],
   "instances": [
@@ -84,6 +102,21 @@
       "x": 1673,
       "y": 51,
       "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewShapePainter",
+      "persistentUuid": "dcb7d8a8-903a-430e-bc3d-d89972784034",
+      "width": 0,
+      "x": 1482,
+      "y": 1225,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1633,21 +1666,21 @@
       "effects": [],
       "behaviors": [],
       "fillOpacity": 255,
-      "outlineSize": 20,
+      "outlineSize": 10,
       "outlineOpacity": 255,
       "fillColor": {
-        "b": 35,
-        "g": 166,
-        "r": 245
+        "b": 59,
+        "g": 176,
+        "r": 247
       },
       "outlineColor": {
         "b": 35,
         "g": 166,
         "r": 245
       },
-      "absoluteCoordinates": false,
+      "absoluteCoordinates": true,
       "clearBetweenFrames": false,
-      "antialiasing": "none"
+      "antialiasing": "high"
     }
   ],
   "objectsFolderStructure": {
@@ -2484,15 +2517,56 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarScene"
           },
           "parameters": [
-            "Frase1",
-            "",
-            "",
-            ""
+            "_mouseX",
+            "=",
+            "-1"
           ]
         },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "_mouseY",
+            "=",
+            "-1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
         {
           "type": {
             "value": "MouseButtonPressed"
@@ -2503,26 +2577,122 @@
           ]
         }
       ],
-      "actions": [
+      "actions": [],
+      "events": [
         {
-          "type": {
-            "value": "PrimitiveDrawing::LineV2"
-          },
-          "parameters": [
-            "NewShapePainter",
-            "Frase1.X()",
-            "Frase1.Y()",
-            "FrontView1.X()",
-            "FrontView1.Y()",
-            "20"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "_mouseX",
+                "!=",
+                "-1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PrimitiveDrawing::LineV2"
+              },
+              "parameters": [
+                "NewShapePainter",
+                "Variable(_mouseX)",
+                "Variable(_mouseY)",
+                "MouseX()",
+                "MouseY()",
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "_mouseX",
+                "=",
+                "MouseX()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "_mouseY",
+                "=",
+                "MouseY()"
+              ]
+            }
           ]
         }
       ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Frase1",
+                "NewShapePainter",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "FrontView1",
+                "NewShapePainter",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"MainMap\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
