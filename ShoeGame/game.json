@@ -4608,7 +4608,7 @@
         "alwaysLoaded": false,
         "file": "assets/OrderOperations/Base.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/OrderOperations/Base.png\",\"extension\":\".png\"}",
         "name": "assets\\OrderOperations\\Base.png",
         "smoothed": true,
         "userAdded": true
@@ -5071,6 +5071,78 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Item Pack/Armors/24d5edb37bf640d3f065426fe351490c5e4d1b77dfca2452685c4d58f1173210_Leather Boots.png",
           "name": "Leather Boots.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/OrderOperationsLasting/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\OrderOperationsLasting\\1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/OrderOperationsLasting/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\OrderOperationsLasting\\2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/OrderOperationsLasting/3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\OrderOperationsLasting\\3.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/OrderOperationsLasting/4.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\OrderOperationsLasting\\4.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/OrderOperationsLasting/5.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\OrderOperationsLasting\\5.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/OrderOperationsLasting/6.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\OrderOperationsLasting\\6.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/OrderOperationsLasting/7.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\OrderOperationsLasting\\7.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/OrderOperationsLasting/8.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\OrderOperationsLasting\\8.jpg",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -13803,9 +13875,15 @@
     },
     {
       "folded": true,
-      "name": "orderOperationsLevel",
+      "name": "orderOperationsStitchingLevel",
       "type": "number",
-      "value": 4
+      "value": 1
+    },
+    {
+      "folded": true,
+      "name": "orderOperationsLastingLevel",
+      "type": "number",
+      "value": 2
     },
     {
       "folded": true,
@@ -13881,7 +13959,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/orderofoperations"
+      "referenceTo": "/layouts/orderofoperationslasting-"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/orderofoperationsstitching"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

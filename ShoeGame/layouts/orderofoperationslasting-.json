@@ -1,13 +1,13 @@
 {
-  "b": 134,
+  "b": 155,
   "disableInputWhenNotFocused": true,
-  "mangledName": "OrderOfOperations",
-  "name": "OrderOfOperations",
-  "r": 184,
+  "mangledName": "OrderOfOperations_40Lasting_32_41",
+  "name": "OrderOfOperations(Lasting )",
+  "r": 155,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 233,
+  "v": 155,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -166,36 +166,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "_5",
-      "persistentUuid": "29c73b52-9303-4fc9-b03d-ec56582ce41a",
-      "width": 0,
-      "x": 300,
-      "y": -110,
-      "zOrder": 28,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "_6",
-      "persistentUuid": "10bb8de7-a1f9-4378-acc3-ca4f9c1569e2",
-      "width": 0,
-      "x": 350,
-      "y": -110,
-      "zOrder": 29,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 221,
@@ -306,7 +276,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\OrderOperations\\Splitting - 1.png",
+                  "image": "assets\\OrderOperationsLasting\\1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -326,16 +296,16 @@
                         "y": 0
                       },
                       {
-                        "x": 364,
+                        "x": 336,
                         "y": 0
                       },
                       {
-                        "x": 364,
-                        "y": 240
+                        "x": 336,
+                        "y": 231
                       },
                       {
                         "x": 0,
-                        "y": 240
+                        "y": 231
                       }
                     ]
                   ]
@@ -379,7 +349,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\OrderOperations\\Skiving - 2.png",
+                  "image": "assets\\OrderOperationsLasting\\2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -399,16 +369,16 @@
                         "y": 0
                       },
                       {
-                        "x": 259,
+                        "x": 377,
                         "y": 0
                       },
                       {
-                        "x": 259,
-                        "y": 236
+                        "x": 377,
+                        "y": 296
                       },
                       {
                         "x": 0,
-                        "y": 236
+                        "y": 296
                       }
                     ]
                   ]
@@ -452,7 +422,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\OrderOperations\\Punching - 3.png",
+                  "image": "assets\\OrderOperationsLasting\\3.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -472,16 +442,16 @@
                         "y": 0
                       },
                       {
-                        "x": 315,
+                        "x": 372,
                         "y": 0
                       },
                       {
-                        "x": 315,
-                        "y": 236
+                        "x": 372,
+                        "y": 248
                       },
                       {
                         "x": 0,
-                        "y": 236
+                        "y": 248
                       }
                     ]
                   ]
@@ -525,7 +495,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\OrderOperations\\Marking  - 4.png",
+                  "image": "assets\\OrderOperationsLasting\\4.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -545,16 +515,16 @@
                         "y": 0
                       },
                       {
-                        "x": 315,
+                        "x": 408,
                         "y": 0
                       },
                       {
-                        "x": 315,
-                        "y": 236
+                        "x": 408,
+                        "y": 280
                       },
                       {
                         "x": 0,
-                        "y": 236
+                        "y": 280
                       }
                     ]
                   ]
@@ -598,7 +568,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\OrderOperations\\Reinforcing the upper - 5.png",
+                  "image": "assets\\OrderOperationsLasting\\5.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -618,16 +588,16 @@
                         "y": 0
                       },
                       {
-                        "x": 336,
+                        "x": 273,
                         "y": 0
                       },
                       {
-                        "x": 336,
-                        "y": 234
+                        "x": 273,
+                        "y": 409
                       },
                       {
                         "x": 0,
-                        "y": 234
+                        "y": 409
                       }
                     ]
                   ]
@@ -671,7 +641,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\OrderOperations\\Folding the edges - 6.png",
+                  "image": "assets\\OrderOperationsLasting\\6.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -691,16 +661,16 @@
                         "y": 0
                       },
                       {
-                        "x": 484,
+                        "x": 379,
                         "y": 0
                       },
                       {
-                        "x": 484,
-                        "y": 236
+                        "x": 379,
+                        "y": 253
                       },
                       {
                         "x": 0,
-                        "y": 236
+                        "y": 253
                       }
                     ]
                   ]
@@ -825,62 +795,6 @@
     },
     {
       "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "_5",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "ID",
-          "type": "number",
-          "value": 5
-        }
-      ],
-      "effects": [],
-      "behaviors": [],
-      "string": "5",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 60,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "_6",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "ID",
-          "type": "number",
-          "value": 6
-        }
-      ],
-      "effects": [],
-      "behaviors": [],
-      "string": "6",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 60,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
-      "assetStoreId": "",
       "bold": false,
       "italic": false,
       "name": "WinText",
@@ -969,7 +883,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "Splitting is done with the purpose of bringing the components of the footwear to the same thickness on their entire surface.",
+        "text": "Fixing the insole on the last aims at centering it, so that the contour overlaps exactly over the contour of the last, and its surface corresponds the surface of the sole of the shoe.",
         "opacity": 255,
         "scale": 1,
         "fontSize": 20,
@@ -988,7 +902,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "Skiving is the reduction in thickness of certain edges of upper in order to avoid discomfort in wear and reduce bulkiness.",
+        "text": "Via conditioning the uppers the process of spatial formation is encourage, reducing the stresses to which the materials that structure the uppers are subjected, and the strength of the seams is increased.",
         "opacity": 255,
         "scale": 1,
         "fontSize": 20,
@@ -1007,7 +921,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "Punching is performed on the edges or on the middle of the parts. Punches can have a decorative or functional / technological role (for example, for lacing, fastening the caps or closures, attaching ornamental accessories, etc).",
+        "text": "The pulling of the uppers  is carried out in order to form the uppers spatially and to fix them permanently to the insole",
         "opacity": 255,
         "scale": 1,
         "fontSize": 20,
@@ -1026,7 +940,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "The marking is an auxiliary operation which supposed to marking of the position of the holes or stitches. Also, the marking helps correctly fit the component parts when stitching.",
+        "text": "The purpose of backpart pre-moulding is to pretension the uppers in order to prepare the lasting allowance to grip the machine's clamps.",
         "opacity": 255,
         "scale": 1,
         "fontSize": 20,
@@ -1045,7 +959,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "The upper components, made from thin materials or with large elongations, require reinforcement. On the inside of the parts, reinforcement parts (intermediate lining) are made of cotton, knitted or nonwoven fabrics that have good tear resistance and adequate deformation capacity.",
+        "text": "The uppers are gathered at the heel seat, fixing the allowance by gluing or by tacks. The moulding of the semi-product in this area is done by a combined action of stretching and compressing.",
         "opacity": 255,
         "scale": 1,
         "fontSize": 20,
@@ -1064,7 +978,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "The folding operation  is done on the edges of the upper in the scope of their embellishment and reinforcement.",
+        "text": "Roughing and brushing of the sole surface is carried out to remove excess material and prepare the footwear for better contact with the adhesives.",
         "opacity": 255,
         "scale": 1,
         "fontSize": 20,
@@ -1074,6 +988,190 @@
         "align": "left",
         "wordWrap": true
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Description_7",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "The sole is glued to the shoe by pressing. Pressing the sole to the footwear can be done immediately after overlapping or, in the case of bonding with activation, immediately after activation and contact",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "",
+        "textureAtlasResourceName": "",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Description_8",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Finishing operations on the sole/heel include: milling the edge of the sole, sanding leather soles/heels, dyeing, waxing, beading, heel carving, cleaning the edge and heel. Finishing operations on the uppers may include: washing and cleaning, pressing, waxing, cutting or singeing the ends of the thread, ironing.",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "",
+        "textureAtlasResourceName": "",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Operation_7",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "ID",
+          "type": "number",
+          "value": 6
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\OrderOperationsLasting\\7.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 443,
+                        "y": 0
+                      },
+                      {
+                        "x": 443,
+                        "y": 295
+                      },
+                      {
+                        "x": 0,
+                        "y": 295
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Operation_8",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "ID",
+          "type": "number",
+          "value": 6
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\OrderOperationsLasting\\8.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 443,
+                        "y": 0
+                      },
+                      {
+                        "x": 443,
+                        "y": 296
+                      },
+                      {
+                        "x": 0,
+                        "y": 296
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1101,6 +1199,12 @@
         "objectName": "Operation_6"
       },
       {
+        "objectName": "Operation_7"
+      },
+      {
+        "objectName": "Operation_8"
+      },
+      {
         "objectName": "_1"
       },
       {
@@ -1111,12 +1215,6 @@
       },
       {
         "objectName": "_4"
-      },
-      {
-        "objectName": "_5"
-      },
-      {
-        "objectName": "_6"
       },
       {
         "objectName": "WinText"
@@ -1141,6 +1239,12 @@
       },
       {
         "objectName": "Description_6"
+      },
+      {
+        "objectName": "Description_7"
+      },
+      {
+        "objectName": "Description_8"
       }
     ]
   },
@@ -1241,56 +1345,10 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "JSONResourceLoader::LoadJSONToScene"
-          },
-          "parameters": [
-            "",
-            "assets\\OrderOperations\\OrderOperations.json",
-            "objectStructure",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarSceneTxt"
-          },
-          "parameters": [
-            "levelNumber",
-            "=",
-            "\"level\" + ToString(GlobalVariable(orderOperationsLevel))"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "i",
-            "=",
-            "0"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "VarGlobal"
           },
           "parameters": [
-            "orderOperationsLevel",
+            "orderOperationsLastingLevel",
             "=",
             "1"
           ]
@@ -1310,7 +1368,7 @@
           "parameters": [
             "_1",
             "=",
-            "315",
+            "300",
             "=",
             "700"
           ]
@@ -1322,7 +1380,7 @@
           "parameters": [
             "_2",
             "=",
-            "950",
+            "700",
             "=",
             "700"
           ]
@@ -1334,7 +1392,19 @@
           "parameters": [
             "_3",
             "=",
-            "1585",
+            "1100",
+            "=",
+            "700"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "_4",
+            "=",
+            "1500",
             "=",
             "700"
           ]
@@ -1369,7 +1439,19 @@
           },
           "parameters": [
             "",
-            "Operation_5",
+            "Operation_2",
+            "800",
+            "160",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Operation_4",
             "800",
             "160",
             ""
@@ -1385,7 +1467,7 @@
             "value": "VarGlobal"
           },
           "parameters": [
-            "orderOperationsLevel",
+            "orderOperationsLastingLevel",
             "=",
             "2"
           ]
@@ -1405,7 +1487,7 @@
           "parameters": [
             "_1",
             "=",
-            "315",
+            "300",
             "=",
             "700"
           ]
@@ -1417,7 +1499,7 @@
           "parameters": [
             "_2",
             "=",
-            "950",
+            "700",
             "=",
             "700"
           ]
@@ -1429,7 +1511,19 @@
           "parameters": [
             "_3",
             "=",
-            "1585",
+            "1100",
+            "=",
+            "700"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "_4",
+            "=",
+            "1500",
             "=",
             "700"
           ]
@@ -1440,7 +1534,7 @@
           },
           "parameters": [
             "",
-            "Operation_4",
+            "Operation_5",
             "800",
             "160",
             ""
@@ -1452,7 +1546,7 @@
           },
           "parameters": [
             "",
-            "Operation_2",
+            "Operation_7",
             "800",
             "160",
             ""
@@ -1469,6 +1563,18 @@
             "160",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Operation_8",
+            "800",
+            "160",
+            ""
+          ]
         }
       ]
     },
@@ -1480,7 +1586,7 @@
             "value": "VarGlobal"
           },
           "parameters": [
-            "orderOperationsLevel",
+            "orderOperationsLastingLevel",
             "=",
             "3"
           ]
@@ -1500,7 +1606,7 @@
           "parameters": [
             "_1",
             "=",
-            "182",
+            "300",
             "=",
             "700"
           ]
@@ -1512,7 +1618,7 @@
           "parameters": [
             "_2",
             "=",
-            "546",
+            "700",
             "=",
             "700"
           ]
@@ -1524,7 +1630,7 @@
           "parameters": [
             "_3",
             "=",
-            "910",
+            "1100",
             "=",
             "700"
           ]
@@ -1536,19 +1642,7 @@
           "parameters": [
             "_4",
             "=",
-            "1274",
-            "=",
-            "700"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "_5",
-            "=",
-            "1638",
+            "1500",
             "=",
             "700"
           ]
@@ -1559,19 +1653,7 @@
           },
           "parameters": [
             "",
-            "Operation_4",
-            "800",
-            "160",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Operation_6",
+            "Operation_5",
             "800",
             "160",
             ""
@@ -1595,7 +1677,7 @@
           },
           "parameters": [
             "",
-            "Operation_5",
+            "Operation_7",
             "800",
             "160",
             ""
@@ -1607,7 +1689,7 @@
           },
           "parameters": [
             "",
-            "Operation_2",
+            "Operation_3",
             "800",
             "160",
             ""
@@ -1623,7 +1705,7 @@
             "value": "VarGlobal"
           },
           "parameters": [
-            "orderOperationsLevel",
+            "orderOperationsLastingLevel",
             "=",
             "4"
           ]
@@ -1643,7 +1725,7 @@
           "parameters": [
             "_1",
             "=",
-            "150",
+            "300",
             "=",
             "700"
           ]
@@ -1655,7 +1737,7 @@
           "parameters": [
             "_2",
             "=",
-            "465",
+            "700",
             "=",
             "700"
           ]
@@ -1667,7 +1749,7 @@
           "parameters": [
             "_3",
             "=",
-            "785",
+            "1100",
             "=",
             "700"
           ]
@@ -1679,31 +1761,7 @@
           "parameters": [
             "_4",
             "=",
-            "1105",
-            "=",
-            "700"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "_5",
-            "=",
-            "1425",
-            "=",
-            "700"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "_6",
-            "=",
-            "1745",
+            "1500",
             "=",
             "700"
           ]
@@ -1726,7 +1784,7 @@
           },
           "parameters": [
             "",
-            "Operation_3",
+            "Operation_2",
             "800",
             "160",
             ""
@@ -1750,31 +1808,7 @@
           },
           "parameters": [
             "",
-            "Operation_1",
-            "800",
-            "160",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Operation_5",
-            "800",
-            "160",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Operation_2",
+            "Description_8",
             "800",
             "160",
             ""
@@ -1790,7 +1824,7 @@
             "value": "VarGlobal"
           },
           "parameters": [
-            "orderOperationsLevel",
+            "orderOperationsLastingLevel",
             "=",
             "1"
           ]
@@ -1812,7 +1846,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "Operation_3",
+            "Operation_2",
             "_2",
             "",
             "",
@@ -1824,8 +1858,20 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "Operation_5",
+            "Operation_3",
             "_3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Operation_4",
+            "_4",
             "",
             "",
             ""
@@ -1873,7 +1919,7 @@
             "value": "ModVarGlobal"
           },
           "parameters": [
-            "orderOperationsLevel",
+            "orderOperationsStitchingLevel",
             "=",
             "+1"
           ]
@@ -1888,7 +1934,7 @@
             "value": "VarGlobal"
           },
           "parameters": [
-            "orderOperationsLevel",
+            "orderOperationsLastingLevel",
             "=",
             "2"
           ]
@@ -1898,7 +1944,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "Operation_2",
+            "Operation_5",
             "_1",
             "",
             "",
@@ -1910,7 +1956,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "Operation_4",
+            "Operation_6",
             "_2",
             "",
             "",
@@ -1922,8 +1968,20 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "Operation_6",
+            "Operation_7",
             "_3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Operation_8",
+            "_4",
             "",
             "",
             ""
@@ -1971,7 +2029,7 @@
             "value": "ModVarGlobal"
           },
           "parameters": [
-            "orderOperationsLevel",
+            "orderOperationsStitchingLevel",
             "=",
             "+1"
           ]
@@ -1986,7 +2044,7 @@
             "value": "VarGlobal"
           },
           "parameters": [
-            "orderOperationsLevel",
+            "orderOperationsLastingLevel",
             "=",
             "3"
           ]
@@ -2008,7 +2066,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "Operation_2",
+            "Operation_3",
             "_2",
             "",
             "",
@@ -2020,7 +2078,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "Operation_4",
+            "Operation_5",
             "_3",
             "",
             "",
@@ -2032,20 +2090,8 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "Operation_5",
+            "Operation_7",
             "_4",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Operation_6",
-            "_5",
             "",
             "",
             ""
@@ -2093,7 +2139,7 @@
             "value": "ModVarGlobal"
           },
           "parameters": [
-            "orderOperationsLevel",
+            "orderOperationsStitchingLevel",
             "=",
             "+1"
           ]
@@ -2108,7 +2154,7 @@
             "value": "VarGlobal"
           },
           "parameters": [
-            "orderOperationsLevel",
+            "orderOperationsLastingLevel",
             "=",
             "4"
           ]
@@ -2118,7 +2164,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "Operation_1",
+            "Operation_2",
             "_1",
             "",
             "",
@@ -2130,7 +2176,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "Operation_2",
+            "Operation_4",
             "_2",
             "",
             "",
@@ -2142,7 +2188,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "Operation_3",
+            "Operation_6",
             "_3",
             "",
             "",
@@ -2154,32 +2200,8 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "Operation_4",
+            "Operation_8",
             "_4",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Operation_5",
-            "_5",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Operation_6",
-            "_6",
             "",
             "",
             ""
@@ -2274,8 +2296,8 @@
           "parameters": [
             "",
             "TextBackground",
-            "Operation_1.X() - 20",
-            "Operation_1.Y() - 20",
+            "Operation_1.X() - 10",
+            "Operation_1.Y() - 10",
             ""
           ]
         },
@@ -2399,8 +2421,8 @@
           "parameters": [
             "",
             "TextBackground",
-            "Operation_2.X() - 20",
-            "Operation_2.Y() - 20",
+            "Operation_2.X() - 10",
+            "Operation_2.Y() - 10",
             ""
           ]
         },
@@ -2412,7 +2434,7 @@
             "TextBackground",
             "Resizable",
             "400",
-            "260"
+            "310"
           ]
         },
         {
@@ -2422,8 +2444,8 @@
           "parameters": [
             "",
             "Description_2",
-            "Operation_2.X() ",
-            "Operation_2.Y() + 60",
+            "Operation_2.X() +5",
+            "Operation_2.Y() + 80",
             ""
           ]
         },
@@ -2524,8 +2546,8 @@
           "parameters": [
             "",
             "TextBackground",
-            "Operation_3.X() - 20",
-            "Operation_3.Y() - 20",
+            "Operation_3.X() - 10",
+            "Operation_3.Y() - 10",
             ""
           ]
         },
@@ -2547,8 +2569,8 @@
           "parameters": [
             "",
             "Description_3",
-            "Operation_3.X() ",
-            "Operation_3.Y() + 30",
+            "Operation_3.X() +20",
+            "Operation_3.Y() + 60",
             ""
           ]
         },
@@ -2649,8 +2671,8 @@
           "parameters": [
             "",
             "TextBackground",
-            "Operation_4.X() - 20",
-            "Operation_4.Y() - 20",
+            "Operation_4.X() - 10",
+            "Operation_4.Y() - 10",
             ""
           ]
         },
@@ -2661,8 +2683,8 @@
           "parameters": [
             "TextBackground",
             "Resizable",
-            "400",
-            "260"
+            "420",
+            "300"
           ]
         },
         {
@@ -2672,8 +2694,8 @@
           "parameters": [
             "",
             "Description_4",
-            "Operation_4.X() ",
-            "Operation_4.Y() + 60",
+            "Operation_4.X() +20",
+            "Operation_4.Y() + 90",
             ""
           ]
         },
@@ -2774,8 +2796,8 @@
           "parameters": [
             "",
             "TextBackground",
-            "Operation_5.X() - 20",
-            "Operation_5.Y() - 20",
+            "Operation_5.X() - 10",
+            "Operation_5.Y() - 10",
             ""
           ]
         },
@@ -2786,8 +2808,8 @@
           "parameters": [
             "TextBackground",
             "Resizable",
-            "400",
-            "260"
+            "300",
+            "440"
           ]
         },
         {
@@ -2797,8 +2819,8 @@
           "parameters": [
             "",
             "Description_5",
-            "Operation_5.X() ",
-            "Operation_5.Y() + 30",
+            "Operation_5.X() + 10",
+            "Operation_5.Y() + 120",
             ""
           ]
         },
@@ -2809,7 +2831,7 @@
           "parameters": [
             "Description_5",
             "=",
-            "350\n"
+            "260"
           ]
         }
       ]
@@ -2899,8 +2921,8 @@
           "parameters": [
             "",
             "TextBackground",
-            "Operation_6.X() - 20",
-            "Operation_6.Y() - 20",
+            "Operation_6.X()  - 10",
+            "Operation_6.Y() - 10",
             ""
           ]
         },
@@ -2911,8 +2933,8 @@
           "parameters": [
             "TextBackground",
             "Resizable",
-            "550",
-            "260"
+            "410",
+            "290"
           ]
         },
         {
@@ -2922,8 +2944,8 @@
           "parameters": [
             "",
             "Description_6",
-            "Operation_6.X() ",
-            "Operation_6.Y() + 80",
+            "Operation_6.X() +15",
+            "Operation_6.Y() + 100",
             ""
           ]
         },
@@ -2934,7 +2956,7 @@
           "parameters": [
             "Description_6",
             "=",
-            "500"
+            "370"
           ]
         }
       ]
@@ -2973,6 +2995,261 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Operation 7 Description\n"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Operation_7",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Right"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "TextBackground",
+            "Operation_7.X() - 10",
+            "Operation_7.Y() - 10",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetSize"
+          },
+          "parameters": [
+            "TextBackground",
+            "Resizable",
+            "460",
+            "310"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Description_7",
+            "Operation_7.X() +15",
+            "Operation_7.Y() + 90",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BitmapText::BitmapTextObject::SetWrappingWidth"
+          },
+          "parameters": [
+            "Description_7",
+            "=",
+            "440"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Right"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "TextBackground",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Description_7",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Operation 8 Description\n"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Operation_8",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Right"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "TextBackground",
+            "Operation_8.X() - 10",
+            "Operation_8.Y() - 10",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetSize"
+          },
+          "parameters": [
+            "TextBackground",
+            "Resizable",
+            "490",
+            "335"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Description_8",
+            "Operation_8.X() +15",
+            "Operation_8.Y() + 80",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BitmapText::BitmapTextObject::SetWrappingWidth"
+          },
+          "parameters": [
+            "Description_8",
+            "=",
+            "450"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Right"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "TextBackground",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Description_8",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

@@ -1,8 +1,8 @@
 {
   "b": 134,
   "disableInputWhenNotFocused": true,
-  "mangledName": "OrderOfOperations",
-  "name": "OrderOfOperations",
+  "mangledName": "OrderOfOperations_40Stitching_41",
+  "name": "OrderOfOperations(Stitching)",
   "r": 184,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -1241,56 +1241,10 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "JSONResourceLoader::LoadJSONToScene"
-          },
-          "parameters": [
-            "",
-            "assets\\OrderOperations\\OrderOperations.json",
-            "objectStructure",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarSceneTxt"
-          },
-          "parameters": [
-            "levelNumber",
-            "=",
-            "\"level\" + ToString(GlobalVariable(orderOperationsLevel))"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "i",
-            "=",
-            "0"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "VarGlobal"
           },
           "parameters": [
-            "orderOperationsLevel",
+            "orderOperationsStitchingLevel",
             "=",
             "1"
           ]
@@ -1385,7 +1339,7 @@
             "value": "VarGlobal"
           },
           "parameters": [
-            "orderOperationsLevel",
+            "orderOperationsStitchingLevel",
             "=",
             "2"
           ]
@@ -1480,7 +1434,7 @@
             "value": "VarGlobal"
           },
           "parameters": [
-            "orderOperationsLevel",
+            "orderOperationsStitchingLevel",
             "=",
             "3"
           ]
@@ -1623,7 +1577,7 @@
             "value": "VarGlobal"
           },
           "parameters": [
-            "orderOperationsLevel",
+            "orderOperationsStitchingLevel",
             "=",
             "4"
           ]
@@ -1790,7 +1744,7 @@
             "value": "VarGlobal"
           },
           "parameters": [
-            "orderOperationsLevel",
+            "orderOperationsStitchingLevel",
             "=",
             "1"
           ]
@@ -1873,7 +1827,7 @@
             "value": "ModVarGlobal"
           },
           "parameters": [
-            "orderOperationsLevel",
+            "orderOperationsStitchingLevel",
             "=",
             "+1"
           ]
@@ -1888,7 +1842,7 @@
             "value": "VarGlobal"
           },
           "parameters": [
-            "orderOperationsLevel",
+            "orderOperationsStitchingLevel",
             "=",
             "2"
           ]
@@ -1971,7 +1925,7 @@
             "value": "ModVarGlobal"
           },
           "parameters": [
-            "orderOperationsLevel",
+            "orderOperationsStitchingLevel",
             "=",
             "+1"
           ]
@@ -1986,7 +1940,7 @@
             "value": "VarGlobal"
           },
           "parameters": [
-            "orderOperationsLevel",
+            "orderOperationsStitchingLevel",
             "=",
             "3"
           ]
@@ -2093,7 +2047,7 @@
             "value": "ModVarGlobal"
           },
           "parameters": [
-            "orderOperationsLevel",
+            "orderOperationsStitchingLevel",
             "=",
             "+1"
           ]
@@ -2108,7 +2062,7 @@
             "value": "VarGlobal"
           },
           "parameters": [
-            "orderOperationsLevel",
+            "orderOperationsStitchingLevel",
             "=",
             "4"
           ]
