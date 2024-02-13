@@ -295,6 +295,26 @@
         "b": 255,
         "g": 255,
         "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "WELCOME",
+        "font": "assets\\CantoraOne-Regular.ttf",
+        "textAlignment": "left",
+        "characterSize": 128,
+        "color": "255;255;255"
       }
     },
     {
@@ -316,6 +336,26 @@
         "b": 255,
         "g": 255,
         "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "You just inherited the \"FAMOSA\" footwear company. \nNow it is up to you to save it from bankrupcy. \nYou will be called to solve problems in the different sectors of the company so that the performance indexes (money, staff, clients, sustainability) of the company are always positive.",
+        "font": "assets\\CantoraOne-Regular.ttf",
+        "textAlignment": "center",
+        "characterSize": 48,
+        "color": "255;255;255"
       }
     },
     {
@@ -337,6 +377,26 @@
         "b": 28,
         "g": 231,
         "r": 248
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "GOOD LUCK",
+        "font": "assets\\CantoraOne-Regular.ttf",
+        "textAlignment": "left",
+        "characterSize": 64,
+        "color": "248;231;28"
       }
     },
     {
@@ -388,6 +448,26 @@
             "b": 29,
             "g": 99,
             "r": 62
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Back",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 60,
+            "color": "62;99;29"
           }
         },
         "Pressed": {

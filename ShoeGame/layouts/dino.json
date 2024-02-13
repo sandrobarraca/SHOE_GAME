@@ -438,6 +438,26 @@
         "b": 42,
         "g": 87,
         "r": 139
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Press any key to start running.",
+        "font": "Nathaniel-19.otf",
+        "textAlignment": "",
+        "characterSize": 40,
+        "color": "139;87;42"
       }
     },
     {

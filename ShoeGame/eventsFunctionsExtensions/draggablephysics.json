@@ -994,7 +994,6 @@
           "extraInformation": [
             "Physics2::Physics2Behavior"
           ],
-          "hidden": false,
           "name": "PhysicsBehavior"
         },
         {
@@ -1008,7 +1007,6 @@
             "Right",
             "Middle"
           ],
-          "hidden": false,
           "name": "MouseButton"
         },
         {
@@ -1019,7 +1017,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "MaxForce"
         },
         {
@@ -1029,7 +1026,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "Frequency"
         },
         {
@@ -1039,7 +1035,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "Damping"
         },
         {
@@ -1059,7 +1054,6 @@
           "description": "If automatic dragging is disabled, use the \"Start drag\" and \"Release drag\" actions.",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "EnableAutomaticDragging"
         }
       ],

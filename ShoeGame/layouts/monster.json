@@ -471,6 +471,26 @@
         "b": 28,
         "g": 231,
         "r": 248
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Score:",
+        "font": "",
+        "textAlignment": "",
+        "characterSize": 30,
+        "color": "248;231;28"
       }
     },
     {
@@ -853,6 +873,26 @@
             "b": 99,
             "g": 69,
             "r": 28
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Back",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 45,
+            "color": "28;69;99"
           }
         },
         "Pressed": {
@@ -1006,6 +1046,26 @@
         "b": 255,
         "g": 255,
         "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Controls:\nUse the arrow keys to move your character left and right.\n\nObjective:\nHit falling fruits with your character while avoiding bombs. Each fruit hit earns points, but hitting three bombs results in a game over.\n\nScoring:\nGain points for every fruit hit; aim for a high score while maintaining a balance to avoid bombs and stay in the game.",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 40,
+        "color": "255;255;255"
       }
     },
     {
@@ -1057,6 +1117,26 @@
             "b": 79,
             "g": 72,
             "r": 72
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Ok! Got it!",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 30,
+            "color": "72;72;79"
           }
         },
         "Pressed": {
@@ -1120,6 +1200,26 @@
             "b": 79,
             "g": 72,
             "r": 72
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "About",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 40,
+            "color": "72;72;79"
           }
         },
         "Pressed": {

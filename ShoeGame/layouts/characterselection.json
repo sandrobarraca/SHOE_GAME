@@ -726,6 +726,26 @@
         "b": 74,
         "g": 74,
         "r": 74
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Character Selection",
+        "font": "9ca22fed9cf84473596ac04fe893580c8c6cd2ed4d9d69f9b4c77efed979cd6a_MPLUS1p-Light.ttf",
+        "textAlignment": "left",
+        "characterSize": 36,
+        "color": "74;74;74"
       }
     },
     {
@@ -747,6 +767,26 @@
         "b": 74,
         "g": 74,
         "r": 74
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Body",
+        "font": "9ca22fed9cf84473596ac04fe893580c8c6cd2ed4d9d69f9b4c77efed979cd6a_MPLUS1p-Light.ttf",
+        "textAlignment": "left",
+        "characterSize": 26,
+        "color": "74;74;74"
       }
     },
     {
@@ -768,6 +808,26 @@
         "b": 74,
         "g": 74,
         "r": 74
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Style",
+        "font": "9ca22fed9cf84473596ac04fe893580c8c6cd2ed4d9d69f9b4c77efed979cd6a_MPLUS1p-Light.ttf",
+        "textAlignment": "left",
+        "characterSize": 26,
+        "color": "74;74;74"
       }
     },
     {
@@ -789,6 +849,26 @@
         "b": 74,
         "g": 74,
         "r": 74
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Colors",
+        "font": "9ca22fed9cf84473596ac04fe893580c8c6cd2ed4d9d69f9b4c77efed979cd6a_MPLUS1p-Light.ttf",
+        "textAlignment": "left",
+        "characterSize": 26,
+        "color": "74;74;74"
       }
     },
     {
@@ -810,6 +890,26 @@
         "b": 61,
         "g": 61,
         "r": 61
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Character Name",
+        "font": "9ca22fed9cf84473596ac04fe893580c8c6cd2ed4d9d69f9b4c77efed979cd6a_MPLUS1p-Light.ttf",
+        "textAlignment": "left",
+        "characterSize": 24,
+        "color": "61;61;61"
       }
     },
     {
@@ -1151,6 +1251,26 @@
             "b": 0,
             "g": 0,
             "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "",
+            "characterSize": 20,
+            "color": "0;0;0"
           }
         },
         "Pressed": {
@@ -1224,6 +1344,26 @@
             "b": 0,
             "g": 0,
             "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "",
+            "characterSize": 20,
+            "color": "0;0;0"
           }
         },
         "Pressed": {
@@ -1287,6 +1427,26 @@
             "b": 29,
             "g": 99,
             "r": 62
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "OK",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 36,
+            "color": "62;99;29"
           }
         },
         "Pressed": {
@@ -1327,6 +1487,26 @@
         "b": 0,
         "g": 0,
         "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "test",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 50,
+        "color": "0;0;0"
       }
     },
     {
@@ -1378,6 +1558,26 @@
             "b": 42,
             "g": 87,
             "r": 139
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Back",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 36,
+            "color": "139;87;42"
           }
         },
         "Pressed": {
@@ -1411,6 +1611,26 @@
         "b": 255,
         "g": 255,
         "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Coming Soon",
+        "font": "9ca22fed9cf84473596ac04fe893580c8c6cd2ed4d9d69f9b4c77efed979cd6a_MPLUS1p-Light.ttf",
+        "textAlignment": "left",
+        "characterSize": 30,
+        "color": "255;255;255"
       }
     },
     {

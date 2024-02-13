@@ -908,7 +908,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "HorizontalSpeed"
         },
         {
@@ -918,7 +917,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "VerticalSpeed"
         },
         {
@@ -928,7 +926,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "HorizontalDistance"
         },
         {
@@ -938,7 +935,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "VerticalDistance"
         },
         {
@@ -948,7 +944,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "CenterPointX"
         },
         {
@@ -958,7 +953,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "CenterPointY"
         },
         {

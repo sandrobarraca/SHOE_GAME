@@ -924,7 +924,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "HalfPeriodTime"
         },
         {
@@ -1416,7 +1415,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "HalfPeriodTime"
         },
         {
@@ -1977,7 +1975,6 @@
           "extraInformation": [
             "Tween::TweenBehavior"
           ],
-          "hidden": false,
           "name": "TweenBehavior"
         },
         {
@@ -1988,7 +1985,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "HalfPeriodTime"
         },
         {
@@ -2650,7 +2646,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "HalfPeriodTime"
         },
         {

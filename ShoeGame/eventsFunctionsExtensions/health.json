@@ -4681,7 +4681,6 @@
           "description": "",
           "group": "Health",
           "extraInformation": [],
-          "hidden": false,
           "name": "Health"
         },
         {
@@ -4701,7 +4700,6 @@
           "description": "",
           "group": "Health",
           "extraInformation": [],
-          "hidden": false,
           "name": "MaxHealth"
         },
         {
@@ -4712,7 +4710,6 @@
           "description": "",
           "group": "Health",
           "extraInformation": [],
-          "hidden": false,
           "name": "DamageCooldown"
         },
         {
@@ -4732,7 +4729,6 @@
           "description": "",
           "group": "Health regeneration",
           "extraInformation": [],
-          "hidden": false,
           "name": "HealthRegenRate"
         },
         {
@@ -4743,7 +4739,6 @@
           "description": "",
           "group": "Health regeneration",
           "extraInformation": [],
-          "hidden": false,
           "name": "HealthRegenDelay"
         },
         {
@@ -4753,7 +4748,6 @@
           "description": "",
           "group": "Health",
           "extraInformation": [],
-          "hidden": false,
           "name": "AllowOverHealing"
         },
         {
@@ -4793,7 +4787,6 @@
           "description": "Leave \"0\" for unlimited.",
           "group": "Shield",
           "extraInformation": [],
-          "hidden": false,
           "name": "MaxShieldPoints"
         },
         {
@@ -4804,7 +4797,6 @@
           "description": "Use \"0\" to make the shield permanent.",
           "group": "Shield",
           "extraInformation": [],
-          "hidden": false,
           "name": "ShieldDuration"
         },
         {
@@ -4814,7 +4806,6 @@
           "description": "",
           "group": "Shield regeneration",
           "extraInformation": [],
-          "hidden": false,
           "name": "ShieldRegenRate"
         },
         {
@@ -4824,7 +4815,6 @@
           "description": "",
           "group": "Shield",
           "extraInformation": [],
-          "hidden": false,
           "name": "BlockExcessDamage"
         },
         {
@@ -4835,7 +4825,6 @@
           "description": "",
           "group": "Shield regeneration",
           "extraInformation": [],
-          "hidden": false,
           "name": "ShieldRegenDelay"
         },
         {
@@ -4855,7 +4844,6 @@
           "description": "When a damage is dodged, no damage is applied.",
           "group": "Health",
           "extraInformation": [],
-          "hidden": false,
           "name": "ChanceToDodge"
         },
         {
@@ -4875,7 +4863,6 @@
           "description": "Incoming damages are reduced by this value.",
           "group": "Armor",
           "extraInformation": [],
-          "hidden": false,
           "name": "FlatDamageReduction"
         },
         {
@@ -4885,7 +4872,6 @@
           "description": "",
           "group": "Armor",
           "extraInformation": [],
-          "hidden": false,
           "name": "PercentDamageReduction"
         },
         {

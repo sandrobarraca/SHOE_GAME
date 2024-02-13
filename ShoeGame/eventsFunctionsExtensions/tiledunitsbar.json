@@ -651,7 +651,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "Value"
         },
         {
@@ -661,7 +660,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "MaxValue"
         },
         {
@@ -681,7 +679,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "PreviousHighValueDuration"
         }
       ],
@@ -1463,7 +1460,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "MaxValue"
         },
         {
@@ -1473,7 +1469,6 @@
           "description": "",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "InitialValue"
         },
         {
@@ -1493,7 +1488,6 @@
           "description": "How much pixels to show for a value of 1.",
           "group": "",
           "extraInformation": [],
-          "hidden": false,
           "name": "UnitWidth"
         },
         {
@@ -1505,7 +1499,6 @@
           "extraInformation": [
             "Background"
           ],
-          "hidden": false,
           "name": "ShowBackground"
         },
         {
@@ -1518,7 +1511,6 @@
             "FillBar",
             "Bar"
           ],
-          "hidden": false,
           "name": "BarLeftPadding"
         },
         {
@@ -1531,7 +1523,6 @@
             "FillBar",
             "Bar"
           ],
-          "hidden": false,
           "name": "BarRightPadding"
         },
         {
