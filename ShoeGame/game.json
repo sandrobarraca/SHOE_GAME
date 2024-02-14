@@ -5188,6 +5188,127 @@
         "name": "pressed",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Stars.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Stars.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Background/4d8cfdae4934a160d7a712ac0242ffb00a330637bf9373f0870af014671423ea_tiled_Stars.png",
+          "name": "tiled_Stars.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CorrectMachine/assets/Correct 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CorrectMachine\\assets\\Correct 1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CorrectMachine/assets/Correct 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CorrectMachine\\assets\\Correct 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CorrectMachine/assets/Correct 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CorrectMachine\\assets\\Correct 3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CorrectMachine/assets/Correct 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CorrectMachine\\assets\\Correct 4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CorrectMachine/assets/Correct 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CorrectMachine\\assets\\Correct 5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CorrectMachine/assets/Correct 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CorrectMachine\\assets\\Correct 6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CorrectMachine/assets/Correct 7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CorrectMachine\\assets\\Correct 7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CorrectMachine/assets/Wrong 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CorrectMachine\\assets\\Wrong 1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CorrectMachine/assets/Wrong 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CorrectMachine\\assets\\Wrong 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CorrectMachine/assets/Wrong 3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CorrectMachine\\assets\\Wrong 3.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CorrectMachine/assets/Wrong 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CorrectMachine\\assets\\Wrong 4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CorrectMachine/assets/Wrong 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CorrectMachine\\assets\\Wrong 5.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -14013,6 +14134,12 @@
     {
       "folded": true,
       "name": "connectStitching",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "folded": true,
+      "name": "CorrectMachineLevel",
       "type": "number",
       "value": 1
     }

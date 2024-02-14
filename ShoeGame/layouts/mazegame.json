@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333333,
+    "zoomFactor": 0.3411856023473448,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -999,6 +999,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 169,
+      "layer": "",
+      "name": "Stars",
+      "persistentUuid": "4358756f-f4ba-44bc-b04a-a03bccfdb618",
+      "width": 195,
+      "x": 1759,
+      "y": 448,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1010,31 +1026,7 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "Physics2",
-          "type": "Physics2::Physics2Behavior",
-          "bodyType": "Kinematic",
-          "bullet": false,
-          "fixedRotation": false,
-          "canSleep": true,
-          "shape": "Box",
-          "shapeDimensionA": 0,
-          "shapeDimensionB": 0,
-          "shapeOffsetX": 0,
-          "shapeOffsetY": 0,
-          "polygonOrigin": "Center",
-          "vertices": [],
-          "density": 1,
-          "friction": 0.3,
-          "restitution": 0.1,
-          "linearDamping": 0.1,
-          "angularDamping": 0.1,
-          "gravityScale": 1,
-          "layers": 1,
-          "masks": 1
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
           "name": "",
@@ -1313,6 +1305,17 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "fd379c8195801034f19db801308d47863fa450ac121fa84875421ef387d8787f",
+      "height": 128,
+      "name": "Stars",
+      "texture": "tiled_Stars.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -1326,6 +1329,9 @@
       },
       {
         "objectName": "LeatherBoots"
+      },
+      {
+        "objectName": "Stars"
       }
     ]
   },
@@ -1417,6 +1423,14 @@
             "",
             "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Stars"
           ]
         }
       ]
@@ -1635,6 +1649,13 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "ControlButtons"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
@@ -1687,7 +1708,7 @@
           "parameters": [
             "FuelSemiTruck",
             "FuelSemiTruck.Direction()",
-            "-100",
+            "-150",
             ""
           ]
         }
@@ -1837,6 +1858,87 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "FuelSemiTruck",
+            "Block",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Arreter"
+          },
+          "parameters": [
+            "FuelSemiTruck"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "FuelSemiTruck",
+            "LeatherBoots",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "LeatherBoots"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Stars",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"MainMap\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -1901,14 +2003,6 @@
     {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
-    },
-    {
-      "name": "Physics2",
-      "type": "Physics2::Physics2Behavior",
-      "gravityX": 0,
-      "gravityY": 9.8,
-      "scaleX": 100,
-      "scaleY": 100
     },
     {
       "name": "Resizable",
