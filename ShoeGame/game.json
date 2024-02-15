@@ -5309,6 +5309,56 @@
         "name": "assets\\CorrectMachine\\assets\\Wrong 5.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/White Sleek Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White Sleek Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f6cc4ba876203745a8518ced52d0d773ff01ff8a63cdd9ac24388e5f3623cb48_White Sleek Button_Hovered.png",
+          "name": "White Sleek Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/White Sleek Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White Sleek Button_Idle.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/4d6db3c01bcade6c9060eb7bb37090777c228a29da7c5f25480b0cdedd37dc98_White Sleek Button_Idle.png",
+          "name": "White Sleek Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/White Sleek Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White Sleek Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/1e0387e7db58479ccb896a55b62f6db0955c926ad0f92a28d4306045c44245b2_White Sleek Button_Pressed.png",
+          "name": "White Sleek Button_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/WorkSans-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "WorkSans-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/956a1314d3eda5bdbfe43362008ef0b147053bc8fcd9fa5a38ed244af8445197_WorkSans-Regular.ttf",
+          "name": "WorkSans-Regular.ttf"
+        }
       }
     ],
     "resourceFolders": []
@@ -14141,7 +14191,13 @@
       "folded": true,
       "name": "CorrectMachineLevel",
       "type": "number",
-      "value": 1
+      "value": 3
+    },
+    {
+      "folded": true,
+      "name": "CompleteTheSentenceLevel",
+      "type": "number",
+      "value": 2
     }
   ],
   "layouts": [

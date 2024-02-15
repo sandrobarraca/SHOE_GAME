@@ -23,7 +23,24 @@
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 63,
+      "layer": "",
+      "name": "NewText",
+      "persistentUuid": "4f5a30a9-8b8d-4d31-9a25-264e63e3f414",
+      "width": 1864,
+      "x": 48,
+      "y": 36,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
   "objects": [
     {
       "adaptCollisionMaskAutomatically": true,
@@ -744,6 +761,457 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "02cb22c03a7c7f9262819832f0fea819fc5021f2b7a8854eb99d6ff20f180d66",
+      "name": "Button1",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "BottomPadding": 31,
+        "TopPadding": 5,
+        "LeftPadding": 12,
+        "RightPadding": 12,
+        "PressedLabelOffsetY": 6
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 55,
+          "height": 128,
+          "leftMargin": 40,
+          "rightMargin": 40,
+          "texture": "White Sleek Button_Hovered.png",
+          "tiled": false,
+          "topMargin": 37,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 55,
+          "height": 128,
+          "leftMargin": 40,
+          "rightMargin": 40,
+          "texture": "White Sleek Button_Idle.png",
+          "tiled": false,
+          "topMargin": 37,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Select",
+          "font": "WorkSans-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 45,
+          "color": {
+            "b": 95,
+            "g": 23,
+            "r": 6
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Select",
+            "font": "WorkSans-Regular.ttf",
+            "textAlignment": "center",
+            "characterSize": 45,
+            "color": "6;23;95"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 55,
+          "height": 128,
+          "leftMargin": 40,
+          "rightMargin": 40,
+          "texture": "White Sleek Button_Pressed.png",
+          "tiled": false,
+          "topMargin": 37,
+          "width": 256
+        }
+      }
+    },
+    {
+      "assetStoreId": "02cb22c03a7c7f9262819832f0fea819fc5021f2b7a8854eb99d6ff20f180d66",
+      "name": "Button2",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "BottomPadding": 31,
+        "TopPadding": 5,
+        "LeftPadding": 12,
+        "RightPadding": 12,
+        "PressedLabelOffsetY": 6
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 55,
+          "height": 128,
+          "leftMargin": 40,
+          "rightMargin": 40,
+          "texture": "White Sleek Button_Hovered.png",
+          "tiled": false,
+          "topMargin": 37,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 55,
+          "height": 128,
+          "leftMargin": 40,
+          "rightMargin": 40,
+          "texture": "White Sleek Button_Idle.png",
+          "tiled": false,
+          "topMargin": 37,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Select",
+          "font": "WorkSans-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 45,
+          "color": {
+            "b": 95,
+            "g": 23,
+            "r": 6
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Select",
+            "font": "WorkSans-Regular.ttf",
+            "textAlignment": "center",
+            "characterSize": 45,
+            "color": "6;23;95"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 55,
+          "height": 128,
+          "leftMargin": 40,
+          "rightMargin": 40,
+          "texture": "White Sleek Button_Pressed.png",
+          "tiled": false,
+          "topMargin": 37,
+          "width": 256
+        }
+      }
+    },
+    {
+      "assetStoreId": "02cb22c03a7c7f9262819832f0fea819fc5021f2b7a8854eb99d6ff20f180d66",
+      "name": "Button3",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "BottomPadding": 31,
+        "TopPadding": 5,
+        "LeftPadding": 12,
+        "RightPadding": 12,
+        "PressedLabelOffsetY": 6
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 55,
+          "height": 128,
+          "leftMargin": 40,
+          "rightMargin": 40,
+          "texture": "White Sleek Button_Hovered.png",
+          "tiled": false,
+          "topMargin": 37,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 55,
+          "height": 128,
+          "leftMargin": 40,
+          "rightMargin": 40,
+          "texture": "White Sleek Button_Idle.png",
+          "tiled": false,
+          "topMargin": 37,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Select",
+          "font": "WorkSans-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 45,
+          "color": {
+            "b": 95,
+            "g": 23,
+            "r": 6
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Select",
+            "font": "WorkSans-Regular.ttf",
+            "textAlignment": "center",
+            "characterSize": 45,
+            "color": "6;23;95"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 55,
+          "height": 128,
+          "leftMargin": 40,
+          "rightMargin": 40,
+          "texture": "White Sleek Button_Pressed.png",
+          "tiled": false,
+          "topMargin": 37,
+          "width": 256
+        }
+      }
+    },
+    {
+      "assetStoreId": "02cb22c03a7c7f9262819832f0fea819fc5021f2b7a8854eb99d6ff20f180d66",
+      "name": "Button4",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "BottomPadding": 31,
+        "TopPadding": 5,
+        "LeftPadding": 12,
+        "RightPadding": 12,
+        "PressedLabelOffsetY": 6
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 55,
+          "height": 128,
+          "leftMargin": 40,
+          "rightMargin": 40,
+          "texture": "White Sleek Button_Hovered.png",
+          "tiled": false,
+          "topMargin": 37,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 55,
+          "height": 128,
+          "leftMargin": 40,
+          "rightMargin": 40,
+          "texture": "White Sleek Button_Idle.png",
+          "tiled": false,
+          "topMargin": 37,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Select",
+          "font": "WorkSans-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 45,
+          "color": {
+            "b": 95,
+            "g": 23,
+            "r": 6
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Select",
+            "font": "WorkSans-Regular.ttf",
+            "textAlignment": "center",
+            "characterSize": 45,
+            "color": "6;23;95"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 55,
+          "height": 128,
+          "leftMargin": 40,
+          "rightMargin": 40,
+          "texture": "White Sleek Button_Pressed.png",
+          "tiled": false,
+          "topMargin": 37,
+          "width": 256
+        }
+      }
+    },
+    {
+      "assetStoreId": "02cb22c03a7c7f9262819832f0fea819fc5021f2b7a8854eb99d6ff20f180d66",
+      "name": "Button5",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "BottomPadding": 31,
+        "TopPadding": 5,
+        "LeftPadding": 12,
+        "RightPadding": 12,
+        "PressedLabelOffsetY": 6
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 55,
+          "height": 128,
+          "leftMargin": 40,
+          "rightMargin": 40,
+          "texture": "White Sleek Button_Hovered.png",
+          "tiled": false,
+          "topMargin": 37,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 55,
+          "height": 128,
+          "leftMargin": 40,
+          "rightMargin": 40,
+          "texture": "White Sleek Button_Idle.png",
+          "tiled": false,
+          "topMargin": 37,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Select",
+          "font": "WorkSans-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 45,
+          "color": {
+            "b": 95,
+            "g": 23,
+            "r": 6
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Select",
+            "font": "WorkSans-Regular.ttf",
+            "textAlignment": "center",
+            "characterSize": 45,
+            "color": "6;23;95"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 55,
+          "height": 128,
+          "leftMargin": 40,
+          "rightMargin": 40,
+          "texture": "White Sleek Button_Pressed.png",
+          "tiled": false,
+          "topMargin": 37,
+          "width": 256
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NewText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Select the machine/machines that aren´t used during the process of making a shoe",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Select the machine/machines that aren´t used during the process of making a shoe",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 50,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -784,6 +1252,24 @@
       },
       {
         "objectName": "Wrong_5"
+      },
+      {
+        "objectName": "Button1"
+      },
+      {
+        "objectName": "Button2"
+      },
+      {
+        "objectName": "Button3"
+      },
+      {
+        "objectName": "Button4"
+      },
+      {
+        "objectName": "Button5"
+      },
+      {
+        "objectName": "NewText"
       }
     ]
   },
@@ -880,6 +1366,18 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "LEVEL 1"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -907,8 +1405,8 @@
           "parameters": [
             "",
             "Correct_1",
-            "178",
-            "133",
+            "418",
+            "382",
             ""
           ]
         },
@@ -919,20 +1417,8 @@
           "parameters": [
             "",
             "Correct_2",
-            "186",
-            "605",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Correct_6",
-            "669",
-            "385",
+            "815",
+            "387",
             ""
           ]
         },
@@ -943,8 +1429,8 @@
           "parameters": [
             "",
             "Wrong_1",
-            "1153",
-            "134",
+            "1144",
+            "405",
             ""
           ]
         },
@@ -954,9 +1440,33 @@
           },
           "parameters": [
             "",
-            "Wrong_3",
-            "1184",
-            "651",
+            "Button2",
+            "435",
+            "780",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Button3",
+            "798",
+            "780",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Button4",
+            "1151",
+            "780",
             ""
           ]
         }
@@ -970,19 +1480,17 @@
             "value": "VarGlobal"
           },
           "parameters": [
-            "orderOperationsLastingLevel",
+            "CorrectMachineLevel",
             "=",
             "1"
           ]
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "Wrong_1",
-            "",
-            "",
+            "Button4",
             ""
           ]
         }
@@ -990,19 +1498,20 @@
       "actions": [
         {
           "type": {
-            "value": "Wait"
+            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
           },
           "parameters": [
-            "1"
+            "Button4",
+            "\"Selected\"",
+            ""
           ]
         },
         {
           "type": {
-            "value": "ShowLayer"
+            "value": "Wait"
           },
           "parameters": [
-            "",
-            "\"WinLayer\""
+            "1"
           ]
         },
         {
@@ -1028,9 +1537,494 @@
             "value": "ModVarGlobal"
           },
           "parameters": [
-            "orderOperationsStitchingLevel",
+            "CorrectMachineLevel",
             "=",
             "+1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "LEVEL 2"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "CorrectMachineLevel",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Correct_1",
+            "418",
+            "382",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Correct_2",
+            "815",
+            "387",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Correct_5",
+            "1144",
+            "405",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Correct_7",
+            "1542",
+            "400",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Wrong_5",
+            "66",
+            "362",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Button2",
+            "435",
+            "780",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Button3",
+            "798",
+            "780",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Button4",
+            "1151",
+            "780",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Button5",
+            "1520",
+            "780",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Button1",
+            "79",
+            "780",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "CorrectMachineLevel",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Button1",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
+          },
+          "parameters": [
+            "Button1",
+            "\"Selected\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"MainMap\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "CorrectMachineLevel",
+            "=",
+            "+1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "LEVEL 3"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "CorrectMachineLevel",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Correct_3",
+            "418",
+            "382",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Correct_4",
+            "815",
+            "387",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Correct_6",
+            "1144",
+            "405",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Wrong_3",
+            "1542",
+            "400",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Wrong_5",
+            "66",
+            "362",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Button2",
+            "435",
+            "780",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Button3",
+            "798",
+            "780",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Button4",
+            "1151",
+            "780",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Button5",
+            "1520",
+            "780",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Button1",
+            "79",
+            "780",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "CorrectMachineLevel",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "Button5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "Button1",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"MainMap\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "CorrectMachineLevel",
+            "=",
+            "+1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2"
           ]
         }
       ]

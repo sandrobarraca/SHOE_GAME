@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.44485159988866524,
+    "zoomFactor": 0.3645833333333338,
     "windowMask": false
   },
   "objectsGroups": [
@@ -379,102 +379,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "layer": "",
-      "name": "PlaceHolder",
-      "persistentUuid": "d8c301ac-15a6-4e1f-8586-5965058db32f",
-      "width": 1580,
-      "x": 185,
-      "y": 243,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 83,
-      "layer": "",
-      "name": "TextPlaceholder1",
-      "persistentUuid": "41e625a4-8c27-4103-bd7a-85fffae36294",
-      "width": 299,
-      "x": 1487,
-      "y": 607,
-      "zOrder": 25,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 44,
-      "layer": "",
-      "name": "TextPlaceholder2",
-      "persistentUuid": "b43458b9-f022-49a2-8bb0-3f01d5940c1c",
-      "width": 285,
-      "x": 88,
-      "y": 614,
-      "zOrder": 28,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 84,
-      "layer": "",
-      "name": "TextPlaceholder3",
-      "persistentUuid": "32eee5f0-f5ac-4c60-8c0d-e3ecbefbc02f",
-      "width": 314,
-      "x": 415,
-      "y": 606,
-      "zOrder": 27,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 44,
-      "layer": "",
-      "name": "TextPlaceholder4",
-      "persistentUuid": "80c57bfb-a0f8-4161-aa23-4404e2d40e7d",
-      "width": 320,
-      "x": 785,
-      "y": 611,
-      "zOrder": 28,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 44,
-      "layer": "",
-      "name": "TextPlaceholder5",
-      "persistentUuid": "94c32c7e-5afb-44d5-b7b9-be164254d0d5",
-      "width": 312,
-      "x": 1143,
-      "y": 608,
-      "zOrder": 29,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 0,
       "height": 1080,
       "layer": "",
@@ -493,12 +397,12 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "RedButton2",
-      "persistentUuid": "63e7ea63-dcf4-44d1-8340-6af2ea769003",
+      "name": "GreenButton",
+      "persistentUuid": "63f00c99-64a7-4270-970d-e9785e420d16",
       "width": 0,
-      "x": 447,
-      "y": 584,
-      "zOrder": 25,
+      "x": 128,
+      "y": 713,
+      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -508,12 +412,12 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "YellowButton2",
-      "persistentUuid": "0240eefb-e7df-4186-8174-8c2253030491",
+      "name": "YellowButton",
+      "persistentUuid": "9374e0ef-d30c-4738-8221-a11333b55f46",
       "width": 0,
-      "x": 1164,
-      "y": 584,
-      "zOrder": 25,
+      "x": 497,
+      "y": 713,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -523,12 +427,12 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "GreyButton2",
-      "persistentUuid": "7059d448-3074-49f2-89fb-a17c734039c9",
+      "name": "BlueButton",
+      "persistentUuid": "929cb6a9-806e-43ca-8008-36e1638c9e51",
       "width": 0,
-      "x": 816,
-      "y": 584,
-      "zOrder": 26,
+      "x": 852,
+      "y": 713,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -538,12 +442,12 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "GreenButton2",
-      "persistentUuid": "6d6a2f7d-6031-42f1-a8c2-09d4df05ee45",
+      "name": "RedButton",
+      "persistentUuid": "71d52f26-cac7-45ed-bbbc-a97f2cbc6524",
       "width": 0,
-      "x": 99,
-      "y": 590,
-      "zOrder": 27,
+      "x": 1196,
+      "y": 713,
+      "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -553,11 +457,26 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "BlueButton2",
-      "persistentUuid": "c3fcb02e-ec5b-4275-9181-e0b7805589c8",
+      "name": "GreyButton",
+      "persistentUuid": "04f7e795-ee8e-42f2-9c98-f2ed9f474450",
       "width": 0,
-      "x": 1513,
-      "y": 590,
+      "x": 1528,
+      "y": 713,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "WIN",
+      "name": "WIN",
+      "persistentUuid": "2b5aed8f-6495-4b7a-ae3b-b5fa3ed45f38",
+      "width": 0,
+      "x": 495,
+      "y": 400,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -578,13 +497,7 @@
         }
       ],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "Draggable",
-          "type": "DraggableBehavior::Draggable",
-          "checkCollisionMask": true
-        }
-      ],
+      "behaviors": [],
       "content": {
         "LeftPadding": 16,
         "RightPadding": 16,
@@ -622,7 +535,7 @@
           "string": "",
           "font": "",
           "textAlignment": "center",
-          "characterSize": 60,
+          "characterSize": 30,
           "color": {
             "b": 29,
             "g": 99,
@@ -645,7 +558,7 @@
             "text": "",
             "font": "",
             "textAlignment": "center",
-            "characterSize": 60,
+            "characterSize": 30,
             "color": "62;99;29"
           }
         },
@@ -667,13 +580,7 @@
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "Draggable",
-          "type": "DraggableBehavior::Draggable",
-          "checkCollisionMask": true
-        }
-      ],
+      "behaviors": [],
       "content": {
         "LeftPadding": 16,
         "RightPadding": 16,
@@ -711,7 +618,7 @@
           "string": "",
           "font": "",
           "textAlignment": "center",
-          "characterSize": 60,
+          "characterSize": 30,
           "color": {
             "b": 42,
             "g": 87,
@@ -734,7 +641,7 @@
             "text": "",
             "font": "",
             "textAlignment": "center",
-            "characterSize": 60,
+            "characterSize": 30,
             "color": "139;87;42"
           }
         },
@@ -756,13 +663,7 @@
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "Draggable",
-          "type": "DraggableBehavior::Draggable",
-          "checkCollisionMask": true
-        }
-      ],
+      "behaviors": [],
       "content": {
         "LeftPadding": 16,
         "RightPadding": 16,
@@ -800,7 +701,7 @@
           "string": "",
           "font": "",
           "textAlignment": "center",
-          "characterSize": 60,
+          "characterSize": 30,
           "color": {
             "b": 99,
             "g": 69,
@@ -823,7 +724,7 @@
             "text": "",
             "font": "",
             "textAlignment": "center",
-            "characterSize": 60,
+            "characterSize": 30,
             "color": "28;69;99"
           }
         },
@@ -845,13 +746,7 @@
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "Draggable",
-          "type": "DraggableBehavior::Draggable",
-          "checkCollisionMask": true
-        }
-      ],
+      "behaviors": [],
       "content": {
         "LeftPadding": 16,
         "RightPadding": 16,
@@ -889,7 +784,7 @@
           "string": "",
           "font": "",
           "textAlignment": "center",
-          "characterSize": 60,
+          "characterSize": 30,
           "color": {
             "b": 16,
             "g": 38,
@@ -912,7 +807,7 @@
             "text": "",
             "font": "",
             "textAlignment": "center",
-            "characterSize": 60,
+            "characterSize": 30,
             "color": "111;38;16"
           }
         },
@@ -1017,13 +912,7 @@
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "Draggable",
-          "type": "DraggableBehavior::Draggable",
-          "checkCollisionMask": true
-        }
-      ],
+      "behaviors": [],
       "content": {
         "LeftPadding": 16,
         "RightPadding": 16,
@@ -1061,7 +950,7 @@
           "string": "",
           "font": "",
           "textAlignment": "center",
-          "characterSize": 60,
+          "characterSize": 30,
           "color": {
             "b": 79,
             "g": 72,
@@ -1084,7 +973,7 @@
             "text": "",
             "font": "",
             "textAlignment": "center",
-            "characterSize": 60,
+            "characterSize": 30,
             "color": "72;72;79"
           }
         },
@@ -1609,711 +1498,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "PlaceHolder",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "PlaceHolder2",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "PlaceHolder3",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "PlaceHolder4",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "PlaceHolder5",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "PlaceHolder6",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "TextPlaceholder1",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Draggable",
-          "type": "DraggableBehavior::Draggable",
-          "checkCollisionMask": true
-        }
-      ],
-      "string": "Text",
-      "font": "",
-      "textAlignment": "center",
-      "characterSize": 40,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Text",
-        "font": "",
-        "textAlignment": "center",
-        "characterSize": 40,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "TextPlaceholder2",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Draggable",
-          "type": "DraggableBehavior::Draggable",
-          "checkCollisionMask": true
-        }
-      ],
-      "string": "Text",
-      "font": "",
-      "textAlignment": "center",
-      "characterSize": 40,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Text",
-        "font": "",
-        "textAlignment": "center",
-        "characterSize": 40,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "TextPlaceholder3",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Draggable",
-          "type": "DraggableBehavior::Draggable",
-          "checkCollisionMask": true
-        }
-      ],
-      "string": "Text",
-      "font": "",
-      "textAlignment": "center",
-      "characterSize": 40,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Text",
-        "font": "",
-        "textAlignment": "center",
-        "characterSize": 40,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "TextPlaceholder4",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Draggable",
-          "type": "DraggableBehavior::Draggable",
-          "checkCollisionMask": true
-        }
-      ],
-      "string": "Text",
-      "font": "",
-      "textAlignment": "center",
-      "characterSize": 40,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Text",
-        "font": "",
-        "textAlignment": "center",
-        "characterSize": 40,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "TextPlaceholder5",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Draggable",
-          "type": "DraggableBehavior::Draggable",
-          "checkCollisionMask": true
-        }
-      ],
-      "string": "Text",
-      "font": "",
-      "textAlignment": "center",
-      "characterSize": 40,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Text",
-        "font": "",
-        "textAlignment": "center",
-        "characterSize": 40,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "NewTiledSprite",
-      "texture": "",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "CorrectSpot",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "CorrectSpot",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "CorrectSpot2",
-                  "points": [
-                    {
-                      "name": "Awnser1",
-                      "x": 32.5,
-                      "y": 24
-                    },
-                    {
-                      "name": "Awnser2",
-                      "x": 32.5,
-                      "y": 36
-                    },
-                    {
-                      "name": "Awnser3",
-                      "x": 32.5,
-                      "y": 11
-                    },
-                    {
-                      "name": "Answer4",
-                      "x": 32.5,
-                      "y": 51
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "NewSprite2",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -2372,479 +1556,208 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Line",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
+      "bold": false,
+      "italic": false,
+      "name": "Incorrect1",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite3",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite3",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "0d3f4843e5ebb7af30fd80adf19a1c5a14164c1283f344991dc2aa14067a1262",
-      "name": "RedButton2",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 10,
-        "BottomPadding": 32,
-        "TopPadding": 16,
-        "HoveredFadeOutDuration": 0.25
+      "string": "Fast Fashion",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
       },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 32,
-          "height": 106,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Red Button_Hovered.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 256
-        },
-        "Idle": {
-          "bottomMargin": 32,
-          "height": 106,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Red Button_Idle.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 256
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "",
-          "font": "",
-          "textAlignment": "center",
-          "characterSize": 60,
-          "color": {
-            "b": 16,
-            "g": 38,
-            "r": 111
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "",
-            "font": "",
-            "textAlignment": "center",
-            "characterSize": 60,
-            "color": "111;38;16"
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 106,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Red Button_Pressed.png",
-          "tiled": true,
-          "topMargin": 32,
-          "width": 256
-        }
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Fast Fashion",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "0;0;0"
       }
     },
     {
-      "assetStoreId": "615de0316452630b9f4f6a39decc82e2449b82c1afd1ff24d6470dad2922177b",
-      "name": "YellowButton2",
-      "type": "PanelSpriteButton::PanelSpriteButton",
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Incorrect2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 10,
-        "BottomPadding": 32,
-        "TopPadding": 16,
-        "HoveredFadeOutDuration": 0.25
+      "string": "Sport shoe",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
       },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 32,
-          "height": 106,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Yellow Button_Hovered.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 256
-        },
-        "Idle": {
-          "bottomMargin": 32,
-          "height": 106,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Yellow Button_Idle.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 256
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "",
-          "font": "",
-          "textAlignment": "center",
-          "characterSize": 60,
-          "color": {
-            "b": 42,
-            "g": 87,
-            "r": 139
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "",
-            "font": "",
-            "textAlignment": "center",
-            "characterSize": 60,
-            "color": "139;87;42"
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 106,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Yellow Button_Pressed.png",
-          "tiled": true,
-          "topMargin": 32,
-          "width": 256
-        }
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Sport shoe",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "0;0;0"
       }
     },
     {
-      "assetStoreId": "bfab3a269992cf43081e2cb8053c28aaef11f2f9e0d0cbdc00207ea271f69c2c",
-      "name": "GreyButton2",
-      "type": "PanelSpriteButton::PanelSpriteButton",
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Incorrect3",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 10,
-        "BottomPadding": 32,
-        "TopPadding": 16,
-        "HoveredFadeOutDuration": 0.25
+      "string": "Derby shoe",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
       },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 32,
-          "height": 106,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Grey Button_Hovered.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 256
-        },
-        "Idle": {
-          "bottomMargin": 32,
-          "height": 106,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Grey Button_Idle.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 256
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "",
-          "font": "",
-          "textAlignment": "center",
-          "characterSize": 60,
-          "color": {
-            "b": 79,
-            "g": 72,
-            "r": 72
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "",
-            "font": "",
-            "textAlignment": "center",
-            "characterSize": 60,
-            "color": "72;72;79"
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 106,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Grey Button_Pressed.png",
-          "tiled": true,
-          "topMargin": 32,
-          "width": 256
-        }
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Derby shoe",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "0;0;0"
       }
     },
     {
-      "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
-      "name": "GreenButton2",
-      "type": "PanelSpriteButton::PanelSpriteButton",
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Incorrect4",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 10,
-        "BottomPadding": 32,
-        "TopPadding": 16,
-        "HoveredFadeOutDuration": 0.25
+      "string": "Rubber sole",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
       },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 32,
-          "height": 106,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Green Button_Hovered.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 256
-        },
-        "Idle": {
-          "bottomMargin": 32,
-          "height": 106,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Green Button_Idle.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 256
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "",
-          "font": "",
-          "textAlignment": "center",
-          "characterSize": 60,
-          "color": {
-            "b": 29,
-            "g": 99,
-            "r": 62
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "",
-            "font": "",
-            "textAlignment": "center",
-            "characterSize": 60,
-            "color": "62;99;29"
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 106,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Green Button_Pressed.png",
-          "tiled": true,
-          "topMargin": 32,
-          "width": 256
-        }
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Rubber sole",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "0;0;0"
       }
     },
     {
-      "assetStoreId": "90d94b6e3a23c34948e59eaaef4679740f8ab588696d59b21e0c0c2ef106b94d",
-      "name": "BlueButton2",
-      "type": "PanelSpriteButton::PanelSpriteButton",
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "WIN",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 10,
-        "BottomPadding": 32,
-        "TopPadding": 16,
-        "HoveredFadeOutDuration": 0.25
+      "string": "GOOD JOB! You found it!",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 80,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
       },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 32,
-          "height": 106,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Blue Button_Hovered.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 256
-        },
-        "Idle": {
-          "bottomMargin": 32,
-          "height": 106,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Blue Button_Idle.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 256
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "",
-          "font": "",
-          "textAlignment": "center",
-          "characterSize": 60,
-          "color": {
-            "b": 99,
-            "g": 69,
-            "r": 28
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "",
-            "font": "",
-            "textAlignment": "center",
-            "characterSize": 60,
-            "color": "28;69;99"
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 106,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Blue Button_Pressed.png",
-          "tiled": true,
-          "topMargin": 32,
-          "width": 256
-        }
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "GOOD JOB! You found it!",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 80,
+        "color": "0;0;0"
       }
     }
   ],
@@ -2906,67 +1819,22 @@
         "objectName": "Text2_Correct5"
       },
       {
-        "objectName": "PlaceHolder"
-      },
-      {
-        "objectName": "PlaceHolder2"
-      },
-      {
-        "objectName": "PlaceHolder3"
-      },
-      {
-        "objectName": "PlaceHolder4"
-      },
-      {
-        "objectName": "PlaceHolder5"
-      },
-      {
-        "objectName": "PlaceHolder6"
-      },
-      {
-        "objectName": "TextPlaceholder1"
-      },
-      {
-        "objectName": "TextPlaceholder2"
-      },
-      {
-        "objectName": "TextPlaceholder3"
-      },
-      {
-        "objectName": "TextPlaceholder4"
-      },
-      {
-        "objectName": "TextPlaceholder5"
-      },
-      {
-        "objectName": "NewSprite"
-      },
-      {
-        "objectName": "NewTiledSprite"
-      },
-      {
-        "objectName": "CorrectSpot"
-      },
-      {
         "objectName": "NewSprite2"
       },
       {
-        "objectName": "Line"
+        "objectName": "Incorrect1"
       },
       {
-        "objectName": "RedButton2"
+        "objectName": "Incorrect2"
       },
       {
-        "objectName": "YellowButton2"
+        "objectName": "Incorrect3"
       },
       {
-        "objectName": "GreyButton2"
+        "objectName": "Incorrect4"
       },
       {
-        "objectName": "GreenButton2"
-      },
-      {
-        "objectName": "BlueButton2"
+        "objectName": "WIN"
       }
     ]
   },
@@ -3079,80 +1947,17 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Introduction of the sentence/options"
+      "comment": "Level 1"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "VarGlobal"
           },
           "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AjoutHasard"
-          },
-          "parameters": [
-            "",
-            "FinalTexts"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "ChosenPhrase",
-            "=",
-            "FinalTexts.Id"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "FinalTexts",
-            "=",
-            "PlaceHolder.X()",
-            "=",
-            "PlaceHolder.Y()"
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "PlaceHolder",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "VarScene"
-          },
-          "parameters": [
-            "ChosenPhrase",
+            "CompleteTheSentenceLevel",
             "=",
             "1"
           ]
@@ -3161,152 +1966,62 @@
       "actions": [
         {
           "type": {
-            "value": "ModVarScene"
+            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
           },
           "parameters": [
-            "WordsSelectedIndex",
-            "=",
-            "RandomInRange(0, 4)"
+            "RedButtonWithShadow",
+            "\"We care for the planet we run on by choosing environment friendly shoes!\"",
+            ""
           ]
         },
         {
           "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
           },
           "parameters": [
-            "TextPlaceholder1",
-            "Text",
-            "=",
-            "AvailableWords1[WordsSelectedIndex]"
+            "GreenButton",
+            "\"Recyclable shoe\"",
+            ""
           ]
         },
         {
           "type": {
-            "value": "SceneVariableRemoveAt"
+            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
           },
           "parameters": [
-            "AvailableWords1",
-            "WordsSelectedIndex"
+            "YellowButton",
+            "\"Repair and Reuse\"",
+            ""
           ]
         },
         {
           "type": {
-            "value": "ModVarScene"
+            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
           },
           "parameters": [
-            "WordsSelectedIndex",
-            "=",
-            "RandomInRange(0,3)"
+            "BlueButton",
+            "\"Sustainability\"",
+            ""
           ]
         },
         {
           "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
           },
           "parameters": [
-            "TextPlaceholder2",
-            "Text",
-            "=",
-            "AvailableWords1[WordsSelectedIndex]"
+            "RedButton",
+            "\"Fast Fashion\"",
+            ""
           ]
         },
         {
           "type": {
-            "value": "SceneVariableRemoveAt"
+            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
           },
           "parameters": [
-            "AvailableWords1",
-            "WordsSelectedIndex"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "WordsSelectedIndex",
-            "=",
-            "RandomInRange(0, 2)"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "TextPlaceholder3",
-            "Text",
-            "=",
-            "AvailableWords1[WordsSelectedIndex]"
-          ]
-        },
-        {
-          "type": {
-            "value": "SceneVariableRemoveAt"
-          },
-          "parameters": [
-            "AvailableWords1",
-            "WordsSelectedIndex"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "WordsSelectedIndex",
-            "=",
-            "RandomInRange(0, 1)"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "TextPlaceholder4",
-            "Text",
-            "=",
-            "AvailableWords1[WordsSelectedIndex]"
-          ]
-        },
-        {
-          "type": {
-            "value": "SceneVariableRemoveAt"
-          },
-          "parameters": [
-            "AvailableWords1",
-            "WordsSelectedIndex"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "WordsSelectedIndex",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "TextPlaceholder5",
-            "Text",
-            "=",
-            "AvailableWords1[WordsSelectedIndex]"
-          ]
-        },
-        {
-          "type": {
-            "value": "SceneVariableRemoveAt"
-          },
-          "parameters": [
-            "AvailableWords1",
-            "WordsSelectedIndex"
+            "GreyButton",
+            "\"Biodegradable shoe\"",
+            ""
           ]
         }
       ]
@@ -3316,18 +2031,93 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "VarGlobal"
           },
           "parameters": [
+            "CompleteTheSentenceLevel",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "RedButton",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"WIN\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"MainMap\"",
             ""
           ]
         },
         {
           "type": {
-            "value": "VarScene"
+            "value": "Wait"
           },
           "parameters": [
-            "ChosenPhrase",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "CompleteTheSentenceLevel",
+            "=",
+            "+1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Level 2"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "CompleteTheSentenceLevel",
             "=",
             "2"
           ]
@@ -3336,190 +2126,61 @@
       "actions": [
         {
           "type": {
-            "value": "ModVarScene"
+            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
           },
           "parameters": [
-            "WordsSelectedIndex",
-            "=",
-            "RandomInRange(0, 4)"
+            "RedButtonWithShadow",
+            "\"Be cool with smart shoes!\"",
+            ""
           ]
         },
         {
           "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
           },
           "parameters": [
-            "TextPlaceholder1",
-            "Text",
-            "=",
-            "AvailableWords2[WordsSelectedIndex]"
+            "GreenButton",
+            "\"Derby shoe\"",
+            ""
           ]
         },
         {
           "type": {
-            "value": "SceneVariableRemoveAt"
+            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
           },
           "parameters": [
-            "AvailableWords2",
-            "WordsSelectedIndex"
+            "YellowButton",
+            "\"Adaptive fitting system\"",
+            ""
           ]
         },
         {
           "type": {
-            "value": "ModVarScene"
+            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
           },
           "parameters": [
-            "WordsSelectedIndex",
-            "=",
-            "RandomInRange(0,3)"
+            "BlueButton",
+            "\"Wireless shoe\"",
+            ""
           ]
         },
         {
           "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
           },
           "parameters": [
-            "TextPlaceholder2",
-            "Text",
-            "=",
-            "AvailableWords2[WordsSelectedIndex]"
+            "RedButton",
+            "\"Self-lacing shoe\"",
+            ""
           ]
         },
         {
           "type": {
-            "value": "SceneVariableRemoveAt"
+            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
           },
           "parameters": [
-            "AvailableWords2",
-            "WordsSelectedIndex"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "WordsSelectedIndex",
-            "=",
-            "RandomInRange(0, 2)"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "TextPlaceholder3",
-            "Text",
-            "=",
-            "AvailableWords2[WordsSelectedIndex]"
-          ]
-        },
-        {
-          "type": {
-            "value": "SceneVariableRemoveAt"
-          },
-          "parameters": [
-            "AvailableWords2",
-            "WordsSelectedIndex"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "WordsSelectedIndex",
-            "=",
-            "RandomInRange(0, 1)"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "TextPlaceholder4",
-            "Text",
-            "=",
-            "AvailableWords2[WordsSelectedIndex]"
-          ]
-        },
-        {
-          "type": {
-            "value": "SceneVariableRemoveAt"
-          },
-          "parameters": [
-            "AvailableWords2",
-            "WordsSelectedIndex"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "WordsSelectedIndex",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "TextPlaceholder5",
-            "Text",
-            "=",
-            "AvailableWords2[WordsSelectedIndex]"
-          ]
-        },
-        {
-          "type": {
-            "value": "SceneVariableRemoveAt"
-          },
-          "parameters": [
-            "AvailableWords2",
-            "WordsSelectedIndex"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionPoint"
-          },
-          "parameters": [
-            "TextPlaceholder1",
-            "CorrectSpot.PointX(\"Awnser1\")",
-            "CorrectSpot.PointY(\"Awnser1\")"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "TextPlaceholder1",
-            "=",
-            "1455",
-            "=",
-            "888"
-          ]
-        },
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "TextPlaceholder1",
-            "Draggable",
+            "GreyButton",
+            "\"Intelligent shoe\"",
             ""
           ]
         }
@@ -3530,114 +2191,68 @@
       "conditions": [
         {
           "type": {
-            "value": "CollisionPoint"
+            "value": "VarGlobal"
           },
           "parameters": [
-            "TextPlaceholder2",
-            "CorrectSpot.PointX(\"Awnser1\")",
-            "CorrectSpot.PointY(\"Awnser1\")"
+            "CompleteTheSentenceLevel",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "GreenButton",
+            ""
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "MettreXY"
+            "value": "ShowLayer"
           },
           "parameters": [
-            "TextPlaceholder2",
-            "=",
-            "1455",
-            "=",
-            "888"
+            "",
+            "\"WIN\""
           ]
         },
         {
           "type": {
-            "value": "ActivateBehavior"
+            "value": "Wait"
           },
           "parameters": [
-            "TextPlaceholder1",
-            "Draggable",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionPoint"
-          },
-          "parameters": [
-            "TextPlaceholder3",
-            "CorrectSpot.PointX(\"Awnser1\")",
-            "CorrectSpot.PointY(\"Awnser1\")"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "TextPlaceholder3",
-            "=",
-            "1455",
-            "=",
-            "888"
+            "1"
           ]
         },
         {
           "type": {
-            "value": "ActivateBehavior"
+            "value": "Scene"
           },
           "parameters": [
-            "TextPlaceholder1",
-            "Draggable",
+            "",
+            "\"MainMap\"",
             ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionPoint"
-          },
-          "parameters": [
-            "TextPlaceholder4",
-            "CorrectSpot.PointX(\"Awnser1\")",
-            "CorrectSpot.PointY(\"Awnser1\")"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "TextPlaceholder4",
-            "=",
-            "1455",
-            "=",
-            "888"
           ]
         },
         {
           "type": {
-            "value": "ActivateBehavior"
+            "value": "Wait"
           },
           "parameters": [
-            "TextPlaceholder1",
-            "Draggable",
-            ""
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "CompleteTheSentenceLevel",
+            "=",
+            "+1"
           ]
         }
       ]
@@ -3675,6 +2290,39 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "WIN",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",
