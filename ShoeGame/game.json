@@ -14173,7 +14173,7 @@
       "folded": true,
       "name": "orderOperationsStitchingLevel",
       "type": "number",
-      "value": 1
+      "value": 2
     },
     {
       "folded": true,
@@ -14191,7 +14191,7 @@
       "folded": true,
       "name": "CorrectMachineLevel",
       "type": "number",
-      "value": 3
+      "value": 1
     },
     {
       "folded": true,
