@@ -5359,6 +5359,272 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/956a1314d3eda5bdbfe43362008ef0b147053bc8fcd9fa5a38ed244af8445197_WorkSans-Regular.ttf",
           "name": "WorkSans-Regular.ttf"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeDesign/M1Blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeDesign\\M1Blue.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeDesign/M1Pink.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeDesign\\M1Pink.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeDesign/M1Purple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeDesign\\M1Purple.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeDesign/M2Blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeDesign\\M2Blue.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeDesign/M2Pink.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeDesign\\M2Pink.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeDesign/M2Purple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeDesign\\M2Purple.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeDesign/M3Blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeDesign\\M3Blue.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeDesign/M3Pink.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeDesign\\M3Pink.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeDesign/M3Purple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeDesign\\M3Purple.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeDesign/M4Blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeDesign\\M4Blue.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeDesign/M4Pink.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeDesign\\M4Pink.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeDesign/M4Purple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeDesign\\M4Purple.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeDesign/M5Blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeDesign\\M5Blue.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeDesign/M5Pink.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeDesign\\M5Pink.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeDesign/M5Purple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeDesign\\M5Purple.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeDesign/M6Blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeDesign\\M6Blue.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeDesign/M6Pink.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeDesign\\M6Pink.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeDesign/M6Purple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeDesign\\M6Purple.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeDesign/M7Blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeDesign\\M7Blue.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeDesign/M7Pink.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeDesign\\M7Pink.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeDesign/M7Purple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeDesign\\M7Purple.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeDesign/M8Blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeDesign\\M8Blue.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeDesign/M8Pink.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeDesign\\M8Pink.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeDesign/M8Purple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeDesign\\M8Purple.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Purple Button With Stone Frame_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Button With Stone Frame_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b2c6ef85d2088a94a58d7c457ed225561a073aa3c9e6401a612bcdd98795ae91_Purple Button With Stone Frame_Hovered.png",
+          "name": "Purple Button With Stone Frame_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Purple Button With Stone Frame_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Button With Stone Frame_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/3bd79fc534fc1d2859343599ea35a2c3f81700ffebdf7b8b798be440e59ad816_Purple Button With Stone Frame_Idle.png",
+          "name": "Purple Button With Stone Frame_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Purple Button With Stone Frame_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Button With Stone Frame_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/631710ee61e5e5422c9986ae91169e2e76e3f874a1aca8d2b02d6b5675348256_Purple Button With Stone Frame_Pressed.png",
+          "name": "Purple Button With Stone Frame_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/Roboto-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Roboto-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
+          "name": "Roboto-Regular.ttf"
+        }
       }
     ],
     "resourceFolders": []
