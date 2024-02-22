@@ -5742,6 +5742,33 @@
         "name": "assets\\chara_button_pressed.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/FlappyShoe/assets/flappyshoe_bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\FlappyShoe\\assets\\flappyshoe_bg.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/FlappyShoe/assets/shoebox_tower2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\FlappyShoe\\assets\\shoebox_tower2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/FlappyShoe/assets/shoebox_tower.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\FlappyShoe\\assets\\shoebox_tower.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
