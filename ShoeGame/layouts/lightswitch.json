@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4753585087126938,
+    "zoomFactor": 0.402722583332592,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -187,15 +187,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1125,
       "layer": "",
       "name": "light0",
       "persistentUuid": "7e3b2f72-8e37-44d5-8faa-bcd2a6311dca",
-      "width": 0,
-      "x": 180,
-      "y": 460,
-      "zOrder": 3,
+      "width": 425,
+      "x": -1,
+      "y": 0,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -208,10 +209,10 @@
       "layer": "",
       "name": "GameDescription",
       "persistentUuid": "d0f8c4de-1ed4-4856-a859-99ed9a156075",
-      "width": 1248,
-      "x": 203,
-      "y": 50,
-      "zOrder": 9,
+      "width": 983,
+      "x": 461,
+      "y": 85,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -224,9 +225,9 @@
       "name": "LightsCounter",
       "persistentUuid": "5181615b-16e8-4592-912a-b11eb4747b7d",
       "width": 0,
-      "x": 814,
-      "y": 932,
-      "zOrder": 10,
+      "x": 815,
+      "y": 926,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -279,60 +280,80 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1125,
       "layer": "",
       "name": "light1",
       "persistentUuid": "206b1474-60b1-499d-8e9a-8b35d023e085",
-      "width": 0,
-      "x": 450,
-      "y": 460,
-      "zOrder": 13,
+      "width": 425,
+      "x": 294,
+      "y": 0,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1125,
       "layer": "",
       "name": "light2",
       "persistentUuid": "c434e00b-60ea-4c18-a6f0-6127e2f9d2c0",
-      "width": 0,
-      "x": 720,
-      "y": 460,
-      "zOrder": 14,
+      "width": 425,
+      "x": 587,
+      "y": 0,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1125,
       "layer": "",
       "name": "light3",
       "persistentUuid": "f1e3d002-f097-4766-a5cf-9da03abf5ead",
-      "width": 0,
-      "x": 990,
-      "y": 460,
-      "zOrder": 15,
+      "width": 425,
+      "x": 882,
+      "y": 0,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1125,
       "layer": "",
       "name": "light4",
       "persistentUuid": "103e3be8-635e-4753-a1e8-36e58d9747e8",
-      "width": 0,
-      "x": 1260,
-      "y": 460,
-      "zOrder": 16,
+      "width": 425,
+      "x": 1178,
+      "y": 0,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1125,
+      "layer": "",
+      "name": "light5",
+      "persistentUuid": "9be76802-6bc0-4505-9eea-35d980817f05",
+      "width": 425,
+      "x": 1477,
+      "y": 0,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -342,12 +363,28 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "light5",
-      "persistentUuid": "9be76802-6bc0-4505-9eea-35d980817f05",
+      "name": "textbg",
+      "persistentUuid": "60d3e7a7-6af4-49b9-90e2-1ce21a372171",
       "width": 0,
-      "x": 1530,
-      "y": 460,
-      "zOrder": 17,
+      "x": 439,
+      "y": 53,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 159,
+      "layer": "",
+      "name": "textbg",
+      "persistentUuid": "18f4786f-4c66-458a-843b-468f74b9c09a",
+      "width": 376,
+      "x": 738,
+      "y": 879,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -374,7 +411,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\LightSwitch\\assets\\9patch_Wood Background_all_64.png",
+                  "image": "assets\\LightSwitch\\assets\\lightswitch_bg_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -394,16 +431,16 @@
                         "y": 0
                       },
                       {
-                        "x": 192,
+                        "x": 1920,
                         "y": 0
                       },
                       {
-                        "x": 192,
-                        "y": 192
+                        "x": 1920,
+                        "y": 1080
                       },
                       {
                         "x": 0,
-                        "y": 192
+                        "y": 1080
                       }
                     ]
                   ]
@@ -447,7 +484,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\LightSwitch\\assets\\Large Blue Hole_Unlocked.png",
+                  "image": "assets\\LightSwitch\\assets\\lightswitchOFF.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -463,20 +500,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 248,
                         "y": 0
                       },
                       {
-                        "x": 160,
+                        "x": 590,
                         "y": 0
                       },
                       {
-                        "x": 160,
-                        "y": 160
+                        "x": 590,
+                        "y": 1290
                       },
                       {
-                        "x": 0,
-                        "y": 160
+                        "x": 248,
+                        "y": 1290
                       }
                     ]
                   ]
@@ -495,7 +532,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\LightSwitch\\assets\\Large Hole.png",
+                  "image": "assets\\LightSwitch\\assets\\lightswitchON.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -511,20 +548,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 248,
                         "y": 0
                       },
                       {
-                        "x": 160,
+                        "x": 590,
                         "y": 0
                       },
                       {
-                        "x": 160,
-                        "y": 160
+                        "x": 590,
+                        "y": 1290
                       },
                       {
-                        "x": 0,
-                        "y": 160
+                        "x": 248,
+                        "y": 1290
                       }
                     ]
                   ]
@@ -549,7 +586,7 @@
       "string": "The factory lights are off. Hurry! Solve the problem! We don't want to stop production!",
       "font": "",
       "textAlignment": "center",
-      "characterSize": 55,
+      "characterSize": 46,
       "color": {
         "b": 255,
         "g": 255,
@@ -572,7 +609,7 @@
         "text": "The factory lights are off. Hurry! Solve the problem! We don't want to stop production!",
         "font": "",
         "textAlignment": "center",
-        "characterSize": 55,
+        "characterSize": 46,
         "color": "255;255;255"
       }
     },
@@ -590,7 +627,7 @@
       "string": "0/0 Done",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 70,
+      "characterSize": 56,
       "color": {
         "b": 255,
         "g": 255,
@@ -613,7 +650,7 @@
         "text": "0/0 Done",
         "font": "",
         "textAlignment": "left",
-        "characterSize": 70,
+        "characterSize": 56,
         "color": "255;255;255"
       }
     },
@@ -899,7 +936,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\LightSwitch\\assets\\Large Blue Hole_Unlocked.png",
+                  "image": "assets\\LightSwitch\\assets\\lightswitchOFF.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -915,20 +952,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 248,
                         "y": 0
                       },
                       {
-                        "x": 160,
+                        "x": 590,
                         "y": 0
                       },
                       {
-                        "x": 160,
-                        "y": 160
+                        "x": 590,
+                        "y": 1290
                       },
                       {
-                        "x": 0,
-                        "y": 160
+                        "x": 248,
+                        "y": 1290
                       }
                     ]
                   ]
@@ -947,7 +984,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\LightSwitch\\assets\\Large Hole.png",
+                  "image": "assets\\LightSwitch\\assets\\lightswitchON.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -963,20 +1000,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 248,
                         "y": 0
                       },
                       {
-                        "x": 160,
+                        "x": 590,
                         "y": 0
                       },
                       {
-                        "x": 160,
-                        "y": 160
+                        "x": 590,
+                        "y": 1290
                       },
                       {
-                        "x": 0,
-                        "y": 160
+                        "x": 248,
+                        "y": 1290
                       }
                     ]
                   ]
@@ -1020,7 +1057,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\LightSwitch\\assets\\Large Blue Hole_Unlocked.png",
+                  "image": "assets\\LightSwitch\\assets\\lightswitchOFF.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1036,20 +1073,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 248,
                         "y": 0
                       },
                       {
-                        "x": 160,
+                        "x": 590,
                         "y": 0
                       },
                       {
-                        "x": 160,
-                        "y": 160
+                        "x": 590,
+                        "y": 1290
                       },
                       {
-                        "x": 0,
-                        "y": 160
+                        "x": 248,
+                        "y": 1290
                       }
                     ]
                   ]
@@ -1068,7 +1105,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\LightSwitch\\assets\\Large Hole.png",
+                  "image": "assets\\LightSwitch\\assets\\lightswitchON.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1084,20 +1121,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 248,
                         "y": 0
                       },
                       {
-                        "x": 160,
+                        "x": 590,
                         "y": 0
                       },
                       {
-                        "x": 160,
-                        "y": 160
+                        "x": 590,
+                        "y": 1290
                       },
                       {
-                        "x": 0,
-                        "y": 160
+                        "x": 248,
+                        "y": 1290
                       }
                     ]
                   ]
@@ -1141,7 +1178,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\LightSwitch\\assets\\Large Blue Hole_Unlocked.png",
+                  "image": "assets\\LightSwitch\\assets\\lightswitchOFF.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1157,20 +1194,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 248,
                         "y": 0
                       },
                       {
-                        "x": 160,
+                        "x": 590,
                         "y": 0
                       },
                       {
-                        "x": 160,
-                        "y": 160
+                        "x": 590,
+                        "y": 1290
                       },
                       {
-                        "x": 0,
-                        "y": 160
+                        "x": 248,
+                        "y": 1290
                       }
                     ]
                   ]
@@ -1189,7 +1226,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\LightSwitch\\assets\\Large Hole.png",
+                  "image": "assets\\LightSwitch\\assets\\lightswitchON.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1205,20 +1242,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 248,
                         "y": 0
                       },
                       {
-                        "x": 160,
+                        "x": 590,
                         "y": 0
                       },
                       {
-                        "x": 160,
-                        "y": 160
+                        "x": 590,
+                        "y": 1290
                       },
                       {
-                        "x": 0,
-                        "y": 160
+                        "x": 248,
+                        "y": 1290
                       }
                     ]
                   ]
@@ -1262,7 +1299,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\LightSwitch\\assets\\Large Blue Hole_Unlocked.png",
+                  "image": "assets\\LightSwitch\\assets\\lightswitchOFF.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1278,20 +1315,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 248,
                         "y": 0
                       },
                       {
-                        "x": 160,
+                        "x": 590,
                         "y": 0
                       },
                       {
-                        "x": 160,
-                        "y": 160
+                        "x": 590,
+                        "y": 1290
                       },
                       {
-                        "x": 0,
-                        "y": 160
+                        "x": 248,
+                        "y": 1290
                       }
                     ]
                   ]
@@ -1310,7 +1347,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\LightSwitch\\assets\\Large Hole.png",
+                  "image": "assets\\LightSwitch\\assets\\lightswitchON.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1326,20 +1363,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 248,
                         "y": 0
                       },
                       {
-                        "x": 160,
+                        "x": 590,
                         "y": 0
                       },
                       {
-                        "x": 160,
-                        "y": 160
+                        "x": 590,
+                        "y": 1290
                       },
                       {
-                        "x": 0,
-                        "y": 160
+                        "x": 248,
+                        "y": 1290
                       }
                     ]
                   ]
@@ -1383,7 +1420,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\LightSwitch\\assets\\Large Blue Hole_Unlocked.png",
+                  "image": "assets\\LightSwitch\\assets\\lightswitchOFF.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1399,20 +1436,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 248,
                         "y": 0
                       },
                       {
-                        "x": 160,
+                        "x": 590,
                         "y": 0
                       },
                       {
-                        "x": 160,
-                        "y": 160
+                        "x": 590,
+                        "y": 1290
                       },
                       {
-                        "x": 0,
-                        "y": 160
+                        "x": 248,
+                        "y": 1290
                       }
                     ]
                   ]
@@ -1431,7 +1468,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\LightSwitch\\assets\\Large Hole.png",
+                  "image": "assets\\LightSwitch\\assets\\lightswitchON.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1447,20 +1484,80 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 248,
                         "y": 0
                       },
                       {
-                        "x": 160,
+                        "x": 590,
                         "y": 0
                       },
                       {
-                        "x": 160,
-                        "y": 160
+                        "x": 590,
+                        "y": 1290
                       },
                       {
-                        "x": 0,
-                        "y": 160
+                        "x": 248,
+                        "y": 1290
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "textbg",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\LightSwitch\\assets\\window_large_text40pt.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 11
+                      },
+                      {
+                        "x": 1018,
+                        "y": 11
+                      },
+                      {
+                        "x": 1018,
+                        "y": 167
+                      },
+                      {
+                        "x": 11,
+                        "y": 167
                       }
                     ]
                   ]
@@ -1480,6 +1577,9 @@
       },
       {
         "objectName": "light0"
+      },
+      {
+        "objectName": "textbg"
       },
       {
         "objectName": "light1"

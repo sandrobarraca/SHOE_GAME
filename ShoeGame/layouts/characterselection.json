@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6622955665506411,
+    "zoomFactor": 0.5079575118131767,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -68,7 +68,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 910,
+      "height": 955,
       "layer": "",
       "name": "CharSelect",
       "persistentUuid": "2de104ca-3dcd-4563-888c-445c140863cb",
@@ -113,86 +113,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 107,
-      "layer": "",
-      "name": "BrownBox",
-      "persistentUuid": "9f2ed0e3-d657-4e2d-9f3b-0f036bfbe4bd",
-      "width": 117,
-      "x": 1184,
-      "y": 453,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 107,
-      "layer": "",
-      "name": "BrownBox",
-      "persistentUuid": "8149dacd-423c-4d8c-b2a0-5b758d4b19d7",
-      "width": 117,
-      "x": 1340,
-      "y": 453,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 107,
-      "layer": "",
-      "name": "BrownBox",
-      "persistentUuid": "21def417-0dab-4382-9f4d-d6f379249c6c",
-      "width": 117,
-      "x": 1496,
-      "y": 453,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 107,
-      "layer": "",
-      "name": "BrownBox",
-      "persistentUuid": "fe566e4c-7459-4b61-89cd-8228b642db24",
-      "width": 117,
-      "x": 1184,
-      "y": 596,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 107,
-      "layer": "",
-      "name": "BrownBox",
-      "persistentUuid": "438d9258-aaa8-4baa-85ea-e1b14419f25b",
-      "width": 117,
-      "x": 1340,
-      "y": 596,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 247,
       "layer": "",
       "name": "IsometricPlatformerLava",
@@ -209,14 +129,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 32,
-      "height": 107,
+      "height": 150,
       "layer": "",
       "name": "Btn_SELChar",
       "persistentUuid": "cd472c18-f699-4491-94bc-c11c8a800aca",
-      "width": 117,
-      "x": 1184,
-      "y": 453,
-      "zOrder": 22,
+      "width": 150,
+      "x": 1175,
+      "y": 441,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -230,8 +150,8 @@
       "name": "GreenButton",
       "persistentUuid": "6d31905b-efd8-4a19-be4b-c6f20b9764b1",
       "width": 228,
-      "x": 1297,
-      "y": 882,
+      "x": 1291,
+      "y": 926,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -270,79 +190,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 107,
-      "layer": "",
-      "name": "BrownBox",
-      "persistentUuid": "c6dd1ad3-5b10-42ce-9ba5-26b63d2dc2c2",
-      "width": 117,
-      "x": 1184,
-      "y": 741,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 107,
-      "layer": "",
-      "name": "BrownBox",
-      "persistentUuid": "6a35eb44-b450-456f-950b-9bc81f53d967",
-      "width": 117,
-      "x": 1340,
-      "y": 741,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 107,
-      "layer": "",
-      "name": "BrownBox",
-      "persistentUuid": "c4bdfd86-13e6-42c2-9e06-5eb7f5703a12",
-      "width": 117,
-      "x": 1496,
-      "y": 741,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 107,
-      "layer": "",
-      "name": "BrownBox",
-      "persistentUuid": "d355a858-2385-4fc9-acaa-25f36f67c938",
-      "width": 117,
-      "x": 1496,
-      "y": 596,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 32,
-      "height": 107,
+      "height": 150,
       "layer": "",
       "name": "Btn_SELChar",
       "persistentUuid": "5a9a7cbf-bee9-40cd-8965-40ec19b48f56",
-      "width": 117,
-      "x": 1340,
-      "y": 453,
-      "zOrder": 22,
+      "width": 150,
+      "x": 1325,
+      "y": 441,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -357,14 +213,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 32,
-      "height": 107,
+      "height": 150,
       "layer": "",
       "name": "Btn_SELChar",
       "persistentUuid": "70a9e06a-788e-4fb0-b3eb-a2d01df17306",
-      "width": 117,
-      "x": 1496,
-      "y": 453,
-      "zOrder": 22,
+      "width": 150,
+      "x": 1475,
+      "y": 441,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -379,14 +235,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 32,
-      "height": 107,
+      "height": 150,
       "layer": "",
       "name": "Btn_SELChar",
       "persistentUuid": "c36e61f6-0fc5-43a8-b930-7af67ecdb7f0",
-      "width": 117,
-      "x": 1184,
+      "width": 150,
+      "x": 1175,
       "y": 596,
-      "zOrder": 22,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -401,12 +257,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 32,
-      "height": 107,
+      "height": 150,
       "layer": "",
       "name": "Btn_SELChar",
       "persistentUuid": "10b911fc-9dc1-44da-8d5d-7ac217fec760",
-      "width": 117,
-      "x": 1340,
+      "width": 150,
+      "x": 1325,
       "y": 596,
       "zOrder": 22,
       "numberProperties": [],
@@ -423,14 +279,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 32,
-      "height": 107,
+      "height": 150,
       "layer": "",
       "name": "Btn_SELChar",
       "persistentUuid": "999c7924-2b92-4a62-87ec-fca07f22ea05",
-      "width": 117,
-      "x": 1496,
+      "width": 150,
+      "x": 1475,
       "y": 596,
-      "zOrder": 22,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -445,14 +301,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 32,
-      "height": 107,
+      "height": 150,
       "layer": "",
       "name": "Btn_SELChar",
       "persistentUuid": "37f20bed-0ab0-4c04-a1b0-1125f6cd79e9",
-      "width": 117,
-      "x": 1184,
-      "y": 741,
-      "zOrder": 22,
+      "width": 150,
+      "x": 1175,
+      "y": 751,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -467,14 +323,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 32,
-      "height": 107,
+      "height": 150,
       "layer": "",
       "name": "Btn_SELChar",
       "persistentUuid": "74e62c92-8c7d-4fa6-b391-7503619bffb4",
-      "width": 117,
-      "x": 1340,
-      "y": 741,
-      "zOrder": 22,
+      "width": 150,
+      "x": 1325,
+      "y": 751,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -489,14 +345,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 32,
-      "height": 107,
+      "height": 150,
       "layer": "",
       "name": "Btn_SELChar",
       "persistentUuid": "20d504b7-394c-435c-b5f3-baaecd568042",
-      "width": 117,
-      "x": 1496,
-      "y": 741,
-      "zOrder": 22,
+      "width": 150,
+      "x": 1475,
+      "y": 751,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -518,7 +374,7 @@
       "width": 96,
       "x": 1196,
       "y": 457,
-      "zOrder": 23,
+      "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -532,9 +388,9 @@
       "name": "Character_02",
       "persistentUuid": "1bcd7774-9a5e-4028-971b-0bd6b0ef8a43",
       "width": 96,
-      "x": 1353,
+      "x": 1346,
       "y": 457,
-      "zOrder": 23,
+      "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -548,9 +404,9 @@
       "name": "Character_03",
       "persistentUuid": "c4e44af6-4914-406d-a51f-ac1e802bb39f",
       "width": 96,
-      "x": 1509,
+      "x": 1496,
       "y": 457,
-      "zOrder": 23,
+      "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -565,8 +421,8 @@
       "persistentUuid": "b0b1f5a4-37d1-4357-a46a-39b6e4c9561e",
       "width": 96,
       "x": 1196,
-      "y": 601,
-      "zOrder": 23,
+      "y": 612,
+      "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -580,9 +436,9 @@
       "name": "Character_05",
       "persistentUuid": "e9132e5a-028f-4a79-8e63-be50449b56ff",
       "width": 96,
-      "x": 1353,
-      "y": 601,
-      "zOrder": 23,
+      "x": 1346,
+      "y": 612,
+      "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -596,9 +452,9 @@
       "name": "Character_06",
       "persistentUuid": "29c4b62c-e75c-48e1-8278-12b9a8311f70",
       "width": 96,
-      "x": 1509,
-      "y": 601,
-      "zOrder": 23,
+      "x": 1496,
+      "y": 612,
+      "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -613,8 +469,8 @@
       "persistentUuid": "e4d3cbd4-e2e2-4ca9-a568-16171a6ab071",
       "width": 96,
       "x": 1196,
-      "y": 745,
-      "zOrder": 23,
+      "y": 767,
+      "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -628,9 +484,9 @@
       "name": "Character_09",
       "persistentUuid": "099e099d-8683-4458-80cb-b74a81f9214c",
       "width": 96,
-      "x": 1509,
-      "y": 745,
-      "zOrder": 23,
+      "x": 1496,
+      "y": 767,
+      "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -644,9 +500,9 @@
       "name": "Character_08",
       "persistentUuid": "33f582c8-29a2-4790-aaec-bfad9982d3ee",
       "width": 96,
-      "x": 1353,
-      "y": 745,
-      "zOrder": 23,
+      "x": 1346,
+      "y": 767,
+      "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -676,7 +532,7 @@
       "persistentUuid": "6f9f0b38-3b57-43d6-9c54-f7377f77fd4c",
       "width": 315,
       "x": 1248,
-      "y": 389,
+      "y": 378,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -873,76 +729,6 @@
     },
     {
       "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "3cc86eb13fb1f91b2af51d2e3701a40acdda079a9679bf6d94ab6cb066a63710",
-      "name": "BrownBox",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "No Shadow",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Brown Box_No Shadow.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Shadow",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Brown Box_Shadow.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "3d28686b5868feecd9bbc527fa1dc6aed2743273242b6c0ec77415c476561a1e",
       "name": "IsometricPlatformerLava",
       "type": "Sprite",
@@ -1019,7 +805,7 @@
           "height": 500,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "New image2",
+          "texture": "assets\\chara_button_hovered.png",
           "tiled": false,
           "topMargin": 0,
           "width": 500
@@ -1029,7 +815,7 @@
           "height": 500,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "New image2",
+          "texture": "assets\\chara_button_idle.png",
           "tiled": false,
           "topMargin": 0,
           "width": 500
@@ -1074,7 +860,7 @@
           "height": 500,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "New image3",
+          "texture": "assets\\chara_button_pressed.png",
           "tiled": false,
           "topMargin": 0,
           "width": 500
@@ -1476,9 +1262,6 @@
         "objectName": "PlayerNameInput"
       },
       {
-        "objectName": "BrownBox"
-      },
-      {
         "objectName": "nameform"
       },
       {
@@ -1542,14 +1325,6 @@
             "value": "Cache"
           },
           "parameters": [
-            "Btn_SELChar"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
             "Hitbox"
           ]
         },
@@ -1577,7 +1352,7 @@
             "Btn_SELChar",
             "Effect",
             "\"Effect\"",
-            "yes"
+            "no"
           ]
         },
         {
@@ -1718,56 +1493,6 @@
           "parameters": [
             "EnergyBar2",
             ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::IsHovered"
-          },
-          "parameters": [
-            "Btn_SELChar",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "Btn_SELChar",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "PanelSpriteButton::PanelSpriteButton::IsHovered"
-          },
-          "parameters": [
-            "Btn_SELChar",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Btn_SELChar"
           ]
         }
       ]

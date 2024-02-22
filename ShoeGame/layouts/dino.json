@@ -51,6 +51,38 @@
           "name": "BonusObject"
         }
       ]
+    },
+    {
+      "name": "CharacterSkins2",
+      "objects": [
+        {
+          "name": "Character_0010"
+        },
+        {
+          "name": "Character_0011"
+        },
+        {
+          "name": "Character_0012"
+        },
+        {
+          "name": "Character_0013"
+        },
+        {
+          "name": "Character_0014"
+        },
+        {
+          "name": "Character_0015"
+        },
+        {
+          "name": "Character_0016"
+        },
+        {
+          "name": "Character_0017"
+        },
+        {
+          "name": "Character_0018"
+        }
+      ]
     }
   ],
   "variables": [
@@ -974,60 +1006,119 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.10000000149011612,
+              "timeBetweenFrames": 0.08,
+              "sprites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "9af6773a55ddc01430409f858506afe9e08b86f62eacc5dd574ac399bdb14b16",
+      "name": "Character_0010",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.25,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/Dino/Dead-1.png",
-                  "points": [
-                    {
-                      "name": "DustProjection",
-                      "x": 25,
-                      "y": 103
-                    }
-                  ],
+                  "image": "Female Character 11_Walking Down_1.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 77.5,
+                    "y": 138
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 114,
-                        "y": 78
+                        "x": 3.5,
+                        "y": 5
                       },
                       {
-                        "x": 114,
-                        "y": 104
+                        "x": 11.5,
+                        "y": 5
                       },
                       {
-                        "x": 32,
-                        "y": 104
+                        "x": 12,
+                        "y": 17
                       },
                       {
-                        "x": 32,
-                        "y": 78
+                        "x": 3.5,
+                        "y": 16
                       }
                     ]
                   ]
-                },
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "ff79c0bbb0f74a5fb5a5e15b8adb257d6d58ef987e809119a6bb2fafe4001099",
+      "name": "Character_0011",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/Dino/Dead-2.png",
-                  "points": [
-                    {
-                      "name": "DustProjection",
-                      "x": 25,
-                      "y": 103
-                    }
-                  ],
+                  "image": "Male Character 12_Walking Down_1.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1042,34 +1133,57 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 114,
-                        "y": 78
+                        "x": 2,
+                        "y": 1
                       },
                       {
-                        "x": 114,
-                        "y": 104
+                        "x": 14,
+                        "y": 1
                       },
                       {
-                        "x": 32,
-                        "y": 104
+                        "x": 14,
+                        "y": 17
                       },
                       {
-                        "x": 32,
-                        "y": 78
+                        "x": 2,
+                        "y": 17
                       }
                     ]
                   ]
-                },
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "12a8e4905f464ec5584a3a87419bbc275e9397f8d083277cae97aa1130fa97e5",
+      "name": "Character_0012",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/Dino/Dead-3.png",
-                  "points": [
-                    {
-                      "name": "DustProjection",
-                      "x": 25,
-                      "y": 103
-                    }
-                  ],
+                  "image": "Female Character 10_Walking Down_1.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1084,34 +1198,57 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 114,
-                        "y": 78
+                        "x": 2,
+                        "y": 1
                       },
                       {
-                        "x": 114,
-                        "y": 104
+                        "x": 14,
+                        "y": 1
                       },
                       {
-                        "x": 32,
-                        "y": 104
+                        "x": 14,
+                        "y": 17
                       },
                       {
-                        "x": 32,
-                        "y": 78
+                        "x": 2,
+                        "y": 17
                       }
                     ]
                   ]
-                },
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "9bf0b748b51536d0777d937f9890bead0b12d33e1a9b9eee12ccc9b233802308",
+      "name": "Character_0013",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/Dino/Dead-4.png",
-                  "points": [
-                    {
-                      "name": "DustProjection",
-                      "x": 25,
-                      "y": 103
-                    }
-                  ],
+                  "image": "Male Character 11_Walking Down_1.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1126,34 +1263,57 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 114,
-                        "y": 78
+                        "x": 2,
+                        "y": 2
                       },
                       {
-                        "x": 114,
-                        "y": 104
+                        "x": 14,
+                        "y": 2
                       },
                       {
-                        "x": 32,
-                        "y": 104
+                        "x": 14,
+                        "y": 17
                       },
                       {
-                        "x": 32,
-                        "y": 78
+                        "x": 2,
+                        "y": 17
                       }
                     ]
                   ]
-                },
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "483c8d305055b43dd98964858b231c019680b47f3bc7aaf000e362bc5d72066d",
+      "name": "Character_0014",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/Dino/Dead-5.png",
-                  "points": [
-                    {
-                      "name": "DustProjection",
-                      "x": 25,
-                      "y": 103
-                    }
-                  ],
+                  "image": "Female Character 6_Walking Down_1.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1168,34 +1328,57 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 114,
-                        "y": 78
+                        "x": 2,
+                        "y": 1
                       },
                       {
-                        "x": 114,
-                        "y": 104
+                        "x": 14,
+                        "y": 1
                       },
                       {
-                        "x": 32,
-                        "y": 104
+                        "x": 14,
+                        "y": 17
                       },
                       {
-                        "x": 32,
-                        "y": 78
+                        "x": 2,
+                        "y": 17
                       }
                     ]
                   ]
-                },
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "2740851cde7e6a9ab2d873c2040220c38ce68f67b171bc1c858a4cd9335422a1",
+      "name": "Character_0015",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/Dino/Dead-6.png",
-                  "points": [
-                    {
-                      "name": "DustProjection",
-                      "x": 25,
-                      "y": 103
-                    }
-                  ],
+                  "image": "Male Character 2_Walking Down_1.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1210,34 +1393,57 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 114,
-                        "y": 78
+                        "x": 2,
+                        "y": 2
                       },
                       {
-                        "x": 114,
-                        "y": 104
+                        "x": 14,
+                        "y": 2
                       },
                       {
-                        "x": 32,
-                        "y": 104
+                        "x": 14,
+                        "y": 17
                       },
                       {
-                        "x": 32,
-                        "y": 78
+                        "x": 2,
+                        "y": 17
                       }
                     ]
                   ]
-                },
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "97b1ae9be719abeb28625a269fa93a22e796b81254db75814d3320dda0c53ebb",
+      "name": "Character_0016",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/Dino/Dead-7.png",
-                  "points": [
-                    {
-                      "name": "DustProjection",
-                      "x": 25,
-                      "y": 103
-                    }
-                  ],
+                  "image": "Female Character 9_Walking Down_1.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1252,34 +1458,57 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 114,
-                        "y": 78
+                        "x": 2,
+                        "y": 2
                       },
                       {
-                        "x": 114,
-                        "y": 104
+                        "x": 14,
+                        "y": 2
                       },
                       {
-                        "x": 32,
-                        "y": 104
+                        "x": 14,
+                        "y": 17
                       },
                       {
-                        "x": 32,
-                        "y": 78
+                        "x": 2,
+                        "y": 17
                       }
                     ]
                   ]
-                },
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "5b9ede9f70f633779805eb0d3a314e287ddd48c3660bb88e407f48c2ba255d5a",
+      "name": "Character_0017",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/Dino/Dead-8.png",
-                  "points": [
-                    {
-                      "name": "DustProjection",
-                      "x": 25,
-                      "y": 103
-                    }
-                  ],
+                  "image": "Male Character 3_Walking Down_1.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1294,20 +1523,85 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 114,
-                        "y": 78
+                        "x": 2,
+                        "y": 2
                       },
                       {
-                        "x": 114,
-                        "y": 104
+                        "x": 14,
+                        "y": 2
                       },
                       {
-                        "x": 32,
-                        "y": 104
+                        "x": 14,
+                        "y": 17
                       },
                       {
-                        "x": 32,
-                        "y": 78
+                        "x": 2,
+                        "y": 17
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "08d16c3fa84225437660bd5eafd3ba41ba822266b3ee0de8924a19ae0d2cb400",
+      "name": "Character_0018",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 5_Walking Down_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 1
+                      },
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 2,
+                        "y": 17
                       }
                     ]
                   ]
@@ -1360,6 +1654,33 @@
       },
       {
         "objectName": "Dino"
+      },
+      {
+        "objectName": "Character_0010"
+      },
+      {
+        "objectName": "Character_0011"
+      },
+      {
+        "objectName": "Character_0012"
+      },
+      {
+        "objectName": "Character_0013"
+      },
+      {
+        "objectName": "Character_0014"
+      },
+      {
+        "objectName": "Character_0015"
+      },
+      {
+        "objectName": "Character_0016"
+      },
+      {
+        "objectName": "Character_0017"
+      },
+      {
+        "objectName": "Character_0018"
       }
     ]
   },
@@ -1414,42 +1735,6 @@
             "",
             "no",
             "yes"
-          ]
-        },
-        {
-          "type": {
-            "value": "CreateByName"
-          },
-          "parameters": [
-            "",
-            "CharacterSkins2",
-            "\"Character_00\"+ToString(GlobalVariable(selectedChar))  ",
-            "Hitbox.X()",
-            "Hitbox.Y()",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResizableCapability::ResizableBehavior::SetSize"
-          },
-          "parameters": [
-            "CharacterSkins2",
-            "Resizable",
-            "64",
-            "64"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "CharacterSkins2",
-            "=",
-            "Hitbox.X()",
-            "=",
-            "Hitbox.Y()"
           ]
         },
         {
@@ -2335,6 +2620,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Obstacle spawn",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -3079,6 +3365,7 @@
           "colorG": 147,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Game lost",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
