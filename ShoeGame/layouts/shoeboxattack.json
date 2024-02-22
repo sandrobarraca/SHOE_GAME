@@ -1095,7 +1095,7 @@
       ],
       "animations": [
         {
-          "name": "assets\\ShoeBoxAttack\\assets\\shoe_box_7_400px",
+          "name": "shoe_box_6_400px2",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1105,7 +1105,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_7_400px2",
+                  "image": "shoe_box_6_400px2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

@@ -5769,6 +5769,69 @@
         "name": "assets\\FlappyShoe\\assets\\shoebox_tower.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shoe_box_6_400px.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shoe_box_6_400px.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shoe_box_6_400px2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shoe_box_6_400px2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/shoe_box_6_400px2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "shoe_box_6_400px2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_FlappyShoe_assets_shoebox_tower2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\FlappyShoe\\assets\\shoebox_tower2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_FlappyShoe_assets_shoebox_tower.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\FlappyShoe\\assets\\shoebox_tower",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_FlappyShoe_assets_shoebox_tower3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\FlappyShoe\\assets\\shoebox_tower3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_FlappyShoe_assets_shoebox_tower4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\FlappyShoe\\assets\\shoebox_tower4",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -13913,7 +13976,7 @@
       "folded": true,
       "name": "shoeboxattackLevel",
       "type": "number",
-      "value": 7
+      "value": 6
     },
     {
       "folded": true,
