@@ -5868,6 +5868,24 @@
         "name": "NewSprite7",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/OrderOperations/lightswitch_bg_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\OrderOperations\\lightswitch_bg_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
