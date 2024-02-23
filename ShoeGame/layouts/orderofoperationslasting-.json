@@ -18,10 +18,40 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.23689563725446589,
+    "zoomFactor": 0.30887412163426564,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "Operations",
+      "objects": [
+        {
+          "name": "Operation_1"
+        },
+        {
+          "name": "Operation_2"
+        },
+        {
+          "name": "Operation_3"
+        },
+        {
+          "name": "Operation_4"
+        },
+        {
+          "name": "Operation_5"
+        },
+        {
+          "name": "Operation_6"
+        },
+        {
+          "name": "Operation_7"
+        },
+        {
+          "name": "Operation_8"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "name": "objectStructure",
@@ -39,6 +69,36 @@
       "name": "levelNumber",
       "type": "string",
       "value": ""
+    },
+    {
+      "folded": true,
+      "name": "OldX",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "OldY",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "NewX",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "NewY",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "draggedCardID",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -84,22 +144,6 @@
       "x": 1673,
       "y": 51,
       "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 282,
-      "layer": "",
-      "name": "Base",
-      "persistentUuid": "4645c37f-b132-41b5-bc07-60f56944c1be",
-      "width": 1919,
-      "x": 0,
-      "y": 277,
-      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -179,70 +223,24 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Background",
+      "persistentUuid": "ad5d7153-ec59-4b1d-a87c-67d7cfd2180b",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Base",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Base",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\OrderOperations\\Base.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
@@ -704,9 +702,9 @@
       "textAlignment": "left",
       "characterSize": 60,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": true,
@@ -726,7 +724,7 @@
         "font": "",
         "textAlignment": "left",
         "characterSize": 60,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -752,9 +750,9 @@
       "textAlignment": "left",
       "characterSize": 60,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": true,
@@ -774,7 +772,7 @@
         "font": "",
         "textAlignment": "left",
         "characterSize": 60,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -800,9 +798,9 @@
       "textAlignment": "left",
       "characterSize": 60,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": true,
@@ -822,7 +820,7 @@
         "font": "",
         "textAlignment": "left",
         "characterSize": 60,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -848,9 +846,9 @@
       "textAlignment": "left",
       "characterSize": 60,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": true,
@@ -870,7 +868,7 @@
         "font": "",
         "textAlignment": "left",
         "characterSize": 60,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -1272,14 +1270,173 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Background",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\OrderOperationsLasting\\lightswitch_bg_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Image_BackGround",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\OrderOperationsLasting\\window_character.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 12
+                      },
+                      {
+                        "x": 684,
+                        "y": 12
+                      },
+                      {
+                        "x": 684,
+                        "y": 892
+                      },
+                      {
+                        "x": 11,
+                        "y": 892
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Hitbox2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
-      {
-        "objectName": "Base"
-      },
       {
         "objectName": "Operation_1"
       },
@@ -1288,6 +1445,9 @@
       },
       {
         "objectName": "Operation_3"
+      },
+      {
+        "objectName": "Hitbox2"
       },
       {
         "objectName": "Operation_4"
@@ -1345,6 +1505,12 @@
       },
       {
         "objectName": "Description_8"
+      },
+      {
+        "objectName": "Background"
+      },
+      {
+        "objectName": "Image_BackGround"
       }
     ]
   },
@@ -1470,7 +1636,7 @@
             "=",
             "300",
             "=",
-            "700"
+            "600"
           ]
         },
         {
@@ -1482,7 +1648,7 @@
             "=",
             "700",
             "=",
-            "700"
+            "600"
           ]
         },
         {
@@ -1494,7 +1660,7 @@
             "=",
             "1100",
             "=",
-            "700"
+            "600"
           ]
         },
         {
@@ -1506,7 +1672,39 @@
             "=",
             "1500",
             "=",
-            "700"
+            "600"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "_1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "_2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "_3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "_4"
           ]
         },
         {
@@ -1516,8 +1714,8 @@
           "parameters": [
             "",
             "Operation_3",
-            "800",
-            "160",
+            "100",
+            "500",
             ""
           ]
         },
@@ -1528,8 +1726,8 @@
           "parameters": [
             "",
             "Operation_1",
-            "800",
-            "160",
+            "550",
+            "500",
             ""
           ]
         },
@@ -1540,8 +1738,8 @@
           "parameters": [
             "",
             "Operation_2",
-            "800",
-            "160",
+            "1000",
+            "500",
             ""
           ]
         },
@@ -1552,8 +1750,8 @@
           "parameters": [
             "",
             "Operation_4",
-            "800",
-            "160",
+            "1450",
+            "500",
             ""
           ]
         }
@@ -1630,13 +1828,45 @@
         },
         {
           "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "_1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "_2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "_3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "_4"
+          ]
+        },
+        {
+          "type": {
             "value": "Create"
           },
           "parameters": [
             "",
             "Operation_5",
-            "800",
-            "160",
+            "100",
+            "500",
             ""
           ]
         },
@@ -1647,20 +1877,8 @@
           "parameters": [
             "",
             "Operation_7",
-            "800",
-            "160",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Operation_6",
-            "800",
-            "160",
+            "550",
+            "500",
             ""
           ]
         },
@@ -1671,8 +1889,20 @@
           "parameters": [
             "",
             "Operation_8",
-            "800",
-            "160",
+            "1000",
+            "500",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Operation_6",
+            "1450",
+            "500",
             ""
           ]
         }
@@ -1749,13 +1979,45 @@
         },
         {
           "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "_1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "_2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "_3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "_4"
+          ]
+        },
+        {
+          "type": {
             "value": "Create"
           },
           "parameters": [
             "",
             "Operation_5",
-            "800",
-            "160",
+            "100",
+            "500",
             ""
           ]
         },
@@ -1766,8 +2028,8 @@
           "parameters": [
             "",
             "Operation_1",
-            "800",
-            "160",
+            "550",
+            "500",
             ""
           ]
         },
@@ -1778,8 +2040,8 @@
           "parameters": [
             "",
             "Operation_7",
-            "800",
-            "160",
+            "1000",
+            "500",
             ""
           ]
         },
@@ -1790,8 +2052,8 @@
           "parameters": [
             "",
             "Operation_3",
-            "800",
-            "160",
+            "1450",
+            "500",
             ""
           ]
         }
@@ -1868,13 +2130,45 @@
         },
         {
           "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "_1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "_2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "_3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "_4"
+          ]
+        },
+        {
+          "type": {
             "value": "Create"
           },
           "parameters": [
             "",
             "Operation_6",
-            "800",
-            "160",
+            "100",
+            "500",
             ""
           ]
         },
@@ -1885,8 +2179,8 @@
           "parameters": [
             "",
             "Operation_2",
-            "800",
-            "160",
+            "550",
+            "500",
             ""
           ]
         },
@@ -1897,8 +2191,8 @@
           "parameters": [
             "",
             "Operation_4",
-            "800",
-            "160",
+            "1000",
+            "500",
             ""
           ]
         },
@@ -1909,8 +2203,8 @@
           "parameters": [
             "",
             "Description_8",
-            "800",
-            "160",
+            "1450",
+            "500",
             ""
           ]
         }
@@ -3347,9 +3641,286 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Object Switching\n\n"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Operations",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "draggedCardID",
+            "=",
+            "Operations.Variable(ID)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "OldX",
+            "=",
+            "Operations.X()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "OldY",
+            "=",
+            "Operations.Y()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Operations",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "Operations",
+            "ID",
+            "=",
+            "Variable(draggedCardID)"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Hitbox2",
+            "Operations.X()",
+            "Operations.Y()",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Hitbox2",
+            "Operations",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Hitbox2",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Count(Operations)",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Operations",
+                "=",
+                "Variable(OldX)",
+                "=",
+                "Variable(OldY)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Count(Operations)",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Operations",
+                    "ID",
+                    "!=",
+                    "Variable(draggedCardID)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "NewY",
+                    "=",
+                    "Operations.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "NewX",
+                    "=",
+                    "Operations.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Operations",
+                    "=",
+                    "Variable(OldX)",
+                    "=",
+                    "Variable(OldY)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Operations",
+                    "ID",
+                    "=",
+                    "Variable(draggedCardID)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Operations",
+                    "=",
+                    "Variable(NewX)",
+                    "=",
+                    "Variable(NewY)"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "layers": [

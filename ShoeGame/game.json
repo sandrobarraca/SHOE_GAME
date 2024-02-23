@@ -5832,6 +5832,42 @@
         "name": "assets\\FlappyShoe\\assets\\shoebox_tower4",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/OrderOperationsLasting/lightswitch_bg_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\OrderOperationsLasting\\lightswitch_bg_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/OrderOperationsLasting/window_character.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\OrderOperationsLasting\\window_character.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -13988,13 +14024,13 @@
       "folded": true,
       "name": "orderOperationsStitchingLevel",
       "type": "number",
-      "value": 2
+      "value": 1
     },
     {
       "folded": true,
       "name": "orderOperationsLastingLevel",
       "type": "number",
-      "value": 2
+      "value": 1
     },
     {
       "folded": true,
