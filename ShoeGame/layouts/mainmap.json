@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4913877545329398,
+    "zoomFactor": 1.4679972091400912,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -109,13 +109,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 45,
+      "depth": 0,
+      "height": 40,
       "layer": "UI",
       "name": "BlueBar",
       "persistentUuid": "f27cda80-73ad-4b7d-aeff-0944042c4d54",
-      "width": 269,
+      "width": 224,
       "x": 1616,
-      "y": 301,
+      "y": 303,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -124,13 +125,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 45,
+      "depth": 0,
+      "height": 40,
       "layer": "UI",
       "name": "GreenBar",
       "persistentUuid": "59622554-c650-4e93-9372-6664fa71ad46",
-      "width": 269,
+      "width": 224,
       "x": 1616,
-      "y": 230,
+      "y": 237,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -139,29 +141,31 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 45,
+      "depth": 0,
+      "height": 40,
       "layer": "UI",
       "name": "YellowBar",
       "persistentUuid": "8404b3cc-de86-46d2-8854-8adb47928c67",
-      "width": 269,
+      "width": 224,
       "x": 1616,
-      "y": 164,
+      "y": 171,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 44,
+      "angle": 0,
       "customSize": true,
-      "height": 46,
+      "depth": 1,
+      "height": 64,
       "layer": "UI",
-      "name": "GoldThings",
+      "name": "MoneyIcon",
       "persistentUuid": "5b7b0fe0-a1de-4cae-b8d2-f8812a492dd3",
-      "width": 46,
-      "x": 1565,
-      "y": 165,
-      "zOrder": 22,
+      "width": 64,
+      "x": 1549,
+      "y": 158,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -169,14 +173,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 43,
+      "depth": 0,
+      "height": 64,
       "layer": "UI",
-      "name": "BoltBluePowerup",
+      "name": "InovationIcon",
       "persistentUuid": "f752661e-589f-40f7-92c5-e08befd9969f",
-      "width": 44,
-      "x": 1566,
-      "y": 301,
-      "zOrder": 23,
+      "width": 64,
+      "x": 1549,
+      "y": 290,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -184,29 +189,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 42,
+      "depth": 0,
+      "height": 64,
       "layer": "UI",
-      "name": "ShieldGreenPowerup",
+      "name": "SustentabilityIcon",
       "persistentUuid": "e0afd709-0bc5-4eb5-9e42-589d72a74a7b",
-      "width": 43,
-      "x": 1566,
-      "y": 230,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 43,
-      "layer": "UI",
-      "name": "RedBar",
-      "persistentUuid": "7c28cb52-71f4-4fff-9146-a35e22f31b97",
-      "width": 231,
-      "x": 1617,
-      "y": 302,
-      "zOrder": 25,
+      "width": 64,
+      "x": 1549,
+      "y": 224,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2052,6 +2043,102 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "UI",
+      "name": "PurpleBar",
+      "persistentUuid": "490b467e-6bde-4e36-b2c2-d82a7fd4fdda",
+      "width": 224,
+      "x": 1616,
+      "y": 369,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "UI",
+      "name": "MotivationIcon",
+      "persistentUuid": "080b85f6-3c86-48d2-8241-8c61c9f3f27a",
+      "width": 64,
+      "x": 1549,
+      "y": 356,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "layer": "",
+      "name": "BaseBar",
+      "persistentUuid": "bf503fe7-8298-4cec-8eab-2969c0b4e806",
+      "width": 242,
+      "x": 1608,
+      "y": 165,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "layer": "",
+      "name": "BaseBar",
+      "persistentUuid": "7112a66d-0232-4405-b7c4-398899e13b67",
+      "width": 242,
+      "x": 1608,
+      "y": 231,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "layer": "",
+      "name": "BaseBar",
+      "persistentUuid": "7d2a28d5-cf5e-49c0-baac-7ec937206e93",
+      "width": 242,
+      "x": 1608,
+      "y": 297,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "layer": "",
+      "name": "BaseBar",
+      "persistentUuid": "8a826f85-f7e2-4d9a-9c80-93980aaca5b6",
+      "width": 242,
+      "x": 1608,
+      "y": 363,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -2086,7 +2173,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Blue bar.png",
+                  "image": "assets\\MainMap Bars\\status_bar_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2127,7 +2214,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Green bar.png",
+                  "image": "assets\\MainMap Bars\\status_bar_3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2168,7 +2255,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Yellow bar.png",
+                  "image": "assets\\MainMap Bars\\status_bar_4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2192,7 +2279,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "41018ca736744e40d8ed9c9123bac1e290b940ead4749bb9ba819ad8ec5b3bd7",
-      "name": "RedBar",
+      "name": "PurpleBar",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2209,7 +2296,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Red bar.png",
+                  "image": "assets\\MainMap Bars\\status_bar_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2233,7 +2320,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "8ffb3eb8751fe42fe56259f9b6bc27facf052ce4c1cad2b88c60b1d726ef3de6",
-      "name": "BoltBluePowerup",
+      "name": "InovationIcon",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2250,7 +2337,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Bolt Blue Powerup.png",
+                  "image": "assets\\MainMap Bars\\icon_blue.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2274,7 +2361,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "61f110e2d3658bd34d16786af41e7f48e3b86b372860173d2f5c4e1eb1358240",
-      "name": "ShieldGreenPowerup",
+      "name": "SustentabilityIcon",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2291,7 +2378,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Shield Green Powerup.png",
+                  "image": "assets\\MainMap Bars\\icon_green.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2315,7 +2402,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "5f75f3cd2a247753040203c1b49e40d8ed5d53a2a1c0d757318c851290f12b05",
-      "name": "GoldThings",
+      "name": "MoneyIcon",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2332,7 +2419,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Gold things.png",
+                  "image": "assets\\MainMap Bars\\icon_yellow.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3230,6 +3317,88 @@
         "characterSize": 32,
         "color": "255;255;255"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "5f75f3cd2a247753040203c1b49e40d8ed5d53a2a1c0d757318c851290f12b05",
+      "name": "MotivationIcon",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\MainMap Bars\\icon_purple.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "7cd73b60b8f9a67bc5405a8dd03008c0fb7931dbcf2bc28312089161e77a3b74",
+      "name": "BaseBar",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\MainMap Bars\\status_bar_base.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3237,6 +3406,9 @@
     "children": [
       {
         "objectName": "PurpleBackground"
+      },
+      {
+        "objectName": "BaseBar"
       },
       {
         "objectName": "BlueBar"
@@ -3248,16 +3420,19 @@
         "objectName": "YellowBar"
       },
       {
-        "objectName": "RedBar"
+        "objectName": "PurpleBar"
       },
       {
-        "objectName": "BoltBluePowerup"
+        "objectName": "InovationIcon"
       },
       {
-        "objectName": "ShieldGreenPowerup"
+        "objectName": "SustentabilityIcon"
       },
       {
-        "objectName": "GoldThings"
+        "objectName": "MoneyIcon"
+      },
+      {
+        "objectName": "MotivationIcon"
       },
       {
         "objectName": "FloorTile"
@@ -3923,6 +4098,65 @@
             "ExtraTiles",
             "\"ExtraSelection\"",
             "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetX"
+          },
+          "parameters": [
+            "BlueBar",
+            "Scale",
+            "=",
+            "GlobalVariable(BlueBar)/100"
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetX"
+          },
+          "parameters": [
+            "YellowBar",
+            "Scale",
+            "=",
+            "GlobalVariable(YellowBar)/100"
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetX"
+          },
+          "parameters": [
+            "GreenBar",
+            "Scale",
+            "=",
+            "GlobalVariable(GreenBar)/100"
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetX"
+          },
+          "parameters": [
+            "PurpleBar",
+            "Scale",
+            "=",
+            "GlobalVariable(PurpleBar)/100"
           ]
         }
       ]

@@ -5886,6 +5886,87 @@
         "name": "NewSprite8",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MainMap Bars/status_bar_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MainMap Bars\\status_bar_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MainMap Bars/status_bar_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MainMap Bars\\status_bar_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MainMap Bars/status_bar_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MainMap Bars\\status_bar_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MainMap Bars/status_bar_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MainMap Bars\\status_bar_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MainMap Bars/icon_yellow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MainMap Bars\\icon_yellow.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MainMap Bars/icon_green.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MainMap Bars\\icon_green.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MainMap Bars/icon_blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MainMap Bars\\icon_blue.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MainMap Bars/icon_purple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MainMap Bars\\icon_purple.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MainMap Bars/status_bar_base.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MainMap Bars\\status_bar_base.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -14001,6 +14082,30 @@
       "name": "selectedChar",
       "type": "number",
       "value": 1
+    },
+    {
+      "folded": true,
+      "name": "BlueBar",
+      "type": "number",
+      "value": 100
+    },
+    {
+      "folded": true,
+      "name": "YellowBar",
+      "type": "number",
+      "value": 100
+    },
+    {
+      "folded": true,
+      "name": "GreenBar",
+      "type": "number",
+      "value": 100
+    },
+    {
+      "folded": true,
+      "name": "PurpleBar",
+      "type": "number",
+      "value": 100
     },
     {
       "folded": true,
