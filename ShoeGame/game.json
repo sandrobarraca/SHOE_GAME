@@ -5967,6 +5967,56 @@
         "name": "assets\\MainMap Bars\\status_bar_base.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/PixelifySans-VariableFont_wght.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\PixelifySans-VariableFont_wght.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Gabarito-VariableFont_wght.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\Gabarito-VariableFont_wght.ttf",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/window_about_text23pt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\window_about_text23pt.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/back_button_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\back_button_idle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/back_button_hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\back_button_hovered.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/back_pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\back_pressed.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -14117,7 +14167,7 @@
       "folded": true,
       "name": "parkthecarLevel",
       "type": "number",
-      "value": 1
+      "value": 3
     },
     {
       "folded": true,

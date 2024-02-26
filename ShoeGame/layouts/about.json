@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.41943397827590606,
+    "zoomFactor": 0.40575189059438316,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -43,14 +43,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 300,
+      "depth": 1,
+      "height": 630,
       "layer": "",
-      "name": "Logo",
-      "persistentUuid": "ca81f4b0-0779-42f5-8653-f2505fa6236b",
-      "width": 347,
-      "x": 123,
-      "y": 283,
-      "zOrder": 12,
+      "name": "NewSprite2",
+      "persistentUuid": "1339f020-2d80-4470-8c5e-badc8764717a",
+      "width": 1204,
+      "x": 356,
+      "y": 196,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -59,28 +60,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 868,
-      "layer": "",
-      "name": "NewSprite2",
-      "persistentUuid": "1339f020-2d80-4470-8c5e-badc8764717a",
-      "width": 1976,
-      "x": 3,
-      "y": 9,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "height": 49,
       "layer": "",
       "name": "NewText",
       "persistentUuid": "72a76746-55e4-4d14-940b-8bca56fb3b08",
-      "width": 0,
-      "x": 849,
-      "y": 103,
+      "width": 211,
+      "x": 776,
+      "y": 311,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -90,13 +76,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 363,
+      "height": 206,
       "layer": "",
       "name": "NewText2",
       "persistentUuid": "4313439f-04af-4040-884e-44b542107b9d",
-      "width": 1215,
-      "x": 545,
-      "y": 288,
+      "width": 757,
+      "x": 776,
+      "y": 396,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -104,14 +90,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 62,
       "layer": "",
       "name": "NewText3",
       "persistentUuid": "839e7460-5b20-48de-a02a-72c656bb07c2",
-      "width": 0,
-      "x": 966,
-      "y": 638,
+      "width": 329,
+      "x": 776,
+      "y": 625,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -119,14 +106,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 123,
       "layer": "",
       "name": "BackButton",
       "persistentUuid": "eb31fbc0-8d63-4075-a06d-d35e90856943",
-      "width": 0,
-      "x": 841,
-      "y": 898,
+      "width": 228,
+      "x": 50,
+      "y": 910,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -236,7 +224,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Backgrounds\\full-m2H7H7G6G6Z5A0d3.png",
+                  "image": "assets\\window_about_text23pt.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -252,20 +240,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26,
-                        "y": 26
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 824,
-                        "y": 26
+                        "x": 1078,
+                        "y": 0
                       },
                       {
-                        "x": 824,
-                        "y": 531
+                        "x": 1078,
+                        "y": 570
                       },
                       {
-                        "x": 26,
-                        "y": 531
+                        "x": 0,
+                        "y": 570
                       }
                     ]
                   ]
@@ -287,14 +275,14 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "WELCOME",
-      "font": "assets\\CantoraOne-Regular.ttf",
+      "string": "Welcome!",
+      "font": "assets\\PixelifySans-VariableFont_wght.ttf",
       "textAlignment": "left",
-      "characterSize": 128,
+      "characterSize": 48,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 114,
+        "g": 30,
+        "r": 17
       },
       "content": {
         "bold": true,
@@ -310,11 +298,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "WELCOME",
-        "font": "assets\\CantoraOne-Regular.ttf",
+        "text": "Welcome!",
+        "font": "assets\\PixelifySans-VariableFont_wght.ttf",
         "textAlignment": "left",
-        "characterSize": 128,
-        "color": "255;255;255"
+        "characterSize": 48,
+        "color": "17;30;114"
       }
     },
     {
@@ -328,14 +316,14 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "You just inherited the \"FAMOSA\" footwear company. \nNow it is up to you to save it from bankrupcy. \nYou will be called to solve problems in the different sectors of the company so that the performance indexes (money, staff, clients, sustainability) of the company are always positive.",
-      "font": "assets\\CantoraOne-Regular.ttf",
-      "textAlignment": "center",
-      "characterSize": 48,
+      "string": "You just inherited the \"FAMOSA\" footwear company. \nNow it is up to you to save it from bankrupcy. You will be called to solve problems in the different sectors of the company so that the performance indexes (money, staff, clients, sustainability) of the company are always positive.",
+      "font": "assets\\Gabarito-VariableFont_wght.ttf",
+      "textAlignment": "left",
+      "characterSize": 28,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 0,
+        "g": 0,
+        "r": 0
       },
       "content": {
         "bold": false,
@@ -351,11 +339,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "You just inherited the \"FAMOSA\" footwear company. \nNow it is up to you to save it from bankrupcy. \nYou will be called to solve problems in the different sectors of the company so that the performance indexes (money, staff, clients, sustainability) of the company are always positive.",
-        "font": "assets\\CantoraOne-Regular.ttf",
-        "textAlignment": "center",
-        "characterSize": 48,
-        "color": "255;255;255"
+        "text": "You just inherited the \"FAMOSA\" footwear company. \nNow it is up to you to save it from bankrupcy. You will be called to solve problems in the different sectors of the company so that the performance indexes (money, staff, clients, sustainability) of the company are always positive.",
+        "font": "assets\\Gabarito-VariableFont_wght.ttf",
+        "textAlignment": "left",
+        "characterSize": 28,
+        "color": "0;0;0"
       }
     },
     {
@@ -369,14 +357,14 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "GOOD LUCK",
-      "font": "assets\\CantoraOne-Regular.ttf",
+      "string": "Good Luck!",
+      "font": "assets\\PixelifySans-VariableFont_wght.ttf",
       "textAlignment": "left",
-      "characterSize": 64,
+      "characterSize": 45,
       "color": {
-        "b": 28,
-        "g": 231,
-        "r": 248
+        "b": 102,
+        "g": 82,
+        "r": 245
       },
       "content": {
         "bold": true,
@@ -392,11 +380,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "GOOD LUCK",
-        "font": "assets\\CantoraOne-Regular.ttf",
+        "text": "Good Luck!",
+        "font": "assets\\PixelifySans-VariableFont_wght.ttf",
         "textAlignment": "left",
-        "characterSize": 64,
-        "color": "248;231;28"
+        "characterSize": 45,
+        "color": "245;82;102"
       }
     },
     {
@@ -408,7 +396,7 @@
       "behaviors": [],
       "content": {
         "LeftPadding": 16,
-        "RightPadding": 16,
+        "RightPadding": 32,
         "PressedLabelOffsetY": 10,
         "BottomPadding": 32,
         "TopPadding": 16,
@@ -420,7 +408,7 @@
           "height": 106,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "Green Button_Hovered.png",
+          "texture": "assets\\back_button_hovered.png",
           "tiled": true,
           "topMargin": 16,
           "width": 256
@@ -430,7 +418,7 @@
           "height": 106,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "Green Button_Idle.png",
+          "texture": "assets\\back_button_idle.png",
           "tiled": true,
           "topMargin": 16,
           "width": 256
@@ -442,12 +430,12 @@
           "underlined": false,
           "string": "Back",
           "font": "",
-          "textAlignment": "center",
-          "characterSize": 60,
+          "textAlignment": "right",
+          "characterSize": 42,
           "color": {
-            "b": 29,
-            "g": 99,
-            "r": 62
+            "b": 255,
+            "g": 255,
+            "r": 255
           },
           "content": {
             "bold": false,
@@ -465,9 +453,9 @@
             "underlined": false,
             "text": "Back",
             "font": "",
-            "textAlignment": "center",
-            "characterSize": 60,
-            "color": "62;99;29"
+            "textAlignment": "right",
+            "characterSize": 42,
+            "color": "255;255;255"
           }
         },
         "Pressed": {
@@ -475,7 +463,7 @@
           "height": 106,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "Green Button_Pressed.png",
+          "texture": "assets\\back_pressed.png",
           "tiled": true,
           "topMargin": 32,
           "width": 256
