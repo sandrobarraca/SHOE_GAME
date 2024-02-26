@@ -56,31 +56,31 @@
       "name": "CharacterSkins2",
       "objects": [
         {
-          "name": "Character_0010"
+          "name": "Character_001"
         },
         {
-          "name": "Character_0011"
+          "name": "Character_002"
         },
         {
-          "name": "Character_0012"
+          "name": "Character_003"
         },
         {
-          "name": "Character_0013"
+          "name": "Character_004"
         },
         {
-          "name": "Character_0014"
+          "name": "Character_005"
         },
         {
-          "name": "Character_0015"
+          "name": "Character_006"
         },
         {
-          "name": "Character_0016"
+          "name": "Character_007"
         },
         {
-          "name": "Character_0017"
+          "name": "Character_008"
         },
         {
-          "name": "Character_0018"
+          "name": "Character_009"
         }
       ]
     }
@@ -1016,7 +1016,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "9af6773a55ddc01430409f858506afe9e08b86f62eacc5dd574ac399bdb14b16",
-      "name": "Character_0010",
+      "name": "Character_001",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -1088,7 +1088,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "ff79c0bbb0f74a5fb5a5e15b8adb257d6d58ef987e809119a6bb2fafe4001099",
-      "name": "Character_0011",
+      "name": "Character_002",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -1160,7 +1160,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "12a8e4905f464ec5584a3a87419bbc275e9397f8d083277cae97aa1130fa97e5",
-      "name": "Character_0012",
+      "name": "Character_003",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1225,7 +1225,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "9bf0b748b51536d0777d937f9890bead0b12d33e1a9b9eee12ccc9b233802308",
-      "name": "Character_0013",
+      "name": "Character_004",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1290,7 +1290,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "483c8d305055b43dd98964858b231c019680b47f3bc7aaf000e362bc5d72066d",
-      "name": "Character_0014",
+      "name": "Character_005",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1355,7 +1355,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "2740851cde7e6a9ab2d873c2040220c38ce68f67b171bc1c858a4cd9335422a1",
-      "name": "Character_0015",
+      "name": "Character_006",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1420,7 +1420,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "97b1ae9be719abeb28625a269fa93a22e796b81254db75814d3320dda0c53ebb",
-      "name": "Character_0016",
+      "name": "Character_007",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1485,7 +1485,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "5b9ede9f70f633779805eb0d3a314e287ddd48c3660bb88e407f48c2ba255d5a",
-      "name": "Character_0017",
+      "name": "Character_008",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1550,7 +1550,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "08d16c3fa84225437660bd5eafd3ba41ba822266b3ee0de8924a19ae0d2cb400",
-      "name": "Character_0018",
+      "name": "Character_009",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1656,31 +1656,31 @@
         "objectName": "Dino"
       },
       {
-        "objectName": "Character_0010"
+        "objectName": "Character_001"
       },
       {
-        "objectName": "Character_0011"
+        "objectName": "Character_002"
       },
       {
-        "objectName": "Character_0012"
+        "objectName": "Character_003"
       },
       {
-        "objectName": "Character_0013"
+        "objectName": "Character_004"
       },
       {
-        "objectName": "Character_0014"
+        "objectName": "Character_005"
       },
       {
-        "objectName": "Character_0015"
+        "objectName": "Character_006"
       },
       {
-        "objectName": "Character_0016"
+        "objectName": "Character_007"
       },
       {
-        "objectName": "Character_0017"
+        "objectName": "Character_008"
       },
       {
-        "objectName": "Character_0018"
+        "objectName": "Character_009"
       }
     ]
   },
@@ -1739,20 +1739,48 @@
         },
         {
           "type": {
+            "value": "CreateByName"
+          },
+          "parameters": [
+            "",
+            "CharacterSkins2",
+            "\"Character_00\"+ToString(GlobalVariable(selectedChar))",
+            "Hitbox.X()",
+            "Hitbox.Y()",
+            "\"Background\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetSize"
+          },
+          "parameters": [
+            "CharacterSkins2",
+            "Resizable",
+            "64",
+            "64"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "CharacterSkins",
+            "=",
+            "Hitbox.X()",
+            "=",
+            "Hitbox.Y()"
+          ]
+        },
+        {
+          "type": {
             "value": "TextObject::String"
           },
           "parameters": [
             "PlayerName",
             "=",
             "GlobalVariableString(PlayerName)"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Hitbox"
           ]
         },
         {
@@ -1766,6 +1794,14 @@
             "Hitbox.X()",
             "Hitbox.Y()",
             "\"Player\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Hitbox"
           ]
         },
         {
