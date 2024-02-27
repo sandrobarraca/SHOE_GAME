@@ -6089,6 +6089,15 @@
         "name": "window_large_text40pt.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "window_info (1)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "window_info (1)2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -14127,7 +14136,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "window_large_text40pt.png",
+                  "image": "window_info (1)2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14144,19 +14153,19 @@
                     [
                       {
                         "x": 11,
-                        "y": 11
+                        "y": 12
                       },
                       {
-                        "x": 1018,
-                        "y": 11
+                        "x": 683,
+                        "y": 12
                       },
                       {
-                        "x": 1018,
-                        "y": 167
+                        "x": 683,
+                        "y": 630
                       },
                       {
                         "x": 11,
-                        "y": 167
+                        "y": 630
                       }
                     ]
                   ]
@@ -14169,26 +14178,26 @@
     },
     {
       "assetStoreId": "",
-      "bold": true,
+      "bold": false,
       "italic": false,
-      "name": "InfoText",
+      "name": "textINFO_Tittle",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "",
-      "font": "",
+      "string": "xxxxxxxx",
+      "font": "assets\\PixelifySans-VariableFont_wght.ttf",
       "textAlignment": "left",
-      "characterSize": 40,
+      "characterSize": 45,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 114,
+        "g": 13,
+        "r": 6
       },
       "content": {
-        "bold": true,
+        "bold": false,
         "isOutlineEnabled": false,
         "isShadowEnabled": false,
         "italic": false,
@@ -14201,11 +14210,93 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "",
-        "font": "",
+        "text": "xxxxxxxx",
+        "font": "assets\\PixelifySans-VariableFont_wght.ttf",
         "textAlignment": "left",
-        "characterSize": 40,
-        "color": "255;255;255"
+        "characterSize": 45,
+        "color": "6;13;114"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "textINFO_normal",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Level 1: Your goal is to set all the lights on",
+      "font": "assets\\Gabarito-VariableFont_wght.ttf",
+      "textAlignment": "left",
+      "characterSize": 35,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Level 1: Your goal is to set all the lights on",
+        "font": "assets\\Gabarito-VariableFont_wght.ttf",
+        "textAlignment": "left",
+        "characterSize": 35,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "InstructionsPlaceholder",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Instructions",
+      "font": "assets\\PixelifySans-VariableFont_wght.ttf",
+      "textAlignment": "left",
+      "characterSize": 55,
+      "color": {
+        "b": 172,
+        "g": 6,
+        "r": 54
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Instructions",
+        "font": "assets\\PixelifySans-VariableFont_wght.ttf",
+        "textAlignment": "left",
+        "characterSize": 55,
+        "color": "54;6;172"
       }
     }
   ],
@@ -14261,7 +14352,13 @@
         "objectName": "InfoBackground"
       },
       {
-        "objectName": "InfoText"
+        "objectName": "textINFO_Tittle"
+      },
+      {
+        "objectName": "textINFO_normal"
+      },
+      {
+        "objectName": "InstructionsPlaceholder"
       }
     ]
   },

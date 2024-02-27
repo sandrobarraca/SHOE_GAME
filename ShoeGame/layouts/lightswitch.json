@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.402722583332592,
+    "zoomFactor": 0.4598521426736342,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -385,6 +385,68 @@
       "x": 738,
       "y": 879,
       "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "InfoBackground",
+      "persistentUuid": "a4e8144a-1220-4983-a85b-4e9ef621deef",
+      "width": 0,
+      "x": 611,
+      "y": 232,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 59,
+      "layer": "",
+      "name": "textINFO_Tittle",
+      "persistentUuid": "bf39720f-d636-4fed-a179-412c7c98d943",
+      "width": 214,
+      "x": 849,
+      "y": 437,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 88,
+      "layer": "",
+      "name": "textINFO_normal",
+      "persistentUuid": "b719d502-15fa-44aa-989b-eb155da2c4bd",
+      "width": 502,
+      "x": 702,
+      "y": 541,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "InstructionsPlaceholder",
+      "persistentUuid": "dd262ca5-468d-4b93-91a6-fbf0d9710bed",
+      "width": 0,
+      "x": 780,
+      "y": 311,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1567,6 +1629,47 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NewText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1610,6 +1713,9 @@
       },
       {
         "objectName": "RestartButton"
+      },
+      {
+        "objectName": "NewText"
       }
     ]
   },
@@ -1623,6 +1729,16 @@
           },
           "parameters": [
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "LightSwitchINFO",
+            "=",
+            "1"
           ]
         }
       ],

@@ -129,29 +129,6 @@
             "321",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "InfoText",
-            "439",
-            "321",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "InfoText",
-            "Text",
-            "=",
-            "\"Memory Game: Test your recall skills in this classic matching game! Flip and match pairs of cards to uncover hidden images, challenging your memory\""
-          ]
         }
       ]
     },
@@ -189,29 +166,6 @@
             "437",
             "321",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "InfoText",
-            "437",
-            "321",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "InfoText",
-            "Text",
-            "=",
-            "\"Platformer Text\""
           ]
         }
       ]
@@ -251,29 +205,6 @@
             "321",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "InfoText",
-            "437",
-            "321",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "InfoText",
-            "Text",
-            "=",
-            "\"Balls Text\""
-          ]
         }
       ]
     },
@@ -311,29 +242,6 @@
             "437",
             "321",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "InfoText",
-            "437",
-            "321",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "InfoText",
-            "Text",
-            "=",
-            "\"Monster Text\""
           ]
         }
       ]
@@ -373,29 +281,6 @@
             "321",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "InfoText",
-            "437",
-            "321",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "InfoText",
-            "Text",
-            "=",
-            "\"Dino Text\""
-          ]
         }
       ]
     },
@@ -434,29 +319,6 @@
             "321",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "InfoText",
-            "437",
-            "321",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "InfoText",
-            "Text",
-            "=",
-            "\"Sokoban Text\""
-          ]
         }
       ]
     },
@@ -491,32 +353,9 @@
           "parameters": [
             "",
             "InfoBackground",
-            "437",
-            "321",
+            "613",
+            "214",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "InfoText",
-            "437",
-            "321",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "InfoText",
-            "Text",
-            "=",
-            "\"Light Text\""
           ]
         }
       ]
@@ -556,29 +395,6 @@
             "321",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "InfoText",
-            "437",
-            "321",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "InfoText",
-            "Text",
-            "=",
-            "\"shoetext\""
-          ]
         }
       ]
     },
@@ -617,29 +433,6 @@
             "321",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "InfoText",
-            "437",
-            "321",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "InfoText",
-            "Text",
-            "=",
-            "\"flappy\""
-          ]
         }
       ]
     },
@@ -678,29 +471,6 @@
             "321",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "InfoText",
-            "437",
-            "321",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "InfoText",
-            "Text",
-            "=",
-            "\"Cards Game, find all the pairs\""
-          ]
         }
       ]
     },
@@ -738,29 +508,6 @@
             "437",
             "321",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "InfoText",
-            "437",
-            "321",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "InfoText",
-            "Text",
-            "=",
-            "\"Cards Game, find all the pairs\""
           ]
         }
       ]
