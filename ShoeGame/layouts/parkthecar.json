@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.43034038022076765,
+    "zoomFactor": 0.41630252177333504,
     "windowMask": false
   },
   "objectsGroups": [
@@ -911,7 +911,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\ParkTheCar\\assets\\ParkedIdentifyer2",
+                  "image": "assets\\ParkTheCar\\assets\\assets_ParkTheCar_assets_ParkedIdentifyer2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

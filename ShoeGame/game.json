@@ -6197,6 +6197,204 @@
         "name": "assets\\shoe-game-duck\\assets\\Clouds-removebg-preview.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeBoxAttack/assets/assets_ShoeBoxAttack_assets_shoe_box_3_flat_400px.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeBoxAttack\\assets\\assets_ShoeBoxAttack_assets_shoe_box_3_flat_400px.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeBoxAttack/assets/assets_ShoeBoxAttack_assets_shoe_box_4__flat400px2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeBoxAttack\\assets\\assets_ShoeBoxAttack_assets_shoe_box_4__flat400px2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeBoxAttack/assets/assets_ShoeBoxAttack_assets_shoe_box_5_flat_400px2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeBoxAttack\\assets\\assets_ShoeBoxAttack_assets_shoe_box_5_flat_400px2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeBoxAttack/assets/assets_ShoeBoxAttack_assets_shoe_box_8_400px2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeBoxAttack\\assets\\assets_ShoeBoxAttack_assets_shoe_box_8_400px2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeBoxAttack/assets/assets_ShoeBoxAttack_assets_shoe_box_2_400px (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeBoxAttack\\assets\\assets_ShoeBoxAttack_assets_shoe_box_2_400px (1).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeBoxAttack/assets/shoe_box_6_400px2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeBoxAttack\\assets\\shoe_box_6_400px2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/window_info (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\window_info (1).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/window_info (1)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\window_info (1)2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/blue_button_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\blue_button_idle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/blue_button_hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\blue_button_hovered.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/blue_button_pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\blue_button_pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/menu_button_idle-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\menu_button_idle-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/menu_button_hovered-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\menu_button_hovered-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/menu_button_pressed-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\menu_button_pressed-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MazeGame/Block.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MazeGame\\Block.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MazeGame/Fuel Semi Truck_Moving_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MazeGame\\Fuel Semi Truck_Moving_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MazeGame/Fuel Semi Truck_Moving_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MazeGame\\Fuel Semi Truck_Moving_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MazeGame/Fuel Semi Truck_Moving_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MazeGame\\Fuel Semi Truck_Moving_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MazeGame/Fuel Semi Truck_Moving_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MazeGame\\Fuel Semi Truck_Moving_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeBoxAttack/assets/Cannon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeBoxAttack\\assets\\Cannon.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ShoeBoxAttack/assets/Directional Arrow Full Circle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ShoeBoxAttack\\assets\\Directional Arrow Full Circle2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ParkTheCar/assets/assets_ParkTheCar_assets_ParkedIdentifyer2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ParkTheCar\\assets\\assets_ParkTheCar_assets_ParkedIdentifyer2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -14235,7 +14433,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "window_info (1)2.png",
+                  "image": "assets\\window_info (1)2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14419,7 +14617,7 @@
           "height": 106,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "blue_button_hovered.png",
+          "texture": "assets\\blue_button_hovered.png",
           "tiled": true,
           "topMargin": 16,
           "width": 256
@@ -14429,7 +14627,7 @@
           "height": 106,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "blue_button_idle.png",
+          "texture": "assets\\blue_button_idle.png",
           "tiled": true,
           "topMargin": 16,
           "width": 256
@@ -14474,7 +14672,7 @@
           "height": 106,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "blue_button_pressed.png",
+          "texture": "assets\\blue_button_pressed.png",
           "tiled": true,
           "topMargin": 32,
           "width": 256
@@ -14502,7 +14700,7 @@
           "height": 106,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "menu_button_hovered-removebg-preview.png",
+          "texture": "assets\\menu_button_hovered-removebg-preview.png",
           "tiled": true,
           "topMargin": 16,
           "width": 256
@@ -14512,7 +14710,7 @@
           "height": 106,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "menu_button_idle-removebg-preview.png",
+          "texture": "assets\\menu_button_idle-removebg-preview.png",
           "tiled": true,
           "topMargin": 16,
           "width": 256
@@ -14557,7 +14755,7 @@
           "height": 106,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "menu_button_pressed-removebg-preview.png",
+          "texture": "assets\\menu_button_pressed-removebg-preview.png",
           "tiled": true,
           "topMargin": 32,
           "width": 256

@@ -1038,7 +1038,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Block.png",
+                  "image": "assets\\MazeGame\\Block.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1098,7 +1098,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Fuel Semi Truck_Moving_1.png",
+                  "image": "assets\\MazeGame\\Fuel Semi Truck_Moving_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1134,7 +1134,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Fuel Semi Truck_Moving_2.png",
+                  "image": "assets\\MazeGame\\Fuel Semi Truck_Moving_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1170,7 +1170,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Fuel Semi Truck_Moving_3.png",
+                  "image": "assets\\MazeGame\\Fuel Semi Truck_Moving_3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1206,7 +1206,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Fuel Semi Truck_Moving_4.png",
+                  "image": "assets\\MazeGame\\Fuel Semi Truck_Moving_4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

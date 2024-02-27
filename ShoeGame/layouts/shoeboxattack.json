@@ -850,7 +850,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_3_flat_400px",
+                  "image": "assets\\ShoeBoxAttack\\assets\\assets_ShoeBoxAttack_assets_shoe_box_3_flat_400px.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -935,7 +935,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_4__flat400px2",
+                  "image": "assets\\ShoeBoxAttack\\assets\\assets_ShoeBoxAttack_assets_shoe_box_4__flat400px2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1020,7 +1020,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_5_flat_400px2",
+                  "image": "assets\\ShoeBoxAttack\\assets\\assets_ShoeBoxAttack_assets_shoe_box_5_flat_400px2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1105,7 +1105,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "shoe_box_6_400px2",
+                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_6_400px2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1190,7 +1190,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_8_400px2",
+                  "image": "assets\\ShoeBoxAttack\\assets\\assets_ShoeBoxAttack_assets_shoe_box_8_400px2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1310,7 +1310,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cannon.png",
+                  "image": "assets\\ShoeBoxAttack\\assets\\Cannon.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1371,7 +1371,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Directional Arrow Full Circle",
+                  "image": "assets\\ShoeBoxAttack\\assets\\Directional Arrow Full Circle2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1456,7 +1456,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\ShoeBoxAttack\\assets\\shoe_box_2_400px (1)",
+                  "image": "assets\\ShoeBoxAttack\\assets\\assets_ShoeBoxAttack_assets_shoe_box_2_400px (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
