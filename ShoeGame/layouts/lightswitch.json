@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4598521426736342,
+    "zoomFactor": 0.4753585087126945,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -447,6 +447,36 @@
       "x": 780,
       "y": 311,
       "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ResumeButton",
+      "persistentUuid": "ef4d4b85-6d66-490f-9620-ba7e613e9ffc",
+      "width": 0,
+      "x": 971,
+      "y": 714,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "MenuButton",
+      "persistentUuid": "cf85099d-a4ff-4d44-b66b-5b802f85bf6e",
+      "width": 0,
+      "x": 689,
+      "y": 714,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1670,6 +1700,17 @@
         "characterSize": 20,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
     }
   ],
   "objectsFolderStructure": {
@@ -1716,6 +1757,9 @@
       },
       {
         "objectName": "NewText"
+      },
+      {
+        "objectName": "NewSprite"
       }
     ]
   },
