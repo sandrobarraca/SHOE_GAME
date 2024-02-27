@@ -6188,6 +6188,15 @@
         "name": "menu_button_pressed-removebg-preview.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/shoe-game-duck/assets/Clouds-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\shoe-game-duck\\assets\\Clouds-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

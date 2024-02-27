@@ -18,7 +18,7 @@
     "gridColor": 6457087,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.36878012774618896,
+    "zoomFactor": 0.27361505654245305,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1221,7 +1221,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Clouds-removebg-preview.png",
+                  "image": "assets\\shoe-game-duck\\assets\\Clouds-removebg-preview.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
