@@ -6035,6 +6035,33 @@
         "name": "assets\\Sokoban\\assets\\sokoban_tile_goal.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/DefectGame/lightswitch_bg_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\DefectGame\\lightswitch_bg_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/DefectGame/window_large_text40pt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\DefectGame\\window_large_text40pt.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/DefectGame/points_counter.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\DefectGame\\points_counter.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
