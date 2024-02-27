@@ -6017,6 +6017,24 @@
         "name": "assets\\back_pressed.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sokoban/assets/sokoban_tile_ground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sokoban\\assets\\sokoban_tile_ground.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sokoban/assets/sokoban_tile_goal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sokoban\\assets\\sokoban_tile_goal.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -14296,6 +14314,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/orderofoperationsstitching"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/defectgame"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
