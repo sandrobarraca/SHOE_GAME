@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3170540393084147,
+    "zoomFactor": 0.36203080073832516,
     "windowMask": false
   },
   "objectsGroups": [
@@ -482,7 +482,7 @@
       "depth": 1,
       "height": 473,
       "layer": "Layer",
-      "name": "AboutText",
+      "name": "InfoText",
       "persistentUuid": "4b75a327-11cd-44e8-bebe-d53570cac323",
       "width": 1143,
       "x": 666,
@@ -2053,47 +2053,6 @@
       }
     },
     {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "AboutText",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Flip over two cards at a time, attempting to match pairs. The timer adds urgency, challenging you to find all pairs before it runs out.\n\nMatch all pairs before the timer expires",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 40,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Flip over two cards at a time, attempting to match pairs. The timer adds urgency, challenging you to find all pairs before it runs out.\n\nMatch all pairs before the timer expires",
-        "font": "",
-        "textAlignment": "left",
-        "characterSize": 40,
-        "color": "255;255;255"
-      }
-    },
-    {
       "assetStoreId": "90d94b6e3a23c34948e59eaaef4679740f8ab588696d59b21e0c0c2ef106b94d",
       "name": "BackButton",
       "type": "PanelSpriteButton::PanelSpriteButton",
@@ -2441,9 +2400,6 @@
         "objectName": "InsideAboutButton"
       },
       {
-        "objectName": "AboutText"
-      },
-      {
         "objectName": "BackButton"
       },
       {
@@ -2476,6 +2432,16 @@
               },
               "parameters": [
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "CardsINFO",
+                "=",
+                "1"
               ]
             }
           ],
@@ -2567,13 +2533,6 @@
             }
           ],
           "events": [
-            {
-              "type": "BuiltinCommonInstructions::Link",
-              "include": {
-                "includeConfig": 0
-              },
-              "target": "ControlButtons"
-            },
             {
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
@@ -2733,6 +2692,13 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "ControlButtons"
     },
     {
       "colorB": 228,

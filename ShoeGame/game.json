@@ -6062,6 +6062,33 @@
         "name": "assets\\DefectGame\\points_counter.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "window_small_text48pt (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "window_small_text48pt (1).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "window_info (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "window_info (1).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "window_large_text40pt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "window_large_text40pt.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -14079,6 +14106,107 @@
           "width": 256
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "InfoBackground",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "window_large_text40pt.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 11
+                      },
+                      {
+                        "x": 1018,
+                        "y": 11
+                      },
+                      {
+                        "x": 1018,
+                        "y": 167
+                      },
+                      {
+                        "x": 11,
+                        "y": 167
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "InfoText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 40,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -14128,6 +14256,12 @@
       },
       {
         "objectName": "NewInfoButton"
+      },
+      {
+        "objectName": "InfoBackground"
+      },
+      {
+        "objectName": "InfoText"
       }
     ]
   },
@@ -14267,6 +14401,84 @@
       "name": "CompleteTheSentenceLevel",
       "type": "number",
       "value": 2
+    },
+    {
+      "folded": true,
+      "name": "CardsINFO",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "folded": true,
+      "name": "PlatformerINFO",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "folded": true,
+      "name": "BallsINFO",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "folded": true,
+      "name": "MonsterINFO",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "folded": true,
+      "name": "DinoINFO",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "folded": true,
+      "name": "SokobanINFO",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "folded": true,
+      "name": "LightSwitchINFO",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "folded": true,
+      "name": "ShoeBoxAttackINFO",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "folded": true,
+      "name": "FlappyShoeINFO",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "folded": true,
+      "name": "ParkTheCarINFO",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "folded": true,
+      "name": "MatchThePieceINFO",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "folded": true,
+      "name": "Variable6",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "folded": true,
+      "name": "Variable7",
+      "type": "string",
+      "value": ""
     }
   ],
   "layouts": [
